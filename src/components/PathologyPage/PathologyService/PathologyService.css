@@ -1,0 +1,10 @@
+.pathologyService {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 70px;
+  padding: 30px;
+}

@@ -1,0 +1,80 @@
+.fetalScanPrepare {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 20px;
+}
+.fetalScanPrepareHeader > h3 {
+  color: var(--customColor1);
+  font-weight: bold;
+}
+.fetalScanPrepareContent {
+  /* border: solid blue; */
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.fetalScanPrepareMain {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+  gap: 30px;
+}
+.fetalScanPrepareHeader {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.fetalScanPrepareHeader > p {
+  font-size: 20px;
+}
+.fetalScanPrepareCard {
+  /* border: solid brown; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fetalScanPrepareCard-Content {
+  /* border: solid red; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  width: 350px;
+  height: 100%;
+  color: white;
+  padding: 15px;
+  background-color: var(--customColor2);
+  border-radius: 20px;
+}
+.fetalScanPrepareContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 20px;
+}
+.fetalScanPrepareCardIco {
+  background-color: var(--customColor1);
+  color: white;
+  font-size: 10px;
+  padding: 15px;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+}
+.fetalScanPrepareCard-Content > h6 {
+  text-align: justify;
+}

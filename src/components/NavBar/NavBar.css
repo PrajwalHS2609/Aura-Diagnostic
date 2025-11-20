@@ -1,0 +1,375 @@
+.navBarContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 80px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: sticky;
+  top: 0;
+  z-index: 10;
+  box-shadow: 2px 0 5px black;
+  background-color: white;
+  padding: 2px 30px;
+}
+/* ----------------Logo----------------- */
+.logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  width: 100px;
+  height: 100%;
+}
+.logoContainer > a > img {
+  width: 100%;
+  height: 100%;
+  transform: scale(1.8);
+}
+/* -------------------Menu-------------------- */
+.menuContainer {
+  /* border: solid blue; */
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+  padding: 10px;
+}
+.menuContainerList {
+  /* border: solid green; */
+  width: fit-content;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 50px;
+  padding: 20px;
+}
+
+.menuContainerList > li {
+  /* border: solid; */
+  height: 80px;
+  list-style: none;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: grey;
+}
+.menuContainerList > li > span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  cursor: default;
+}
+.menuContainerList > li > a {
+  height: 100%;
+  list-style: none;
+  font-weight: 500;
+  color: grey;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.menuDropDown > li > a {
+  height: 100%;
+  list-style: none;
+  font-weight: 500;
+  color: grey;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  gap: 50px;
+}
+
+.menuContainerList .active {
+  color: var(--customColor1); /* Color when active */
+}
+
+.menuContainerList > li:hover .menuDropDown {
+  display: flex;
+  transform: translateY(-10px);
+  opacity: 1;
+  visibility: visible;
+}
+
+.menuDropDown {
+  /* border: solid green; */
+  border-top: solid var(--customColor1);
+  width: 220px;
+  padding: 10px;
+  position: absolute;
+  left: -60px;
+  top: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  opacity: 0;
+  visibility: hidden;
+  transition: 300ms ease-in-out;
+}
+.menuDropDown > li {
+  /* border: solid; */
+  margin: 10px;
+  width: 100%;
+  transition: 300ms ease-in-out;
+  position: relative;
+}
+.menuDropDown > li:hover {
+  transform: translateX(10px);
+}
+.menuDropDown > li > a {
+  /* border: solid; */
+  text-decoration: none;
+  color: grey;
+  width: fit-content;
+}
+.menuDropIcon {
+  font-size: 15px;
+  color: var(--customColor1);
+}
+.service-text {
+  font-size: 17px;
+  font-weight: 500;
+}
+.innerMenuDropDown {
+  /* border: solid green; */
+  border-top: solid var(--customColor1);
+  width: 220px;
+  padding: 10px;
+  position: absolute;
+  top: -20px;
+  left: 200px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+  opacity: 0;
+}
+.innerMenuDropDown > li {
+  margin: 10px;
+  width: 100%;
+  transition: 300ms ease-in-out;
+}
+.innerMenuDropDown > li:hover {
+  transform: translateX(10px);
+}
+.innerMenuDropDown > li > a {
+  text-decoration: none;
+  color: grey;
+  width: fit-content;
+}
+
+.menuDropDown > li:hover .innerMenuDropDown {
+  display: flex;
+  transform: translateX(-10px);
+  opacity: 1;
+  visibility: visible;
+}
+
+/* -------------------resp Menu---------------------------- */
+.respMenuBar {
+  /* border: solid red; */
+  display: none;
+}
+.respMenuBar {
+  margin-left: 150px;
+}
+.respMenuIcon {
+  font-size: 30px;
+  color: var(--customColor2);
+}
+.respMenuExit {
+  font-size: 28px;
+  color: var(--customColor1);
+  cursor: pointer;
+}
+
+.respMenuHeader {
+  width: 100%;
+  background: white;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  border-bottom: 2px solid #eee;
+  position: sticky;
+  top: 0;
+  z-index: 20;
+}
+
+.respMenuDropIcon {
+  font-size: 20px;
+  color: var(--customColor2);
+}
+.respMenuScroll {
+  /* border: solid blue; */
+  width: 100%;
+  height: 100vh;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: absolute;
+  top: 0px;
+}
+.respMenu {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 80px;
+  right: 0;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  overflow-y: scroll;
+}
+.respMenuScroll > li {
+  border-bottom: 2px solid grey;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  font-size: 18px;
+  background-color: white;
+}
+.respMenuScroll > li > a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+}
+.respMenuScroll > li > span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: grey;
+  font-weight: 500;
+}
+.servList {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+}
+.respMenuDrop {
+  width: 100%;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.respMenuDrop > li {
+  /* border: solid; */
+  padding: 10px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.respMenuDrop > li > a {
+  text-decoration: none;
+  color: grey;
+}
+.respMenuDrop > li > span > a {
+  text-decoration: none;
+  color: grey;
+}
+.respMenuDrop > li > span {
+  /* border: solid teal; */
+  width: 100%;
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.respMenu .active {
+  color: var(--customColor2); /* Color when active */
+}
+
+/* ----------------------------------------------- */
+.innerRespMenuDropDown {
+  /* border: solid green; */
+  width: 100%;
+  height: 100%;
+  display: none;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.innerRespMenuDropDown > li {
+  padding: 10px;
+  list-style: none;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+}
+.innerRespMenuDropDown > li > a {
+  text-decoration: none;
+  color: grey;
+}
+
+.innerRespMenuDropDown > li > span {
+  /* border: solid; */
+  width: 100%;
+  text-decoration: none;
+  color: grey;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.cardiList {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.lastBlockList {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .navBarContainer {
+    justify-content: space-between;
+    width: 100%;
+  }
+  #non-repsBtn {
+    display: none;
+  }
+  .logoContainer > a > img {
+    width: 100%;
+    border: solid;
+    transform: scale(1.6);
+  }
+  .menuContainerList {
+    display: none;
+  }
+  .respMenuBar {
+    /* border: solid red; */
+    display: block;
+  }
+  .respMenu {
+    display: none;
+  }
+}

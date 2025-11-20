@@ -1,0 +1,308 @@
+.footerContainer {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 100%;
+  margin-top: 0px;
+}
+.footer1Container {
+  /* border: solid blue; */
+  width: 100%;
+  background-color: var(--customColor1);
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer1Sub {
+  /* border: solid yellow; */
+  width: 80%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footer1SubContent > form > input {
+  width: 200px;
+  height: 40px;
+  border: none;
+  outline: none;
+  padding: 10px;
+}
+.footer1SubContent > form > button {
+  border: none;
+  height: 40px;
+  width: 130px;
+  background-color: var(--customColor2);
+  color: white;
+}
+.footer1Contact {
+  /* border: solid brown; */
+  width: 90%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.footer1Sub > h3 {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.footer1Sub > p {
+  text-align: center;
+  width: 100%;
+}
+
+.footerSubIcon {
+  /* border: solid; */
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: var(--customColor2);
+  color: white;
+}
+.footer1Contact > li {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 20px;
+  list-style: none;
+  border-right: 1px solid var(--customColor2);
+  padding: 20px;
+  height: 100%;
+}
+.footer1Contact > li > div > h4 {
+  color: white;
+}
+.footer1Contact > li > div > p {
+  color: white;
+}
+.footer1Contact > li > div > p > a {
+  color: white;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.footerSocialMedia {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerSocialIcon {
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 20px;
+  padding: 10px;
+  background-color: var(--customColor2);
+  color: white;
+}
+.footerSocialMedia > p {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+/* ------------------------Footer2--------------------- */
+.footer2Container {
+  /* border: solid green; */
+  width: 100%;
+  background-color: var(--customColor2);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerTriangle {
+  /* border: solid yellow; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.triangle-up {
+  position: relative; /* Positioning context for the pseudo-element */
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid var(--customColor1);
+  z-index: 2;
+  cursor: pointer;
+  transition: 200ms ease;
+}
+.triangle-up:hover {
+  transform: translateY(7px);
+}
+.triangle-up::after {
+  content: "";
+  position: absolute; /* Position it relative to the triangle */
+  top: -20px; /* Adjust to move shadow vertically */
+  left: -15px; /* Center the shadow horizontally */
+  width: 0;
+  height: 0;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-bottom: 20px solid var(--customColor2); /* Shadow color */
+  z-index: 1; /* Lower than the triangle */
+}
+.footer2Content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+.footer2Bio {
+  /* border: solid red; */
+  width: 400px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px;
+}
+.footer2BioImg {
+  /* border: solid yellow; */
+  background-color: white;
+  border-radius: 20px;
+}
+.footer2BioImg > img {
+  width: 200px;
+  height: 100%;
+  transform: scale(1.6);
+  object-fit: cover;
+}
+.footer2Bio > p {
+  text-align: justify;
+  color: white;
+  font-size: 20px;
+}
+.footer2Link {
+  /* border: solid yellowgreen; */
+  padding: 10px;
+}
+.footer2Link > ul > h4 {
+  color: white;
+}
+.footer2Link > ul > li {
+  list-style: none;
+  margin: 10px;
+}
+.footer2Link > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 20px;
+  &:hover {
+    color: var(--customColor1);
+  }
+}
+.footer2Link > ul > li > ul > li {
+  color: white;
+}
+.footer2Link > ul > li > ul > li > a {
+  color: white;
+  text-decoration: none;
+  font-size: 15px;
+}
+
+.footer2Link .active {
+  color: var(--customColor1); /* Color when active */
+}
+.footerLine {
+  border: 1px solid rgba(255, 255, 255, 0.347);
+  width: 90%;
+  border-radius: 100%;
+}
+.footerCopy > p {
+  color: var(--customColor1);
+}
+.footerCopy > p > a {
+  text-align: center;
+  padding: 10px;
+  color: white;
+  text-decoration: none;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footer1Container {
+    /* border: solid blue; */
+    padding: 0px;
+  }
+  .footer1Sub {
+    /* border: solid yellow; */
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 30px;
+  }
+
+  .footer1Sub > h3 {
+    text-align: center;
+  }
+  .footer1SubContent {
+    /* border: solid; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+  .footer1Contact {
+    /* border: solid brown; */
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 0;
+  }
+  .footer1Contact > li {
+    /* border: solid yellow; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    border-right: none;
+    gap: 10px;
+    border-bottom: 1px solid var(--customColor2);
+    padding: 10px;
+    height: 100%;
+    width: 100%;
+  }
+  .footer2Content {
+    flex-direction: column;
+  }
+  .footer2Bio {
+    /* border: solid red; */
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+  }
+  .footerSocialMedia {
+    width: 100%;
+  }
+}

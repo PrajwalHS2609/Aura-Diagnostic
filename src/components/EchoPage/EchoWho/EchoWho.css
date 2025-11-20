@@ -1,0 +1,121 @@
+.echoWho {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.echoWhoHeader {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.echoWhoHeader > p {
+  text-align: center;
+}
+.echoWhoMain {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.echoWhoMainImg {
+  width: 90%;
+  height: 500px;
+}
+.echoWhoMainImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: fill;
+}
+.echoWhoMainContent {
+  /* border: solid; */
+  width: 90%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: -100px;
+}
+.echoWhoCard {
+  /* border: solid blue; */
+  border-bottom: 2px solid grey;
+  border-right: 2px solid grey;
+  width: 400px;
+  height: 300px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.echoWhoCard:nth-child(3) {
+  border-bottom: 2px solid grey;
+  border-left: 2px grey;
+  border-right: 2px grey;
+}
+.echoWhoCard:nth-child(6) {
+  border-bottom: 2px solid;
+  border-right: 2px;
+}
+.echoWhoCardContent {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 20px;
+}
+.echoWhoCardContent:nth-child(2) {
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, 0.652);
+}
+.echoWhoCardContent > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.echoWhoCardContent > h3 {
+  font-size: 20px;
+  width: 100%;
+  text-align: center;
+  position: relative;
+  padding: 10px;
+}
+.echoWhoCardContent > h3::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  width: 100%;
+  border-bottom: 1px solid black;
+}
+.echoWhoCardContent > p {
+  text-align: justify;
+  font-size: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .echoWhoMainImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  .echoWhoMainContent {
+    gap: 20px;
+  }
+}

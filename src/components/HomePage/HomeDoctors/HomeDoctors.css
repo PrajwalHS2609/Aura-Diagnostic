@@ -1,0 +1,99 @@
+.homeDoctors {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  background-color: var(--customColor3);
+  padding: 20px;
+}
+.homeDoctorsHead > h2 {
+  font-size: 50px;
+  text-align: center;
+  color: var(--customColor2);
+}
+.homeDoctorsMain {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  padding: 20px;
+}
+/* -----------------homeDoctorsCard------------------------ */
+.homeDoctorsCard {
+  /* border: solid blue; */
+  width: 350px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.homeDoctorsCard-content1 {
+  /* border: solid black; */
+  width: 80%;
+  height: 300px;
+  border-bottom-left-radius: 50px;
+  overflow: hidden;
+  box-shadow: 0 0 10px grey;
+}
+.homeDoctorsCard-content1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-bottom-left-radius: 50px;
+  transition: 300ms ease-in-out;
+  transform: scale(1.12);
+  object-position:-90px;
+}
+.homeDoctorsCard:hover .homeDoctorsCard-content1 img {
+  transform: scale(1.2);
+}
+.homeDoctorsCard-content2 {
+  /* border: solid green; */
+  width: 76%;
+  height: 80px;
+  background-color:var(--customColor2);
+  /* background-color: var(--customColor1); */
+  border-bottom-left-radius: 50px;
+  padding: 10px;
+  transform: translateX(9px);
+  transition: 300ms ease-in-out;
+}
+.homeDoctorsCard:hover .homeDoctorsCard-content2 {
+  transform: translateX(35px);
+}
+.homeDoctorsCard-content2 > h5 {
+  color: white;
+  font-weight: bolder;
+  font-size: 15px;
+  text-align: center;
+
+}
+
+.homeDoctorsCard-content2 > h6 {
+  color: white;
+  font-weight: bolder;
+  font-size: 14px;
+  text-align: center;
+}
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .homeDoctorsCard {
+    /* border: solid blue; */
+    min-width: 300px;
+    padding: 0px;
+  }
+  .homeDoctorsHead > h2 {
+    font-size: 30px;
+  }
+  .homeDoctorsCard-content2 {
+    /* border: solid green; */
+    transform: translateX(35px);
+  }
+}

@@ -1,0 +1,128 @@
+.bookPopUp {
+  /* border: solid red; */
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.542);
+  z-index: 3;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+  visibility: hidden;
+  overflow-y: auto;
+}
+.popUpIcon1 {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: var(--customColor1);
+  border-radius: 100%;
+  margin-right: -600px;
+  margin-top: 100px;
+  cursor: pointer;
+}
+
+.bookPopUp > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+  padding: 20px;
+  transform: scale(0.9);
+}
+.bookPopUp > h3 {
+  font-size: 30px;
+  color: var(--customColor1);
+  font-weight: bolder;
+}
+.popFormFirstLvl {
+  /* border: solid greenyellow; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.popFormFirstLvl > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.popFormFirstLvl > span > span {
+  color: var(--customColor1);
+}
+.popFormFirstLvl > div {
+  /* border: solid brown; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.popFormFirstLvl > div > input {
+  width: 250px;
+  height: 30px;
+  padding: 10px;
+}
+
+.popFormFirstLvl > input {
+  /* border: solid blue; */
+  width: 90%;
+  height: 30px;
+  padding: 10px;
+}
+.popFormFirstLvl > textarea {
+  width: 100%;
+  height: 50px;
+}
+.bookPopUp > form > button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: var(--customColor1);
+  &:hover {
+    color: var(--customColor1);
+    background-color: white;
+  }
+}
+.first {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .bookPopUp > form {
+    height: 100%;
+    width: 450px;
+    transform: scale(0.7);
+    margin-top: 00px;
+  }
+  .popFormFirstLvl > div {
+    /* border: solid greenyellow; */
+    flex-direction: column;
+  }
+  .first {
+    /* border: solid; */
+    flex-direction: column;
+  }
+  .popUpIcon1 {
+    padding: 10px;
+    width: 20px;
+    height: 20px;
+    color: white;
+    background-color: var(--customColor1);
+    position: absolute;
+    top: -10px;
+    left: 340px;
+    z-index: 2;
+  }
+}

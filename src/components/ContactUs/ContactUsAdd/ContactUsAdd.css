@@ -1,0 +1,134 @@
+.contactUsAdd {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+  padding: 10px;
+  width: 100%;
+}
+.contactUsAddWrapper1 {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  gap: 10px;
+  padding: 10px;
+  box-shadow: inset 0 0 5px black;
+  border-radius: 20px;
+}
+.contactUsAddCard {
+  /* border: solid blue; */
+  border-radius: 20px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.contactCardIcon {
+  padding: 10px;
+  width: 20px;
+  height: 20px;
+  color: white;
+  background-color: var(--customColor2);
+  border-radius: 100%;
+}
+.contactCardIcon1 {
+  padding: 10px;
+  width: 30px;
+  height: 30px;
+  color: white;
+  background-color: var(--customColor1);
+  border-radius: 100%;
+}
+.contactUsAddCard > div > h6 {
+  font-weight: bold;
+}
+.contactUsAddCard > div > li {
+  list-style: none;
+}
+.contactUsAddCard > div > li > a {
+  font-weight: 500;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+  &:hover {
+    text-decoration: underline;
+  }
+}
+.contactUsAddWrapper2 {
+  /* border: solid red; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactUsAddContent1 {
+  /* border: solid blue; */
+  width: 100%;
+  padding: 50px;
+  background-color: var(--customColor2);
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contactUsAddContent1 > div > a > button {
+  border: 1px solid white;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: var(--customColor2);
+  font-weight: bold;
+  color: white;
+  transition: 300ms ease-in-out;
+  &:hover {
+    color: var(--customColor2);
+    background-color: white;
+  }
+}
+.contactUsAddContent1 > div > h6 {
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+.contactUsAddContent1 > div > p {
+  color: white;
+  font-weight: 500;
+}
+.contactUsAddContent2 {
+  /* border: solid blue; */
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: var(--customColor1);
+}
+.contactUsAddContent2 > img {
+  width: 49%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contactUsAddWrapper1 {
+    /* border: solid; */
+    flex-direction: column;
+  }
+  .contactUsAddContent2 {
+    /* border: solid blue; */
+    flex-direction: column;
+    gap: 10px;
+    height: 100%;
+  }
+  .contactUsAddContent2 > img {
+    width: 100%;
+    height: 100%;
+  }
+}

@@ -1,0 +1,21 @@
+.contactUsHeader {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+.contactUsHeader {
+  /* border: solid blue; */
+  width: 80%;
+}
+.contactUsHeader > h2 {
+  font-size: 40px;
+}
+.contactUsHeader > p {
+  font-size: 20px;
+  text-align: justify;
+}
+

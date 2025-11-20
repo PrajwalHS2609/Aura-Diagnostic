@@ -1,0 +1,22 @@
+.aboutUsImg {
+    /* border: solid; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(253, 253, 253, 0.541);
+  backdrop-filter: blur(10px);
+}
+.aboutUsImg > img {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .aboutUsImg > img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+}

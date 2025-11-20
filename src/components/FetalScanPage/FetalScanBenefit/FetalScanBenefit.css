@@ -1,0 +1,102 @@
+.fetalScanBenefit {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.fetalScanBenefitHead {
+  /* border: solid; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.fetalScanBenefitHead > h2 {
+  text-align: center;
+}
+.fetalScanBenefitHead > p {
+  font-size: 20px;
+  text-align: center;
+}
+.fetalScanBenefitMain {
+  /* border: solid green; */
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.fetalScanBenefitCard-Container {
+  /* border: solid blue; */
+  width: 100%;
+  height: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.fetalScanBenefitCard {
+  /* border: solid red; */
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  background-color: var(--customColor2);
+  /* margin-left: 90px; */
+}
+.fetalScanBenefitCardImg {
+  /* border: solid brown; */
+  width: 200px;
+  margin-left: -90px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+.fetalScanBenefitCardImg > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.fetalScanBenefitCardWrapper {
+  width: 80%;
+}
+.fetalScanBenefitCardHead > h5 {
+  color: white;
+  font-weight: bold;
+  text-align: justify;
+}
+.fetalScanBenefitCardPara > p {
+  color: white;
+  text-align: justify;
+}
+#fetalScanBenefitCard2 {
+  /* border: solid red; */
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: row-reverse;
+  border-radius: 10px;
+  padding: 20px;
+  gap: 10px;
+  background-color: var(--customColor1);
+}
+#fetalScanBenefitCard2 > .fetalScanBenefitCardImg {
+  /* border: solid brown; */
+  width: 200px;
+  margin-right: -90px;
+  height: 200px;
+  border-radius: 10px;
+  overflow: hidden;
+}

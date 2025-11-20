@@ -1,0 +1,168 @@
+.contactUsContainer {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 50px;
+  padding: 20px;
+}
+.contactUsWrapper {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 90%;
+  gap: 10px;
+  height: 100%;
+  padding: 30px;
+}
+.contactUsContent1 {
+  /* border: solid brown; */
+  width: 50%;
+}
+.contactUsHeader > h2 {
+  font-size: 30px;
+  color: var(--customColor1);
+  font-weight: bolder;
+}
+.contactUsContent2 {
+  /* border: solid pink; */
+  width: 50%;
+}
+/* -----------------------ContactUsForm-------------------- */
+.ContactUsForm {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  width: 100%;
+}
+.ContactUsForm > form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.ContactUsForm > h3 {
+  font-size: 30px;
+  color: var(--customColor1);
+  font-weight: bolder;
+}
+.formFirstLvl {
+  /* border: solid greenyellow; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+}
+.formFirstLvl > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.formFirstLvl > span > span {
+  color: var(--customColor1);
+}
+.formFirstLvl > div {
+  /* border: solid brown; */
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.formFirstLvl > div > input {
+  width: 250px;
+  height: 40px;
+  padding: 10px;
+}
+
+.formFirstLvl > input {
+  /* border: solid blue; */
+  width: 100%;
+  height: 40px;
+  padding: 10px;
+}
+.formRadio {
+  /* border: solid rebeccapurple; */
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.formRadio > span {
+  font-size: 20px;
+  font-weight: 500;
+}
+.formRadio > span > span {
+  color: var(--customColor1);
+}
+.formRadio > div {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
+  font-size: 15px;
+  font-weight: 500;
+}
+.formRadio > div > input {
+  width: 20px;
+}
+.formFirstLvl > textarea {
+  width: 100%;
+  height: 100px;
+}
+.ContactUsForm > form > button {
+  border: none;
+  border-radius: 10px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  background-color: var(--customColor1);
+  &:hover {
+    color: var(--customColor1);
+    background-color: white;
+  }
+}
+.map {
+  width: 100%;
+  height: 500px;
+  padding: 10px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contactUsContainer {
+    /* border: solid red; */
+    padding: 0px;
+  }
+  .contactUsWrapper {
+    /* border: solid green; */
+    flex-direction: column;
+    padding: 10px;
+    width: 100%;
+    gap: 50px;
+  }
+  .contactUsContent1 {
+    /* border: solid brown; */
+    width: 100%;
+  }
+  .contactUsContent2 {
+    /* border: solid pink; */
+    width: 100%;
+  }
+  .formFirstLvl > div {
+    /* border: solid greenyellow; */
+    flex-direction: column;
+  }
+}
