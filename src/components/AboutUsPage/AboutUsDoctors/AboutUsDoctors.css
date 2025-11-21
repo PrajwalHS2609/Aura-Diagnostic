@@ -1,0 +1,69 @@
+.aboutUsDoctors-container {
+  /* border: solid red; */
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+  padding: 30px;
+  background-color: var(--customColor3);
+}
+.aboutUsDoctors-container > h2 {
+  font-size: 40px;
+  color: var(--customColor2);
+}
+.aboutUsDoctors-content {
+  /* border: solid blue; */
+  width: 90%;
+  height: 500px;
+  border-radius: 0 200px 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.aboutUsDoctors-content:nth-child(3) {
+  border-radius: 0 0 0 200px;
+  height: 700px;
+}
+
+.aboutUsDoctors-wrapper {
+  /* border: solid yellowgreen; */
+  width: 65%;
+  height: 100%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+  background-color: white;
+}
+.aboutUsDoctors-wrapper > span > ul > h4 {
+  color: var(--customColor1);
+}
+.aboutUsDoctors-wrapper > span > ul > li {
+  font-weight: 500;
+}
+.aboutUsDoctors-wrapper > span > h3 {
+  color: var(--customColor2);
+}
+.aboutUsDoctors-wrapper > span > strong {
+  color: var(--customColor1);
+}
+.aboutUsDoctors-wrapper > span > p {
+  font-size: 16px;
+  font-weight: 500;
+}
+.aboutUsDoctors-imgContainer {
+  /* border: solid green; */
+  height: 100%;
+  width: 35%;
+}
+.aboutUsDoctors-imgContainer > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

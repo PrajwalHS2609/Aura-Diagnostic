@@ -9,26 +9,21 @@ const HomeDoctorsMain = () => {
   return (
     <div className="homeDoctorsMain">
       <HomeDoctorsCard
-        img={Doc1}
-        alt="Dr.G.N.Keshava Murthy"
-        name="Dr.G.N.Keshava Murthy"
-        designation="Founder & Consultant Pathologist"
-      />
-      <HomeDoctorsCard
         img={Doc2}
         alt="Dr.Kiran Nidagundi"
-        name="Dr.Kiran Nidagundi"
-        designation="Consultant Diabetologist & Physician"
+        name="Dr. Ramyashree R M"
+        qualifications="MBBS MD Anaesthesia"
+        training="Fellowship in paediatric Anaesthesia"
+        position="( Founder and Managing Director)"
       />
       <HomeDoctorsCard
-        img={Doc3}
-        alt="Dr.B.L.Shashi Bhushan"
-        name="Dr.B.L.Shashi Bhushan"
-        designation="Consultant Pulmonologist"
+        img={Doc1}
+        alt=" Dr. Kiran ramaiah"
+        name="Dr.G.N.Keshava Murthy"
+        qualifications="MBBS MD Radio-Diagnosis"
+        training="Lead Radiologist and Co-founder."
+        position=""
       />
-      {/* <HomeDoctorsCard img={"/"} alt="" name="" designation="" />
-      <HomeDoctorsCard img={"/"} alt="" name="" designation="" />
-      <HomeDoctorsCard img={"/"} alt="" name="" designation="" /> */}
     </div>
   );
 };

@@ -16,14 +16,14 @@ const HomeServicesMain = () => {
     <div className="homeServicesMain">
       <HomeServicesCard
         link="/"
-        img={Pathology}
-        head="Pathology"
+        img={Sonography}
+        head="Obstetrics"
         para="Discover fast and precise diagnostics with our Digital X-Ray services at Pathocon Diagnostics. Utilizing advanced technology, we provide comprehensive imaging for accurate insights, ensuring better health outcomes."
       />
       <HomeServicesCard
         link="/"
-        img={Sonography}
-        head="Sonography"
+        img={Pregnancy}
+        head="Infertility scans"
         para="Delve into detailed health insights with our advanced Sonography services at Pathocon Diagnostics. Offering precision and clarity, we ensure comprehensive diagnostics you can rely on."
       />
       {/* <HomeServicesCard
@@ -35,7 +35,7 @@ const HomeServicesMain = () => {
       <HomeServicesCard
         link="/"
         img={Pregnancy}
-        head="3D & 4D Foetal Ultrasound"
+        head="Advanced USG"
         para="Embrace the journey of parenthood with our state-of-the-art 3D & 4D Pregnancy Ultrasound. Capture unforgettable moments and create a deeper connection with your baby in remarkable detail."
       />
       <HomeServicesCard
@@ -44,22 +44,22 @@ const HomeServicesMain = () => {
         head="Doppler Scanning"
         para="Maintain your vascular health with our advanced Doppler Scan service. Using cutting-edge technology, we assess blood flow, offering vital insights for accurate diagnosis and tailored care."
       />
-      {/* <HomeServicesCard
+      <HomeServicesCard
         link="/"
         img={RadiologicalProcedures}
-        head="Radiological Procedures"
+        head="USG guided procedure"
         para="Enhancing women’s health with our comprehensive radiological services. Our state-of-the-art imaging solutions address specific diagnostic needs, ensuring precise results and personalized care for every woman."
-      /> */}
-      {/* <HomeServicesCard
+      />
+      <HomeServicesCard
         link="/"
         img={DentalXRay}
-        head="Dental X-Ray (OPG)"
+        head="Musculoskeletal scans"
         para="Achieve precise insights into dental health with our OPG dental X-rays. Our advanced imaging technology guarantees thorough diagnostics, facilitating effective dental care and comprehensive treatment planning."
-      /> */}
+      />
       <HomeServicesCard
         link="/"
         img={EchoCardiography}
-        head="Echo Cardiography"
+        head="soft tissue/ small parts scans"
         para="Explore the intricate details of your heart with Echocardiography at Pathocon Diagnostics. Our state-of-the-art technology provides precise evaluations, ensuring thorough cardiac care and accurate diagnoses."
       />
       {/* <HomeServicesCard

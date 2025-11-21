@@ -71,6 +71,9 @@
   gap: 10px;
   box-shadow: 0 0 10px grey;
 }
+.homeWhyCard > p {
+  text-align: justify;
+}
 .homeWhyCardImg {
   padding: 15px;
   width: 80px;
