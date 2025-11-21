@@ -1,8 +1,8 @@
 import "./globals.css";
 import Footer from "./../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
-import NavBar from './../components/NavBar/NavBar';
-
+import NavBar from "./../components/NavBar/NavBar";
+import "./../components/style.css";
 export default function RootLayout({
   children,
 }: Readonly<{

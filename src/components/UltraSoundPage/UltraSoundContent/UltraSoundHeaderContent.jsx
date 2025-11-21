@@ -2,7 +2,7 @@ import React from "react";
 
 const UltraSoundHeaderContent = () => {
   return (
-    <div className="pathologyHeadContent">
+    <div className="service-headContent">
       <h1>Ultrasound Scan in Rajajinagar, Bangalore</h1>
       <br />
       <h3>

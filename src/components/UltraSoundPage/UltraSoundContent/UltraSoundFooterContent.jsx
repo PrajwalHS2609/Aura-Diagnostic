@@ -2,7 +2,7 @@ import React from "react";
 
 const UltraSoundFooterContent = () => {
   return (
-    <div className="pathologyHeadContent">
+    <div className="service-headContent">
       <br />
       <h3>
         Why Choose Pathacon Diagnostics for Your Ultrasound Scan in Rajajinagar,
