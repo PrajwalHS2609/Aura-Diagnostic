@@ -12,7 +12,7 @@ const Footer2 = () => {
   return (
     <div className="footer2Container">
       <div className="footerTriangle">
-        <div class="triangle-up" onClick={handleGoTop}></div>
+        <div className="triangle-up" onClick={handleGoTop}></div>
       </div>
       <div className="footer2Content">
         <Footer2Bio />

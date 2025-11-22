@@ -156,6 +156,7 @@
   flex-direction: column;
   visibility: hidden;
   opacity: 0;
+  box-shadow: 0 0 5px grey;
 }
 .innerMenuDropDown > li {
   margin: 10px;
@@ -177,7 +178,9 @@
   opacity: 1;
   visibility: visible;
 }
-
+#subMenuDropDown {
+  width: 250px;
+}
 /* -------------------resp Menu---------------------------- */
 .respMenuBar {
   /* border: solid red; */
@@ -313,11 +316,25 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-direction: column;
   padding: 10px;
   font-size: 18px;
   background-color: white;
 }
-.respDropDown > li>a {
+.respDropDown > li > span {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.respDropDown > li > a {
+  text-decoration: none;
+  color: grey;
+  font-weight: 500;
+  width: 100%;
+  text-align: start;
+}
+.respDropDown > li > span > a {
   text-decoration: none;
   color: grey;
   font-weight: 500;
@@ -341,19 +358,22 @@
   cursor: pointer;
 }
 .respMenu .active {
-  color: var(--customColor2); /* Color when active */
+  color: var(--customColor1); /* Color when active */
 }
-
+.active {
+  color: var(--customColor1); /* Color when active */
+}
 /* ----------------------------------------------- */
 .innerRespMenuDropDown {
   /* border: solid green; */
   width: 100%;
   height: 100%;
-  display: none;
+  /* display: none; */
   justify-content: center;
   align-items: flex-start;
   flex-direction: column;
 }
+
 .innerRespMenuDropDown > li {
   padding: 10px;
   list-style: none;

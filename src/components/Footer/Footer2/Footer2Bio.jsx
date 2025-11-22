@@ -14,7 +14,7 @@ const Footer2Bio = () => {
         />
       </div>
       <p>
-        Pathocon Diagnostics, established in 2001, is a healthcare facility led
+        Aura Diagnostics, established in 2001, is a healthcare facility led
         by Dr. Keshav Murthy G N, a seasoned professional with 30 years of
         experience.
       </p>

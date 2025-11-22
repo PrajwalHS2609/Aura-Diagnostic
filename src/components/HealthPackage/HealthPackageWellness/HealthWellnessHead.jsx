@@ -4,7 +4,7 @@ const HealthWellnessHead = () => {
   return (
     <div className="healthWellnessHead">
       <h2>
-        👪Health Packages for All: Get Your Wellness on Track with Pathocon
+        👪Health Packages for All: Get Your Wellness on Track with Aura
         Diagnostics!
       </h2>
     </div>

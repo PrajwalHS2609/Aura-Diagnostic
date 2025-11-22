@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import Reviews from "../../components/HomePage/Reviews/Reviews";
@@ -15,12 +15,12 @@ export default function UltrasoundScan() {
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
-      <HomeCerti />
       <UltraSoundHeaderContent />
+      <HomeCerti />
       <HomeWhy />
-      <ServiceMap/>
+      <ServiceMap />
       <Reviews />
-      <UltraSoundFooterContent/>
+      <UltraSoundFooterContent />
     </div>
   );
 }

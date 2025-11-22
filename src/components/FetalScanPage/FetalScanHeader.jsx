@@ -7,7 +7,7 @@ const FetalScanHeader = () => {
     <div className="pathologyHeaderCover" id="pathologyHeaderCover2">
       <h2>3D & 4D Fetal Scan in Rajajinagar, Bangalore</h2>
       <p>Creating Life's masterpiece, one kick at a time</p>
-      <a href="tel:9845605376">
+      <a href="tel:9611156622">
         <button>Call Us Now</button>
       </a>
     </div>

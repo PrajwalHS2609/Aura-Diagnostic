@@ -27,9 +27,13 @@ const Menu = () => {
     sideBar2.style.transform = "translateX(100%)";
   };
   const [activeDropdown, setActiveDropdown] = useState(null);
+  const [activeSubDropdown, setActiveSubDropdown] = useState(null);
 
   const toggleDropdown = (menu) => {
     setActiveDropdown((prev) => (prev === menu ? null : menu));
+  };
+  const toggleSubDropdown = (submenu) => {
+    setActiveSubDropdown((prev) => (prev === submenu ? null : submenu));
   };
   const handleAppointment = () => {
     document.querySelector(".bookPopUp").style.visibility = "visible";
@@ -64,41 +68,131 @@ const Menu = () => {
               >
                 Obstetrics
               </Link>
+              <div className="innerMenuDropDown">
+                <li>
+                  {" "}
+                  <Link
+                    href="/nt-scan"
+                    className={pathname === "/nt-scan" ? "active" : ""}
+                  >
+                    NT scan
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/anomaly-scan"
+                    className={pathname === "/anomaly-scan" ? "active" : ""}
+                  >
+                    Anomaly scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/growth-scan"
+                    className={pathname === "/growth-scan" ? "active" : ""}
+                  >
+                    Growth scan with Doppler
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/fetal-scan"
+                    className={pathname === "/fetal-echo" ? "active" : ""}
+                  >
+                    Fetal echo
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/fetal-urosonogram"
+                    className={
+                      pathname === "/fetal-urosonogram" ? "active" : ""
+                    }
+                  >
+                    Fetal Urosonogram
+                  </Link>
+                </li>
+              </div>
             </li>
             <li>
               <Link
-                href="/ultrasound-scan"
-                className={pathname === "/ultrasound-scan" ? "active" : ""}
+                href="/advanced-usg"
+                className={pathname === "/advanced-usg" ? "active" : ""}
               >
-                Ultrasound Scan
+                Advanced USG
               </Link>
-              {/* <div className="innerMenuDropDown">
+              <div className="innerMenuDropDown">
                 <li>
                   <Link
-                    href="/3d-and-4d-fetal-scan-in-rajajinagar-bangalore"
+                    href="/liver-elastography"
                     className={
-                      pathname ===
-                      "/3d-and-4d-fetal-scan-in-rajajinagar-bangalore"
-                        ? "active"
-                        : ""
+                      pathname === "/liver-elastography" ? "active" : ""
                     }
                   >
-                    3D & 4D Foetal Ultrasound
+                    Liver elastography
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/doppler-scan-in-rajajinagar-bangalore"
+                    href="/fatty-liver-quantification"
                     className={
-                      pathname === "/doppler-scan-in-rajajinagar-bangalore"
+                      pathname === "/fatty-liver-quantification" ? "active" : ""
+                    }
+                  >
+                    Fatty liver quantification
+                  </Link>
+                </li>
+              </div>
+            </li>
+            <li>
+              <Link
+                href="/usg-guided-procedure"
+                className={pathname === "/usg-guided-procedure" ? "active" : ""}
+              >
+                USG guided procedure
+              </Link>
+              <div className="innerMenuDropDown" id="subMenuDropDown">
+                <li>
+                  <Link
+                    href="/fnac"
+                    className={pathname === "/fnac" ? "active" : ""}
+                  >
+                    FNAC
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/body-fluid-aspiration"
+                    className={
+                      pathname === "/body-fluid-aspiration" ? "active" : ""
+                    }
+                  >
+                    Body fluid aspiration
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/saline-infusion-sonohysterosalphingography"
+                    className={
+                      pathname === "/saline-infusion-sonohysterosalphingography"
                         ? "active"
                         : ""
                     }
                   >
-                    Doppler Scanning
+                    saline infusion sonohysterosalphingography
                   </Link>
                 </li>
-              </div> */}
+                <li>
+                  <Link
+                    href="/amniocentesis"
+                    className={pathname === "/amniocentesis" ? "active" : ""}
+                  >
+                    Amniocentesis
+                  </Link>
+                </li>
+              </div>
             </li>
             <li>
               <Link
@@ -107,14 +201,124 @@ const Menu = () => {
               >
                 Infertility Scans
               </Link>
+              <div className="innerMenuDropDown">
+                <li>
+                  {" "}
+                  <Link
+                    href="/3d-pelvis"
+                    className={pathname === "/3d-pelvis" ? "active" : ""}
+                  >
+                    3D pelvis
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/3d-base-line-scan"
+                    className={
+                      pathname === "/3d-base-line-scan" ? "active" : ""
+                    }
+                  >
+                    3D Base line scan/ AFC scans
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/3d-follicle-monitoring-with-doppler"
+                    className={
+                      pathname === "/3d-follicle-monitoring-with-doppler"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    3D Follicle monitoring with Doppler.
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/leuteal-phase-scan"
+                    className={
+                      pathname === "/leuteal-phase-scan" ? "active" : ""
+                    }
+                  >
+                    Leuteal phase scan
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/uterine-biophysical-profile"
+                    className={
+                      pathname === "/uterine-biophysical-profile"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Uterine biophysical profile
+                  </Link>
+                </li>
+              </div>
             </li>
             <li>
               <Link
-                href="/doppler"
-                className={pathname === "/doppler" ? "active" : ""}
+                href="/doppler-scan"
+                className={pathname === "/doppler-scan" ? "active" : ""}
               >
                 Doppler
               </Link>
+              <div className="innerMenuDropDown">
+                <li>
+                  {" "}
+                  <Link
+                    href="/carotid-doppler"
+                    className={pathname === "/carotid-doppler" ? "active" : ""}
+                  >
+                    Carotid Doppler
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/renal-doppler"
+                    className={pathname === "/renal-doppler" ? "active" : ""}
+                  >
+                    Renal Doppler
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/upper-and-lower-limb-doppler"
+                    className={
+                      pathname === "/upper-and-lower-limb-doppler"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Upper and Lower Limb Doppler
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/leuteal-phase-scan"
+                    className={
+                      pathname === "/leuteal-phase-scan" ? "active" : ""
+                    }
+                  >
+                    Leuteal phase scan
+                  </Link>
+                </li>
+                <li>
+                  {" "}
+                  <Link
+                    href="/whole-body-doppler"
+                    className={
+                      pathname === "/whole-body-doppler" ? "active" : ""
+                    }
+                  >
+                    whole body Doppler
+                  </Link>
+                </li>
+              </div>
             </li>
             <li>
               <Link
@@ -242,9 +446,8 @@ const Menu = () => {
               </Link>
             </li>
             <li className="respDropdownList">
-              {" "}
               <span>
-                Service{" "}
+                Service
                 <FaChevronRight
                   className="menuNavDropIcon"
                   onClick={() => toggleDropdown("service")}
@@ -253,74 +456,423 @@ const Menu = () => {
               {activeDropdown === "service" && (
                 <div className="respDropDown">
                   <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/obstetrics`}
-                      className={pathname === "/obstetrics" ? "active" : ""}
-                    >
-                      Obstetrics{" "}
-                    </Link>
+                    <span>
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/obstetrics`}
+                        className={pathname === "/obstetrics" ? "active" : ""}
+                      >
+                        Obstetrics{" "}
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("obstetrics")}
+                      />
+                    </span>
+
+                    {activeSubDropdown === "obstetrics" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/nt-scan`}
+                            className={pathname === "/nt-scan" ? "active" : ""}
+                          >
+                            NT scan{" "}
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/anomaly-scan`}
+                            className={
+                              pathname === "/anomaly-scan" ? "active" : ""
+                            }
+                          >
+                            Anomaly scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/growth-scan`}
+                            className={
+                              pathname === "/growth-scan" ? "active" : ""
+                            }
+                          >
+                            Growth scan with Doppler
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/fetal-echo`}
+                            className={
+                              pathname === "/fetal-echo" ? "active" : ""
+                            }
+                          >
+                            Fetal echo
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/fetal-urosonogram`}
+                            className={
+                              pathname === "/fetal-urosonogram" ? "active" : ""
+                            }
+                          >
+                            Fetal Urosonogram
+                          </Link>
+                        </li>
+                      </div>
+                    )}
                   </li>
                   <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/email-marketing-service-in-bangalore`}
-                      className={
-                        pathname === "/email-marketing-service-in-bangalore"
-                          ? "active"
-                          : ""
-                      }
-                    >
-                      Ultrasound Scan
-                    </Link>
+                    <span>
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/email-marketing-service-in-bangalore`}
+                        className={
+                          pathname === "/email-marketing-service-in-bangalore"
+                            ? "active"
+                            : ""
+                        }
+                      >
+                        USG guided procedure
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("USG")}
+                      />
+                    </span>
+                    {activeSubDropdown === "USG" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/fnac`}
+                            className={pathname === "/fnac" ? "active" : ""}
+                          >
+                            FNAC
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/body-fluid-aspiration`}
+                            className={
+                              pathname === "/body-fluid-aspiration"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Body fluid aspiration
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/saline-infusion-sonohysterosalphingography`}
+                            className={
+                              pathname ===
+                              "/saline-infusion-sonohysterosalphingography"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            saline infusion sonohysterosalphingography ( SIS)
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/amniocentesis`}
+                            className={
+                              pathname === "/amniocentesis" ? "active" : ""
+                            }
+                          >
+                            Amniocentesis
+                          </Link>
+                        </li>
+                      </div>
+                    )}
                   </li>
                   <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/infertility-scans`}
-                      className={
-                        pathname === "/infertility-scans" ? "active" : ""
-                      }
-                    >
-                      Infertility Scans
-                    </Link>
+                    <span>
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/infertility-scans`}
+                        className={
+                          pathname === "/infertility-scans" ? "active" : ""
+                        }
+                      >
+                        Infertility Scans
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("infertile")}
+                      />
+                    </span>
+                    {activeSubDropdown === "infertile" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/3d-pelvis`}
+                            className={pathname === "/3d-pelvis" ? "active" : ""}
+                          >
+                            3D pelvis
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/3d-base-line-scan`}
+                            className={
+                              pathname === "/3d-base-line-scan" ? "active" : ""
+                            }
+                          >
+                            3D Base line scan/ AFC scans
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/3d-follicle-monitoring-with-doppler`}
+                            className={
+                              pathname === "/3d-follicle-monitoring-with-doppler" ? "active" : ""
+                            }
+                          >
+                            3D Follicle monitoring with Doppler
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/leuteal-phase-scan`}
+                            className={
+                              pathname === "/leuteal-phase-scan" ? "active" : ""
+                            }
+                          >
+                            Leuteal phase scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/uterine-biophysical-profile`}
+                            className={
+                              pathname === "/uterine-biophysical-profile" ? "active" : ""
+                            }
+                          >
+                            Uterine biophysical profile
+                          </Link>
+                        </li>
+                      </div>
+                    )}
                   </li>
                   <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/doppler`}
-                      className={pathname === "/doppler" ? "active" : ""}
-                    >
-                      Doppler
-                    </Link>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/doppler-scan`}
+                        className={pathname === "/doppler-scan" ? "active" : ""}
+                      >
+                        Doppler
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("doppler")}
+                      />
+                    </span>
+                    {activeSubDropdown === "doppler" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/carotid-doppler`}
+                            className={pathname === "/carotid-doppler" ? "active" : ""}
+                          >
+                            Carotid Doppler
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/renal-doppler`}
+                            className={
+                              pathname === "/renal-doppler"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Renal Doppler
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/upper-and-lower-limb-doppler`}
+                            className={
+                              pathname ===
+                              "/upper-and-lower-limb-doppler"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Upper and Lower Limb Doppler
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/leuteal-phase-scan`}
+                            className={
+                              pathname === "/leuteal-phase-scan" ? "active" : ""
+                            }
+                          >
+                            Leuteal phase scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/whole-body-doppler`}
+                            className={
+                              pathname === "/whole-body-doppler" ? "active" : ""
+                            }
+                          >
+                            whole body Doppler
+                          </Link>
+                        </li>
+                      </div>
+                    )}
                   </li>
                   <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/infertility Scans`}
-                      className={
-                        pathname === "/infertility Scans" ? "active" : ""
-                      }
-                    >
-                      Musculoskeletal Scans
-                    </Link>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/advanced-usg`}
+                        className={pathname === "/advanced-usg" ? "active" : ""}
+                      >
+                        Advanced USG
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("advance")}
+                      />
+                    </span>
+                    {activeSubDropdown === "advance" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/liver-elastography`}
+                            className={
+                              pathname === "/liver-elastography"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Liver elastography
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/fatty-liver-quantification`}
+                            className={
+                              pathname ===
+                              "/fatty-liver-quantification"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Fatty liver quantification
+                          </Link>
+                        </li>
+                      </div>
+                    )}
                   </li>
                   <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/infertility Scans`}
-                      className={
-                        pathname === "/infertility Scans" ? "active" : ""
-                      }
-                    >
-                      Soft Tissue Scans
-                    </Link>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/infertility Scans`}
+                        className={
+                          pathname === "/infertility Scans" ? "active" : ""
+                        }
+                      >
+                        Musculoskeletal Scans
+                      </Link>
+                    </span>
+                  </li>
+                  <li>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/infertility Scans`}
+                        className={
+                          pathname === "/infertility Scans" ? "active" : ""
+                        }
+                      >
+                        Soft Tissue Scans
+                      </Link>
+                    </span>
                   </li>
                 </div>
               )}

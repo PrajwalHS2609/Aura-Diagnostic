@@ -1,5 +1,6 @@
 import React from "react";
-import "./ServiceHeader.css";import Image from "next/image";
+import "./ServiceHeader.css";
+import Image from "next/image";
 const ServiceHeader = (props) => {
   return (
     <div className="service-header">
@@ -11,7 +12,7 @@ const ServiceHeader = (props) => {
             <span>Book Appointment</span>
           </button>
 
-          <a href="tel:9845605376">
+          <a href="tel:9611156622">
             <button className="button2">Call Now</button>
           </a>
         </div>

@@ -2,7 +2,7 @@ import React from "react";
 
 const DopplerScanHeaderContent = () => {
   return (
-    <div className="pathologyHeadContent">
+    <div className="service-headContent">
       <h1>Doppler Scan in Rajajinagar, Bangalore</h1>
       <br />
       <h3> A Key to Precision in Diagnostic Imaging</h3>

@@ -15,7 +15,7 @@ const ContactUsAdd = () => {
             <div>
               <h6>Call Us</h6>
               <li>
-                <a href="tel:9845605376">+91 9845605376</a>
+                <a href="tel:9611156622">+91 9611156622</a>
               </li>
             </div>
           </div>
@@ -25,8 +25,8 @@ const ContactUsAdd = () => {
             <div>
               <h6>Email Us</h6>
               <li>
-                <a href="pathocondiagnostics@gmail.com">
-                  pathocondiagnostics@gmail.com
+                <a href="Auradiagnostics@gmail.com">
+                  Auradiagnostics@gmail.com
                 </a>
               </li>
             </div>
@@ -36,7 +36,7 @@ const ContactUsAdd = () => {
           <div>
             <h6>Our Location</h6>
             <p>
-              Pathocon Diagnostics, 1st R Block, Rajaji Nagar, 10, A/A-1, Chord
+              Aura Diagnostics, 1st R Block, Rajaji Nagar, 10, A/A-1, Chord
               Rd, Mahalakshmi Layout, Bengaluru, Karnataka 560010
             </p>
             <a href="">

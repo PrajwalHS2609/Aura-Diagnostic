@@ -2,7 +2,7 @@ import React from "react";
 
 const DopplerScanFooterContent = () => {
   return (
-    <div className="pathologyHeadContent">
+    <div className="service-headContent">
       <h3>What is a Doppler Scan?</h3>
       <p>
         A Doppler scan in Rajajinagar, Bangalore is a specialized ultrasound

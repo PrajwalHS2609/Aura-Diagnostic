@@ -10,23 +10,23 @@ const AboutUsContent = () => {
       <div>
         {" "}
         <p>
-          Founded in 2001, Pathocon Diagnostics is a trusted healthcare facility
+          Founded in 2001, Aura Diagnostics is a trusted healthcare facility
           under the leadership of Dr. Keshav Murthy G N, a highly experienced
           professional with over 30 years of expertise in the medical field.
-          Pathocon Diagnostics offers a wide range of medical treatments and
+          Aura Diagnostics offers a wide range of medical treatments and
           services, specializing in diagnostics to ensure accurate and timely
           results for patients.
         </p>
         <p>
-          With a deep commitment to providing top-quality healthcare, Pathocon
+          With a deep commitment to providing top-quality healthcare, Aura
           Diagnostics is equipped with advanced technology and skilled
           professionals to perform various diagnostic procedures. Dr. Keshav
           Murthy's vast experience and dedication enhance the quality of patient
-          care, making Pathocon a reliable choice for individuals seeking
+          care, making Aura a reliable choice for individuals seeking
           comprehensive diagnostic services.
         </p>
         <p>
-          At Pathocon Diagnostics, we prioritize precision and excellence,
+          At Aura Diagnostics, we prioritize precision and excellence,
           delivering a holistic approach to healthcare that ensures the
           well-being of every patient.
         </p>

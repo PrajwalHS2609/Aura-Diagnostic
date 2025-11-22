@@ -27,7 +27,7 @@ const Footer1Contact = () => {
         <div>
           <h4>Contact Us</h4>
           <p>
-            <a href="phone:9845605376">+91 9845605376</a>
+            <a href="phone:9611156622">+91 9611156622</a>
           </p>
         </div>
       </li>
@@ -37,8 +37,8 @@ const Footer1Contact = () => {
         <div>
           <h4>Email Us</h4>
           <p>
-            <a href="mailto:pathocondiagnostics@gmail.com">
-              pathocondiagnostics@gmail.com
+            <a href="mailto:Auradiagnostics@gmail.com">
+              Auradiagnostics@gmail.com
             </a>
           </p>
         </div>

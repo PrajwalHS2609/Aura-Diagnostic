@@ -8,7 +8,7 @@ const HomeServicesCard = (props) => {
   return (
     <div className="homeServicesCard">
       <div className="homeServicesCardImg">
-        <Image src={props.img} alt={props.alt} />
+        <Image src={props.img} alt={props.head} />
       </div>
       <div className="homeServicesCardTxt">
         {" "}

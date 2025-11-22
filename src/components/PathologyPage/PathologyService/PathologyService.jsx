@@ -29,37 +29,37 @@ const PathologyService = () => {
         head="Hormonal Test"
         img={HormonalTest}
         alt="HormonalTest"
-        para="Hormonal tests at Pathocon Diagnostics help assess and balance crucial hormones, providing valuable insights for personalized healthcare and maintaining overall well-being."
+        para="Hormonal tests at Aura Diagnostics help assess and balance crucial hormones, providing valuable insights for personalized healthcare and maintaining overall well-being."
       />
       <PathologyServiceCard
         head="Tumor Markers Test"
         img={TumorMarkersTest}
         alt="TumorMarkersTest"
-        para="Tumor marker tests at Pathocon Diagnostics aid in the early detection and monitoring of cancer, enabling proactive healthcare and personalized treatment strategies for optimal outcomes."
+        para="Tumor marker tests at Aura Diagnostics aid in the early detection and monitoring of cancer, enabling proactive healthcare and personalized treatment strategies for optimal outcomes."
       />
       <PathologyServiceCard
         head="Micorbiology"
         img={Microbiology}
         alt="Microbiology"
-        para="Microbiology at Pathocon Diagnostics employs advanced techniques to identify and analyze microorganisms, facilitating accurate diagnoses and tailored treatment plans for infectious diseases."
+        para="Microbiology at Aura Diagnostics employs advanced techniques to identify and analyze microorganisms, facilitating accurate diagnoses and tailored treatment plans for infectious diseases."
       />
       <PathologyServiceCard
         head="Serology"
         img={Serology}
         alt="Serology"
-        para="Serology at Pathocon Diagnostics investigates blood serum for antibodies, aiding in the diagnosis of various infections and autoimmune disorders with precision and comprehensive understanding."
+        para="Serology at Aura Diagnostics investigates blood serum for antibodies, aiding in the diagnosis of various infections and autoimmune disorders with precision and comprehensive understanding."
       />
       <PathologyServiceCard
         head="Clinical Pathology"
         img={ClinicalPathology}
         alt="ClinicalPathology"
-        para="Clinical Pathology at Pathocon Diagnostics focuses on analyzing bodily fluids and tissues, providing crucial insights for accurate disease diagnosis and optimal patient care."
+        para="Clinical Pathology at Aura Diagnostics focuses on analyzing bodily fluids and tissues, providing crucial insights for accurate disease diagnosis and optimal patient care."
       />
       <PathologyServiceCard
         head="Book Blood Tests at Home"
         img={BloodTest}
         alt="BloodTest"
-        para="Experience convenience with Pathocon Diagnostics –  Blood Tests at Home. Book now for accurate and hassle-free healthcare services in the comfort of your space."
+        para="Experience convenience with Aura Diagnostics –  Blood Tests at Home. Book now for accurate and hassle-free healthcare services in the comfort of your space."
       />
     </div>
   );

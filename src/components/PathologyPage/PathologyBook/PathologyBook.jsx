@@ -20,7 +20,7 @@ const PathologyBook = () => {
       <div className="pathologyBookWrapper">
         <div className="pathologyBookContent">
           <h6>
-            Pathocon Diagnostics, 1st R Block, Rajaji Nagar, 10, A/A-1, Chord
+            Aura Diagnostics, 1st R Block, Rajaji Nagar, 10, A/A-1, Chord
             Rd, Mahalakshmi Layout, Bengaluru, Karnataka 560010
           </h6>
           <FontAwesomeIcon
@@ -29,7 +29,7 @@ const PathologyBook = () => {
           ></FontAwesomeIcon>
         </div>
         <div className="pathologyBookContent">
-          <h6> pathocondiagnostics@gmail.com</h6>
+          <h6> Auradiagnostics@gmail.com</h6>
           <FontAwesomeIcon
             icon={faEnvelope}
             className="pathologyBookIoc"
@@ -37,7 +37,7 @@ const PathologyBook = () => {
         </div>
         <div className="pathologyBookContent">
           <h6>
-            <a href="tel:9845605376">+91 9845605376</a>,
+            <a href="tel:9611156622">+91 9611156622</a>,
             <a href="tel:9916443606">+91 9916443606</a>
           </h6>
           <FontAwesomeIcon

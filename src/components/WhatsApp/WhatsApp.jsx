@@ -1,7 +1,7 @@
 import React from "react";
 import "./WhatsApp.css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import pathaconLogo from "./../../Images/pathoconFav.png"
+import pathaconLogo from "./../../Images/AuraFav.png"
 const WhatsApp = () => {
   // let [visible, setVisible] = useState();
   // useEffect(() => {
@@ -22,7 +22,7 @@ const WhatsApp = () => {
       </a> */}
       <FloatingWhatsApp
         phoneNumber="919742232700"
-        accountName="Pathocon"
+        accountName="Aura"
         avatar={pathaconLogo} // Optional
         statusMessage="Typically replies within 5 min" // Optional
         chatMessage="Pathacon Diagnostics: Trusted since 2001 for accurate, reliable health care. Book now for quality results!" // Optional

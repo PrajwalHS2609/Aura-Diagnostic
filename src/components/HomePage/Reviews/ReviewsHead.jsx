@@ -5,7 +5,7 @@ const ReviewsHead = () => {
     <div className="reviewsHead">
       <h2>Voices of Trust: Patient Testimonials</h2>
       <p>
-        Explore the heartfelt testimonials at Pathocon Diagnostics, where our
+        Explore the heartfelt testimonials at Aura Diagnostics, where our
         patients share their experiences of satisfaction. Gain insight into the
         exceptional service, compassionate care, and positive interactions that
         have shaped their journeys with us. In our “Voices of Trust: Patient

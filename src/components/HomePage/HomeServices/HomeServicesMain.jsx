@@ -18,19 +18,19 @@ const HomeServicesMain = () => {
         link="/"
         img={Sonography}
         head="Obstetrics"
-        para="Discover fast and precise diagnostics with our Digital X-Ray services at Pathocon Diagnostics. Utilizing advanced technology, we provide comprehensive imaging for accurate insights, ensuring better health outcomes."
+        para="Discover fast and precise diagnostics with our Digital X-Ray services at Aura Diagnostics. Utilizing advanced technology, we provide comprehensive imaging for accurate insights, ensuring better health outcomes."
       />
       <HomeServicesCard
         link="/"
         img={Pregnancy}
         head="Infertility scans"
-        para="Delve into detailed health insights with our advanced Sonography services at Pathocon Diagnostics. Offering precision and clarity, we ensure comprehensive diagnostics you can rely on."
+        para="Delve into detailed health insights with our advanced Sonography services at Aura Diagnostics. Offering precision and clarity, we ensure comprehensive diagnostics you can rely on."
       />
       {/* <HomeServicesCard
         link="/"
         img={DigitalXRay}
         head="Digital X-Ray"
-        para="Experience fast and precise diagnostics with our state-of-the-art Digital X-Ray services at Pathocon Diagnostics. Harnessing advanced technology, we provide detailed insights for improved health outcomes."
+        para="Experience fast and precise diagnostics with our state-of-the-art Digital X-Ray services at Aura Diagnostics. Harnessing advanced technology, we provide detailed insights for improved health outcomes."
       /> */}
       <HomeServicesCard
         link="/"
@@ -60,13 +60,13 @@ const HomeServicesMain = () => {
         link="/"
         img={EchoCardiography}
         head="soft tissue/ small parts scans"
-        para="Explore the intricate details of your heart with Echocardiography at Pathocon Diagnostics. Our state-of-the-art technology provides precise evaluations, ensuring thorough cardiac care and accurate diagnoses."
+        para="Explore the intricate details of your heart with Echocardiography at Aura Diagnostics. Our state-of-the-art technology provides precise evaluations, ensuring thorough cardiac care and accurate diagnoses."
       />
       {/* <HomeServicesCard
         link="/"
         img={PulmonaryFunctionTest}
         head="Pulmonary Function Test"
-        para="Enhance your respiratory health with the Pulmonary Function Test at Pathocon Diagnostics. Our accurate evaluations help you understand lung function, enabling tailored care and effective treatment options."
+        para="Enhance your respiratory health with the Pulmonary Function Test at Aura Diagnostics. Our accurate evaluations help you understand lung function, enabling tailored care and effective treatment options."
       /> */}
     </div>
   );
