@@ -1,2 +1,1 @@
- make about us responsive 
- make url properly in menu and resp menu(temp)
+make usg guided service card properly

@@ -1,26 +1,20 @@
-"use client";
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import Reviews from "../../components/HomePage/Reviews/Reviews";
 import ServiceHeader from "../../components/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceMap/ServiceMap";
-import UltraSoundFooterContent from "../../components/ServicePages/UltraSoundPage/UltraSoundContent/UltraSoundFooterContent";
-import UltraSoundHeaderContent from "../../components/ServicePages/UltraSoundPage/UltraSoundContent/UltraSoundHeaderContent";
-import USGGuidedProcedureService from "../../components/ServicePages/USGGuidedProcedure/USGGuidedProcedureService";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
-export default function USGGuidedProcedure() {
-  return (
-    <div>
-      <ServiceHeader
+
+export default function SoftTissueScans() {
+  return <div>
+     <ServiceHeader
         title="Ultrasound Scan"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />
-      <USGGuidedProcedureService/>
       <HomeWhy />
       <ServiceMap />
       <Reviews />
-    </div>
-  );
+  </div>;
 }

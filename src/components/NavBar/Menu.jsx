@@ -322,9 +322,9 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/ Musculoskeletal-scans"
+                href="/musculoskeletal-scans"
                 className={
-                  pathname === "/ Musculoskeletal-scans" ? "active" : ""
+                  pathname === "/musculoskeletal-scans" ? "active" : ""
                 }
               >
                 Musculoskeletal Scans
