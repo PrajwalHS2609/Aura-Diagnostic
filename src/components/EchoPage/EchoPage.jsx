@@ -15,11 +15,11 @@ const EchoPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          ECHO Test in Bangalore, Bangalore | Best Echocardiogram in Bangalore
+          ECHO Test in Bangalore | Best Echocardiogram in Bangalore
         </title>
         <meta
           name="description"
-          content="Echo Test in Bangalore, Bangalore offered by Pathacon Diagnostics, is one of the most reliable and non-invasive ways to assess the heart's function and detect any abnormalities."
+          content="Echo Test in Bangalore offered by Pathacon Diagnostics, is one of the most reliable and non-invasive ways to assess the heart's function and detect any abnormalities."
         />
         <link
           rel="canonical"

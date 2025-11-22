@@ -14,12 +14,12 @@ const DopplerScanPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          Doppler Scan in Bangalore, Bangalore | Best Doppler Scan in
+          Doppler Scan in Bangalore | Best Doppler Scan in
           Bangalore
         </title>
         <meta
           name="description"
-          content="Doppler Scan in Bangalore, Bangalore, which plays a vital role in assessing and monitoring various medical conditions. Book an Appointment!"
+          content="Doppler Scan in Bangalore, which plays a vital role in assessing and monitoring various medical conditions. Book an Appointment!"
         />
         <link
           rel="canonical"

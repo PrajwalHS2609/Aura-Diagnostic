@@ -11,13 +11,13 @@ const RadiologyFooterContent = () => {
         Choosing the right diagnostic center is crucial for receiving reliable
         results and ensuring effective medical care. At Pathacon Diagnostics, we
         take pride in offering state-of-the-art radiology services in
-        Bangalore, Bangalore, backed by advanced technology and a team of
+        Bangalore, backed by advanced technology and a team of
         experienced professionals. Our facility is equipped with the latest
         imaging equipment, enabling us to deliver precise and timely diagnostic
         solutions tailored to your individual needs.
       </p>
       <p>
-        Our radiology services in Bangalore, Bangalore encompass a wide range
+        Our radiology services in Bangalore encompass a wide range
         of imaging modalities, including{" "}
         <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           X-rays
@@ -36,7 +36,7 @@ const RadiologyFooterContent = () => {
       <p>
         Radiology plays a critical role in modern medicine, enabling early
         detection and accurate diagnosis of various health conditions. The
-        insights gained from radiology services in Bangalore, Bangalore
+        insights gained from radiology services in Bangalore
         significantly influence treatment decisions and overall patient
         outcomes. Here are a few reasons why radiology is essential in
         healthcare:
@@ -132,7 +132,7 @@ const RadiologyFooterContent = () => {
       <h3>Cutting-Edge Technology and Techniques</h3>
       <p>
         At Pathacon Diagnostics, we invest in the latest technology to ensure
-        that our radiology services in Bangalore, Bangalore meet the highest
+        that our radiology services in Bangalore meet the highest
         standards of quality and accuracy. Our state-of-the-art imaging
         equipment enhances our ability to deliver precise results, ultimately
         benefiting our patients’ health.
@@ -148,7 +148,7 @@ const RadiologyFooterContent = () => {
       <p>
         We believe that high-quality healthcare should be accessible to
         everyone. Pathacon Diagnostics is committed to providing affordable
-        radiology services in Bangalore, Bangalore, without compromising on
+        radiology services in Bangalore, without compromising on
         quality. We offer transparent pricing and accept various insurance
         plans, making it easier for you to receive the care you need.
       </p>

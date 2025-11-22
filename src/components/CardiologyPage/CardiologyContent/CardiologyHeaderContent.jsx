@@ -3,7 +3,7 @@ import React from "react";
 const CardiologyHeaderContent = () => {
   return (
     <div className="pathologyHeadContent">
-      <h1>Cardiology Test in Bangalore, Bangalore</h1>
+      <h1>Cardiology Test in Bangalore</h1>
       <br />
       <h3> Choose Pathacon Diagnostics for Comprehensive Heart Health </h3>
       <p>
@@ -11,7 +11,7 @@ const CardiologyHeaderContent = () => {
         individuals, especially as cardiovascular diseases remain one of the
         leading causes of mortality worldwide. The importance of regular
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
-          cardiology test in Bangalore, Bangalore
+          cardiology test in Bangalore
         </a>{" "}
         cannot be overstated. With the growing health needs of residents in
         Bangalore,{" "}
@@ -24,7 +24,7 @@ const CardiologyHeaderContent = () => {
         heart-related issues can make all the difference in preventing serious
         complications. That’s why we offer a wide range of{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
-          cardiology tests in Bangalore, Bangalore
+          cardiology tests in Bangalore
         </a>{" "}
         designed to evaluate the health of your heart, identify potential risks,
         and guide your doctor in making informed treatment decisions. Whether

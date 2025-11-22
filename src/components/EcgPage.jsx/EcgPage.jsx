@@ -12,12 +12,12 @@ const EcgPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          ECG Test in Bangalore, Bangalore | Best Electrocardiogram Test in
+          ECG Test in Bangalore | Best Electrocardiogram Test in
           Bangalore{" "}
         </title>
         <meta
           name="description"
-          content=" ECG Test in Bangalore, Bangalore. An Electrocardiogram (ECG) is a crucial tool for detecting heart conditions by measuring the electrical activity of your heart."
+          content=" ECG Test in Bangalore. An Electrocardiogram (ECG) is a crucial tool for detecting heart conditions by measuring the electrical activity of your heart."
         />
         <link
           rel="canonical"

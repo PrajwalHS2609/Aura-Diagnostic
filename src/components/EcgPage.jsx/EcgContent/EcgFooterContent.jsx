@@ -5,14 +5,14 @@ const EcgFooterContent = () => {
     <div className="pathologyHeadContent">
       <h3>What is an ECG Test?</h3>
       <p>
-        The ECG Test in Bangalore, Bangalore is a non-invasive procedure that
+        The ECG Test in Bangalore is a non-invasive procedure that
         records the electrical signals in your heart. These signals trigger your
         heart to beat and are responsible for coordinating the movement of blood
         through your body. By examining the electrical impulses, doctors can
         assess whether the heart is beating too fast, too slow, or irregularly.
         The{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
-          ECG Test in Bangalore, Bangalore
+          ECG Test in Bangalore
         </a>{" "}
         can also detect other heart-related issues like heart attacks,
         blockages, and enlargement of the heart chambers.
@@ -20,7 +20,7 @@ const EcgFooterContent = () => {
       <p>
         The process of taking an{" "}
         <a href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore">
-          ECG Test in Bangalore, Bangalore
+          ECG Test in Bangalore
         </a>{" "}
         at Pathacon Diagnostics is quick and painless, involving the placement
         of small electrodes on the skin of your chest, arms, and legs. These
@@ -34,7 +34,7 @@ const EcgFooterContent = () => {
       </h3>
       <p>
         At Pathacon Diagnostics, we take pride in offering a patient-centric
-        approach, ensuring that each ECG Test in Bangalore, Bangalore is
+        approach, ensuring that each ECG Test in Bangalore is
         tailored to meet the individual needs of our patients. Here are a few
         reasons to choose Pathacon Diagnostics:
       </p>
@@ -45,7 +45,7 @@ const EcgFooterContent = () => {
           <p>
             Our facility in Bangalore is equipped with modern ECG machines,
             ensuring precise and reliable results for every ECG Test in
-            Bangalore, Bangalore.
+            Bangalore.
           </p>
         </ul>
         <ul>
@@ -62,7 +62,7 @@ const EcgFooterContent = () => {
           <h6>3. Quick and Accurate Results:</h6>
           <p>
             Time is critical when diagnosing heart conditions, which is why we
-            provide prompt results for your ECG Test in Bangalore, Bangalore,
+            provide prompt results for your ECG Test in Bangalore,
             enabling you to consult with your doctor without unnecessary delays.
           </p>
         </ul>
@@ -74,7 +74,7 @@ const EcgFooterContent = () => {
             we prioritize your comfort throughout the process. Our friendly and
             supportive staff ensures that your{" "}
             <a href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore">
-              ECG Test in Bangalore, Bangalore
+              ECG Test in Bangalore
             </a>{" "}
             is stress-free and smooth.
           </p>
@@ -85,7 +85,7 @@ const EcgFooterContent = () => {
           <p>
             Situated in Bangalore, Pathacon Diagnostics is easily accessible
             to residents of Bangalore, making it convenient for you to get your
-            ECG Test in Bangalore, Bangalore done without the hassle of long
+            ECG Test in Bangalore done without the hassle of long
             commutes.
           </p>
         </ul>
@@ -93,10 +93,10 @@ const EcgFooterContent = () => {
       <br />
       <h3>Who Should Get an ECG Test?</h3>
       <p>
-        An ECG Test in Bangalore, Bangalore is recommended for individuals who
+        An ECG Test in Bangalore is recommended for individuals who
         may be at risk for heart disease or those experiencing symptoms that
         could be related to heart problems. Some common reasons for undergoing
-        an ECG Test in Bangalore, Bangalore include:
+        an ECG Test in Bangalore include:
       </p>
       <br />
       <p>
@@ -129,16 +129,16 @@ const EcgFooterContent = () => {
         or a family history of heart disease, your doctor may suggest a routine
         <a href="https://pathacondiagnostics.com/">
           {" "}
-          ECG Test in Bangalore, Bangalore
+          ECG Test in Bangalore
         </a>{" "}
         to assess your heart’s electrical activity and detect any underlying
         conditions.
       </p>
       <br />
-      <h3>Preparing for Your ECG Test in Bangalore, Bangalore</h3>
+      <h3>Preparing for Your ECG Test in Bangalore</h3>
       <p>
         While there is no extensive preparation required for the ECG Test in
-        Bangalore, Bangalore, there are a few tips to keep in mind for an
+        Bangalore, there are a few tips to keep in mind for an
         optimal experience:
       </p>
       <br />
@@ -167,12 +167,12 @@ const EcgFooterContent = () => {
       </p>
       <br />
       <h3>
-        Prioritize Your Heart Health with an ECG Test in Bangalore, Bangalore
+        Prioritize Your Heart Health with an ECG Test in Bangalore
       </h3>
       <p>
         At Pathacon Diagnostics, your heart health is our priority. The{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
-          ECG Test in Bangalore, Bangalore
+          ECG Test in Bangalore
         </a>{" "}
         is an essential tool in diagnosing and monitoring heart conditions,
         providing critical insights into your cardiovascular health. Whether you

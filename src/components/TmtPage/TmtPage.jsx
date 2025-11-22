@@ -13,11 +13,11 @@ const TmtPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          TMT Test in Bangalore, Bangalore | Best Treadmill Test in Bangalore{" "}
+          TMT Test in Bangalore | Best Treadmill Test in Bangalore{" "}
         </title>
         <meta
           name="description"
-          content="TMT Test in Bangalore, Bangalore. The Treadmill Test (TMT), also known as a stress test, helps evaluate how well your heart functions during physical exertion, providing critical insights into your cardiovascular system. abnormalities."
+          content="TMT Test in Bangalore. The Treadmill Test (TMT), also known as a stress test, helps evaluate how well your heart functions during physical exertion, providing critical insights into your cardiovascular system. abnormalities."
         />
         <link
           rel="canonical"

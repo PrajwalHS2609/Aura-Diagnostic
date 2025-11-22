@@ -5,7 +5,7 @@ const DopplerScanFooterContent = () => {
     <div className="service-headContent">
       <h3>What is a Doppler Scan?</h3>
       <p>
-        A Doppler scan in Bangalore, Bangalore is a specialized ultrasound
+        A Doppler scan in Bangalore is a specialized ultrasound
         technique that measures the direction and speed of blood flow within the
         body. By using high-frequency sound waves, this scan can detect movement
         within the blood vessels, making it a crucial tool in diagnosing various
@@ -22,14 +22,14 @@ const DopplerScanFooterContent = () => {
       </p>
       <p>
         At Pathacon Diagnostics, our highly trained professionals ensure that
-        every Doppler scan in Bangalore, Bangalore is conducted with precision
+        every Doppler scan in Bangalore is conducted with precision
         and care, providing accurate results that guide effective medical
         treatments.
       </p>
       <br />
       <h3>Applications of Doppler Scans</h3>
       <p>
-        The Doppler scan in Bangalore, Bangalore is essential in diagnosing a
+        The Doppler scan in Bangalore is essential in diagnosing a
         wide range of medical conditions, many of which require timely
         intervention. Some of the key applications include:
       </p>
@@ -40,7 +40,7 @@ const DopplerScanFooterContent = () => {
           <p>
             Doppler scans are crucial in detecting vascular diseases such as
             deep vein thrombosis (DVT) and peripheral artery disease (PAD). The
-            Doppler scan in Bangalore, Bangalore can help identify blockages
+            Doppler scan in Bangalore can help identify blockages
             or narrowing of the arteries, which, if left untreated, can lead to
             serious complications such as strokes or heart attacks.
           </p>
@@ -49,7 +49,7 @@ const DopplerScanFooterContent = () => {
           <br />
           <h6>2. Pregnancy Monitoring:</h6>
           <p>
-            In pregnancy, a Doppler scan in Bangalore, Bangalore can be used
+            In pregnancy, a Doppler scan in Bangalore can be used
             to monitor the blood flow between the placenta and the fetus,
             ensuring that the baby is receiving adequate nutrients and oxygen.
             This scan is especially important in high-risk pregnancies where
@@ -61,7 +61,7 @@ const DopplerScanFooterContent = () => {
           <h6>3. Heart Conditions:</h6>
           <p>
             For patients with suspected heart conditions, the Doppler scan in
-            Bangalore, Bangalore is invaluable in detecting abnormal blood
+            Bangalore is invaluable in detecting abnormal blood
             flow, valve dysfunction, and other cardiovascular issues. It
             provides real-time images that can guide treatment decisions,
             helping physicians address heart problems more effectively.
@@ -73,7 +73,7 @@ const DopplerScanFooterContent = () => {
           <p>
             Detecting blood clots early is critical in preventing
             life-threatening conditions like pulmonary embolism. A Doppler scan
-            in Bangalore, Bangalore can quickly identify clots in the legs,
+            in Bangalore can quickly identify clots in the legs,
             arms, or other parts of the body, allowing for prompt medical
             intervention.
           </p>
@@ -82,7 +82,7 @@ const DopplerScanFooterContent = () => {
           <br />
           <h6>5. Aneurysms:</h6>
           <p>
-            A Doppler scan in Bangalore, Bangalore can detect aneurysms, which
+            A Doppler scan in Bangalore can detect aneurysms, which
             are dangerous bulges in blood vessels that can rupture if left
             untreated. Early detection through a Doppler scan can prevent severe
             complications and allow for timely surgical intervention if needed.
@@ -96,7 +96,7 @@ const DopplerScanFooterContent = () => {
       </h3>
       <p>
         When it comes to choosing a facility for your Doppler scan in
-        Bangalore, Bangalore, Pathacon Diagnostics stands out for several
+        Bangalore, Pathacon Diagnostics stands out for several
         reasons:
       </p>
       <br />
@@ -117,11 +117,11 @@ const DopplerScanFooterContent = () => {
           <p>
             At Pathacon Diagnostics, our team of highly trained technicians and
             sonographers have extensive experience in performing 3D & 4D fetal
-            scans in Bangalore, Bangalore. They understand the intricacies of
+            scans in Bangalore. They understand the intricacies of
             fetal imaging, ensuring that you receive accurate results and a safe
             scanning experience. Our team of experienced radiologists and
             technicians are highly skilled in conducting Doppler scans in
-            Bangalore, Bangalore. They work closely with referring physicians
+            Bangalore. They work closely with referring physicians
             to provide comprehensive reports that guide diagnosis and treatment.
           </p>
         </ul>
@@ -144,7 +144,7 @@ const DopplerScanFooterContent = () => {
             We know that waiting for results can be stressful, especially when
             your health is concerned. Pathacon Diagnostics prioritizes
             delivering timely and accurate results for your Doppler scan in
-            Bangalore, Bangalore, so you can receive the medical attention you
+            Bangalore, so you can receive the medical attention you
             need without delay.
           </p>
         </ul>
@@ -154,7 +154,7 @@ const DopplerScanFooterContent = () => {
           <p>
             At Pathacon Diagnostics, we believe that everyone should have access
             to top-quality diagnostic services. That’s why we offer competitive
-            pricing for our Doppler scan services in Bangalore, Bangalore,
+            pricing for our Doppler scan services in Bangalore,
             ensuring that patients receive the care they need without financial
             strain.
           </p>
@@ -163,7 +163,7 @@ const DopplerScanFooterContent = () => {
       <br />
       <h3>What to Expect During a Doppler Scan</h3>
       <p>
-        A Doppler scan in Bangalore, Bangalore is a non-invasive procedure
+        A Doppler scan in Bangalore is a non-invasive procedure
         that typically lasts between 20 to 60 minutes, depending on the area
         being examined. During the scan, a technician will apply a gel to your
         skin to help the ultrasound device capture clear images. You may hear
@@ -174,7 +174,7 @@ const DopplerScanFooterContent = () => {
       <p>
         When it comes to{" "}
         <a href="https://pathacondiagnostics.com/doppler-scan-in-Bangalore-bangalore">
-          Doppler scan in Bangalore, Bangalore
+          Doppler scan in Bangalore
         </a>
         , Pathacon Diagnostics offers unparalleled service, combining
         cutting-edge technology with compassionate care. Whether you're

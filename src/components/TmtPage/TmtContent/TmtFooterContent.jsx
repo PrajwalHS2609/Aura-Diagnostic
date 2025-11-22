@@ -5,14 +5,14 @@ const TmtFooterContent = () => {
     <div className="pathologyHeadContent">
       <h3>What is a TMT Test?</h3>
       <p>
-        The TMT Test in Bangalore, Bangalore, or Treadmill Test, is a type of
+        The TMT Test in Bangalore, or Treadmill Test, is a type of
         exercise stress test that monitors the heart’s performance during
         physical activity. While the body is at rest, it’s easier for the heart
         to pump blood; however, when you exercise, the heart needs to work
         harder to circulate blood throughout the body. The{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
           {" "}
-          TMT Test in Bangalore, Bangalore
+          TMT Test in Bangalore
         </a>{" "}
         involves walking or running on a treadmill while your heart rate, blood
         pressure, and electrical activity (through an ECG) are monitored. This
@@ -28,7 +28,7 @@ const TmtFooterContent = () => {
       <p>
         When it comes to cardiovascular health, accuracy and expertise are
         paramount. At Pathacon Diagnostics, we provide the TMT Test in
-        Bangalore, Bangalore with a team of experienced healthcare
+        Bangalore with a team of experienced healthcare
         professionals who are dedicated to your well-being. Here are some
         reasons why you should consider us for your TMT test:
       </p>
@@ -38,7 +38,7 @@ const TmtFooterContent = () => {
           <h6> 1. Advanced Technology:</h6>
           <p>
             Our facility is equipped with modern diagnostic equipment to ensure
-            that the TMT Test in Bangalore, Bangalore is performed with
+            that the TMT Test in Bangalore is performed with
             precision and delivers reliable results.
           </p>
         </ul>
@@ -47,7 +47,7 @@ const TmtFooterContent = () => {
           <h6> 2. Expert Cardiologists:</h6>
           <p>
             Our cardiology team has extensive experience in interpreting the
-            results of the TMT Test in Bangalore, Bangalore, providing you
+            results of the TMT Test in Bangalore, providing you
             with a comprehensive analysis of your heart health.
           </p>
         </ul>
@@ -56,7 +56,7 @@ const TmtFooterContent = () => {
           <h6> 3. Patient-Centered Care:</h6>
           <p>
             At Pathacon Diagnostics, we prioritize your comfort and care during
-            the TMT Test in Bangalore, Bangalore. Our friendly staff ensures
+            the TMT Test in Bangalore. Our friendly staff ensures
             that the entire process is smooth and stress-free.
           </p>
         </ul>
@@ -65,7 +65,7 @@ const TmtFooterContent = () => {
           <h6> 4. Timely Results:</h6>
           <p>
             We understand the urgency of heart-related diagnostics, which is why
-            we provide quick results for the TMT Test in Bangalore, Bangalore,
+            we provide quick results for the TMT Test in Bangalore,
             allowing your doctor to take prompt action if necessary.
           </p>
         </ul>
@@ -75,24 +75,24 @@ const TmtFooterContent = () => {
           <p>
             Located in the heart of Bangalore, Pathacon Diagnostics is easily
             accessible, making it simple for you to schedule your TMT Test in
-            Bangalore, Bangalore without the hassle of long commutes.
+            Bangalore without the hassle of long commutes.
           </p>
         </ul>
       </p>
       <br />
       <h3>Who Should Consider a TMT Test?</h3>
       <p>
-        The TMT Test in Bangalore, Bangalore is recommended for individuals
+        The TMT Test in Bangalore is recommended for individuals
         who may be at risk of heart disease or are experiencing symptoms of
         cardiovascular issues. If you have been diagnosed with conditions such
         as high blood pressure, high cholesterol, or diabetes, or if you have a
         family history of heart disease, your doctor may suggest undergoing a
-        TMT Test in Bangalore, Bangalore to assess your heart’s health under
+        TMT Test in Bangalore to assess your heart’s health under
         stress.
       </p>
       <p>
         Additionally, if you experience the following symptoms, a TMT Test in
-        Bangalore, Bangalore may be necessary:
+        Bangalore may be necessary:
       </p>
       <br />
       <p>
@@ -123,30 +123,30 @@ const TmtFooterContent = () => {
         The{" "}
         <a href="https://pathacondiagnostics.com/tmt-test-in-Bangalore-bangalore">
           {" "}
-          TMT Test in Bangalore, Bangalore
+          TMT Test in Bangalore
         </a>{" "}
         is also used for patients who have undergone treatments such as
         angioplasty or heart surgery to evaluate the success of these procedures
         and determine how well the heart is functioning post-treatment.
       </p>
-      <h3>The Importance of a TMT Test in Bangalore, Bangalore</h3>
+      <h3>The Importance of a TMT Test in Bangalore</h3>
       <p>
         Heart disease is one of the leading causes of death worldwide, and early
         detection is critical to preventing serious complications. The{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
-          TMT Test in Bangalore, Bangalore
+          TMT Test in Bangalore
         </a>{" "}
         is an invaluable tool in diagnosing heart conditions such as coronary
         artery disease, where plaque builds up in the arteries and restricts
         blood flow to the heart. By simulating the stress that physical activity
-        puts on the heart, the TMT Test in Bangalore, Bangalore can reveal
+        puts on the heart, the TMT Test in Bangalore can reveal
         abnormalities that may not be apparent when the heart is at rest.
       </p>
       <p>
         At Pathacon Diagnostics, the{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
           {" "}
-          TMT Test in Bangalore, Bangalore
+          TMT Test in Bangalore
         </a>{" "}
         is performed under the supervision of highly skilled healthcare
         professionals. We take every precaution to ensure your safety during the
@@ -157,7 +157,7 @@ const TmtFooterContent = () => {
 
       <h3>How Does the TMT Test Work?</h3>
       <p>
-        The TMT Test in Bangalore, Bangalore typically follows a simple and
+        The TMT Test in Bangalore typically follows a simple and
         straightforward process. Here’s what you can expect during your visit to
         Pathacon Diagnostics for your TMT test:
       </p>
@@ -166,7 +166,7 @@ const TmtFooterContent = () => {
         <ul>
           <h6> 1. Preparation:</h6>
           <p>
-            Before the TMT Test in Bangalore, Bangalore begins, electrodes
+            Before the TMT Test in Bangalore begins, electrodes
             will be attached to your chest, arms, and legs. These electrodes are
             connected to an electrocardiogram (ECG) machine, which will monitor
             your heart's electrical activity during the test.
@@ -188,7 +188,7 @@ const TmtFooterContent = () => {
             progresses, the speed and incline of the treadmill will gradually
             increase. The goal is to put your heart under stress by mimicking
             physical activity, such as brisk walking or running. Throughout the
-            TMT Test in Bangalore, Bangalore, your heart rate, blood pressure,
+            TMT Test in Bangalore, your heart rate, blood pressure,
             and ECG readings will be continuously monitored.
           </p>
         </ul>
@@ -196,7 +196,7 @@ const TmtFooterContent = () => {
           <br />
           <h6> 4. Monitoring Symptoms:</h6>
           <p>
-            During the TMT Test in Bangalore, Bangalore, you will be asked to
+            During the TMT Test in Bangalore, you will be asked to
             report any symptoms you may experience, such as chest pain,
             dizziness, or shortness of breath. The test will be stopped
             immediately if any concerning symptoms arise.
@@ -217,7 +217,7 @@ const TmtFooterContent = () => {
           <p>
             The results of your{" "}
             <a href="https://pathacondiagnostics.com/tmt-test-in-Bangalore-bangalore">
-              TMT Test in Bangalore, Bangalore
+              TMT Test in Bangalore
             </a>{" "}
             will be analyzed by our team of experts. They will look for any
             signs of reduced blood flow to the heart, abnormal heart rhythms, or
@@ -225,11 +225,11 @@ const TmtFooterContent = () => {
           </p>
         </ul>
       </p>
-      <h3>How to Prepare for a TMT Test in Bangalore, Bangalore</h3>
+      <h3>How to Prepare for a TMT Test in Bangalore</h3>
       <p>
         Preparing for a{" "}
         <a href="https://pathacondiagnostics.com/tmt-test-in-Bangalore-bangalore">
-          TMT Test in Bangalore, Bangalore
+          TMT Test in Bangalore
         </a>{" "}
         is easy, and our team at Pathacon Diagnostics will provide you with
         detailed instructions ahead of time. Here are some general guidelines to
@@ -271,22 +271,22 @@ const TmtFooterContent = () => {
       <br />
 
       <h3>
-        Prioritize Your Heart Health with a TMT Test in Bangalore, Bangalore
+        Prioritize Your Heart Health with a TMT Test in Bangalore
       </h3>
       <p>
         At Pathacon Diagnostics, we are committed to helping you maintain a
-        healthy heart. The TMT Test in Bangalore, Bangalore is an essential
+        healthy heart. The TMT Test in Bangalore is an essential
         tool for diagnosing and managing heart conditions, providing accurate
         insights into how your heart performs under stress. Whether you are at
         risk for heart disease or need to monitor an existing condition, the{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
-          TMT Test in Bangalore, Bangalore
+          TMT Test in Bangalore
         </a>{" "}
         is a critical step in ensuring your long-term heart health.
       </p>
       <p>
         Contact Pathacon Diagnostics today to schedule your TMT Test in
-        Bangalore, Bangalore, and take the first step toward safeguarding your
+        Bangalore, and take the first step toward safeguarding your
         cardiovascular wellness. With our expertise, advanced technology, and
         patient-centered approach, you can trust us to provide the highest
         standard of care for your heart health.

@@ -14,11 +14,11 @@ const UltraSoundPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          Ultrasound Scan in Bangalore, Bangalore - Book an Appointment{" "}
+          Ultrasound Scan in Bangalore - Book an Appointment{" "}
         </title>
         <meta
           name="description"
-          content="Ultrasound Scan in Bangalore, Bangalore - Book an Appointment! Whether you need a pregnancy scan, an abdominal ultrasound, or a thyroid scan. "
+          content="Ultrasound Scan in Bangalore - Book an Appointment! Whether you need a pregnancy scan, an abdominal ultrasound, or a thyroid scan. "
         />
         <link
           rel="canonical"

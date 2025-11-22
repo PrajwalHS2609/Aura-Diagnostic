@@ -15,12 +15,12 @@ const FetalScanPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          3D & 4D Fetal Scan in Bangalore, Bangalore | Best Fetal Scan in
+          3D & 4D Fetal Scan in Bangalore | Best Fetal Scan in
           Bangalore{" "}
         </title>
         <meta
           name="description"
-          content="Pathacon Diagnostics offers 3D & 4D fetal scan in Bangalore, Bangalore, giving expecting parents a vivid and emotional glimpse of their baby in the womb."
+          content="Pathacon Diagnostics offers 3D & 4D fetal scan in Bangalore, giving expecting parents a vivid and emotional glimpse of their baby in the womb."
         />
         <link
           rel="canonical"

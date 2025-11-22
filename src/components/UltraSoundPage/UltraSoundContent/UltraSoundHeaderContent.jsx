@@ -3,7 +3,7 @@ import React from "react";
 const UltraSoundHeaderContent = () => {
   return (
     <div className="service-headContent">
-      <h1>Ultrasound Scan in Bangalore, Bangalore</h1>
+      <h1>Ultrasound Scan in Bangalore</h1>
       <br />
       <h3>
         {" "}
@@ -11,7 +11,7 @@ const UltraSoundHeaderContent = () => {
       </h3>
       <p>
         When it comes to accurate and non-invasive diagnostic services, an
-        Ultrasound Scan in Bangalore, Bangalore stands as one of the most
+        Ultrasound Scan in Bangalore stands as one of the most
         critical tools for assessing internal organs, monitoring pregnancies,
         and diagnosing various medical conditions. At Pathacon Diagnostics, we
         are proud to offer the most advanced and reliable ultrasound scan

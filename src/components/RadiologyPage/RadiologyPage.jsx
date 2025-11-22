@@ -14,12 +14,12 @@ const RadiologyPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          Radiology Services in Bangalore, Bangalore | Best Radiology in
+          Radiology Services in Bangalore | Best Radiology in
           Bangalore{" "}
         </title>
         <meta
           name="description"
-          content="Radiology Services in Bangalore, Bangalore. Our commitment to delivering cutting-edge radiological imaging solutions positions us as a leading provider of comprehensive radiology services in the region."
+          content="Radiology Services in Bangalore. Our commitment to delivering cutting-edge radiological imaging solutions positions us as a leading provider of comprehensive radiology services in the region."
         />
         <link
           rel="canonical"

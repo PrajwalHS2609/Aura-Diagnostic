@@ -3,7 +3,7 @@ import React from "react";
 const EchoHeaderContent = () => {
   return (
     <div className="pathologyHeadContent">
-      <h1>ECHO Test in Bangalore, Bangalore</h1>
+      <h1>ECHO Test in Bangalore</h1>
       <br />
       <h3>Advanced Cardiac Diagnostics at Pathacon Diagnostics</h3>
       <p>
@@ -11,7 +11,7 @@ const EchoHeaderContent = () => {
         diagnosis are critical. The{" "}
         <a href="https://pathacondiagnostics.com/echo-test-in-Bangalore-bangalore">
           {" "}
-          ECHO Test in Bangalore, Bangalore
+          ECHO Test in Bangalore
         </a>
         , offered by Pathacon Diagnostics, is one of the most reliable and
         non-invasive ways to assess the heart's function and detect any
@@ -23,14 +23,14 @@ const EchoHeaderContent = () => {
         At Pathacon Diagnostics, we take pride in offering the{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
           {" "}
-          ECHO Test in Bangalore, Bangalore
+          ECHO Test in Bangalore
         </a>{" "}
         with state-of-the-art technology and a team of experienced
         cardiologists. Whether you are experiencing symptoms of heart disease or
         require routine monitoring, the{" "}
         <a href="https://pathacondiagnostics.com/echo-test-in-Bangalore-bangalore">
           {" "}
-          ECHO Test in Bangalore, Bangalore
+          ECHO Test in Bangalore
         </a>{" "}
         is a key diagnostic tool that can help you take control of your
         cardiovascular health.
