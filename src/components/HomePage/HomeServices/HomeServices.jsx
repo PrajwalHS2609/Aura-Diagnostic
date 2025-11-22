@@ -11,10 +11,10 @@ const HomeServices = () => {
       <div className="homeServiceContent">
         <h5>
           <Link class="fancy" href="/services" style={{textDecoration:"none"}}>
-            <span class="top-key"></span>
-            <span class="text">View All Services</span>
-            <span class="bottom-key-1"></span>
-            <span class="bottom-key-2"></span>
+            <span className="top-key"></span>
+            <span className="text">View All Services</span>
+            <span className="bottom-key-1"></span>
+            <span className="bottom-key-2"></span>
           </Link>
         </h5>
       </div>

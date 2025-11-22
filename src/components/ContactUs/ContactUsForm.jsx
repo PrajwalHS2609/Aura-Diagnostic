@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import "./ContactUs.css";
 const ContactUsForm = () => {
@@ -46,17 +46,17 @@ const ContactUsForm = () => {
           <div>
             {" "}
             <input type="radio" value="" name="" />
-            Pathology
+            Obstetrics
           </div>
           <div>
             {" "}
             <input type="radio" value="" name="" />
-            3D & 4D Pregnancy Scan
+            USG guided procedure
           </div>
           <div>
             {" "}
             <input type="radio" value="" name="" />
-            Digital X-Ray
+            Infertility Scans
           </div>
           <div>
             <input type="radio" value="" name="" />
@@ -65,16 +65,16 @@ const ContactUsForm = () => {
           <div>
             {" "}
             <input type="radio" value="" name="" />
-            Sonography
+            Advanced USG
           </div>
           <div>
             {" "}
             <input type="radio" value="" name="" />
-            Cardiology
+            Musculoskeletal Scans
           </div>
           <div>
             <input type="radio" value="" name="" />
-            Radiological Procedures
+            Soft Tissue Scans{" "}
           </div>
         </div>
         <div className="formFirstLvl">

@@ -62,7 +62,7 @@ const AboutUsDoctors = () => {
             <p>
               After completing MBBS from JSSMC Mysore and MD in Radio-Diagnosis
               from SDM medical college, Dharwad, he served as a Senior resident
-              from ESIC Medical College Rajajinagar, and also worked as
+              from ESIC Medical College Bangalore, and also worked as
               consultant Radiologist at PMSSY building, Victoria hospital. BMC
               for 5 years reporting and gaining experience in all modalities of
               radiology including Interventions.

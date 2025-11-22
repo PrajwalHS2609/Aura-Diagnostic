@@ -3,7 +3,7 @@ import React from "react";
 const EcgHeaderContent = () => {
   return (
     <div className="pathologyHeadContent">
-      <h1>ECG Test in Rajajinagar, Bangalore</h1>
+      <h1>ECG Test in Bangalore, Bangalore</h1>
       <br />
       <h3> Comprehensive Heart Care at Pathacon Diagnostics </h3>
       <p>
@@ -12,24 +12,24 @@ const EcgHeaderContent = () => {
         advanced diagnostic tests to assess your cardiovascular health,
         including the{" "}
         <a href="https://pathacondiagnostics.com/">
-          ECG Test in Rajajinagar, Bangalore
+          ECG Test in Bangalore, Bangalore
         </a>
         . An Electrocardiogram (ECG) is a crucial tool for detecting heart
         conditions by measuring the electrical activity of your heart. Whether
         you’re experiencing symptoms like chest pain, shortness of breath, or
         irregular heartbeats, or you simply want to monitor your heart’s
-        well-being, the ECG Test in Rajajinagar, Bangalore is one of the most
+        well-being, the ECG Test in Bangalore, Bangalore is one of the most
         effective tests to help guide your healthcare decisions.
       </p>
       <p>
         Located conveniently in{" "}
-        <a href="https://pathacondiagnostics.com/ecg-test-in-rajajinagar-bangalore">
-          Rajajinagar, Pathacon Diagnostics
+        <a href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore">
+          Bangalore, Pathacon Diagnostics
         </a>{" "}
         is equipped with the latest technology and experienced healthcare
         professionals to ensure that every{" "}
-        <a href="https://pathacondiagnostics.com/ecg-test-in-rajajinagar-bangalore">
-          ECG Test in Rajajinagar, Bangalore
+        <a href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore">
+          ECG Test in Bangalore, Bangalore
         </a>{" "}
         is performed with precision and care. Our aim is to provide accurate
         results, which help in diagnosing and managing various heart conditions,

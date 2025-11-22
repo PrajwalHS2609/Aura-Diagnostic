@@ -4,26 +4,26 @@ const RadiologyFooterContent = () => {
   return (
     <div className="pathologyHeadContent">
       <h3>
-        Why Choose Pathacon Diagnostics for Radiology Services in Rajajinagar,
+        Why Choose Pathacon Diagnostics for Radiology Services in Bangalore,
         Bangalore?{" "}
       </h3>
       <p>
         Choosing the right diagnostic center is crucial for receiving reliable
         results and ensuring effective medical care. At Pathacon Diagnostics, we
         take pride in offering state-of-the-art radiology services in
-        Rajajinagar, Bangalore, backed by advanced technology and a team of
+        Bangalore, Bangalore, backed by advanced technology and a team of
         experienced professionals. Our facility is equipped with the latest
         imaging equipment, enabling us to deliver precise and timely diagnostic
         solutions tailored to your individual needs.
       </p>
       <p>
-        Our radiology services in Rajajinagar, Bangalore encompass a wide range
+        Our radiology services in Bangalore, Bangalore encompass a wide range
         of imaging modalities, including{" "}
-        <a href="https://pathacondiagnostics.com/ultrasound-scan-in-rajajinagar-bangalore">
+        <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           X-rays
         </a>
         ,{" "}
-        <a href="https://pathacondiagnostics.com/ultrasound-scan-in-rajajinagar-bangalore">
+        <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           ultrasounds
         </a>
         , CT scans, and MRIs. This diverse portfolio allows us to address
@@ -36,7 +36,7 @@ const RadiologyFooterContent = () => {
       <p>
         Radiology plays a critical role in modern medicine, enabling early
         detection and accurate diagnosis of various health conditions. The
-        insights gained from radiology services in Rajajinagar, Bangalore
+        insights gained from radiology services in Bangalore, Bangalore
         significantly influence treatment decisions and overall patient
         outcomes. Here are a few reasons why radiology is essential in
         healthcare:
@@ -85,7 +85,7 @@ const RadiologyFooterContent = () => {
       <h3>Patient-Centric Approach to Radiology Services</h3>
       <p>
         At Pathacon Diagnostics, we prioritize patient comfort and care
-        throughout the imaging process. Our radiology services in Rajajinagar,
+        throughout the imaging process. Our radiology services in Bangalore,
         Bangalore are designed with you in mind, ensuring a seamless experience
         from start to finish. Here’s how we put our patients first:
       </p>
@@ -132,7 +132,7 @@ const RadiologyFooterContent = () => {
       <h3>Cutting-Edge Technology and Techniques</h3>
       <p>
         At Pathacon Diagnostics, we invest in the latest technology to ensure
-        that our radiology services in Rajajinagar, Bangalore meet the highest
+        that our radiology services in Bangalore, Bangalore meet the highest
         standards of quality and accuracy. Our state-of-the-art imaging
         equipment enhances our ability to deliver precise results, ultimately
         benefiting our patients’ health.
@@ -148,14 +148,14 @@ const RadiologyFooterContent = () => {
       <p>
         We believe that high-quality healthcare should be accessible to
         everyone. Pathacon Diagnostics is committed to providing affordable
-        radiology services in Rajajinagar, Bangalore, without compromising on
+        radiology services in Bangalore, Bangalore, without compromising on
         quality. We offer transparent pricing and accept various insurance
         plans, making it easier for you to receive the care you need.
       </p>
       <br />
       <h3>Convenient Location and Appointment Scheduling</h3>
       <p>
-        Located in the heart of Rajajinagar, Pathacon Diagnostics is easily
+        Located in the heart of Bangalore, Pathacon Diagnostics is easily
         accessible for residents in the area. Our convenient location allows
         patients to schedule appointments without the hassle of long commutes.
         We offer flexible scheduling options to accommodate busy lifestyles,
@@ -164,7 +164,7 @@ const RadiologyFooterContent = () => {
       <br />
       <h3>Book Your Radiology Services Today</h3>
       <p>
-        If you’re in need of reliable radiology services in Rajajinagar,
+        If you’re in need of reliable radiology services in Bangalore,
         Bangalore, look no further than Pathacon Diagnostics. Our team of
         dedicated professionals is ready to provide you with accurate and timely
         imaging services tailored to your unique healthcare needs.

@@ -13,15 +13,15 @@ const TmtPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          TMT Test in Rajajinagar, Bangalore | Best Treadmill Test in Bangalore{" "}
+          TMT Test in Bangalore, Bangalore | Best Treadmill Test in Bangalore{" "}
         </title>
         <meta
           name="description"
-          content="TMT Test in Rajajinagar, Bangalore. The Treadmill Test (TMT), also known as a stress test, helps evaluate how well your heart functions during physical exertion, providing critical insights into your cardiovascular system. abnormalities."
+          content="TMT Test in Bangalore, Bangalore. The Treadmill Test (TMT), also known as a stress test, helps evaluate how well your heart functions during physical exertion, providing critical insights into your cardiovascular system. abnormalities."
         />
         <link
           rel="canonical"
-          href="https://pathacondiagnostics.com/tmt-test-in-rajajinagar-bangalore"
+          href="https://pathacondiagnostics.com/tmt-test-in-Bangalore-bangalore"
         />
       </Helmet>
       <TmtHeader />

@@ -13,15 +13,15 @@ const CardiologyPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          Cardiology Test in Rajajinagar, Bangalore – ECHO, TMT & ECG{" "}
+          Cardiology Test in Bangalore, Bangalore – ECHO, TMT & ECG{" "}
         </title>
         <meta
           name="description"
-          content="Cardiology Test in Rajajinagar, Bangalore – Our tests are designed to evaluate the health of your heart, identify potential risks, and guide your doctor in making informed treatment decisions."
+          content="Cardiology Test in Bangalore, Bangalore – Our tests are designed to evaluate the health of your heart, identify potential risks, and guide your doctor in making informed treatment decisions."
         />
         <link
           rel="canonical"
-          href="https://pathacondiagnostics.com/cardiology-test-in-rajajinagar-bangalore"
+          href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore"
         />
       </Helmet>
       <CardiologyHeader />

@@ -23,7 +23,7 @@ const FetalScanPrepareMain = () => {
       <FetalScanPrepareCard
         icon={faHeart}
         head="Bring Loved Ones"
-        para="Feel free to invite family members or friends to share in the joy of seeing your baby during the 3D & 4D fetal scan in Rajajinagar, Bangalore."
+        para="Feel free to invite family members or friends to share in the joy of seeing your baby during the 3D & 4D fetal scan in Bangalore, Bangalore."
       />
     </div>
   );

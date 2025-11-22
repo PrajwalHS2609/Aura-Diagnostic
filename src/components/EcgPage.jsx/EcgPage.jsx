@@ -12,16 +12,16 @@ const EcgPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          ECG Test in Rajajinagar, Bangalore | Best Electrocardiogram Test in
+          ECG Test in Bangalore, Bangalore | Best Electrocardiogram Test in
           Bangalore{" "}
         </title>
         <meta
           name="description"
-          content=" ECG Test in Rajajinagar, Bangalore. An Electrocardiogram (ECG) is a crucial tool for detecting heart conditions by measuring the electrical activity of your heart."
+          content=" ECG Test in Bangalore, Bangalore. An Electrocardiogram (ECG) is a crucial tool for detecting heart conditions by measuring the electrical activity of your heart."
         />
         <link
           rel="canonical"
-          href="https://pathacondiagnostics.com/ecg-test-in-rajajinagar-bangalore"
+          href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore"
         />
       </Helmet>
       <EcgHeader/>

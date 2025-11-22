@@ -14,16 +14,16 @@ const DopplerScanPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          Doppler Scan in Rajajinagar, Bangalore | Best Doppler Scan in
+          Doppler Scan in Bangalore, Bangalore | Best Doppler Scan in
           Bangalore
         </title>
         <meta
           name="description"
-          content="Doppler Scan in Rajajinagar, Bangalore, which plays a vital role in assessing and monitoring various medical conditions. Book an Appointment!"
+          content="Doppler Scan in Bangalore, Bangalore, which plays a vital role in assessing and monitoring various medical conditions. Book an Appointment!"
         />
         <link
           rel="canonical"
-          href="https://pathacondiagnostics.com/doppler-scan-in-rajajinagar-bangalore "
+          href="https://pathacondiagnostics.com/doppler-scan-in-Bangalore-bangalore "
         />
       </Helmet>
       <DopplerScanHeader />

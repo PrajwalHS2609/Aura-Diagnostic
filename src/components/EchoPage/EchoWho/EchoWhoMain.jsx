@@ -17,23 +17,23 @@ const EchoWhoMain = () => {
         />
         <EchoWhoCard
           head="Chest pain: "
-          para="Persistent or recurring chest pain can be a sign of a heart issue, and an ECHO Test in Rajajinagar, Bangalore can help identify the cause."
+          para="Persistent or recurring chest pain can be a sign of a heart issue, and an ECHO Test in Bangalore, Bangalore can help identify the cause."
         />
         <EchoWhoCard
           head="Irregular heartbeat (arrhythmia)"
-          para="If you have an abnormal heart rhythm, an ECHO Test in Rajajinagar, Bangalore can evaluate how it affects your heart's function."
+          para="If you have an abnormal heart rhythm, an ECHO Test in Bangalore, Bangalore can evaluate how it affects your heart's function."
         />
         <EchoWhoCard
           head="Swelling in the legs or abdomen"
-          para="Fluid retention can be a symptom of heart failure, which can be detected through an ECHO Test in Rajajinagar, Bangalore."
+          para="Fluid retention can be a symptom of heart failure, which can be detected through an ECHO Test in Bangalore, Bangalore."
         />
         <EchoWhoCard
           head="Fatigue"
-          para="Chronic fatigue, particularly when accompanied by other heart disease symptoms, may warrant an ECHO Test in Rajajinagar, Bangalore to assess your heart’s health."
+          para="Chronic fatigue, particularly when accompanied by other heart disease symptoms, may warrant an ECHO Test in Bangalore, Bangalore to assess your heart’s health."
         />
         <EchoWhoCard
           head="Heart murmur"
-          para="If your doctor detects a heart murmur during a physical exam, they may recommend an ECHO Test in Rajajinagar, Bangalore to evaluate the condition of your heart valves."
+          para="If your doctor detects a heart murmur during a physical exam, they may recommend an ECHO Test in Bangalore, Bangalore to evaluate the condition of your heart valves."
         />
       </div>
     </div>

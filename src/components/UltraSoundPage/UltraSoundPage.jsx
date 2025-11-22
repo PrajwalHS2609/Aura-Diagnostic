@@ -14,15 +14,15 @@ const UltraSoundPage = () => {
     <div className="homepage">
       <Helmet>
         <title>
-          Ultrasound Scan in Rajajinagar, Bangalore - Book an Appointment{" "}
+          Ultrasound Scan in Bangalore, Bangalore - Book an Appointment{" "}
         </title>
         <meta
           name="description"
-          content="Ultrasound Scan in Rajajinagar, Bangalore - Book an Appointment! Whether you need a pregnancy scan, an abdominal ultrasound, or a thyroid scan. "
+          content="Ultrasound Scan in Bangalore, Bangalore - Book an Appointment! Whether you need a pregnancy scan, an abdominal ultrasound, or a thyroid scan. "
         />
         <link
           rel="canonical"
-          href="https://pathacondiagnostics.com/ultrasound-scan-in-rajajinagar-bangalore"
+          href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore"
         />
       </Helmet>
       <UltraSoundHeader />

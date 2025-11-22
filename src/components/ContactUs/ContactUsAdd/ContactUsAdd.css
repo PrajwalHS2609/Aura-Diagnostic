@@ -132,3 +132,78 @@
     height: 100%;
   }
 }
+
+
+
+.contactAddressSection {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 30px;
+  background: var(--customColor2);
+  border-radius: 12px;
+}
+
+.contactAddressCard {
+  display: flex;
+  gap: 15px;
+  align-items: flex-start;
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,.1);
+}
+
+.iconCircle {
+  min-width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 50%;
+  color: white;
+  background: var(--customColor1);
+}
+
+.contactAddressCard h6 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  color: var(--customColor2);
+}
+
+.contactAddressCard p,
+.contactAddressCard a {
+  font-size: 15px;
+  font-weight: 500;
+  color: black;
+  text-decoration: none;
+}
+
+.directionBtn {
+  margin-top: 10px;
+  padding: 10px 15px;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 1px solid var(--customColor2);
+  background: var(--customColor2);
+  color: white;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.directionBtn:hover {
+  background: white;
+  color: var(--customColor2);
+  border-color: var(--customColor2);
+}
+
+@media (max-width: 768px) {
+  .contactAddressCard {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .iconCircle {
+    margin-bottom: 10px;
+  }
+}
+
