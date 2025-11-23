@@ -32,7 +32,7 @@
   flex-direction: column;
   gap: 25px;
   animation: popupZoom 0.4s ease;
-  height: 100%; /* Prevents overflow */
+  height: fit-content; /* Prevents overflow */
   overflow: scroll;
   position: relative;
 }

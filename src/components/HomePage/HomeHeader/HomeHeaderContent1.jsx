@@ -14,7 +14,7 @@ let handleAppointment = () => {
         Aura <span>Diagnostics</span>
       </h1>
       <p>
-        Trusted Expertise in Healthcare Since 2001, Led by Dr. Keshav Murthy
+        Trusted Expertise in Healthcare Since 2001, Led by Dr. Ramyashree R M
         with 30 Years of Experience.
         <br />
         We specialize in Pathology, Sonography, X-Ray, Blood Testing, MRI, CT

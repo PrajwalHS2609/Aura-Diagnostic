@@ -11,7 +11,7 @@ const AboutUsContent = () => {
         {" "}
         <p>
           Founded in 2001, Aura Diagnostics is a trusted healthcare facility
-          under the leadership of Dr. Keshav Murthy G N, a highly experienced
+          under the leadership of Dr. Ramyashree R M G N, a highly experienced
           professional with over 30 years of expertise in the medical field.
           Aura Diagnostics offers a wide range of medical treatments and
           services, specializing in diagnostics to ensure accurate and timely

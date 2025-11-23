@@ -1,6 +1,10 @@
+"use client"
 import React from "react";
 import "./ServiceHeader.css";
 import Image from "next/image";
+let handleAppointment = () => {
+  document.querySelector(".bookPopUp").classList.add("showPopup");
+};
 const ServiceHeader = (props) => {
   return (
     <div className="service-header">
@@ -8,7 +12,7 @@ const ServiceHeader = (props) => {
         <h2>{props.title}</h2>
         <p>{props.para}</p>
         <div className="service-HeaderContentBtn">
-          <button className="button1">
+          <button className="button1" onClick={handleAppointment}>
             <span>Book Appointment</span>
           </button>
 

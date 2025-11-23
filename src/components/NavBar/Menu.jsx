@@ -35,10 +35,9 @@ const Menu = () => {
   const toggleSubDropdown = (submenu) => {
     setActiveSubDropdown((prev) => (prev === submenu ? null : submenu));
   };
-  const handleAppointment = () => {
-    document.querySelector(".bookPopUp").style.visibility = "visible";
-  };
-
+let handleAppointment = () => {
+  document.querySelector(".bookPopUp").classList.add("showPopup");
+};
   return (
     <div className="menuContainer">
       <div className="menuContainerList">

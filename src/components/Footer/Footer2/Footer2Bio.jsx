@@ -15,7 +15,7 @@ const Footer2Bio = () => {
       </div>
       <p>
         Aura Diagnostics, established in 2001, is a healthcare facility led
-        by Dr. Keshav Murthy G N, a seasoned professional with 30 years of
+        by Dr. Ramyashree R M G N, a seasoned professional with 30 years of
         experience.
       </p>
     </div>
