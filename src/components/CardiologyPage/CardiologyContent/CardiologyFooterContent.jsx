@@ -4,10 +4,10 @@ const CardiologyFooterContent = () => {
   return (
     <div className="pathologyHeadContent">
       <h3>
-        Why Pathacon Diagnostics for Cardiology Test in Bangalore?{" "}
+        WhyAura Diagnostics for Cardiology Test in Bangalore?{" "}
       </h3>
       <p>
-        When you choose Pathacon Diagnostics for your cardiology test in
+        When you chooseAura Diagnostics for your cardiology test in
         Bangalore, you’re choosing precision, expertise, and
         comprehensive care. Our facility is equipped with the latest diagnostic
         technology, allowing for detailed and accurate heart evaluations. We
@@ -53,7 +53,7 @@ const CardiologyFooterContent = () => {
           <br />
           <h6>Expertise You Can Trust</h6>
           <p>
-            At Pathacon Diagnostics, our team of highly skilled cardiologists
+            AtAura Diagnostics, our team of highly skilled cardiologists
             and technicians is dedicated to providing accurate and reliable
             cardiology tests in Bangalore. We take a
             patient-centric approach, ensuring that every test is conducted with
@@ -64,7 +64,7 @@ const CardiologyFooterContent = () => {
           Our cardiologists are available to discuss your test results and
           recommend appropriate follow-up care, whether that involves lifestyle
           changes, medications, or further diagnostic testing. By choosing
-          Pathacon Diagnostics, you’re choosing a healthcare partner committed
+         Aura Diagnostics, you’re choosing a healthcare partner committed
           to helping you achieve and maintain optimal heart health.
         </ul>
         <ul>
@@ -72,7 +72,7 @@ const CardiologyFooterContent = () => {
           <h6>Convenient and Accessible Services</h6>
           <p>
             We understand that when it comes to healthcare, convenience matters.
-            That’s why Pathacon Diagnostics offers flexible appointment
+            That’s whyAura Diagnostics offers flexible appointment
             scheduling for your cardiology test in Bangalore. Our
             diagnostic center is conveniently located in the heart of
             Bangalore, making it easy for you to access the care you need when
@@ -90,7 +90,7 @@ const CardiologyFooterContent = () => {
           <br />
           <h6>Affordable Cardiology Test in Bangalore</h6>
           <p>
-            At Pathacon Diagnostics, we believe that everyone should have access
+            AtAura Diagnostics, we believe that everyone should have access
             to affordable, high-quality healthcare. That’s why we offer
             competitive pricing for our cardiology tests in Bangalore,
             Bangalore, ensuring that you receive the best possible care without
@@ -103,7 +103,7 @@ const CardiologyFooterContent = () => {
           <br />
           <h6>Comprehensive Care Under One Roof</h6>
           <p>
-            Pathacon Diagnostics is more than just a diagnostic center—it’s a
+           Aura Diagnostics is more than just a diagnostic center—it’s a
             comprehensive healthcare provider dedicated to your well-being. In
             addition to our cardiology tests in Bangalore, we offer
             a full suite of diagnostic services, including pathology, radiology,
@@ -111,7 +111,7 @@ const CardiologyFooterContent = () => {
             in one convenient location.
           </p>
           <p>
-            By choosing Pathacon Diagnostics, you’re choosing a healthcare
+            By choosingAura Diagnostics, you’re choosing a healthcare
             partner that prioritizes your overall health and wellness. Our
             multidisciplinary approach ensures that you receive the care and
             attention you deserve, whether you’re undergoing a routine check-up
@@ -126,7 +126,7 @@ const CardiologyFooterContent = () => {
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
           cardiology test in Bangalore
         </a>
-        , look no further than Pathacon Diagnostics. With our cutting-edge
+        , look no further thanAura Diagnostics. With our cutting-edge
         technology, expert team, and commitment to patient care, we’re here to
         provide the diagnostic insights you need to protect your heart health.
         Don’t wait—schedule your cardiology test in Bangalore today

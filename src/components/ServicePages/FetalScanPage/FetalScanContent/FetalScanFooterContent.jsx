@@ -3,9 +3,9 @@ import React from "react";
 const FetalScanFooterContent = () => {
   return (
     <div className="pathologyHeadContent">
-      <h3>Why Choose Pathacon Diagnostics for 3D & 4D Fetal Scans? </h3>
+      <h3>Why ChooseAura Diagnostics for 3D & 4D Fetal Scans? </h3>
       <p>
-        When it comes to 3D & 4D fetal scans in Bangalore, Pathacon
+        When it comes to 3D & 4D fetal scans in Bangalore,Aura
         Diagnostics is a trusted name, offering high-quality services that
         ensure both medical accuracy and a memorable experience for expecting
         parents. Here’s why we stand out:
@@ -26,7 +26,7 @@ const FetalScanFooterContent = () => {
           <br />
           <h6>2. Experienced Technicians:</h6>
           <p>
-            At Pathacon Diagnostics, our team of highly trained technicians and
+            AtAura Diagnostics, our team of highly trained technicians and
             sonographers have extensive experience in performing 3D & 4D fetal
             scans in Bangalore. They understand the intricacies of
             fetal imaging, ensuring that you receive accurate results and a safe
@@ -60,7 +60,7 @@ const FetalScanFooterContent = () => {
           <br />
           <h6>5. Affordable Pricing:</h6>
           <p>
-            At Pathacon Diagnostics, we believe that advanced prenatal care
+            AtAura Diagnostics, we believe that advanced prenatal care
             should be accessible to all. That’s why we offer competitive pricing
             for our 3D & 4D fetal scans in Bangalore, ensuring that
             you can enjoy this once-in-a-lifetime experience without breaking
@@ -81,19 +81,19 @@ const FetalScanFooterContent = () => {
         emotional way.
       </p>
       <p>
-        At Pathacon Diagnostics, we ensure that your 3D & 4D fetal scan in
+        AtAura Diagnostics, we ensure that your 3D & 4D fetal scan in
         Bangalore is conducted with the latest technology and the
         utmost care, making the experience unforgettable for you and your
         family.
       </p>
       <br />
-      <h3>How to Schedule Your 3D & 4D Fetal Scan at Pathacon Diagnostics</h3>
+      <h3>How to Schedule Your 3D & 4D Fetal Scan atAura Diagnostics</h3>
       <p>
         Booking your{" "}
         <a href="https://pathacondiagnostics.com/3d-and-4d-fetal-scan-in-Bangalore-bangalore">
           3D & 4D fetal scan in Bangalore
         </a>{" "}
-        with Pathacon Diagnostics is easy and convenient. You can schedule your
+        withAura Diagnostics is easy and convenient. You can schedule your
         appointment by calling our center or visiting our website to book
         online. Our friendly staff will help you select a date and time that
         works best for you and your family.
@@ -107,7 +107,7 @@ const FetalScanFooterContent = () => {
       <br />
       <h3>Conclusion: A Unique Opportunity to Connect with Your Baby</h3>
       <p>
-        The 3D & 4D fetal scan in Bangalore offered by Pathacon
+        The 3D & 4D fetal scan in Bangalore offered byAura
         Diagnostics provides an extraordinary opportunity to see your baby like
         never before. Whether it’s capturing that first smile or watching them
         move in real-time, these scans offer priceless moments that bring you
@@ -115,7 +115,7 @@ const FetalScanFooterContent = () => {
       </p>
       <p>
         With our advanced technology, experienced staff, and commitment to
-        patient care, Pathacon Diagnostics is your trusted partner for prenatal
+        patient care,Aura Diagnostics is your trusted partner for prenatal
         imaging. Book your 3D & 4D fetal scan in Bangalore today
         and experience the joy of seeing your baby’s first moments!
       </p>

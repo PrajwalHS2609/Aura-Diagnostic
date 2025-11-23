@@ -33,7 +33,7 @@
   gap: 25px;
   animation: popupZoom 0.4s ease;
   height: fit-content; /* Prevents overflow */
-  overflow: scroll;
+  overflow-y: scroll;
   position: relative;
 }
 .formRow {
@@ -143,8 +143,7 @@ textarea:focus {
   .popupContainer {
     width: 95%;
     padding: 25px;
+    transform: scale(0.8);
   }
-  .formRow {
-    flex-direction: column; /* Stack only on mobile */
-  }
+
 }

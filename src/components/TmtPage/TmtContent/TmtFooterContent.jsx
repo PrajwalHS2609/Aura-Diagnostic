@@ -22,12 +22,12 @@ const TmtFooterContent = () => {
 
       <br />
       <h3>
-        Why Choose Pathacon Diagnostics for Your TMT Test in Bangalore,
+        Why ChooseAura Diagnostics for Your TMT Test in Bangalore,
         Bangalore?
       </h3>
       <p>
         When it comes to cardiovascular health, accuracy and expertise are
-        paramount. At Pathacon Diagnostics, we provide the TMT Test in
+        paramount. AtAura Diagnostics, we provide the TMT Test in
         Bangalore with a team of experienced healthcare
         professionals who are dedicated to your well-being. Here are some
         reasons why you should consider us for your TMT test:
@@ -55,7 +55,7 @@ const TmtFooterContent = () => {
           <br />
           <h6> 3. Patient-Centered Care:</h6>
           <p>
-            At Pathacon Diagnostics, we prioritize your comfort and care during
+            AtAura Diagnostics, we prioritize your comfort and care during
             the TMT Test in Bangalore. Our friendly staff ensures
             that the entire process is smooth and stress-free.
           </p>
@@ -73,7 +73,7 @@ const TmtFooterContent = () => {
           <br />
           <h6> 5. Convenient Location:</h6>
           <p>
-            Located in the heart of Bangalore, Pathacon Diagnostics is easily
+            Located in the heart of Bangalore,Aura Diagnostics is easily
             accessible, making it simple for you to schedule your TMT Test in
             Bangalore without the hassle of long commutes.
           </p>
@@ -143,7 +143,7 @@ const TmtFooterContent = () => {
         abnormalities that may not be apparent when the heart is at rest.
       </p>
       <p>
-        At Pathacon Diagnostics, the{" "}
+        AtAura Diagnostics, the{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
           {" "}
           TMT Test in Bangalore
@@ -159,7 +159,7 @@ const TmtFooterContent = () => {
       <p>
         The TMT Test in Bangalore typically follows a simple and
         straightforward process. Here’s what you can expect during your visit to
-        Pathacon Diagnostics for your TMT test:
+       Aura Diagnostics for your TMT test:
       </p>
       <br />
       <p>
@@ -231,7 +231,7 @@ const TmtFooterContent = () => {
         <a href="https://pathacondiagnostics.com/tmt-test-in-Bangalore-bangalore">
           TMT Test in Bangalore
         </a>{" "}
-        is easy, and our team at Pathacon Diagnostics will provide you with
+        is easy, and our team atAura Diagnostics will provide you with
         detailed instructions ahead of time. Here are some general guidelines to
         follow:
       </p>
@@ -274,7 +274,7 @@ const TmtFooterContent = () => {
         Prioritize Your Heart Health with a TMT Test in Bangalore
       </h3>
       <p>
-        At Pathacon Diagnostics, we are committed to helping you maintain a
+        AtAura Diagnostics, we are committed to helping you maintain a
         healthy heart. The TMT Test in Bangalore is an essential
         tool for diagnosing and managing heart conditions, providing accurate
         insights into how your heart performs under stress. Whether you are at
@@ -285,7 +285,7 @@ const TmtFooterContent = () => {
         is a critical step in ensuring your long-term heart health.
       </p>
       <p>
-        Contact Pathacon Diagnostics today to schedule your TMT Test in
+        ContactAura Diagnostics today to schedule your TMT Test in
         Bangalore, and take the first step toward safeguarding your
         cardiovascular wellness. With our expertise, advanced technology, and
         patient-centered approach, you can trust us to provide the highest

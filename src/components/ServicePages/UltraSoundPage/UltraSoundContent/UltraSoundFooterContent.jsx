@@ -5,11 +5,11 @@ const UltraSoundFooterContent = () => {
     <div className="service-headContent">
       <br />
       <h3>
-        Why Choose Pathacon Diagnostics for Your Ultrasound Scan in Bangalore,
+        Why ChooseAura Diagnostics for Your Ultrasound Scan in Bangalore,
         Bangalore?
       </h3>
       <p>
-        At Pathacon Diagnostics, we understand the importance of reliable
+        AtAura Diagnostics, we understand the importance of reliable
         diagnostic services in making informed health decisions. Our Ultrasound
         Scan in Bangalore offers patients access to top-tier
         medical technology and highly trained professionals committed to
@@ -29,7 +29,7 @@ const UltraSoundFooterContent = () => {
       <br />
       <h3>Advanced Technology and Expertise</h3>
       <p>
-        One of the key reasons to choose Pathacon Diagnostics for your
+        One of the key reasons to chooseAura Diagnostics for your
         <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           {" "}
           Ultrasound Scan in Bangalore
@@ -37,14 +37,14 @@ const UltraSoundFooterContent = () => {
         is our commitment to cutting-edge technology. Ultrasound imaging has
         revolutionized the way doctors diagnose and monitor conditions. It is a
         safe, painless, and highly effective way to capture real-time images of
-        the body's internal structures. At Pathacon Diagnostics, we utilize the
+        the body's internal structures. AtAura Diagnostics, we utilize the
         latest ultrasound equipment that provides clear, high-definition images,
         ensuring that every scan is performed with the highest degree of
         accuracy.
       </p>
       <p>
         Our radiologists and technicians are experienced professionals, trained
-        in handling the most complex of cases. When you come to Pathacon
+        in handling the most complex of cases. When you come toAura
         Diagnostics for an{" "}
         <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           {" "}
@@ -60,7 +60,7 @@ const UltraSoundFooterContent = () => {
         Convenience and Care with Our Ultrasound Scan in Bangalore
       </h3>
       <p>
-        At Pathacon Diagnostics, we know that medical procedures can sometimes
+        AtAura Diagnostics, we know that medical procedures can sometimes
         cause stress and anxiety. That’s why we are committed to making your
         <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           {" "}
@@ -100,7 +100,7 @@ const UltraSoundFooterContent = () => {
         <a href="https://pathacondiagnostics.com/ultrasound-scan-in-Bangalore-bangalore">
           Ultrasound Scan in Bangalore
         </a>
-        , look no further than Pathacon Diagnostics. Our experienced team,
+        , look no further thanAura Diagnostics. Our experienced team,
         advanced technology, and commitment to patient care make us the
         preferred choice for diagnostic services in the region. Whether you need
         a pregnancy ultrasound, an abdominal scan, or a more specialized
@@ -108,7 +108,7 @@ const UltraSoundFooterContent = () => {
         here to provide the answers you need.
       </p>
       <p>
-        At Pathacon Diagnostics, we are dedicated to helping you maintain your
+        AtAura Diagnostics, we are dedicated to helping you maintain your
         health with precision diagnostics and compassionate care. To book your
         Ultrasound Scan in Bangalore, contact us today and take the
         first step toward better health and peace of mind.

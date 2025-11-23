@@ -1,7 +1,7 @@
 import React from "react";
 import "./WhatsApp.css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import pathaconLogo from "./../../Images/AuraFav.png"
+importAuraLogo from "./../../Images/AuraFav.png"
 const WhatsApp = () => {
   // let [visible, setVisible] = useState();
   // useEffect(() => {

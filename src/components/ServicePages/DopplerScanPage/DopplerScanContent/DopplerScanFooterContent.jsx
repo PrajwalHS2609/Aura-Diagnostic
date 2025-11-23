@@ -21,7 +21,7 @@ const DopplerScanFooterContent = () => {
         or abnormal patterns that might indicate a serious medical issue.
       </p>
       <p>
-        At Pathacon Diagnostics, our highly trained professionals ensure that
+        AtAura Diagnostics, our highly trained professionals ensure that
         every Doppler scan in Bangalore is conducted with precision
         and care, providing accurate results that guide effective medical
         treatments.
@@ -91,12 +91,12 @@ const DopplerScanFooterContent = () => {
       </p>
       <br />
       <h3>
-        Why Choose Pathacon Diagnostics for Doppler Scan in Bangalore,
+        Why ChooseAura Diagnostics for Doppler Scan in Bangalore,
         Bangalore?
       </h3>
       <p>
         When it comes to choosing a facility for your Doppler scan in
-        Bangalore, Pathacon Diagnostics stands out for several
+        Bangalore,Aura Diagnostics stands out for several
         reasons:
       </p>
       <br />
@@ -104,7 +104,7 @@ const DopplerScanFooterContent = () => {
         <ul>
           <h6>1. State-of-the-Art Technology:</h6>
           <p>
-            Pathacon Diagnostics uses the latest in ultrasound and Doppler
+           Aura Diagnostics uses the latest in ultrasound and Doppler
             imaging technology to ensure the highest level of accuracy. Our
             advanced equipment allows us to capture detailed images of blood
             flow, providing physicians with the information they need to make
@@ -115,7 +115,7 @@ const DopplerScanFooterContent = () => {
           <br />
           <h6>2. Expert Team of Radiologists:</h6>
           <p>
-            At Pathacon Diagnostics, our team of highly trained technicians and
+            AtAura Diagnostics, our team of highly trained technicians and
             sonographers have extensive experience in performing 3D & 4D fetal
             scans in Bangalore. They understand the intricacies of
             fetal imaging, ensuring that you receive accurate results and a safe
@@ -129,7 +129,7 @@ const DopplerScanFooterContent = () => {
           <br />
           <h6>3. Comprehensive Care:</h6>
           <p>
-            At Pathacon Diagnostics, we believe in providing holistic care. From
+            AtAura Diagnostics, we believe in providing holistic care. From
             the moment you arrive for your Doppler scan in Bangalore,
             Bangalore, our team is committed to making your experience as
             comfortable and stress-free as possible. We understand the
@@ -142,7 +142,7 @@ const DopplerScanFooterContent = () => {
           <h6>4. Timely Results:</h6>
           <p>
             We know that waiting for results can be stressful, especially when
-            your health is concerned. Pathacon Diagnostics prioritizes
+            your health is concerned.Aura Diagnostics prioritizes
             delivering timely and accurate results for your Doppler scan in
             Bangalore, so you can receive the medical attention you
             need without delay.
@@ -152,7 +152,7 @@ const DopplerScanFooterContent = () => {
           <br />
           <h6>5. Affordable Pricing:</h6>
           <p>
-            At Pathacon Diagnostics, we believe that everyone should have access
+            AtAura Diagnostics, we believe that everyone should have access
             to top-quality diagnostic services. That’s why we offer competitive
             pricing for our Doppler scan services in Bangalore,
             ensuring that patients receive the care they need without financial
@@ -170,20 +170,20 @@ const DopplerScanFooterContent = () => {
         sounds of blood flow during the procedure, but it is completely painless
         and safe.
       </p>
-      <h3>Trust Pathacon Diagnostics for Accurate Doppler Scans</h3>
+      <h3>TrustAura Diagnostics for Accurate Doppler Scans</h3>
       <p>
         When it comes to{" "}
         <a href="https://pathacondiagnostics.com/doppler-scan-in-Bangalore-bangalore">
           Doppler scan in Bangalore
         </a>
-        , Pathacon Diagnostics offers unparalleled service, combining
+        ,Aura Diagnostics offers unparalleled service, combining
         cutting-edge technology with compassionate care. Whether you're
         monitoring a high-risk pregnancy, assessing vascular health, or
         investigating a cardiovascular issue, our expert team is here to provide
         precise and timely results.
       </p>
       <p>
-        Choose Pathacon Diagnostics for your Doppler scan in Bangalore,
+        ChooseAura Diagnostics for your Doppler scan in Bangalore,
         Bangalore, and experience the difference in quality healthcare. Contact
         us today to schedule your appointment and take the first step towards
         better health.

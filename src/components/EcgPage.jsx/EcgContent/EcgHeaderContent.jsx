@@ -5,10 +5,10 @@ const EcgHeaderContent = () => {
     <div className="pathologyHeadContent">
       <h1>ECG Test in Bangalore</h1>
       <br />
-      <h3> Comprehensive Heart Care at Pathacon Diagnostics </h3>
+      <h3> Comprehensive Heart Care atAura Diagnostics </h3>
       <p>
         When it comes to ensuring your heart health, timely and accurate
-        diagnosis is essential. At Pathacon Diagnostics, we provide a range of
+        diagnosis is essential. AtAura Diagnostics, we provide a range of
         advanced diagnostic tests to assess your cardiovascular health,
         including the{" "}
         <a href="https://pathacondiagnostics.com/">
@@ -24,7 +24,7 @@ const EcgHeaderContent = () => {
       <p>
         Located conveniently in{" "}
         <a href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore">
-          Bangalore, Pathacon Diagnostics
+          Bangalore,Aura Diagnostics
         </a>{" "}
         is equipped with the latest technology and experienced healthcare
         professionals to ensure that every{" "}

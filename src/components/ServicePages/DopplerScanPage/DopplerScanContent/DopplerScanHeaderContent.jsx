@@ -7,7 +7,7 @@ const DopplerScanHeaderContent = () => {
       <br />
       <h3> A Key to Precision in Diagnostic Imaging</h3>
       <p>
-        Pathacon Diagnostics in Bangalore, is at the forefront of
+       Aura Diagnostics in Bangalore, is at the forefront of
         offering advanced and comprehensive diagnostic services, including
         <a href="https://pathacondiagnostics.com/doppler-scan-in-Bangalore-bangalore">
           {" "}
@@ -18,7 +18,7 @@ const DopplerScanHeaderContent = () => {
         invaluable for examining blood flow through arteries and veins, helping
         to identify issues with circulation, blood clots, or even underlying
         cardiovascular diseases. With a focus on patient care and
-        state-of-the-art technology, Pathacon Diagnostics ensures that every{" "}
+        state-of-the-art technology,Aura Diagnostics ensures that every{" "}
         <a href="https://pathacondiagnostics.com/doppler-scan-in-Bangalore-bangalore">
           Doppler scan in Bangalore
         </a>{" "}

@@ -35,9 +35,9 @@ const Menu = () => {
   const toggleSubDropdown = (submenu) => {
     setActiveSubDropdown((prev) => (prev === submenu ? null : submenu));
   };
-let handleAppointment = () => {
-  document.querySelector(".bookPopUp").classList.add("showPopup");
-};
+  let handleAppointment = () => {
+    document.querySelector(".bookPopUp").classList.add("showPopup");
+  };
   return (
     <div className="menuContainer">
       <div className="menuContainerList">
@@ -336,6 +336,42 @@ let handleAppointment = () => {
               >
                 Soft Tissue Scans
               </Link>
+            </li>
+            <li>
+              <Link
+                href="/pregnancy-scan"
+                className={pathname === "/pregnancy-scan" ? "active" : ""}
+              >
+                Pregnancy Scan
+              </Link>
+              <div className="innerMenuDropDown">
+                <li>
+                  <Link
+                    href="/dating-scan"
+                    className={pathname === "/dating-scan" ? "active" : ""}
+                  >
+                    Dating Scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/anomaly-scan"
+                    className={pathname === "/anomaly-scan" ? "active" : ""}
+                  >
+                    Anomaly Scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/"
+                    className={
+                      pathname === "/3d-and-4d-nt-scan" ? "active" : ""
+                    }
+                  >
+                    3D and 4D NT Scan
+                  </Link>
+                </li>
+              </div>
             </li>
           </div>
         </li>
@@ -642,7 +678,9 @@ let handleAppointment = () => {
                             id="menuNavLink"
                             onClick={hideSideBar}
                             href={`/3d-pelvis`}
-                            className={pathname === "/3d-pelvis" ? "active" : ""}
+                            className={
+                              pathname === "/3d-pelvis" ? "active" : ""
+                            }
                           >
                             3D pelvis
                           </Link>
@@ -667,7 +705,10 @@ let handleAppointment = () => {
                             onClick={hideSideBar}
                             href={`/3d-follicle-monitoring-with-doppler`}
                             className={
-                              pathname === "/3d-follicle-monitoring-with-doppler" ? "active" : ""
+                              pathname ===
+                              "/3d-follicle-monitoring-with-doppler"
+                                ? "active"
+                                : ""
                             }
                           >
                             3D Follicle monitoring with Doppler
@@ -693,7 +734,9 @@ let handleAppointment = () => {
                             onClick={hideSideBar}
                             href={`/uterine-biophysical-profile`}
                             className={
-                              pathname === "/uterine-biophysical-profile" ? "active" : ""
+                              pathname === "/uterine-biophysical-profile"
+                                ? "active"
+                                : ""
                             }
                           >
                             Uterine biophysical profile
@@ -726,7 +769,9 @@ let handleAppointment = () => {
                             id="menuNavLink"
                             onClick={hideSideBar}
                             href={`/carotid-doppler`}
-                            className={pathname === "/carotid-doppler" ? "active" : ""}
+                            className={
+                              pathname === "/carotid-doppler" ? "active" : ""
+                            }
                           >
                             Carotid Doppler
                           </Link>
@@ -738,9 +783,7 @@ let handleAppointment = () => {
                             onClick={hideSideBar}
                             href={`/renal-doppler`}
                             className={
-                              pathname === "/renal-doppler"
-                                ? "active"
-                                : ""
+                              pathname === "/renal-doppler" ? "active" : ""
                             }
                           >
                             Renal Doppler
@@ -753,8 +796,7 @@ let handleAppointment = () => {
                             onClick={hideSideBar}
                             href={`/upper-and-lower-limb-doppler`}
                             className={
-                              pathname ===
-                              "/upper-and-lower-limb-doppler"
+                              pathname === "/upper-and-lower-limb-doppler"
                                 ? "active"
                                 : ""
                             }
@@ -816,9 +858,7 @@ let handleAppointment = () => {
                             onClick={hideSideBar}
                             href={`/liver-elastography`}
                             className={
-                              pathname === "/liver-elastography"
-                                ? "active"
-                                : ""
+                              pathname === "/liver-elastography" ? "active" : ""
                             }
                           >
                             Liver elastography
@@ -831,13 +871,76 @@ let handleAppointment = () => {
                             onClick={hideSideBar}
                             href={`/fatty-liver-quantification`}
                             className={
-                              pathname ===
-                              "/fatty-liver-quantification"
+                              pathname === "/fatty-liver-quantification"
                                 ? "active"
                                 : ""
                             }
                           >
                             Fatty liver quantification
+                          </Link>
+                        </li>
+                      </div>
+                    )}
+                  </li>
+                                    <li>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/advanced-usg`}
+                        className={pathname === "/advanced-usg" ? "active" : ""}
+                      >
+                        Pregnancy Scan
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("pregnancy")}
+                      />
+                    </span>
+                    {activeSubDropdown === "pregnancy" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/dating-scan`}
+                            className={
+                              pathname === "/dating-scan" ? "active" : ""
+                            }
+                          >
+                            Dating Scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/anomaly-scan`}
+                            className={
+                              pathname === "/anomaly-scan"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Anomaly Scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/3d-and-4d-nt-scan`}
+                            className={
+                              pathname === "/3d-and-4d-nt-scan"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            3D and 4D NT Scan
                           </Link>
                         </li>
                       </div>

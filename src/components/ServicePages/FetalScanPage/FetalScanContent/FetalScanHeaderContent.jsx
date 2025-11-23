@@ -9,7 +9,7 @@ const FetalScanHeaderContent = () => {
       <p>
         Expecting a child is one of the most thrilling experiences of life, and
         with advancements in medical technology, parents now have the unique
-        opportunity to see their baby like never before. Pathacon Diagnostics
+        opportunity to see their baby like never before.Aura Diagnostics
         offers{" "}
         <a href="https://pathacondiagnostics.com/3d-and-4d-fetal-scan-in-Bangalore-bangalore">
           3D & 4D fetal scan in Bangalore

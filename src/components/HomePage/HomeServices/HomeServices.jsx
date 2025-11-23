@@ -9,60 +9,73 @@ import "swiper/css/effect-coverflow";
 import "swiper/css/pagination";
 import "swiper/css/autoplay";
 import { EffectCoverflow, Pagination, Autoplay } from "swiper/modules";
-
-import DopplerScanning from "./../../../Images/ServiceImgs/Doppler Scanning.png";
+import obstetricsImg from "./../../../Images/HomeServiceImgs/Obstetrics.png";
+import infertilityImg from "./../../../Images/HomeServiceImgs/Infertility scans.png";
+import advancedUsgImg from "./../../../Images/HomeServiceImgs/Advanced USG.png";
+import usgGuidedProcedureImg from "./../../../Images/HomeServiceImgs/USG guided procedure.png"
+import musculoskeletalScansImg from "./../../../Images/HomeServiceImgs/Musculoskeletal scans.png";
+import softTissueImg from "./../../../Images/HomeServiceImgs/Small Parts scans.png";
+import pregnancyScans from "./../../../Images/HomeServiceImgs/Pregnancy scans.png";
+import dopplerScanImg from "./../../../Images/ServiceImgs/Doppler Scanning.png";
 
 import Image from "next/image";
 const HomeServices = () => {
   const service = [
     {
       id: 1,
-      img: DopplerScanning,
+      img: obstetricsImg,
       title: "Obstetrics",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/nt-scan",
+      para: "Obstetrics is the medical specialty dedicated to pregnancy management, fetal monitoring, labor, and postpartum care to ensure safe maternal and newborn health.",
+      link: "/obstetrics",
     },
     {
       id: 2,
-      img: DopplerScanning,
+      img: infertilityImg,
       title: "Infertility scans",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/anomaly-scan",
+      para: "Infertility scans assess reproductive organs, monitor ovulation, and detect conditions affecting conception, providing accurate insights for effective diagnosis and treatment planning.",
+      link: "/infertility-scan",
     },
     {
       id: 3,
-      img: DopplerScanning,
+      img: advancedUsgImg,
       title: "Advanced USG",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/growth-scan",
+      para: "Advanced USG uses high-resolution ultrasound technology to provide detailed imaging of internal organs and soft tissues, enabling accurate diagnosis, monitoring, and early detection of medical conditions.",
+      link: "/advanced-usg",
     },
     {
       id: 4,
-      img: DopplerScanning,
+      img: dopplerScanImg,
       title: "Doppler Scanning",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/fetal-echo",
+      para: "A Doppler scan measures blood flow in vessels using advanced ultrasound technology, helping detect blockages, clot risks, and circulation issues with precise, real-time imaging.",
+      link: "/doppler-scan",
     },
     {
       id: 5,
-      img: DopplerScanning,
+      img: usgGuidedProcedureImg,
       title: "USG guided procedure",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/fetal-urosonogram",
+      para: "A USG-guided procedure uses real-time ultrasound imaging to accurately guide needles or instruments for biopsies, fluid drainage, and targeted treatments, ensuring precision and safety.",
+      link: "/usg-guided-procedur",
     },
     {
       id: 6,
-      img: DopplerScanning,
+      img: musculoskeletalScansImg,
       title: "Musculoskeletal scans",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/fetal-urosonogram",
+      para: "Musculoskeletal scans use high-resolution ultrasound to evaluate muscles, tendons, ligaments, and joints, helping diagnose injuries, inflammation, and structural abnormalities with precise imaging.",
+      link: "/musculoskeletal-scans",
     },
     {
       id: 7,
-      img: DopplerScanning,
-      title: "soft tissue/ small parts scans",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/fetal-urosonogram",
+      img: softTissueImg,
+      title: "Soft Tissue/ Small Parts Scans",
+      para: "Soft Tissue/Small Parts scans provide detailed ultrasound imaging of glands, lymph nodes, thyroid, breast, and other soft tissues, helping detect abnormalities, cysts, and early pathological changes with accuracy.",
+      link: "/soft-tissue-scans",
+    },
+    {
+      id: 8,
+      img: pregnancyScans,
+      title: "Pregnancy scans",
+      para: "Pregnancy scans use ultrasound imaging to monitor fetal growth, check development, and assess maternal health, ensuring a safe and accurate evaluation throughout pregnancy.",
+      link: "/pregnancy-scan",
     },
   ];
   return (

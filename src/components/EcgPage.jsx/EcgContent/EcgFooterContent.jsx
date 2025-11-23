@@ -22,21 +22,21 @@ const EcgFooterContent = () => {
         <a href="https://pathacondiagnostics.com/ecg-test-in-Bangalore-bangalore">
           ECG Test in Bangalore
         </a>{" "}
-        at Pathacon Diagnostics is quick and painless, involving the placement
+        atAura Diagnostics is quick and painless, involving the placement
         of small electrodes on the skin of your chest, arms, and legs. These
         electrodes detect electrical activity, which is then displayed as waves
         on a monitor or printed for further analysis.
       </p>
       <br />
       <h3>
-        Why Choose Pathacon Diagnostics for Your ECG Test in Bangalore,
+        Why ChooseAura Diagnostics for Your ECG Test in Bangalore,
         Bangalore?{" "}
       </h3>
       <p>
-        At Pathacon Diagnostics, we take pride in offering a patient-centric
+        AtAura Diagnostics, we take pride in offering a patient-centric
         approach, ensuring that each ECG Test in Bangalore is
         tailored to meet the individual needs of our patients. Here are a few
-        reasons to choose Pathacon Diagnostics:
+        reasons to chooseAura Diagnostics:
       </p>
       <br />
       <p>
@@ -52,7 +52,7 @@ const EcgFooterContent = () => {
           <br />
           <h6>2. Expert Healthcare Professionals:</h6>
           <p>
-            The ECG tests at Pathacon Diagnostics are performed and reviewed by
+            The ECG tests atAura Diagnostics are performed and reviewed by
             experienced healthcare professionals, including cardiologists,
             ensuring accurate interpretation and personalized care.
           </p>
@@ -83,7 +83,7 @@ const EcgFooterContent = () => {
           <br />
           <h6> 5. Accessible Location:</h6>
           <p>
-            Situated in Bangalore, Pathacon Diagnostics is easily accessible
+            Situated in Bangalore,Aura Diagnostics is easily accessible
             to residents of Bangalore, making it convenient for you to get your
             ECG Test in Bangalore done without the hassle of long
             commutes.
@@ -170,14 +170,14 @@ const EcgFooterContent = () => {
         Prioritize Your Heart Health with an ECG Test in Bangalore
       </h3>
       <p>
-        At Pathacon Diagnostics, your heart health is our priority. The{" "}
+        AtAura Diagnostics, your heart health is our priority. The{" "}
         <a href="https://pathacondiagnostics.com/cardiology-test-in-Bangalore-bangalore">
           ECG Test in Bangalore
         </a>{" "}
         is an essential tool in diagnosing and monitoring heart conditions,
         providing critical insights into your cardiovascular health. Whether you
         are experiencing symptoms of heart disease or are at risk of developing
-        heart conditions, our expert team at Pathacon Diagnostics is here to
+        heart conditions, our expert team atAura Diagnostics is here to
         help.
       </p>
       <p>
@@ -185,7 +185,7 @@ const EcgFooterContent = () => {
         choice for residents seeking an{" "}
         <a href="https://pathacondiagnostics.com/">ECG Test in Bangalore</a>,
         Bangalore. Contact us today to schedule your appointment and take a
-        proactive step toward safeguarding your heart health. With Pathacon
+        proactive step toward safeguarding your heart health. WithAura
         Diagnostics by your side, you can rest assured that your cardiovascular
         well-being is in good hands.
       </p>
