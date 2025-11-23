@@ -1,26 +1,24 @@
 "use client";
 import React from "react";
-import icon from "./../../../Images/icon.png"
+import icon from "./../../../Images/icon.png";
 import Image from "next/image";
 const HomeHeaderContent1 = () => {
-let handleAppointment = () => {
-  document.querySelector(".bookPopUp").classList.add("showPopup");
-};
+  let handleAppointment = () => {
+    document.querySelector(".bookPopUp").classList.add("showPopup");
+  };
   return (
     <div className="homeHeaderContent1">
-      <Image src={icon} alt="icon"/>
+      <Image src={icon} alt="icon" />
 
       <h1>
         Aura <span>Diagnostics</span>
       </h1>
       <p>
-        Trusted Expertise in Healthcare Since 2001, Led by Dr. Ramyashree R M
-        with 30 Years of Experience.
-        <br />
-        We specialize in Pathology, Sonography, X-Ray, Blood Testing, MRI, CT
-        Scan, Doppler, ECG, TMT, PFT, Dental X-Ray, and Consultations. To make
-        healthcare more accessible, we offer Home Visits throughout Bangalore,
-        putting your well-being at the forefront of our service.
+        Led by Dr. Kiran Ramaiah (10+ years of experience), we deliver reliable
+        healthcare and advanced diagnostics in Girinagar. From pregnancy and
+        obstetric scans to USG-guided procedures, infertility scans, Doppler,
+        ECG, and full blood test services with free home sample collection, we
+        ensure safe, accurate, and patient-friendly care since 2025.
       </p>
       <div className="homeHeaderContentBtn">
         <button className="button1" onClick={handleAppointment}>

@@ -92,6 +92,9 @@
   font-size: 15px;
   font-weight: 600;
 }
+.homeHeaderContent1 > p > span {
+  color: var(--customColor1);
+}
 .homeHeaderContentBtn {
   width: 100%;
   display: flex;
@@ -135,7 +138,7 @@
     font-size: 40px;
     text-align: center;
   }
-    .homeHeaderContent1 > h1>span {
+  .homeHeaderContent1 > h1 > span {
     font-size: 40px;
     text-align: center;
   }
