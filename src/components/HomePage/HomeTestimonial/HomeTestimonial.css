@@ -6,7 +6,7 @@
   justify-content: space-evenly;
   align-items: center;
   padding: 10px;
-  background-color: var(--customColor3);
+  background-color: white;
 }
 .homeTestimonial-content {
   /* border: solid green; */
@@ -46,7 +46,7 @@
   height: 400px;
   width: 80%;
   border-radius: 20px;
-  background-color: white;
+  background-color: var(--customColor3);
   backdrop-filter: blur(10px);
   display: flex;
   justify-content: space-between;
@@ -121,7 +121,7 @@
   align-items: center;
   flex-direction: column;
   gap: 50px;
-  background-color: white;
+  background-color: var(--customColor3);
   border-radius: 20px;
   backdrop-filter: blur(10px);
 }

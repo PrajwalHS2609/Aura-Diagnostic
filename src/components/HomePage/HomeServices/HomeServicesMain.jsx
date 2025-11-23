@@ -59,7 +59,7 @@ const HomeServicesMain = () => {
       <HomeServicesCard
         link="/"
         img={EchoCardiography}
-        head="soft tissue/ small parts scans"
+        head="Soft Tissue/ Small Parts Scans"
         para="Explore the intricate details of your heart with Echocardiography at Aura Diagnostics. Our state-of-the-art technology provides precise evaluations, ensuring thorough cardiac care and accurate diagnoses."
       />
       {/* <HomeServicesCard
