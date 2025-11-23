@@ -15,7 +15,7 @@ import advancedUsgImg from "./../../../Images/HomeServiceImgs/Advanced USG.png";
 import usgGuidedProcedureImg from "./../../../Images/HomeServiceImgs/USG guided procedure.png"
 import musculoskeletalScansImg from "./../../../Images/HomeServiceImgs/Musculoskeletal scans.png";
 import softTissueImg from "./../../../Images/HomeServiceImgs/Small Parts scans.png";
-import pregnancyScans from "./../../../Images/HomeServiceImgs/Pregnancy scans.png";
+import pregnancyScans from "./../../../Images/HomeServiceImgs/Pregnancy Scan.png";
 import dopplerScanImg from "./../../../Images/ServiceImgs/Doppler Scanning.png";
 
 import Image from "next/image";
