@@ -8,7 +8,7 @@ const HomeServices = () => {
     <div className="homeService">
       <HomeServicesHead />
       <HomeServicesMain />
-      <div className="homeServiceContent">
+      {/* <div className="homeServiceContent">
         <h5>
           <Link class="fancy" href="/services" style={{textDecoration:"none"}}>
             <span className="top-key"></span>
@@ -17,7 +17,7 @@ const HomeServices = () => {
             <span className="bottom-key-2"></span>
           </Link>
         </h5>
-      </div>
+      </div> */}
     </div>
   );
 };

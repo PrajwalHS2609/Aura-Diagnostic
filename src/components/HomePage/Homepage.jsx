@@ -4,9 +4,8 @@ import "./HomePage.css";
 import HomeServices from "./HomeServices/HomeServices";
 import HomeWhy from "./HomeWhy/HomeWhy";
 import HomeDoctors from "./HomeDoctors/HomeDoctors";
-import Reviews from "./Reviews/Reviews";
 import HomeCerti from "./HomeCerti/HomeCerti";
-import BookPopUp from "../BookPopUp/BookPopUp";
+import HomeTestimonial from './HomeTestimonial/HomeTestimonial';
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -14,8 +13,8 @@ const Homepage = () => {
       <HomeCerti/>
       <HomeServices />
       <HomeWhy />
+      <HomeTestimonial/>
       <HomeDoctors />
-      <Reviews />
     </div>
   );
 };

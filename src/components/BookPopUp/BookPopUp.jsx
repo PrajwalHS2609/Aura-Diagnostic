@@ -4,55 +4,72 @@ import "./BookPopUp.css";
 import { FaX } from "react-icons/fa6";
 
 const BookPopUp = () => {
-  let handleExit = (e) => {
+  const handleExit = () => {
+    document.querySelector(".bookPopUp").classList.remove("showPopup");
+  };
+
+  const handleSubmit = (e) => {
     e.preventDefault();
-    document.querySelector(".bookPopUp").style.visibility = "hidden";
+    console.log("Submitted");
   };
-  let handleSubmit = (e) => {
-    e.preventSubmit();
-  };
+
   return (
     <div className="bookPopUp">
-      {" "}
-      <FaX className="popUpIcon1" onClick={handleExit} />
-      <form action="" onSubmit={handleSubmit}>
-        <div className="popFormFirstLvl">
-          <span>
-            {" "}
-            Name <span>*</span>
-          </span>
-          <div>
-            {" "}
-            <input type="text" name="" id="" placeholder="FirstName" />
-            <input type="text" name="" id="" placeholder="LastName" />
-          </div>
-        </div>
-        <div className="first">
+      <div className="popupContainer">
+        <div className="exitForm">
           {" "}
-          <div className="popFormFirstLvl">
-            <span>
-              Mobile No <span>*</span>
-            </span>{" "}
-            <input type="tel" name="" id="" />
+          <FaX className="closeBtn" onClick={handleExit} />
+        </div>
+
+        <h3>Book Appointment</h3>
+
+        <form onSubmit={handleSubmit}>
+          <div className="formRow">
+            <div className="inputGroup">
+              <label>
+                Name <span>*</span>
+              </label>
+              <input type="text" placeholder="First Name" />
+            </div>
+
+            <div className="inputGroup">
+              <label>&nbsp;</label>
+              <input type="text" placeholder="Last Name" />
+            </div>
           </div>
-          <div className="popFormFirstLvl">
-            <span>
-              Email <span>*</span>
-            </span>{" "}
-            <input type="email" name="" id="" />
+
+          <div className="formRow">
+            <div className="inputGroup">
+              <label>Mobile No *</label>
+              <input type="tel" />
+            </div>
+
+            <div className="inputGroup">
+              <label>Email *</label>
+              <input type="email" />
+            </div>
           </div>
-        </div>
-        <div className="popFormFirstLvl">
-          <span>Specific Test Name</span> <input type="email" name="" id="" />
-        </div>
-        <div className="popFormFirstLvl">
-          <span>Date & Time </span> <input type="datetime-local" />
-        </div>{" "}
-        <div className="popFormFirstLvl">
-          <span>Message</span> <textarea name="" id=""></textarea>
-        </div>
-        <button type="submit">Book Now</button>
-      </form>
+
+          <div className="inputGroup">
+            <label>Specific Test Name</label>
+            <input type="text" />
+          </div>
+
+          <div className="inputGroup">
+            <label>Date & Time</label>
+            <input type="datetime-local" />
+          </div>
+
+          <div className="inputGroup">
+            <label>Message</label>
+            <textarea />
+          </div>
+
+          <button type="submit" className="bookBtn">
+            Book Now
+          </button>
+        </form>
+      </div>
     </div>
   );
 };

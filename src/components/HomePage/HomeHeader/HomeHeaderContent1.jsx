@@ -3,9 +3,9 @@ import React from "react";
 import icon from "./../../../Images/icon.png"
 import Image from "next/image";
 const HomeHeaderContent1 = () => {
-  let handleAppointment = () => {
-    document.querySelector(".bookPopUp").style.visibility = "visible";
-  };
+let handleAppointment = () => {
+  document.querySelector(".bookPopUp").classList.add("showPopup");
+};
   return (
     <div className="homeHeaderContent1">
       <Image src={icon} alt="icon"/>
@@ -23,7 +23,7 @@ const HomeHeaderContent1 = () => {
         putting your well-being at the forefront of our service.
       </p>
       <div className="homeHeaderContentBtn">
-        <button className="button1">
+        <button className="button1" onClick={handleAppointment}>
           <span>Book Appointment</span>
         </button>
 

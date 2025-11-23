@@ -12,13 +12,13 @@ const Footer1Sub = () => {
         great way to stay updated about latest health tips, alerts and
         enhancements.
       </p>
-      <div className="footer1SubContent">
+      {/* <div className="footer1SubContent">
         <form action="">
           {" "}
           <input type="email" placeholder="You Email Address...." />
           <button>Contact Us</button>
         </form>
-      </div>
+      </div> */}
     </div>
   );
 };

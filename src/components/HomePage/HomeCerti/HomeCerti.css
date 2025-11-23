@@ -1,11 +1,14 @@
 .homeCerti {
-  /* border: solid red; */
+  border-top: 2px solid var(--customColor2);
+  border-bottom: 2px solid var(--customColor1);
+
   padding: 30px;
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   gap: 20px;
+
 }
 .homeCerti > h2 {
   font-weight: 300;

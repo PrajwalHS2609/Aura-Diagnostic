@@ -97,7 +97,7 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/fetal-scan"
+                    href="/fetal-echo"
                     className={pathname === "/fetal-echo" ? "active" : ""}
                   >
                     Fetal echo

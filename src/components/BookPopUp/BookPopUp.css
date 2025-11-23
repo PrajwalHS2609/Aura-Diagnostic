@@ -1,128 +1,150 @@
 .bookPopUp {
-  /* border: solid red; */
-  width: 100%;
-  height: 100vh;
   position: fixed;
-  top: 0;
-  background-color: rgba(0, 0, 0, 0.542);
-  z-index: 3;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.55);
+  backdrop-filter: blur(5px);
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: center;
-  flex-direction: column;
   visibility: hidden;
-  overflow-y: auto;
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 50;
 }
-.popUpIcon1 {
-  padding: 10px;
+
+/* Add this class to show popup */
+.showPopup {
+  visibility: visible;
+  opacity: 1;
+}
+.exitForm {
   width: 20px;
   height: 20px;
-  color: white;
-  background-color: var(--customColor1);
-  border-radius: 100%;
-  margin-right: -600px;
-  margin-top: 100px;
-  cursor: pointer;
+  position: fixed;
+}
+.popupContainer {
+  background: white;
+  width: 900px; /* Wider popup */
+  padding: 30px;
+  border-radius: 14px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.2);
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  animation: popupZoom 0.4s ease;
+  height: 100%; /* Prevents overflow */
+  overflow: scroll;
+  position: relative;
+}
+.formRow {
+  display: flex;
+  gap: 25px;
+  width: 100%;
 }
 
-.bookPopUp > form {
+.inputGroup {
   display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
-  gap: 20px;
-  background-color: white;
-  padding: 20px;
-  transform: scale(0.9);
-}
-.bookPopUp > h3 {
-  font-size: 30px;
-  color: var(--customColor1);
-  font-weight: bolder;
-}
-.popFormFirstLvl {
-  /* border: solid greenyellow; */
+  gap: 8px;
   width: 100%;
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
-  flex-direction: column;
-  gap: 10px;
+  margin-top: 10px;
 }
-.popFormFirstLvl > span {
-  font-size: 20px;
-  font-weight: 500;
-}
-.popFormFirstLvl > span > span {
-  color: var(--customColor1);
-}
-.popFormFirstLvl > div {
-  /* border: solid brown; */
-  width: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 30px;
-}
-.popFormFirstLvl > div > input {
-  width: 250px;
-  height: 30px;
-  padding: 10px;
+@keyframes popupZoom {
+  from {
+    transform: scale(0.8);
+    opacity: 0;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
 }
 
-.popFormFirstLvl > input {
-  /* border: solid blue; */
-  width: 90%;
-  height: 30px;
-  padding: 10px;
-}
-.popFormFirstLvl > textarea {
-  width: 100%;
-  height: 50px;
-}
-.bookPopUp > form > button {
-  border: none;
-  border-radius: 10px;
+.closeBtn {
+  width: 25px;
+  height: 25px;
   padding: 5px;
-  font-size: 20px;
+  background: var(--customColor1);
   color: white;
-  background-color: var(--customColor1);
-  &:hover {
-    color: var(--customColor1);
-    background-color: white;
-  }
+  border-radius: 50%;
+  cursor: pointer;
+  align-self: flex-end;
 }
-.first {
-  /* border: solid; */
-  width: 100%;
+
+.popupContainer h3 {
+  text-align: center;
+  font-size: 26px;
+  color: var(--customColor1);
+  font-weight: bold;
+}
+
+.inputGroup {
   display: flex;
-  justify-content: center;
-  align-items: center;
+  flex-direction: column;
+  gap: 8px;
 }
-@media screen and (min-width: 320px) and (max-width: 768px) {
-  .bookPopUp > form {
-    height: 100%;
-    width: 450px;
-    transform: scale(0.7);
-    margin-top: 00px;
-  }
-  .popFormFirstLvl > div {
-    /* border: solid greenyellow; */
+
+.inputGroup label {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.doubleInput {
+  display: flex;
+  gap: 15px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #d7d7d7;
+  border-radius: 8px;
+  font-size: 15px;
+  outline: none;
+  transition: all 0.3s;
+}
+
+textarea {
+  height: 80px;
+  resize: none;
+}
+
+input:focus,
+textarea:focus {
+  border-color: var(--customColor1);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.bookBtn {
+  width: 100%;
+  padding: 14px;
+  font-size: 18px;
+  background: var(--customColor1);
+  color: white;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  font-weight: 600;
+  transition: 0.3s;
+  margin-top: 20px;
+}
+
+.bookBtn:hover {
+  background: white;
+  color: var(--customColor1);
+  border: 1px solid var(--customColor1);
+}
+
+@media (max-width: 768px) {
+  .doubleInput {
     flex-direction: column;
   }
-  .first {
-    /* border: solid; */
-    flex-direction: column;
+  .popupContainer {
+    width: 95%;
+    padding: 25px;
   }
-  .popUpIcon1 {
-    padding: 10px;
-    width: 20px;
-    height: 20px;
-    color: white;
-    background-color: var(--customColor1);
-    position: absolute;
-    top: -10px;
-    left: 340px;
-    z-index: 2;
+  .formRow {
+    flex-direction: column; /* Stack only on mobile */
   }
 }

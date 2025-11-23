@@ -16,7 +16,7 @@ const Footer2Services = () => {
             href={"/pathology"}
             className={pathname === "/pathology" ? "active" : ""}
           >
-            Pathology{" "}
+            Obstetrics{" "}
           </Link>
         </li>
         <li>
@@ -24,7 +24,7 @@ const Footer2Services = () => {
             href={"/3d4d-ultrasound"}
             className={pathname === "/3d4d-ultrasound" ? "active" : ""}
           >
-            3d & 4d Ultrasound
+            Advanced USG
           </Link>
         </li>
         {/* <li>
@@ -40,26 +40,32 @@ const Footer2Services = () => {
             href={"/cardiology"}
             className={pathname === "/cardiology" ? "active" : ""}
           >
-            Cardiology{" "}
+            USG guided procedure{" "}
           </Link>
         </li>
 
         <li>
           {" "}
           <Link href={"/ecg"} className={pathname === "/ecg" ? "active" : ""}>
-            ECG{" "}
+            Infertility Scans{" "}
           </Link>
         </li>
         <li>
           {" "}
           <Link href={"/tmt"} className={pathname === "/tmt" ? "active" : ""}>
-            TMT{" "}
+            Doppler{" "}
           </Link>
         </li>
         <li>
           {" "}
           <Link href={"/echo"} className={pathname === "/echo" ? "active" : ""}>
-            ECHO{" "}
+            Musculoskeletal Scans{" "}
+          </Link>
+        </li>
+        <li>
+          {" "}
+          <Link href={"/echo"} className={pathname === "/echo" ? "active" : ""}>
+            Soft Tissue Scans
           </Link>
         </li>
       </ul>
