@@ -10,7 +10,7 @@ const HomeDoctorsMain = () => {
     <div className="homeDoctorsMain">
       <HomeDoctorsCard
         img={Doc2}
-        alt="Dr.Kiran Nidagundi"
+        alt="Dr. Ramyashree R M"
         name="Dr. Ramyashree R M"
         qualifications="MBBS MD Anaesthesia"
         training="Fellowship in paediatric Anaesthesia"
@@ -18,8 +18,8 @@ const HomeDoctorsMain = () => {
       />
       <HomeDoctorsCard
         img={Doc1}
-        alt=" Dr. Kiran ramaiah"
-        name="Dr.G.N.Keshava Murthy"
+        alt=" Dr. Kiran Ramaiah"
+        name="Dr. Kiran Ramaiah"
         qualifications="MBBS MD Radio-Diagnosis"
         training="Lead Radiologist and Co-founder."
         position=""
