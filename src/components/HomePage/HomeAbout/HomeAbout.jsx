@@ -1,0 +1,43 @@
+"use client"
+import React from "react";
+import "./HomeAbout.css";
+const HomeAbout = () => {
+  let handleAppointment = () => {
+    document.querySelector(".bookPopUp").classList.add("showPopup");
+  };
+  return (
+    <div className="homeAbout-container">
+      <div className="homeAbout-content">
+        <img
+          src="https://nisargadiagnostics.com/wp-content/uploads/2025/11/image.png"
+          alt=""
+        />
+      </div>
+      <div className="homeAbout-content">
+        <p>
+          Our radiologists are Fetal Medicine Specialists certified by the Fetal
+          Medicine Foundation (FMF), London, UK — bringing evidence-based
+          protocols, advanced anomaly screening, and compassionate counselling
+          to every pregnancy scan.
+        </p>
+        <p>
+          ✨ We are open on all days — no holidays, not even on Sundays or
+          festivals! Your care never takes a break, and neither do we.
+        </p>
+        <p>
+          At our center, we understand that every pregnancy is unique and every
+          moment counts. That’s why our team is committed to providing
+          personalized attention, ensuring that each expecting mother feels
+          safe, informed, and cared for.
+        </p>
+        <div className="aboutHeaderContentBtn">
+          <button className="button1" onClick={handleAppointment}>
+            <span>Book Appointment</span>
+          </button>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default HomeAbout;

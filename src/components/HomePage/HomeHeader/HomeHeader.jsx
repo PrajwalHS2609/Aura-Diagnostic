@@ -10,7 +10,7 @@ const HomeHeader = () => {
         src={banner}
         alt=""
       /> */}
-      <video src="/vid/PathaconVid.mp4" autoPlay muted loop></video>
+      <video src="/vid/auraVid.mp4" autoPlay muted loop></video>
       <div className="homeHeaderWrapper1">
         <HomeHeaderContent1 />
       </div>

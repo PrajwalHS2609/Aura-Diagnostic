@@ -5,15 +5,12 @@ const HomeWhyHead = () => {
     <div className="homeWhyHead">
       <h2>Trust is Our Promise: Here’s Why</h2>
       <p>
-        At Aura Diagnostics, we understand that trust is paramount in
-        healthcare. We highlight our commitment to delivering accurate, reliable
-        diagnostics with the utmost integrity. With over 30 years of expertise,
-        advanced technology, and a compassionate team, we ensure every patient
-        receives personalized care and clear communication throughout their
-        diagnostic journey. Your health is our priority, and we strive to build
-        lasting relationships based on trust, transparency, and exceptional
-        service. Discover why so many chooseAura Diagnostics for their
-        healthcare needs.
+        At Aura Diagnostics, trust guides every step of our care. With 10+ years
+        of expertise, advanced technology, and a compassionate team, we deliver
+        accurate results with integrity and clarity. We prioritize your health
+        through reliable reports, transparent communication, and personalized
+        support—making Aura Diagnostics a trusted choice for families seeking
+        exceptional diagnostic care.
       </p>
     </div>
   );

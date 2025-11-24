@@ -6,13 +6,17 @@ import HomeWhy from "./HomeWhy/HomeWhy";
 import HomeDoctors from "./HomeDoctors/HomeDoctors";
 import HomeCerti from "./HomeCerti/HomeCerti";
 import HomeTestimonial from "./HomeTestimonial/HomeTestimonial";
+import HomeAbout from "./HomeAbout/HomeAbout";
+import HomeAbout2 from "./HomeAbout/HomeAbout2";
 const Homepage = () => {
   return (
     <div className="homepage">
       <HomeHeader />
       <HomeCerti />
+      <HomeAbout />
       <HomeServices />
       <HomeWhy />
+      <HomeAbout2 />
       <HomeDoctors />
       <HomeTestimonial />
     </div>

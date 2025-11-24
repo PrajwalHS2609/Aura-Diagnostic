@@ -62,6 +62,56 @@ const Menu = () => {
           <div className="menuDropDown">
             <li>
               <Link
+                href="/pregnancy-scan"
+                className={pathname === "/pregnancy-scan" ? "active" : ""}
+              >
+                Pregnancy Scan
+              </Link>
+              <div className="innerMenuDropDown">
+                <li>
+                  <Link
+                    href="/dating-scan"
+                    className={pathname === "/dating-scan" ? "active" : ""}
+                  >
+                    Dating Scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/anomaly-scan"
+                    className={pathname === "/anomaly-scan" ? "active" : ""}
+                  >
+                    Anomaly Scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/"
+                    className={pathname === "/3d-scan" ? "active" : ""}
+                  >
+                    3D Scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/"
+                    className={pathname === "/4d-scan" ? "active" : ""}
+                  >
+                    4D Scan
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/"
+                    className={pathname === "/nt-scan" ? "active" : ""}
+                  >
+                    NT Scan
+                  </Link>
+                </li>
+              </div>
+            </li>
+            <li>
+              <Link
                 href="/obstetrics"
                 className={pathname === "/obstetrics" ? "active" : ""}
               >
@@ -337,42 +387,6 @@ const Menu = () => {
                 Soft Tissue Scans
               </Link>
             </li>
-            <li>
-              <Link
-                href="/pregnancy-scan"
-                className={pathname === "/pregnancy-scan" ? "active" : ""}
-              >
-                Pregnancy Scan
-              </Link>
-              <div className="innerMenuDropDown">
-                <li>
-                  <Link
-                    href="/dating-scan"
-                    className={pathname === "/dating-scan" ? "active" : ""}
-                  >
-                    Dating Scan
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/anomaly-scan"
-                    className={pathname === "/anomaly-scan" ? "active" : ""}
-                  >
-                    Anomaly Scan
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/"
-                    className={
-                      pathname === "/3d-and-4d-nt-scan" ? "active" : ""
-                    }
-                  >
-                    3D and 4D NT Scan
-                  </Link>
-                </li>
-              </div>
-            </li>
           </div>
         </li>
         <li>
@@ -490,6 +504,66 @@ const Menu = () => {
               </span>
               {activeDropdown === "service" && (
                 <div className="respDropDown">
+                  <li>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/pregnancy-scan`}
+                        className={pathname === "/pregnancy-scan" ? "active" : ""}
+                      >
+                        Pregnancy Scan
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("pregnancy")}
+                      />
+                    </span>
+                    {activeSubDropdown === "pregnancy" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/dating-scan`}
+                            className={
+                              pathname === "/dating-scan" ? "active" : ""
+                            }
+                          >
+                            Dating Scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/anomaly-scan`}
+                            className={
+                              pathname === "/anomaly-scan" ? "active" : ""
+                            }
+                          >
+                            Anomaly Scan
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/3d-and-4d-nt-scan`}
+                            className={
+                              pathname === "/3d-and-4d-nt-scan" ? "active" : ""
+                            }
+                          >
+                            3D and 4D NT Scan
+                          </Link>
+                        </li>
+                      </div>
+                    )}
+                  </li>
                   <li>
                     <span>
                       <Link
@@ -882,70 +956,7 @@ const Menu = () => {
                       </div>
                     )}
                   </li>
-                                    <li>
-                    <span>
-                      {" "}
-                      <Link
-                        id="menuNavLink"
-                        onClick={hideSideBar}
-                        href={`/advanced-usg`}
-                        className={pathname === "/advanced-usg" ? "active" : ""}
-                      >
-                        Pregnancy Scan
-                      </Link>
-                      <FaChevronRight
-                        className="menuNavDropIcon"
-                        onClick={() => toggleSubDropdown("pregnancy")}
-                      />
-                    </span>
-                    {activeSubDropdown === "pregnancy" && (
-                      <div className="innerRespMenuDropDown">
-                        <li>
-                          {" "}
-                          <Link
-                            id="menuNavLink"
-                            onClick={hideSideBar}
-                            href={`/dating-scan`}
-                            className={
-                              pathname === "/dating-scan" ? "active" : ""
-                            }
-                          >
-                            Dating Scan
-                          </Link>
-                        </li>
-                        <li>
-                          {" "}
-                          <Link
-                            id="menuNavLink"
-                            onClick={hideSideBar}
-                            href={`/anomaly-scan`}
-                            className={
-                              pathname === "/anomaly-scan"
-                                ? "active"
-                                : ""
-                            }
-                          >
-                            Anomaly Scan
-                          </Link>
-                        </li>
-                        <li>
-                          {" "}
-                          <Link
-                            id="menuNavLink"
-                            onClick={hideSideBar}
-                            href={`/3d-and-4d-nt-scan`}
-                            className={
-                              pathname === "/3d-and-4d-nt-scan"
-                                ? "active"
-                                : ""
-                            }
-                          >
-                            3D and 4D NT Scan
-                          </Link>
-                        </li>
-                      </div>
-                    )}
-                  </li>
+
                   <li>
                     <span>
                       {" "}
