@@ -1,7 +1,8 @@
+"use client"
 import React from "react";
 import "./WhatsApp.css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-importAuraLogo from "./../../Images/AuraFav.png"
+import AuraLogo from "./../../Images/fav.png"
 const WhatsApp = () => {
   // let [visible, setVisible] = useState();
   // useEffect(() => {
@@ -23,9 +24,10 @@ const WhatsApp = () => {
       <FloatingWhatsApp
         phoneNumber="919742232700"
         accountName="Aura"
-        avatar={pathaconLogo} // Optional
+        avatar={AuraLogo.src} // Optional
         statusMessage="Typically replies within 5 min" // Optional
-        chatMessage="Pathacon Diagnostics: Trusted since 2001 for accurate, reliable health care. Book now for quality results!" // Optional
+        chatMessage="Welcome to Aura Diagnostics!
+Trusted scans & advanced diagnostics in Girinagar. Pregnancy, USG, Doppler, ECG & full blood tests with free home sample collection. Call +91 9611156622." // Optional
         placeholder="Type a message..." // Optional
       />
     </div>

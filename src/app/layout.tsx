@@ -4,6 +4,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./../components/NavBar/NavBar";
 import "./../components/style.css";
 import BookPopUp from "../components/BookPopUp/BookPopUp";
+import WhatsApp from './../components/WhatsApp/WhatsApp';
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -20,7 +21,7 @@ export default function RootLayout({
         {children}
         <Footer />
         <BookPopUp/>
-        
+        <WhatsApp/>
       </body>
     </html>
   );

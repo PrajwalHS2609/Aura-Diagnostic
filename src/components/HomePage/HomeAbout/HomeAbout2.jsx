@@ -6,7 +6,7 @@ const HomeAbout2 = () => {
     document.querySelector(".bookPopUp").classList.add("showPopup");
   };
   return (
-    <div className="homeAbout-container" id="homeAbout2-container">
+    <div className="homeAbout-container" id="homeAbout2">
       <div className="homeAbout-content">
         <h2>Quality Care Starts with Accurate Diagnostics</h2>
         <p>
