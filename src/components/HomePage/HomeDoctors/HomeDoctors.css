@@ -5,13 +5,13 @@
   align-items: center;
   flex-direction: column;
   gap: 30px;
-  background-color: var(--customColor3);
+  /* background-color: var(--customColor3); */
   padding: 20px;
 }
 .homeDoctorsHead > h2 {
   font-size: 50px;
   text-align: center;
-  color: var(--customColor2);
+  color: var(--customColor1);
 }
 .homeDoctorsMain {
   /* border: solid red; */
@@ -39,6 +39,7 @@
   border-radius: 20px;
   background: var(--bg-color);
   overflow: hidden;
+  box-shadow: 0 0 10px grey;
 }
 
 .card__img {
