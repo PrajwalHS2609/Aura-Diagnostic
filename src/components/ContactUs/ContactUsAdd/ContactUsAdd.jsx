@@ -34,7 +34,7 @@ const ContactUsAdd = () => {
             #175, BBMP PID No. 41-137-175. 5th main road. Avalhalli extension.
             Banashankari 3rd stage. Bangalore.560085.
           </p>
-          <a href="https://maps.app.goo.gl/ixVuJaTrkDfMMmFU8" target="_blank">
+          <a href="https://maps.app.goo.gl/3jq26be1GjkpCmRW8" target="_blank">
             <button className="directionBtn">Get Directions</button>
           </a>
         </div>
