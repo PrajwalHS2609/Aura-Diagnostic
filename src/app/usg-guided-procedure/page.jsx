@@ -12,6 +12,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 export default function USGGuidedProcedure() {
   return (
     <div className="">
@@ -24,6 +25,8 @@ export default function USGGuidedProcedure() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
+
           <USGGuidedProcedureHead />
           <div className="component-mainContent">
             <USGGuidedProcedureExpect />
@@ -37,10 +40,10 @@ export default function USGGuidedProcedure() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <USGGuidedProcedureService />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
     </div>
   );
 }

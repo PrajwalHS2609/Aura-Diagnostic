@@ -1,59 +1,55 @@
 import React from "react";
 import { CiCreditCard1 } from "react-icons/ci";
-import { FaTurnUp } from "react-icons/fa6";
-import { FiCopy } from "react-icons/fi";
-import { IoDiamondOutline, IoShirtOutline } from "react-icons/io5";
+import { HiOutlineClock } from "react-icons/hi2";
+import { FaRegSmileBeam } from "react-icons/fa";
+import { IoShirtOutline } from "react-icons/io5";
 import { LiaFilePrescriptionSolid } from "react-icons/lia";
 import { MdOutlineNoFood } from "react-icons/md";
 import { TbFileImport } from "react-icons/tb";
+import { LuUsers } from "react-icons/lu";
+
 const USGGuidedProcedurePrepare = () => {
   const card = [
     {
       id: 1,
       icon: <TbFileImport />,
-      title: "Online Presence 24/7",
       description: "Bring the referral your Doctor or Specialist gave you.",
     },
     {
       id: 2,
-      icon: <IoDiamondOutline />,
-      title: "Market Expansion",
-      description: "Remove all jewellery.",
+      icon: <LuUsers />,
+      description:
+        "Discuss blood thinners (like Aspirin, Warfarin); you may need special guidance.",
     },
     {
       id: 3,
-      icon: <FiCopy />,
-      title: "Assists Keep Up with Competitors",
+      icon: <HiOutlineClock />,
       description:
-        "Advise the administration team if you have had relevant imaging outside of St Vincent’s.",
+        "Arrive a few minutes early to complete basic paperwork and settle in.",
     },
     {
       id: 4,
       icon: <LiaFilePrescriptionSolid />,
-      title: "Online Customer Service",
       description:
-        "Follow the instructions provided to you — you may be asked to fast or to drink water and not go to the toilet before the procedure.",
+        "Bring previous reports, scans, prescriptions, and blood test results",
     },
     {
       id: 5,
       icon: <IoShirtOutline />,
-      title: "Provides a Better First Impression",
       description:
-        "Wear comfortable clothing and leave any valuables at home where possible.",
+        "Wear loose, comfortable clothing for easy access to the scan area.",
     },
     {
       id: 6,
-      icon: <CiCreditCard1 />,
-      title: "Boosts Revenue",
+      icon: <FaRegSmileBeam />,
       description:
-        "Bring your Medicare card, healthcare card or insurance details as applicable.",
+        "Stay relaxed — USG-guided procedures are safe, quick, and minimally invasive.",
     },
     {
       id: 7,
       icon: <MdOutlineNoFood />,
-      title: "Enhances Search Rankings",
       description:
-        "You may be asked to fast or have a full bladder for your examination. All detailed instructions will be provided to you at the time of your booking.",
+        "Follow fasting instructions if advised (usually for abdominal procedures).",
     },
   ];
   return (

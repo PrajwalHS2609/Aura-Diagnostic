@@ -18,7 +18,7 @@ const Footer1Contact = () => {
         <FaLocationDot  className="footerSubIcon" />
         <div>
           <h4>Address</h4>
-          <p>India</p>
+          <p><a href="">India</a></p>
         </div>
       </li>
       <li>
@@ -37,8 +37,8 @@ const Footer1Contact = () => {
         <div>
           <h4>Email Us</h4>
           <p>
-            <a href="mailto:Auradiagnostics@gmail.com">
-              Auradiagnostics@gmail.com
+            <a href="mailto:auradaignosticsandhealthcare@gmail.com">
+              auradaignosticsandhealthcare@gmail.com
             </a>
           </p>
         </div>

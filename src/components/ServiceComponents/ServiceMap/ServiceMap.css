@@ -62,11 +62,12 @@
 .service-bookContent > h6 > a {
   color: white;
   text-decoration: none;
+  text-align: justify;
 }
 .service-bookContent:nth-child(5) {
   display: flex;
   justify-content: center;
-  align-items: centerF;
+  align-items: center;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .service-bookContainer {

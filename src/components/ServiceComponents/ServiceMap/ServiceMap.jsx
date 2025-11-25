@@ -7,7 +7,7 @@ const ServiceMap = () => {
     document.querySelector(".bookPopUp").classList.add("showPopup");
   };
   return (
-    <div className="service-bookContainer">
+    <div className="service-bookContainer" id="getting">
       <div className="service-book">
         <div className="service-bookWrapper">
           <div className="serviceMap">
@@ -23,26 +23,26 @@ const ServiceMap = () => {
         <div className="service-bookWrapper">
           <div className="service-bookContent">
             <h6>
-              Aura Diagnostics, 1st R Block, Rajaji Nagar, 10, A/A-1, Chord Rd,
-              Mahalakshmi Layout, Bengaluru, Karnataka 560010
+              Aura Diagnostics, 1st floor, Above HDFC bank (Girinagar branch),
+              #175, BBMP PID No. 41-137-175. 5th main road. Avalhalli extension.
+              Banashankari 3rd stage. Bangalore.560085.
             </h6>
             <FaLocationDot className="service-bookIoc" />
           </div>
           <div className="service-bookContent">
-            <h6> auradiagnostics@gmail.com</h6>
+            <h6> <a href="mailto:auradaignosticsandhealthcare@gmail.com">auradaignosticsandhealthcare@gmail.com</a></h6>
             <FaEnvelope className="service-bookIoc" />
           </div>
           <div className="service-bookContent">
             <h6>
-              <a href="tel:9611156622">+91 9611156622</a>,
-              <a href="tel:9916443606">+91 9916443606</a>
+              <a href="tel:9611156622">+91 9611156622</a>
             </h6>
             <FaPhone className="service-bookIoc" />
           </div>
           <div className="service-bookContent">
             <h6>
-              <span>MON-SAT: 7:30 am - 9:00 pm</span>
-              <span>SUN: 8:00 am - 1:00 pm</span>
+              <span>MON-SAT: 9:00 am - 9:00 pm</span>
+              <span>SUN: 10:00 am - 1:00 pm</span>
             </h6>
             <h6></h6>
             <FaClock className="service-bookIoc" />

@@ -653,9 +653,9 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/email-marketing-service-in-bangalore`}
+                        href={`/usg-guided-procedure`}
                         className={
-                          pathname === "/email-marketing-service-in-bangalore"
+                          pathname === "/usg-guided-procedure"
                             ? "active"
                             : ""
                         }

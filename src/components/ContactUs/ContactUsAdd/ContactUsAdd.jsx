@@ -19,8 +19,8 @@ const ContactUsAdd = () => {
         <FaEnvelope className="iconCircle" />
         <div>
           <h6>Email Us</h6>
-          <a href="mailto:Auradiagnostics@gmail.com">
-            Auradiagnostics@gmail.com
+          <a href="mailto:auradaignosticsandhealthcare@gmail.com">
+            auradaignosticsandhealthcare@gmail.com
           </a>
         </div>
       </div>

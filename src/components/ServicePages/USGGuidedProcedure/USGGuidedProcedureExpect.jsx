@@ -1,27 +1,34 @@
-import React from 'react'
+import React from "react";
 
 const USGGuidedProcedureExpect = () => {
   return (
-     <div className="serviceExcept-container">
-      <h2>What to expect when getting an Ultrasound</h2>
+    <div className="serviceExcept-container">
+      <h2>What to Expect During a USG-Guided Procedure?</h2>
       <p>
-        A Sonographer utilises a hand-held scanner, called a transducer to
-        perform an ultrasound. High-frequency sound waves are sent into your
-        body, and their echoes are converted into electrical impulses to create
-        images on a screen.
+        When you undergo a USG Guided Procedure at Aura Diagnostics, the process
+        is smooth, safe, and carefully monitored. First, the radiologist will
+        explain the procedure and position you comfortably. A warm ultrasound
+        gel is applied, and the ultrasound probe helps visualize the exact
+        internal area in real time. Using this live guidance, the doctor gently
+        inserts a fine needle or instrument with high precision, ensuring
+        minimal discomfort and maximum accuracy.
       </p>
       <p>
-        During the scan, the sonographer will apply a gel to your skin in the
-        examined area. The sonographer moves the transducer on the gel, pressing
-        gently if necessary.
+        When you undergo a USG Guided Procedure at Aura Diagnostics, the process
+        is smooth, safe, and carefully monitored. First, the radiologist will
+        explain the procedure and position you comfortably. A warm ultrasound
+        gel is applied, and the ultrasound probe helps visualize the exact
+        internal area in real time. Using this live guidance, the doctor gently
+        inserts a fine needle or instrument with high precision, ensuring
+        minimal discomfort and maximum accuracy.
       </p>
       <p>
-        Ultrasound scans take 20-60 minutes and are performed by specially
-        trained professionals. There are no after-effects, and you can resume
-        your normal activities afterwards.
+        Most procedures take only a few minutes and require no major recovery
+        time. Our team ensures a calm environment, clear communication, and
+        complete support throughout your visit.
       </p>
     </div>
-  )
-}
+  );
+};
 
-export default USGGuidedProcedureExpect
+export default USGGuidedProcedureExpect;
