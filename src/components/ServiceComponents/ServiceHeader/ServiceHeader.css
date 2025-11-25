@@ -29,6 +29,7 @@
   align-items: center;
   flex-direction: column;
   overflow: hidden;
+  gap: 30px;
 }
 .service-headerCover > h2 {
   /* border: solid; */
@@ -38,6 +39,7 @@
   text-align: center;
   margin-left: 70px;
   padding: 10px;
+  color: var(--customColor1);
 }
 #service-headerCover2 > h2 {
   /* border: solid; */

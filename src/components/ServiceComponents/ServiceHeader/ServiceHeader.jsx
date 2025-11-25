@@ -10,7 +10,7 @@ const ServiceHeader = (props) => {
     <div className="service-header">
       <div className="service-headerCover">
         <h2>{props.title}</h2>
-        <p>{props.para}</p>
+        {/* <p>{props.para}</p> */}
         <div className="service-HeaderContentBtn">
           <button className="button1" onClick={handleAppointment}>
             <span>Book Appointment</span>

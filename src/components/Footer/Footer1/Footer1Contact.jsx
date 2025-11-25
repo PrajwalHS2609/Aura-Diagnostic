@@ -1,24 +1,23 @@
-"use client"
+"use client";
 import React from "react";
 import "../Footer.css";
-import { FaLocationDot } from "react-icons/fa6";
+import { FaLocationDot, FaYoutube } from "react-icons/fa6";
 import {
   FaEnvelope,
   FaFacebook,
   FaInstagram,
-  FaLinkedin,
   FaPhoneVolume,
-  FaPinterest,
-  FaTwitter,
 } from "react-icons/fa";
 const Footer1Contact = () => {
   return (
     <div className="footer1Contact">
       <li>
-        <FaLocationDot  className="footerSubIcon" />
+        <FaLocationDot className="footerSubIcon" />
         <div>
           <h4>Address</h4>
-          <p><a href="">India</a></p>
+          <p>
+            <a href="">India</a>
+          </p>
         </div>
       </li>
       <li>
@@ -53,30 +52,36 @@ const Footer1Contact = () => {
                 <FaFacebook className="footerSocialIcon" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="">
                 {" "}
                 <FaTwitter className="footerSocialIcon" />
               </a>
-            </li>
+            </li> */}
             <li>
               <a href="">
                 {" "}
                 <FaInstagram className="footerSocialIcon" />
               </a>
             </li>
-            <li>
+            {/* <li>
               <a href="">
                 {" "}
                 <FaLinkedin className="footerSocialIcon" />
               </a>
-            </li>
+            </li> */}
             <li>
+              <a href="">
+                {" "}
+                <FaYoutube className="footerSocialIcon" />
+              </a>
+            </li>
+            {/* <li>
               <a href="">
                 {" "}
                 <FaPinterest className="footerSocialIcon" />
               </a>
-            </li>
+            </li> */}
           </p>
         </div>
       </li>
