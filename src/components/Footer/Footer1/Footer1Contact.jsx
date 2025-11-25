@@ -16,7 +16,7 @@ const Footer1Contact = () => {
         <div>
           <h4>Address</h4>
           <p>
-            <a href="">India</a>
+            <a href="">Banashankari 3rd stage. Bangalore.560085.</a>
           </p>
         </div>
       </li>
