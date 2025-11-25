@@ -1,22 +1,47 @@
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
-import Reviews from "../../components/HomePage/Reviews/Reviews";
-import ServiceHeader from "../../components/ServiceHeader/ServiceHeader";
-import ServiceMap from "../../components/ServiceMap/ServiceMap";
+import ServiceHeader from "./../../components/ServiceComponents/ServiceHeader/ServiceHeader";
+import ServiceMap from "./../../components/ServiceComponents/ServiceMap/ServiceMap";
+import MusculoskeletalScanHead from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanHead";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
+import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
+import MusculoskeletalScanExcept from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanExcept";
+import MusculoskeletalScanPrepare from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanPrepare";
+import ObstetricsService from "../../components/ServicePages/Obstetrics/ObstetricsService";
+import HomeTestimonial from "./../../components/HomePage/HomeTestimonial/HomeTestimonial";
+import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
+import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
 
 export default function MusculoskeletalScan() {
   return (
-    <div>
+    <div className="">
+      {" "}
       <ServiceHeader
-        title="Ultrasound Scan"
+        title="Musculoskeletal Scan"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />
+      <div className="component-container">
+        <div className="component-main">
+          <MusculoskeletalScanHead />
+          <div className="component-mainContent">
+            <MusculoskeletalScanExcept />
+            <MusculoskeletalScanPrepare />
+            <ServiceBilling />
+            <ServiceBook />
+          </div>
+        </div>
+        <div className="component-sidebar">
+          <ServiceSidebarBrochure />
+          <ServiceSidebarLinks />
+        </div>
+      </div>
+      <ObstetricsService />
       <HomeWhy />
+      <HomeTestimonial />
       <ServiceMap />
-      <Reviews />
     </div>
   );
 }

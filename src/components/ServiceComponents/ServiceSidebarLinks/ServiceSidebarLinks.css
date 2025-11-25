@@ -1,0 +1,27 @@
+.serviceSideBarLinks {
+  /* border: solid green; */
+  padding: 20px;
+  background-color: white;
+  margin-top: 20px;
+  border-radius: 20px;
+}
+.serviceSideBarLinks > li {
+  list-style: none;
+  margin-top: 20px;
+  border-radius: 10px;
+  background-color: var(--customColor3);
+  transition: 300ms ease;
+  padding: 10px;
+  &:hover {
+    background-color: white;
+  }
+}
+.serviceSideBarLinks > li > a {
+  color: var(--customColor1);
+  text-decoration: none;
+  font-weight: 500;
+}
+.serviceSideBarLinks > li:has(a.active) {
+  background-color: white;
+  border: 1px solid var(--customColor1);
+}

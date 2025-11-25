@@ -1,17 +1,17 @@
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import Reviews from "../../components/HomePage/Reviews/Reviews";
-import ServiceHeader from "../../components/ServiceHeader/ServiceHeader";
-import ServiceMap from "../../components/ServiceMap/ServiceMap";
 import ObstetricsService from "../../components/ServicePages/Obstetrics/ObstetricsService";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import ServiceHeader from './../../components/ServiceComponents/ServiceHeader/ServiceHeader';
+import ServiceMap from './../../components/ServiceComponents/ServiceMap/ServiceMap';
 
 export default function Obstetrics() {
   return (
     <div>
       {" "}
       <ServiceHeader
-        title="Ultrasound Scan"
+        title="Obstetrics Scan"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />

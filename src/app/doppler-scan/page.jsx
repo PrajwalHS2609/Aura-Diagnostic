@@ -3,8 +3,8 @@ import DopplerScanHeaderContent from "../../components/ServicePages/DopplerScanP
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import Reviews from "../../components/HomePage/Reviews/Reviews";
-import ServiceHeader from "../../components/ServiceHeader/ServiceHeader";
-import ServiceMap from "../../components/ServiceMap/ServiceMap";
+import ServiceHeader from './../../components/ServiceComponents/ServiceHeader/ServiceHeader';
+import ServiceMap from './../../components/ServiceComponents/ServiceMap/ServiceMap';
 import doppler from "../../Images/ServicesBanner/Doppler.png";
 export default function DopplerPage() {
   return (

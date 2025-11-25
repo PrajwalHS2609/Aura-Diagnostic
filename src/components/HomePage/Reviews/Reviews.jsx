@@ -4,11 +4,11 @@ import ReviewsHead from "./ReviewsHead";
 const Reviews = () => {
   return (
     <div className="reviews">
-      <ReviewsHead />
+      {/* <ReviewsHead />
       <iframe
         src="https://widgets.sociablekit.com/google-reviews/iframe/25471943"
         frameBorder="0"
-      ></iframe>
+      ></iframe> */}
     </div>
   );
 };

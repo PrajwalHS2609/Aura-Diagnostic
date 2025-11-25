@@ -48,7 +48,9 @@ const ServiceMap = () => {
             <FaClock className="service-bookIoc" />
           </div>
           <div className="service-bookContent">
-            <button onClick={handleAppointment}>Book Now</button>
+            <button className="button1" onClick={handleAppointment}>
+              <span>Book Appointment</span>
+            </button>{" "}
           </div>
         </div>
       </div>
