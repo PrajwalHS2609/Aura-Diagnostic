@@ -8,23 +8,8 @@
   justify-content: center;
   align-items: flex-end;
   flex-direction: column;
-  overflow: scroll;
 }
-.whatsAppContainer > a > img {
-  /* border: solid blue; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  width: 100px;
-}
-.whatsAppContent {
-  /* border: solid red; */
-  width: 20%;
-  padding: 10px;
-  background-color: rgb(152, 152, 152);
-  display: none;
-}
+
 .styles-module_chatBody__VBxQH {
   overflow-y: scroll;
 }

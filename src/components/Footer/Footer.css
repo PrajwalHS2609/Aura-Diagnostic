@@ -43,7 +43,7 @@
 }
 .footer1Contact {
   /* border: solid brown; */
-  width: 90%;
+  width: 100%;
   padding: 20px;
   display: flex;
   justify-content: center;
@@ -77,15 +77,20 @@
 .footer1Contact > li {
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 20px;
   list-style: none;
   border-right: 1px solid var(--customColor2);
   padding: 20px;
   height: 100%;
+  width: 400px;
 }
 .footer1Contact > li > div > h4 {
   color: white;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 10px;
 }
 .footer1Contact > li > div > p {
   color: white;

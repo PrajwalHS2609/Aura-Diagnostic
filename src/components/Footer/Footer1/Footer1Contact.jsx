@@ -12,19 +12,27 @@ const Footer1Contact = () => {
   return (
     <div className="footer1Contact">
       <li>
-        <FaLocationDot className="footerSubIcon" />
         <div>
-          <h4>Address</h4>
+          <h4>
+            <FaLocationDot className="footerSubIcon" />
+            Address
+          </h4>
           <p>
-            <a href="">Banashankari 3rd stage. Bangalore.560085.</a>
+            <a href="">
+              Aura Diagnostics, 1st floor, Above HDFC bank (Girinagar branch),
+              #175, BBMP PID No. 41-137-175. 5th main road. Avalhalli extension.
+              Banashankari 3rd stage. Bangalore.560085.
+            </a>
           </p>
         </div>
       </li>
       <li>
         {" "}
-        <FaPhoneVolume className="footerSubIcon" />
         <div>
-          <h4>Contact Us</h4>
+          <h4>
+            <FaPhoneVolume className="footerSubIcon" />
+            Contact Us
+          </h4>
           <p>
             <a href="phone:9611156622">+91 9611156622</a>
           </p>
@@ -32,9 +40,11 @@ const Footer1Contact = () => {
       </li>
       <li>
         {" "}
-        <FaEnvelope className="footerSubIcon" />
         <div>
-          <h4>Email Us</h4>
+          <h4>
+            <FaEnvelope className="footerSubIcon" />
+            Email Us
+          </h4>
           <p>
             <a href="mailto:auradaignosticsandhealthcare@gmail.com">
               auradaignosticsandhealthcare@gmail.com

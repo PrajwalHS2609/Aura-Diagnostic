@@ -1,8 +1,8 @@
-"use client"
+"use client";
 import React from "react";
 import "./WhatsApp.css";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
-import AuraLogo from "./../../Images/fav.png"
+import AuraLogo from "./../../Images/fav.png";
 const WhatsApp = () => {
   // let [visible, setVisible] = useState();
   // useEffect(() => {
@@ -23,7 +23,7 @@ const WhatsApp = () => {
       </a> */}
       <FloatingWhatsApp
         phoneNumber="919742232700"
-        accountName="Aura"
+        accountName="Aura "
         avatar={AuraLogo.src} // Optional
         statusMessage="Typically replies within 5 min" // Optional
         chatMessage="Welcome to Aura Diagnostics!
