@@ -1,43 +1,43 @@
 import React from "react";
 import DopplerScanning from "./../../../Images/ServiceImgs/Doppler Scanning.png";
-import Link from "next/link";
-import Image from "next/image";
-const PregnancyScanService = () => {
+import Link from 'next/link';
+import Image from 'next/image';
+const InfertilityScanService = () => {
   const service = [
     {
       id: 1,
       img: DopplerScanning,
-      title: "Dating Scan",
+      title: "3D pelvis",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/dating-scan",
+      link: "/3d-pelvis",
     },
     {
       id: 2,
       img: DopplerScanning,
-      title: " Anomaly Scan",
+      title: "3D Base line scan/ AFC scans",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/anomaly-scan",
+      link: "/3d-base-line-scan",
     },
     {
       id: 3,
       img: DopplerScanning,
-      title: "3d Scan",
+      title: "3D Follicle monitoring with Doppler",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/3d-scan",
+      link: "/3d-follicle-monitoring-with-doppler",
     },
     {
       id: 4,
       img: DopplerScanning,
-      title: "4d Scan",
+      title: "Leuteal phase scan",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/4d scan",
+      link: "/leuteal-phase-scan",
     },
     {
       id: 5,
       img: DopplerScanning,
-      title: "NT Scan",
+      title: "Uterine biophysical profile",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/nt-scan",
+      link: "/uterine-biophysical-profile",
     },
   ];
   return (
@@ -70,4 +70,4 @@ const PregnancyScanService = () => {
   );
 };
 
-export default PregnancyScanService;
+export default InfertilityScanService;

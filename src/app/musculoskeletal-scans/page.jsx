@@ -8,7 +8,6 @@ import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSi
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import MusculoskeletalScanExcept from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanExcept";
 import MusculoskeletalScanPrepare from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanPrepare";
-import ObstetricsService from "../../components/ServicePages/Obstetrics/ObstetricsService";
 import HomeTestimonial from "./../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
@@ -38,7 +37,6 @@ export default function MusculoskeletalScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
-      <ObstetricsService />
       <HomeWhy />
       <HomeTestimonial />
       <ServiceMap />

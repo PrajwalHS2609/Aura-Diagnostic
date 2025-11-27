@@ -3,53 +3,53 @@ import { GiLiquidSoap } from "react-icons/gi";
 import { HiOutlineClock } from "react-icons/hi2";
 import { IoDiamondOutline, IoShirtOutline } from "react-icons/io5";
 import { LiaFilePrescriptionSolid } from "react-icons/lia";
-import { TbFileImport } from "react-icons/tb";
+import { LuUsers } from "react-icons/lu";
 
-const MusculoskeletalScanPrepare = () => {
+const SoftTissueScansPrepare = () => {
   const card = [
     {
       id: 1,
-      icon: <TbFileImport />,
-      title: "Online Presence 24/7",
-      description: "Bring the referral your Doctor or Specialist gave you.",
-    },
-    {
-      id: 2,
       icon: <IoDiamondOutline />,
       title: "Market Expansion",
+      description: "Remove jewelry or accessories near the affected region.",
+    },
+
+    {
+      id: 2,
+      icon: <HiOutlineClock />,
       description:
-        "Remove any jewelry or accessories near the affected region.",
+        "Arrive 10–15 minutes early to complete basic formalities calmly.",
     },
     {
       id: 3,
-      icon: <HiOutlineClock />,
-      description: "Arrive a few minutes early to relax before the procedure.",
+      icon: <LiaFilePrescriptionSolid />,
+      description:
+        "Bring previous medical reports, scan records, or prescriptions for comparison.",
     },
     {
       id: 4,
-      icon: <LiaFilePrescriptionSolid />,
-      description:
-        "Bring previous X-rays, MRI reports, or medical records for comparison.",
-    },
-    {
-      id: 5,
       icon: <IoShirtOutline />,
-      title: "Provides a Better First Impression",
       description:
         "Wear loose, comfortable clothing to allow easy access to the area being scanned.",
     },
 
     {
-      id: 6,
+      id: 5,
       icon: <GiLiquidSoap />,
       description:
-        "Avoid applying lotions or oils on the area before the scan, as it may affect image clarity.",
+        "Avoid applying lotions, creams, or oils on the targeted area before the scan.",
+    },
+    {
+      id: 6,
+      icon: <LuUsers />,
+      description:
+        "Inform the sonographer about any recent injuries, surgeries, or ongoing symptoms.",
     },
   ];
   return (
     <div className="service-prepareContainer">
       <div className="service-prepareHead">
-        <h2>How to prepare for Musculoskeletal Scans?</h2>
+        <h2>How to prepare for Soft Tissue Scans?</h2>
       </div>
       <div className="service-prepareContent">
         {card.map((x) => (
@@ -65,4 +65,4 @@ const MusculoskeletalScanPrepare = () => {
   );
 };
 
-export default MusculoskeletalScanPrepare;
+export default SoftTissueScansPrepare;

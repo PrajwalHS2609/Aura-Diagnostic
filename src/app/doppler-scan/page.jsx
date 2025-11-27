@@ -1,11 +1,17 @@
-import DopplerScanFooterContent from "../../components/ServicePages/DopplerScanPage/DopplerScanContent/DopplerScanFooterContent";
-import DopplerScanHeaderContent from "../../components/ServicePages/DopplerScanPage/DopplerScanContent/DopplerScanHeaderContent";
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
-import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
-import Reviews from "../../components/HomePage/Reviews/Reviews";
-import ServiceHeader from './../../components/ServiceComponents/ServiceHeader/ServiceHeader';
-import ServiceMap from './../../components/ServiceComponents/ServiceMap/ServiceMap';
+import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";import ServiceHeader from "./../../components/ServiceComponents/ServiceHeader/ServiceHeader";
+import ServiceMap from "./../../components/ServiceComponents/ServiceMap/ServiceMap";
 import doppler from "../../Images/ServicesBanner/Doppler.png";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
+import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
+import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
+import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
+import DopplerScanExpect from "../../components/ServicePages/DopplerScan/DopplerScanExpect";
+import DopplerScanService from "../../components/ServicePages/DopplerScan/DopplerScanService";
+import DopplerScanPrepare from "../../components/ServicePages/DopplerScan/DopplerScanPrepare";
+import DopplerScanHeader from "../../components/ServicePages/DopplerScan/DopplerScanHead";
+import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 export default function DopplerPage() {
   return (
     <div>
@@ -14,12 +20,28 @@ export default function DopplerPage() {
         para="Creating Life's masterpiece, one kick at a time"
         img={doppler}
       />
-      <DopplerScanHeaderContent />
       <HomeCerti />
-      <HomeWhy />
+      <div className="component-container">
+        <div className="component-main">
+          <ServiceNav />
+
+          <DopplerScanHeader />
+          <div className="component-mainContent">
+            <DopplerScanExpect />
+            <DopplerScanPrepare />
+            <ServiceBilling />
+            <ServiceBook />
+          </div>
+        </div>
+        <div className="component-sidebar">
+          <ServiceSidebarBrochure />
+          <ServiceSidebarLinks />
+        </div>
+      </div>
       <ServiceMap />
-      <Reviews />
-      <DopplerScanFooterContent />
+      <DopplerScanService />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 }
