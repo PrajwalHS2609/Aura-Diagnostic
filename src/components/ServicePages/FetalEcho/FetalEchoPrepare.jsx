@@ -1,53 +1,52 @@
 import React from "react";
 import { GiLiquidSoap } from "react-icons/gi";
 import { HiOutlineClock } from "react-icons/hi2";
-import { IoDiamondOutline, IoShirtOutline } from "react-icons/io5";
+import { IoShirtOutline } from "react-icons/io5";
 import { LiaFilePrescriptionSolid } from "react-icons/lia";
-import { TbFileImport } from "react-icons/tb";
+import { LuGlassWater, LuUserPlus } from "react-icons/lu";
 
-const MusculoskeletalScanPrepare = () => {
+const FetalEchoPrepare = () => {
   const card = [
     {
       id: 1,
-      icon: <TbFileImport />,
-      description: "Bring the referral your Doctor or Specialist gave you.",
+      icon: <LuGlassWater />,
+      description:
+        "Hydrate well before the appointment unless your doctor advises otherwise.",
     },
     {
       id: 2,
-      icon: <IoDiamondOutline />,
+      icon: <LuUserPlus />,
       description:
-        "Remove any jewelry or accessories near the affected region.",
+        "Inform your doctor or sonographer about any family history of cardiac issues.",
     },
     {
       id: 3,
       icon: <HiOutlineClock />,
-      description: "Arrive a few minutes early to relax before the procedure.",
+      description: "Arrive 10–15 minutes early to relax before the procedure.",
     },
     {
       id: 4,
       icon: <LiaFilePrescriptionSolid />,
       description:
-        "Bring previous X-rays, MRI reports, or medical records for comparison.",
+        "Bring previous pregnancy scan reports for better comparison.",
     },
     {
       id: 5,
       icon: <IoShirtOutline />,
-      title: "Provides a Better First Impression",
       description:
-        "Wear loose, comfortable clothing to allow easy access to the area being scanned.",
+        "Wear comfortable, loose-fitting clothes for easy access to your abdomen.",
     },
-
     {
       id: 6,
       icon: <GiLiquidSoap />,
       description:
-        "Avoid applying lotions or oils on the area before the scan, as it may affect image clarity.",
+        "Avoid applying lotions or oils on your abdomen on the day of the scan.",
     },
   ];
   return (
     <div className="service-prepareContainer">
       <div className="service-prepareHead">
-        <h2>How to prepare for Musculoskeletal Scans?</h2>
+        <h2>How to prepare for 3D & 4D Fetal Scans?</h2>
       </div>
       <div className="service-prepareContent">
         {card.map((x) => (
@@ -63,4 +62,4 @@ const MusculoskeletalScanPrepare = () => {
   );
 };
 
-export default MusculoskeletalScanPrepare;
+export default FetalEchoPrepare;

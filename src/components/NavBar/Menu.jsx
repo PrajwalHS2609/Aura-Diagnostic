@@ -86,23 +86,15 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/"
-                    className={pathname === "/3d-scan" ? "active" : ""}
+                    href="/3d-and-4d-fetal-scan"
+                    className={pathname === "/3d-and-4d-fetal-scan" ? "active" : ""}
                   >
-                    3D Scan
+                    3D and 4D Fetal Scan
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/"
-                    className={pathname === "/4d-scan" ? "active" : ""}
-                  >
-                    4D Scan
-                  </Link>
-                </li>
-                <li>
-                  <Link
-                    href="/"
+                    href="/nt-scan"
                     className={pathname === "/nt-scan" ? "active" : ""}
                   >
                     NT Scan
@@ -511,7 +503,9 @@ const Menu = () => {
                         id="menuNavLink"
                         onClick={hideSideBar}
                         href={`/pregnancy-scan`}
-                        className={pathname === "/pregnancy-scan" ? "active" : ""}
+                        className={
+                          pathname === "/pregnancy-scan" ? "active" : ""
+                        }
                       >
                         Pregnancy Scan
                       </Link>
@@ -553,12 +547,25 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/3d-and-4d-nt-scan`}
+                            href={`/3d-and-4d-fetal-scan`}
                             className={
-                              pathname === "/3d-and-4d-nt-scan" ? "active" : ""
+                              pathname === "/3d-and-4d-fetal-scan" ? "active" : ""
                             }
                           >
-                            3D and 4D NT Scan
+                            3D and 4D Fetal Scan
+                          </Link>
+                        </li>
+                                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/nt-scan`}
+                            className={
+                              pathname === "/nt-scan" ? "active" : ""
+                            }
+                          >
+                           NT Scan
                           </Link>
                         </li>
                       </div>
@@ -655,9 +662,7 @@ const Menu = () => {
                         onClick={hideSideBar}
                         href={`/usg-guided-procedure`}
                         className={
-                          pathname === "/usg-guided-procedure"
-                            ? "active"
-                            : ""
+                          pathname === "/usg-guided-procedure" ? "active" : ""
                         }
                       >
                         USG guided procedure
