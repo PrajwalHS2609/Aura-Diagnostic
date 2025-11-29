@@ -1,31 +1,31 @@
 import React from "react";
-import { FaUserDoctor } from "react-icons/fa6";
+import { CiGlass } from "react-icons/ci";
 import { GiLiquidSoap } from "react-icons/gi";
 import { HiOutlineClock } from "react-icons/hi2";
 import { IoShirtOutline } from "react-icons/io5";
 import { LiaFilePrescriptionSolid } from "react-icons/lia";
 import { MdOutlineFoodBank } from "react-icons/md";
 
-const CarotidDopplerPrepare = () => {
+const UpperLowerLimbDopplerPrepare = () => {
   const card = [
     {
       id: 1,
-      icon: <FaUserDoctor />,
+      icon: <CiGlass />,
       description:
-        "Inform the technician about any history of stroke, hypertension, or vascular issues.",
+        "Inform the specialist about symptoms like swelling, pain, numbness, or varicose veins.",
     },
 
     {
       id: 2,
       icon: <HiOutlineClock />,
       description:
-        "Arrive 10–15 minutes early to complete registration and relax before the scan.",
+        "Arrive a little early to relax before the procedure.",
     },
     {
       id: 3,
       icon: <LiaFilePrescriptionSolid />,
       description:
-        "Bring previous Doppler or cardiovascular reports, if available.",
+        "Bring previous medical reports, prescriptions, or scan results for comparison.",
     },
     {
       id: 4,
@@ -37,19 +37,20 @@ const CarotidDopplerPrepare = () => {
     {
       id: 5,
       icon: <MdOutlineFoodBank />,
-      description: "No fasting is required; you may eat and drink normally.",
+      description:
+        "No fasting is required; eat and drink normally.",
     },
-    {
+        {
       id: 6,
       icon: <GiLiquidSoap />,
       description:
-        "Avoid applying lotions, powders, or oils on the neck before the scan.",
+        "Avoid applying lotions, creams, or oils on the limbs to ensure clear imaging.",
     },
   ];
   return (
     <div className="service-prepareContainer">
       <div className="service-prepareHead">
-        <h2>How to prepare for Carotid Doppler?</h2>
+        <h2>How to prepare for Upper and Lower Limb Doppler?</h2>
       </div>
       <div className="service-prepareContent">
         {card.map((x) => (
@@ -65,4 +66,4 @@ const CarotidDopplerPrepare = () => {
   );
 };
 
-export default CarotidDopplerPrepare;
+export default UpperLowerLimbDopplerPrepare;

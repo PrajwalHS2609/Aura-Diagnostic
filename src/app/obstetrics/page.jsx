@@ -19,7 +19,7 @@ export default function Obstetrics() {
      <div className="">
       {" "}
       <ServiceHeader
-        title="USG Guided Procedure"
+        title="Obstetrics"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />

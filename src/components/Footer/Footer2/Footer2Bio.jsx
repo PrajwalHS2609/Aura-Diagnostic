@@ -1,22 +1,19 @@
 import React from "react";
 import "../Footer.css";
 import Image from "next/image";
-import logo from "./../../../Images/logo.png"
+import logo from "./../../../Images/logo.png";
 const Footer2Bio = () => {
   return (
     <div className="footer2Bio">
       <div className="footer2BioImg">
         {" "}
-        <Image
-          src={logo}
-          alt="logo"
-          
-        />
+        <Image src={logo} alt="logo" />
       </div>
       <p>
-        Aura Diagnostics, established in 2001, is a healthcare facility led
-        by Dr. Ramyashree R M G N, a seasoned professional with 30 years of
-        experience.
+        Founded in 2025, Aura Diagnostics is a patient-centered healthcare
+        facility led by Dr. Ramyashree R.M and Dr. Kiran Ramaiah, two highly
+        skilled clinicians with over a decade of combined experience in medical
+        diagnostics and clinical care.
       </p>
     </div>
   );

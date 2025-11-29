@@ -356,7 +356,7 @@ const Menu = () => {
                       pathname === "/whole-body-doppler" ? "active" : ""
                     }
                   >
-                    whole body Doppler
+                    Whole body Doppler
                   </Link>
                 </li>
               </div>

@@ -18,7 +18,7 @@ export default function GrowthScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Musculoskeletal Scan"
+        title="Growth Scans with Doppler"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />

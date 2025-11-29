@@ -1,36 +1,35 @@
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
-import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
-import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
+import ServiceHeader from "./../../components/ServiceComponents/ServiceHeader/ServiceHeader";
+import ServiceMap from "./../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from "./../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import DFetalScansExpect from "./../../components/ServicePages/DFetalScans/DFetalScansExpect";
-import DFetalScansHead from "./../../components/ServicePages/DFetalScans/DFetalScansHead";
-import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetalScansPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import UpperLowerLimbDopplerHead from './../../components/ServicePages/UpperLowerLimbDoppler/UpperLowerLimbDopplerHead';
+import UpperLowerLimbDopplerExpect from './../../components/ServicePages/UpperLowerLimbDoppler/UpperLowerLimbDopplerExpect';
+import UpperLowerLimbDopplerPrepare from './../../components/ServicePages/UpperLowerLimbDoppler/UpperLowerLimbDopplerPrepare';
 
-export default function DFetalScan() {
+export default function MusculoskeletalScan() {
   return (
     <div className="">
       {" "}
       <ServiceHeader
-        title="3D & 4D Fetal Scans"
+        title="Upper and Lower Limb Doppler"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <ServiceNav />
-
-          <DFetalScansHead />
+          <ServiceNav/>
+          <UpperLowerLimbDopplerHead />
           <div className="component-mainContent">
-            <DFetalScansExpect />
-            <DFetalScansPrepare />
+            <UpperLowerLimbDopplerExpect />
+            <UpperLowerLimbDopplerPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>

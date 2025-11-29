@@ -1,31 +1,31 @@
 import React from "react";
+import { CiGlass } from "react-icons/ci";
 import { FaUserDoctor } from "react-icons/fa6";
-import { GiLiquidSoap } from "react-icons/gi";
 import { HiOutlineClock } from "react-icons/hi2";
 import { IoShirtOutline } from "react-icons/io5";
 import { LiaFilePrescriptionSolid } from "react-icons/lia";
-import { MdOutlineFoodBank } from "react-icons/md";
+import { MdOutlineNoFood } from "react-icons/md";
 
-const CarotidDopplerPrepare = () => {
+const RenalDopplerPrepare = () => {
   const card = [
     {
       id: 1,
-      icon: <FaUserDoctor />,
+      icon: <CiGlass />,
       description:
-        "Inform the technician about any history of stroke, hypertension, or vascular issues.",
+        "Drink water if instructed, but avoid heavy meals before the test.",
     },
 
     {
       id: 2,
       icon: <HiOutlineClock />,
       description:
-        "Arrive 10–15 minutes early to complete registration and relax before the scan.",
+        "Arrive a little early to relax and complete any required paperwork.",
     },
     {
       id: 3,
       icon: <LiaFilePrescriptionSolid />,
       description:
-        "Bring previous Doppler or cardiovascular reports, if available.",
+        "Bring previous renal reports or ultrasound results for comparison.",
     },
     {
       id: 4,
@@ -36,20 +36,21 @@ const CarotidDopplerPrepare = () => {
 
     {
       id: 5,
-      icon: <MdOutlineFoodBank />,
-      description: "No fasting is required; you may eat and drink normally.",
+      icon: <MdOutlineNoFood />,
+      description:
+        "Fast for 6–8 hours before the scan to reduce gas in the abdomen for clearer images.",
     },
     {
       id: 6,
-      icon: <GiLiquidSoap />,
+      icon: <FaUserDoctor />,
       description:
-        "Avoid applying lotions, powders, or oils on the neck before the scan.",
+        "Inform the specialist about kidney-related conditions or hypertension.",
     },
   ];
   return (
     <div className="service-prepareContainer">
       <div className="service-prepareHead">
-        <h2>How to prepare for Carotid Doppler?</h2>
+        <h2>How to prepare for Renal Doppler?</h2>
       </div>
       <div className="service-prepareContent">
         {card.map((x) => (
@@ -65,4 +66,4 @@ const CarotidDopplerPrepare = () => {
   );
 };
 
-export default CarotidDopplerPrepare;
+export default RenalDopplerPrepare;

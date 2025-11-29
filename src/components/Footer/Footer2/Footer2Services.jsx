@@ -10,7 +10,14 @@ const Footer2Services = () => {
     <div className="footer2Link">
       <ul>
         <h4>Our Services</h4>
-
+        <li>
+          <Link
+            href={"/pregnancy-scan"}
+            className={pathname === "/pregnancy-scan" ? "active" : ""}
+          >
+            Pregnancy Scan{" "}
+          </Link>
+        </li>
         <li>
           <Link
             href={"/pathology"}
