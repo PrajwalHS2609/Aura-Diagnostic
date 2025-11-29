@@ -23,7 +23,7 @@ const Footer2 = () => {
       <div className="footerCopy">
         <p>
           ©2024 | Made in India with
-          <a href="https://tryseoservices.com/">TrySeoService</a>
+          <a href="https://tryseoservices.com/">TrySeoServices.com</a>
         </p>
       </div>
     </div>

@@ -1,4 +1,4 @@
-"use client";
+  "use client";
 import "./globals.css";
 import Footer from "./../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
