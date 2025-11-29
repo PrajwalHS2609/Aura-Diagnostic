@@ -21,7 +21,7 @@ const HomeWhyContents = () => {
         <HomeWhyCard
           head="Expertise and Experience"
           img={Expertise}
-          para="With over 30 years of experience in the healthcare industry, Dr. Ramyashree R M G N and our skilled team bring a wealth of knowledge and proficiency to diagnostics."
+          para="With over 10 years of healthcare experience, Dr. Ramyashree R M and our team deliver reliable, accurate diagnostics."
         />
         <HomeWhyCard
           head="Cutting-Edge Technology"
