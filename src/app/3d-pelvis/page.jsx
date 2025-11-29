@@ -1,33 +1,33 @@
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
-import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
-import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
+import ServiceHeader from "./../../components/ServiceComponents/ServiceHeader/ServiceHeader";
+import ServiceMap from "./../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from "./../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import DFetalScansExpect from './../../components/ServicePages/DFetalScans/DFetalScansExpect';
-import DFetalScansHead from './../../components/ServicePages/DFetalScans/DFetalScansHead';
-import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetalScansPrepare";
+import Pelvis3dHead from './../../components/ServicePages/Pelvis3d/Pelvis3dHead';
+import Pelvis3dExpect from './../../components/ServicePages/Pelvis3d/Pelvis3dExpect';
+import Pelvis3dPrepare from './../../components/ServicePages/Pelvis3d/Pelvis3dPrepare';
 
-export default function DFetalScan() {
+export default function Pelvis3D() {
   return (
     <div className="">
       {" "}
       <ServiceHeader
-        title="Musculoskeletal Scan"
+        title="3D Pelvis Scan"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <DFetalScansHead />
+          <Pelvis3dHead />
           <div className="component-mainContent">
-            <DFetalScansExpect />
-            <DFetalScansPrepare />
+            <Pelvis3dExpect />
+            <Pelvis3dPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>

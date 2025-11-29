@@ -37,7 +37,7 @@
   transform: skewX(-25deg);
   font-size: 55px;
   text-align: center;
-  margin-left: 70px;
+  margin-left: 10px;
   padding: 10px;
   color: var(--customColor1);
 }
@@ -83,8 +83,7 @@
   justify-content: center;
   align-items: center;
   gap: 20px;
-    transform: skewX(-25deg);
-
+  transform: skewX(-25deg);
 }
 .service-HeaderContentBtn > a {
   text-decoration: none;
@@ -140,9 +139,8 @@
     border: 1px solid white;
     transform: skewX(0deg);
   }
-  .service-HeaderContentBtn{
+  .service-HeaderContentBtn {
     flex-direction: column;
-        transform: skewX(0deg);
-
+    transform: skewX(0deg);
   }
 }

@@ -1,33 +1,33 @@
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
-import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
-import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
+import ServiceHeader from "./../../components/ServiceComponents/ServiceHeader/ServiceHeader";
+import ServiceMap from "./../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
+import HomeTestimonial from "./../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import DFetalScansExpect from './../../components/ServicePages/DFetalScans/DFetalScansExpect';
-import DFetalScansHead from './../../components/ServicePages/DFetalScans/DFetalScansHead';
-import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetalScansPrepare";
+import BodyFluidAspirationHead from './../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationHead';
+import BodyFluidAspirationExpect from './../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationExpect';
+import BodyFluidAspirationPrepare from './../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationPrepare';
 
-export default function DFetalScan() {
+export default function BodyFluidAspiration() {
   return (
     <div className="">
       {" "}
       <ServiceHeader
-        title="Musculoskeletal Scan"
+        title="Body Fluid Aspiration"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <DFetalScansHead />
+          <BodyFluidAspirationHead />
           <div className="component-mainContent">
-            <DFetalScansExpect />
-            <DFetalScansPrepare />
+            <BodyFluidAspirationExpect />
+            <BodyFluidAspirationPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>
