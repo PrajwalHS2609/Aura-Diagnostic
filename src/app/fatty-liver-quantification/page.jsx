@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import FattyLiverQuantificationHead from './../../components/ServicePages/FattyLiverQuantification/FattyLiverQuantificationHead';
 import FattyLiverQuantificationExpect from './../../components/ServicePages/FattyLiverQuantification/FattyLiverQuantificationExpect';
 import FattyLiverQuantificationPrepare from './../../components/ServicePages/FattyLiverQuantification/FattyLiverQuantificationPrepare';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function FattyLiverQuantification() {
   return (
@@ -24,6 +25,7 @@ export default function FattyLiverQuantification() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <FattyLiverQuantificationHead />
           <div className="component-mainContent">
             <FattyLiverQuantificationExpect />

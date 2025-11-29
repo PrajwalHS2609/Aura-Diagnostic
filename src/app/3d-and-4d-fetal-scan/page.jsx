@@ -8,9 +8,10 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import DFetalScansExpect from './../../components/ServicePages/DFetalScans/DFetalScansExpect';
-import DFetalScansHead from './../../components/ServicePages/DFetalScans/DFetalScansHead';
+import DFetalScansExpect from "./../../components/ServicePages/DFetalScans/DFetalScansExpect";
+import DFetalScansHead from "./../../components/ServicePages/DFetalScans/DFetalScansHead";
 import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetalScansPrepare";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function DFetalScan() {
   return (
@@ -24,6 +25,8 @@ export default function DFetalScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
+
           <DFetalScansHead />
           <div className="component-mainContent">
             <DFetalScansExpect />

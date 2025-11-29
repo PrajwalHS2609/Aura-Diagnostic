@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import FetalEchoHead from './../../components/ServicePages/FetalEcho/FetalEchoHead';
 import FetalEchoExpect from './../../components/ServicePages/FetalEcho/FetalEchoExpect';
 import FetalEchoPrepare from './../../components/ServicePages/FetalEcho/FetalEchoPrepare';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function FetalEcho() {
   return (
@@ -24,6 +25,7 @@ export default function FetalEcho() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <FetalEchoHead />
           <div className="component-mainContent">
             <FetalEchoExpect />

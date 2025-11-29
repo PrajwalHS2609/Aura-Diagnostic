@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import FNACHead from './../../components/ServicePages/FNAC/FNACHead';
 import FNACPrepare from './../../components/ServicePages/FNAC/FNACPrepare';
 import FNACExpect from './../../components/ServicePages/FNAC/FNACExpect';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function FNAC() {
   return (
@@ -24,6 +25,7 @@ export default function FNAC() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <FNACHead />
           <div className="component-mainContent">
             <FNACExpect />

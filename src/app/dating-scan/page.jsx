@@ -11,6 +11,7 @@ import DatingScanHead from './../../components/ServicePages/DatingScan/DatingSca
 import DatingScanExpect from './../../components/ServicePages/DatingScan/DatingScanExpect';
 import DatingScanPrepare from './../../components/ServicePages/DatingScan/DatingScanPrepare';
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function DatingScan(){
     return(
@@ -24,6 +25,7 @@ export default function DatingScan(){
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <DatingScanHead />
           <div className="component-mainContent">
             <DatingScanExpect />

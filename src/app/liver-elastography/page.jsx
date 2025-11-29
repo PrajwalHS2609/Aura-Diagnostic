@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import LiverElastographyHead from './../../components/ServicePages/LiverElastography/LiverElastographyHead';
 import LiverElastographyExpect from './../../components/ServicePages/LiverElastography/LiverElastographyExpect';
 import LiverElastographyPrepare from './../../components/ServicePages/LiverElastography/LiverElastographyPrepare';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function LiverElastography() {
   return (
@@ -24,6 +25,7 @@ export default function LiverElastography() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav/>
           <LiverElastographyHead />
           <div className="component-mainContent">
             <LiverElastographyExpect />

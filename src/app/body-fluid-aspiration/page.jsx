@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import BodyFluidAspirationHead from './../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationHead';
 import BodyFluidAspirationExpect from './../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationExpect';
 import BodyFluidAspirationPrepare from './../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationPrepare';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function BodyFluidAspiration() {
   return (
@@ -24,6 +25,7 @@ export default function BodyFluidAspiration() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <BodyFluidAspirationHead />
           <div className="component-mainContent">
             <BodyFluidAspirationExpect />

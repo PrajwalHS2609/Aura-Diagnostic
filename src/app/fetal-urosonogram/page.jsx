@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import FetalUrosonogramHead from './../../components/ServicePages/FetalUrosonogram/FetalUrosonogramHead';
 import FetalUrosonogramExpect from './../../components/ServicePages/FetalUrosonogram/FetalUrosonogramExpect';
 import FetalUrosonogramPrepare from './../../components/ServicePages/FetalUrosonogram/FetalUrosonogramPrepare';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function FetalUrosonogram() {
   return (
@@ -24,6 +25,7 @@ export default function FetalUrosonogram() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <FetalUrosonogramHead />
           <div className="component-mainContent">
             <FetalUrosonogramExpect />

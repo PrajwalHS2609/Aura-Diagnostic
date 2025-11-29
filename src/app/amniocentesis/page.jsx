@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import AmniocentesisExpect from './../../components/ServicePages/Amniocentesis/AmniocentesisExpect';
 import AmniocentesisHead from './../../components/ServicePages/Amniocentesis/AmniocentesisHead';
 import AmniocentesisPrepare from "../../components/ServicePages/Amniocentesis/AmniocentesisPrepare";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function Amniocentesis() {
   return (
@@ -24,6 +25,7 @@ export default function Amniocentesis() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <AmniocentesisHead />
           <div className="component-mainContent">
             <AmniocentesisExpect />

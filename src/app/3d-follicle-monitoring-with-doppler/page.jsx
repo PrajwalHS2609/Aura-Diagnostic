@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import FollicleMonitoringHead from "../../components/ServicePages/FollicleMonitoring/FollicleMonitoringHead";
 import FollicleMonitoringExpect from "./../../components/ServicePages/FollicleMonitoring/FollicleMonitoringExpect";
 import FollicleMonitoringPrepare from "./../../components/ServicePages/FollicleMonitoring/FollicleMonitoringPrepare";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function FollicleMonitoring3D() {
   return (
@@ -24,6 +25,7 @@ export default function FollicleMonitoring3D() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <FollicleMonitoringHead />
           <div className="component-mainContent">
             <FollicleMonitoringExpect />

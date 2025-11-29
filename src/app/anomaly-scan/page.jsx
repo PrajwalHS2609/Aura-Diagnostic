@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import AnomalyScanHead from './../../components/ServicePages/AnomalyScan/AnomalyScanHead';
 import AnomalyScanExpect from './../../components/ServicePages/AnomalyScan/AnomalyScanExpect';
 import AnomalyScanPrepare from './../../components/ServicePages/AnomalyScan/AnomalyScanPrepare';
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function AnomalyScan() {
   return (
@@ -24,6 +25,7 @@ export default function AnomalyScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <AnomalyScanHead />
           <div className="component-mainContent">
             <AnomalyScanExpect />

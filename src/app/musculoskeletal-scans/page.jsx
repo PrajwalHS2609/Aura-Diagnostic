@@ -11,6 +11,7 @@ import MusculoskeletalScanPrepare from "../../components/ServicePages/Musculoske
 import HomeTestimonial from "./../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function MusculoskeletalScan() {
   return (
@@ -24,6 +25,7 @@ export default function MusculoskeletalScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav/>
           <MusculoskeletalScanHead />
           <div className="component-mainContent">
             <MusculoskeletalScanExcept />

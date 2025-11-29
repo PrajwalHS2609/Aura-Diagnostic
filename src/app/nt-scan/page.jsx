@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import NtScanHead from "./../../components/ServicePages/NtScan/NtScanHead";
 import NtScanExpect from "./../../components/ServicePages/NtScan/NtScanExpect";
 import NtScanPrepare from "./../../components/ServicePages/NtScan/NtScanPrepare";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function NtScan() {
   return (
@@ -24,6 +25,7 @@ export default function NtScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav/>
           <NtScanHead />
           <div className="component-mainContent">
             <NtScanExpect />

@@ -11,6 +11,7 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function GrowthScan() {
   return (
@@ -24,6 +25,7 @@ export default function GrowthScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <GrowthScanHead />
           <div className="component-mainContent">
             <GrowthScanExpect />

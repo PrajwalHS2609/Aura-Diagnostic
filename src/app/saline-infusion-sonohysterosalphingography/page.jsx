@@ -12,6 +12,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import SalineInfusionHead from './../../components/ServicePages/SalineInfusion/SalineInfusionHead';
 import SalineInfusionExpect from './../../components/ServicePages/SalineInfusion/SalineInfusionExpect';
 import SalineInfusionPrepare from "../../components/ServicePages/SalineInfusion/SalineInfusionPrepare";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function SalineInfusion() {
   return (
@@ -25,6 +26,7 @@ export default function SalineInfusion() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav/>
           <SalineInfusionHead />
           <div className="component-mainContent">
             <SalineInfusionExpect />

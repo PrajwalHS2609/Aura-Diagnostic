@@ -11,6 +11,7 @@ import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceB
 import BaselineScan3dHead from "./../../components/ServicePages/BaselineScan3d/BaselineScan3dHead";
 import BaselineScan3dPrepare from "./../../components/ServicePages/BaselineScan3d/BaselineScan3dPrepare";
 import BaselineScan3dExpect from "./../../components/ServicePages/BaselineScan3d/BaselineScan3dExpect";
+import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export default function BaseLine3DScan() {
   return (
@@ -24,6 +25,7 @@ export default function BaseLine3DScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
+          <ServiceNav />
           <BaselineScan3dHead />
           <div className="component-mainContent">
             <BaselineScan3dExpect />
