@@ -62,40 +62,40 @@ const Menu = () => {
           <div className="menuDropDown">
             <li>
               <Link
-                href="/pregnancy-scan"
-                className={pathname === "/pregnancy-scan" ? "active" : ""}
+                href="/pregnancy-scans-in-girinagar-bangalore"
+                className={pathname === "/pregnancy-scans-in-girinagar-bangalore" ? "active" : ""}
               >
                 Pregnancy Scan
               </Link>
               <div className="innerMenuDropDown">
                 <li>
                   <Link
-                    href="/dating-scan"
-                    className={pathname === "/dating-scan" ? "active" : ""}
+                    href="/pregnancy-dating-scan-in-girinagar-bangalore"
+                    className={pathname === "/pregnancy-dating-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Dating Scan
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/anomaly-scan"
-                    className={pathname === "/anomaly-scan" ? "active" : ""}
+                    href="/pregnancy-anomaly-scan-in-girinagar-bangalore"
+                    className={pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Anomaly Scan
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/3d-and-4d-fetal-scan"
-                    className={pathname === "/3d-and-4d-fetal-scan" ? "active" : ""}
+                    href="/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore"
+                    className={pathname === "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore" ? "active" : ""}
                   >
                     3D and 4D Fetal Scan
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/nt-scan"
-                    className={pathname === "/nt-scan" ? "active" : ""}
+                    href="/pregnancy-nt-scan-in-girinagar-bangalore"
+                    className={pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     NT Scan
                   </Link>
@@ -104,8 +104,8 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/obstetrics"
-                className={pathname === "/obstetrics" ? "active" : ""}
+                href="/obstetrics-scan-in-girinagar-bangalore"
+                className={pathname === "/obstetrics-scan-in-girinagar-bangalore" ? "active" : ""}
               >
                 Obstetrics
               </Link>
@@ -113,8 +113,8 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/nt-scan"
-                    className={pathname === "/nt-scan" ? "active" : ""}
+                    href="/pregnancy-nt-scan-in-girinagar-bangalore"
+                    className={pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     NT scan
                   </Link>
@@ -122,24 +122,24 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/anomaly-scan"
-                    className={pathname === "/anomaly-scan" ? "active" : ""}
+                    href="/pregnancy-anomaly-scan-in-girinagar-bangalore"
+                    className={pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Anomaly scan
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/growth-scan"
-                    className={pathname === "/growth-scan" ? "active" : ""}
+                    href="/growth-scan-with-doppler-in-girinagar-bangalore"
+                    className={pathname === "/growth-scan-with-doppler-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Growth scan with Doppler
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/fetal-echo"
-                    className={pathname === "/fetal-echo" ? "active" : ""}
+                    href="/fetal-echo-test-in-girinagar-bangalore"
+                    className={pathname === "/fetal-echo-test-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Fetal echo
                   </Link>
@@ -147,9 +147,9 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/fetal-urosonogram"
+                    href="/fetal-urosonogram-test-in-girinagar-bangalore"
                     className={
-                      pathname === "/fetal-urosonogram" ? "active" : ""
+                      pathname === "/fetal-urosonogram-test-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Fetal Urosonogram
@@ -159,17 +159,17 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/advanced-usg"
-                className={pathname === "/advanced-usg" ? "active" : ""}
+                href="/advanced-usg-test-in-girinagar-bangalore"
+                className={pathname === "/advanced-usg-test-in-girinagar-bangalore" ? "active" : ""}
               >
                 Advanced USG
               </Link>
               <div className="innerMenuDropDown">
                 <li>
                   <Link
-                    href="/liver-elastography"
+                    href="/liver-elastography-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/liver-elastography" ? "active" : ""
+                      pathname === "/liver-elastography-scan-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Liver elastography
@@ -177,9 +177,9 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/fatty-liver-quantification"
+                    href="/fatty-liver-quantification-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/fatty-liver-quantification" ? "active" : ""
+                      pathname === "/fatty-liver-quantification-scan-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Fatty liver quantification
@@ -189,25 +189,25 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/usg-guided-procedure"
-                className={pathname === "/usg-guided-procedure" ? "active" : ""}
+                href="/usg-guided-procedure-in-girinagar-bangalore"
+                className={pathname === "/usg-guided-procedure-in-girinagar-bangalore" ? "active" : ""}
               >
                 USG guided procedure
               </Link>
               <div className="innerMenuDropDown" id="subMenuDropDown">
                 <li>
                   <Link
-                    href="/fnac"
-                    className={pathname === "/fnac" ? "active" : ""}
+                    href="/fnac-test-in-girinagar-bangalore"
+                    className={pathname === "/fnac-test-in-girinagar-bangalore" ? "active" : ""}
                   >
                     FNAC
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/body-fluid-aspiration"
+                    href="/body-fluid-aspiration-test-in-girinagar-bangalore"
                     className={
-                      pathname === "/body-fluid-aspiration" ? "active" : ""
+                      pathname === "/body-fluid-aspiration-test-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Body fluid aspiration
@@ -215,9 +215,9 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/saline-infusion-sonohysterosalphingography"
+                    href="/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore"
                     className={
-                      pathname === "/saline-infusion-sonohysterosalphingography"
+                      pathname === "/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -227,8 +227,8 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/amniocentesis"
-                    className={pathname === "/amniocentesis" ? "active" : ""}
+                    href="/amniocentesis-ultrasound-test-in-girinagar-bangalore"
+                    className={pathname === "/amniocentesis-ultrasound-test-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Amniocentesis
                   </Link>
@@ -237,8 +237,8 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/infertility-scans"
-                className={pathname === "/infertility-scans" ? "active" : ""}
+                href="/infertility-scan-test-in-girinagar-bangalore"
+                className={pathname === "/infertility-scan-test-in-girinagar-bangalore" ? "active" : ""}
               >
                 Infertility Scans
               </Link>
@@ -246,8 +246,8 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/3d-pelvis"
-                    className={pathname === "/3d-pelvis" ? "active" : ""}
+                    href="/3d-pelvis-scan-in-girinagar-bangalore"
+                    className={pathname === "/3d-pelvis-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     3D pelvis
                   </Link>
@@ -255,9 +255,9 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/3d-base-line-scan"
+                    href="/3d-baseline-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/3d-base-line-scan" ? "active" : ""
+                      pathname === "/3d-baseline-scan-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     3D Base line scan/ AFC scans
@@ -265,9 +265,9 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/3d-follicle-monitoring-with-doppler"
+                    href="/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"
                     className={
-                      pathname === "/3d-follicle-monitoring-with-doppler"
+                      pathname === "/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -277,9 +277,9 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/leuteal-phase-scan"
+                    href="/luteal-phase-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/leuteal-phase-scan" ? "active" : ""
+                      pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Leuteal phase scan
@@ -288,9 +288,9 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/uterine-biophysical-profile"
+                    href="/uterine-biophysical-profile-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/uterine-biophysical-profile"
+                      pathname === "/uterine-biophysical-profile-scan-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -302,8 +302,8 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/doppler-scan"
-                className={pathname === "/doppler-scan" ? "active" : ""}
+                href="/doppler-scan-in-girinagar-bangalore"
+                className={pathname === "/doppler-scan-in-girinagar-bangalore" ? "active" : ""}
               >
                 Doppler
               </Link>
@@ -311,8 +311,8 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/carotid-doppler"
-                    className={pathname === "/carotid-doppler" ? "active" : ""}
+                    href="/carotid-doppler-scan-in-girinagar-bangalore"
+                    className={pathname === "/carotid-doppler-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Carotid Doppler
                   </Link>
@@ -320,17 +320,17 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/renal-doppler"
-                    className={pathname === "/renal-doppler" ? "active" : ""}
+                    href="/renal-doppler-scan-in-girinagar-bangalore"
+                    className={pathname === "/renal-doppler-scan-in-girinagar-bangalore" ? "active" : ""}
                   >
                     Renal Doppler
                   </Link>
                 </li>
                 <li>
                   <Link
-                    href="/upper-and-lower-limb-doppler"
+                    href="/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/upper-and-lower-limb-doppler"
+                      pathname === "/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -340,9 +340,9 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/leuteal-phase-scan"
+                    href="/luteal-phase-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/leuteal-phase-scan" ? "active" : ""
+                      pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Leuteal phase scan
@@ -351,9 +351,9 @@ const Menu = () => {
                 <li>
                   {" "}
                   <Link
-                    href="/whole-body-doppler"
+                    href="/whole-body-doppler-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/whole-body-doppler" ? "active" : ""
+                      pathname === "/whole-body-doppler-scan-in-girinagar-bangalore" ? "active" : ""
                     }
                   >
                     Whole body Doppler
@@ -363,9 +363,9 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/musculoskeletal-scans"
+                href="/musculoskeletal-scan-in-girinagar-bangalore"
                 className={
-                  pathname === "/musculoskeletal-scans" ? "active" : ""
+                  pathname === "/musculoskeletal-scan-in-girinagar-bangalore" ? "active" : ""
                 }
               >
                 Musculoskeletal Scans
@@ -373,8 +373,8 @@ const Menu = () => {
             </li>
             <li>
               <Link
-                href="/soft-tissue-scans"
-                className={pathname === "/soft-tissue-scans" ? "active" : ""}
+                href="/soft-tissue-scans-in-girinagar-bangalore"
+                className={pathname === "/soft-tissue-scans-in-girinagar-bangalore" ? "active" : ""}
               >
                 Soft Tissue Scans
               </Link>
@@ -502,9 +502,9 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/pregnancy-scan`}
+                        href={`/pregnancy-scans-in-girinagar-bangalore`}
                         className={
-                          pathname === "/pregnancy-scan" ? "active" : ""
+                          pathname === "/pregnancy-scans-in-girinagar-bangalore" ? "active" : ""
                         }
                       >
                         Pregnancy Scan
@@ -521,9 +521,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/dating-scan`}
+                            href={`/pregnancy-dating-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/dating-scan" ? "active" : ""
+                              pathname === "/pregnancy-dating-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Dating Scan
@@ -534,9 +534,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/anomaly-scan`}
+                            href={`/pregnancy-anomaly-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/anomaly-scan" ? "active" : ""
+                              pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Anomaly Scan
@@ -547,9 +547,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/3d-and-4d-fetal-scan`}
+                            href={`/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore`}
                             className={
-                              pathname === "/3d-and-4d-fetal-scan" ? "active" : ""
+                              pathname === "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             3D and 4D Fetal Scan
@@ -560,9 +560,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/nt-scan`}
+                            href={`/pregnancy-nt-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/nt-scan" ? "active" : ""
+                              pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                            NT Scan
@@ -576,8 +576,8 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/obstetrics`}
-                        className={pathname === "/obstetrics" ? "active" : ""}
+                        href={`/obstetrics-scan-in-girinagar-bangalore`}
+                        className={pathname === "/obstetrics-scan-in-girinagar-bangalore" ? "active" : ""}
                       >
                         Obstetrics{" "}
                       </Link>
@@ -594,8 +594,8 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/nt-scan`}
-                            className={pathname === "/nt-scan" ? "active" : ""}
+                            href={`/pregnancy-nt-scan-in-girinagar-bangalore`}
+                            className={pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""}
                           >
                             NT scan{" "}
                           </Link>
@@ -605,9 +605,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/anomaly-scan`}
+                            href={`/pregnancy-anomaly-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/anomaly-scan" ? "active" : ""
+                              pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Anomaly scan
@@ -618,9 +618,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/growth-scan`}
+                            href={`/growth-scan-with-doppler-in-girinagar-bangalore`}
                             className={
-                              pathname === "/growth-scan" ? "active" : ""
+                              pathname === "/growth-scan-with-doppler-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Growth scan with Doppler
@@ -631,9 +631,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/fetal-echo`}
+                            href={`/fetal-echo-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/fetal-echo" ? "active" : ""
+                              pathname === "/fetal-echo-test-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Fetal echo
@@ -644,9 +644,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/fetal-urosonogram`}
+                            href={`/fetal-urosonogram-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/fetal-urosonogram" ? "active" : ""
+                              pathname === "/fetal-urosonogram-test-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Fetal Urosonogram
@@ -660,9 +660,9 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/usg-guided-procedure`}
+                        href={`/usg-guided-procedure-in-girinagar-bangalore`}
                         className={
-                          pathname === "/usg-guided-procedure" ? "active" : ""
+                          pathname === "/usg-guided-procedure-in-girinagar-bangalore" ? "active" : ""
                         }
                       >
                         USG guided procedure
@@ -679,8 +679,8 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/fnac`}
-                            className={pathname === "/fnac" ? "active" : ""}
+                            href={`/fnac-test-in-girinagar-bangalore`}
+                            className={pathname === "/fnac-test-in-girinagar-bangalore" ? "active" : ""}
                           >
                             FNAC
                           </Link>
@@ -690,9 +690,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/body-fluid-aspiration`}
+                            href={`/body-fluid-aspiration-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/body-fluid-aspiration"
+                              pathname === "/body-fluid-aspiration-test-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -705,10 +705,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/saline-infusion-sonohysterosalphingography`}
+                            href={`/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore`}
                             className={
                               pathname ===
-                              "/saline-infusion-sonohysterosalphingography"
+                              "/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -721,9 +721,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/amniocentesis`}
+                            href={`/amniocentesis-ultrasound-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/amniocentesis" ? "active" : ""
+                              pathname === "/amniocentesis-ultrasound-test-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Amniocentesis
@@ -737,9 +737,9 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/infertility-scans`}
+                        href={`/infertility-scan-test-in-girinagar-bangalore`}
                         className={
-                          pathname === "/infertility-scans" ? "active" : ""
+                          pathname === "/infertility-scan-test-in-girinagar-bangalore" ? "active" : ""
                         }
                       >
                         Infertility Scans
@@ -756,9 +756,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/3d-pelvis`}
+                            href={`/3d-pelvis-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/3d-pelvis" ? "active" : ""
+                              pathname === "/3d-pelvis-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             3D pelvis
@@ -769,9 +769,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/3d-base-line-scan`}
+                            href={`/3d-baseline-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/3d-base-line-scan" ? "active" : ""
+                              pathname === "/3d-baseline-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             3D Base line scan/ AFC scans
@@ -782,10 +782,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/3d-follicle-monitoring-with-doppler`}
+                            href={`/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore`}
                             className={
                               pathname ===
-                              "/3d-follicle-monitoring-with-doppler"
+                              "/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -798,9 +798,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/leuteal-phase-scan`}
+                            href={`/luteal-phase-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/leuteal-phase-scan" ? "active" : ""
+                              pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Leuteal phase scan
@@ -811,9 +811,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/uterine-biophysical-profile`}
+                            href={`/uterine-biophysical-profile-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/uterine-biophysical-profile"
+                              pathname === "/uterine-biophysical-profile-scan-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -830,8 +830,8 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/doppler-scan`}
-                        className={pathname === "/doppler-scan" ? "active" : ""}
+                        href={`/doppler-scan-in-girinagar-bangalore`}
+                        className={pathname === "/doppler-scan-in-girinagar-bangalore" ? "active" : ""}
                       >
                         Doppler
                       </Link>
@@ -847,9 +847,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/carotid-doppler`}
+                            href={`/carotid-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/carotid-doppler" ? "active" : ""
+                              pathname === "/carotid-doppler-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Carotid Doppler
@@ -860,9 +860,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/renal-doppler`}
+                            href={`/renal-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/renal-doppler" ? "active" : ""
+                              pathname === "/renal-doppler-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Renal Doppler
@@ -873,9 +873,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/upper-and-lower-limb-doppler`}
+                            href={`/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/upper-and-lower-limb-doppler"
+                              pathname === "/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -888,9 +888,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/leuteal-phase-scan`}
+                            href={`/luteal-phase-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/leuteal-phase-scan" ? "active" : ""
+                              pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Leuteal phase scan
@@ -901,9 +901,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/whole-body-doppler`}
+                            href={`/whole-body-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/whole-body-doppler" ? "active" : ""
+                              pathname === "/whole-body-doppler-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             whole body Doppler
@@ -918,8 +918,8 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/advanced-usg`}
-                        className={pathname === "/advanced-usg" ? "active" : ""}
+                        href={`/advanced-usg-test-in-girinagar-bangalore`}
+                        className={pathname === "/advanced-usg-test-in-girinagar-bangalore" ? "active" : ""}
                       >
                         Advanced USG
                       </Link>
@@ -935,9 +935,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/liver-elastography`}
+                            href={`/liver-elastography-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/liver-elastography" ? "active" : ""
+                              pathname === "/liver-elastography-scan-in-girinagar-bangalore" ? "active" : ""
                             }
                           >
                             Liver elastography
@@ -948,9 +948,9 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/fatty-liver-quantification`}
+                            href={`/fatty-liver-quantification-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/fatty-liver-quantification"
+                              pathname === "/fatty-liver-quantification-scan-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -968,9 +968,9 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/infertility Scans`}
+                        href={`/musculoskeletal-scan-in-girinagar-bangalore`}
                         className={
-                          pathname === "/infertility Scans" ? "active" : ""
+                          pathname === "/musculoskeletal-scan-in-girinagar-bangalore" ? "active" : ""
                         }
                       >
                         Musculoskeletal Scans
@@ -983,9 +983,9 @@ const Menu = () => {
                       <Link
                         id="menuNavLink"
                         onClick={hideSideBar}
-                        href={`/infertility Scans`}
+                        href={`/soft-tissue-scans-in-girinagar-bangalore`}
                         className={
-                          pathname === "/infertility Scans" ? "active" : ""
+                          pathname === "/soft-tissue-scans-in-girinagar-bangalore" ? "active" : ""
                         }
                       >
                         Soft Tissue Scans

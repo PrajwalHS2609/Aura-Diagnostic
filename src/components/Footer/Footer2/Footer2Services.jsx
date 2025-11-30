@@ -12,40 +12,49 @@ const Footer2Services = () => {
         <h4>Our Services</h4>
         <li>
           <Link
-            href={"/pregnancy-scan"}
-            className={pathname === "/pregnancy-scan" ? "active" : ""}
+            href={"/pregnancy-scans-in-girinagar-bangalore"}
+            className={
+              pathname === "/pregnancy-scans-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
           >
             Pregnancy Scan{" "}
           </Link>
         </li>
         <li>
           <Link
-            href={"/pathology"}
-            className={pathname === "/pathology" ? "active" : ""}
+            href={"/obstetrics-scan-in-girinagar-bangalore"}
+            className={
+              pathname === "/obstetrics-scan-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
           >
             Obstetrics{" "}
           </Link>
         </li>
         <li>
           <Link
-            href={"/3d4d-ultrasound"}
-            className={pathname === "/3d4d-ultrasound" ? "active" : ""}
+            href={"/advanced-usg-test-in-girinagar-bangalore"}
+            className={
+              pathname === "/advanced-usg-test-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
           >
             Advanced USG
           </Link>
         </li>
-        {/* <li>
-          <Link
-            href={"/"}
-           className={pathname === "/" ? "active" : ""}
-          >
-            X-Ray
-          </Link>
-        </li> */}
+
         <li>
           <Link
-            href={"/cardiology"}
-            className={pathname === "/cardiology" ? "active" : ""}
+            href={"/usg-guided-procedure-in-girinagar-bangalore"}
+            className={
+              pathname === "/usg-guided-procedure-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
           >
             USG guided procedure{" "}
           </Link>
@@ -53,25 +62,53 @@ const Footer2Services = () => {
 
         <li>
           {" "}
-          <Link href={"/ecg"} className={pathname === "/ecg" ? "active" : ""}>
+          <Link
+            href={"/infertility-scan-test-in-girinagar-bangalore"}
+            className={
+              pathname === "/infertility-scan-test-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
+          >
             Infertility Scans{" "}
           </Link>
         </li>
         <li>
           {" "}
-          <Link href={"/tmt"} className={pathname === "/tmt" ? "active" : ""}>
+          <Link
+            href={"/doppler-scan-in-girinagar-bangalore"}
+            className={
+              pathname === "/doppler-scan-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
+          >
             Doppler{" "}
           </Link>
         </li>
         <li>
           {" "}
-          <Link href={"/echo"} className={pathname === "/echo" ? "active" : ""}>
+          <Link
+            href={"/musculoskeletal-scan-in-girinagar-bangalore"}
+            className={
+              pathname === "/musculoskeletal-scan-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
+          >
             Musculoskeletal Scans{" "}
           </Link>
         </li>
         <li>
           {" "}
-          <Link href={"/echo"} className={pathname === "/echo" ? "active" : ""}>
+          <Link
+            href={"/soft-tissue-scans-in-girinagar-bangalore"}
+            className={
+              pathname === "/soft-tissue-scans-in-girinagar-bangalore"
+                ? "active"
+                : ""
+            }
+          >
             Soft Tissue Scans
           </Link>
         </li>

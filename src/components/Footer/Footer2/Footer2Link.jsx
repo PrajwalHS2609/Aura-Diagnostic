@@ -17,11 +17,11 @@ const Footer2Link = () => {
             About Us
           </Link>
         </li>
-        <li>
+        {/* <li>
           <Link href={"/services"} className={pathname === "/services" ? "active" : ""}>
             Services
           </Link>
-        </li>
+        </li> */}
         <li>
           <Link href={"/health-package"} className={pathname === "/health-package" ? "active" : ""}>
             Health Package
