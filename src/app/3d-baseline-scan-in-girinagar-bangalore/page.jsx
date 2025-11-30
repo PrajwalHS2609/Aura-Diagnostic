@@ -25,7 +25,7 @@ export default function BaseLine3DScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title=" 3D And 4D Base Line Scan"
+        title=" 3D Base Line Scan"
         para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />

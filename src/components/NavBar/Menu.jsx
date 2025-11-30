@@ -339,16 +339,6 @@ const Menu = () => {
                   </Link>
                 </li>
                 <li>
-                  <Link
-                    href="/luteal-phase-scan-in-girinagar-bangalore"
-                    className={
-                      pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
-                    }
-                  >
-                    Leuteal phase scan
-                  </Link>
-                </li>
-                <li>
                   {" "}
                   <Link
                     href="/whole-body-doppler-scan-in-girinagar-bangalore"
@@ -883,19 +873,7 @@ const Menu = () => {
                             Upper and Lower Limb Doppler
                           </Link>
                         </li>
-                        <li>
-                          {" "}
-                          <Link
-                            id="menuNavLink"
-                            onClick={hideSideBar}
-                            href={`/luteal-phase-scan-in-girinagar-bangalore`}
-                            className={
-                              pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
-                            }
-                          >
-                            Leuteal phase scan
-                          </Link>
-                        </li>
+                        
                         <li>
                           {" "}
                           <Link

@@ -142,5 +142,6 @@
   .service-HeaderContentBtn {
     flex-direction: column;
     transform: skewX(0deg);
+    width: 300px;
   }
 }
