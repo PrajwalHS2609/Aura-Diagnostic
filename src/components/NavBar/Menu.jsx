@@ -63,7 +63,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/pregnancy-scans-in-girinagar-bangalore"
-                className={pathname === "/pregnancy-scans-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/pregnancy-scans-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 Pregnancy Scan
               </Link>
@@ -71,7 +75,12 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/pregnancy-dating-scan-in-girinagar-bangalore"
-                    className={pathname === "/pregnancy-dating-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/pregnancy-dating-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Dating Scan
                   </Link>
@@ -79,7 +88,12 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/pregnancy-anomaly-scan-in-girinagar-bangalore"
-                    className={pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/pregnancy-anomaly-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Anomaly Scan
                   </Link>
@@ -87,7 +101,12 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore"
-                    className={pathname === "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     3D and 4D Fetal Scan
                   </Link>
@@ -95,7 +114,11 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/pregnancy-nt-scan-in-girinagar-bangalore"
-                    className={pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname === "/pregnancy-nt-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     NT Scan
                   </Link>
@@ -105,7 +128,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/obstetrics-scan-in-girinagar-bangalore"
-                className={pathname === "/obstetrics-scan-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/obstetrics-scan-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 Obstetrics
               </Link>
@@ -114,7 +141,11 @@ const Menu = () => {
                   {" "}
                   <Link
                     href="/pregnancy-nt-scan-in-girinagar-bangalore"
-                    className={pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname === "/pregnancy-nt-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     NT scan
                   </Link>
@@ -123,7 +154,12 @@ const Menu = () => {
                   {" "}
                   <Link
                     href="/pregnancy-anomaly-scan-in-girinagar-bangalore"
-                    className={pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/pregnancy-anomaly-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Anomaly scan
                   </Link>
@@ -131,7 +167,12 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/growth-scan-with-doppler-in-girinagar-bangalore"
-                    className={pathname === "/growth-scan-with-doppler-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/growth-scan-with-doppler-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Growth scan with Doppler
                   </Link>
@@ -139,7 +180,11 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/fetal-echo-test-in-girinagar-bangalore"
-                    className={pathname === "/fetal-echo-test-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname === "/fetal-echo-test-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Fetal echo
                   </Link>
@@ -149,7 +194,10 @@ const Menu = () => {
                   <Link
                     href="/fetal-urosonogram-test-in-girinagar-bangalore"
                     className={
-                      pathname === "/fetal-urosonogram-test-in-girinagar-bangalore" ? "active" : ""
+                      pathname ===
+                      "/fetal-urosonogram-test-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     Fetal Urosonogram
@@ -160,7 +208,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/advanced-usg-test-in-girinagar-bangalore"
-                className={pathname === "/advanced-usg-test-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/advanced-usg-test-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 Advanced USG
               </Link>
@@ -169,7 +221,10 @@ const Menu = () => {
                   <Link
                     href="/liver-elastography-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/liver-elastography-scan-in-girinagar-bangalore" ? "active" : ""
+                      pathname ===
+                      "/liver-elastography-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     Liver elastography
@@ -179,7 +234,10 @@ const Menu = () => {
                   <Link
                     href="/fatty-liver-quantification-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/fatty-liver-quantification-scan-in-girinagar-bangalore" ? "active" : ""
+                      pathname ===
+                      "/fatty-liver-quantification-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     Fatty liver quantification
@@ -190,7 +248,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/usg-guided-procedure-in-girinagar-bangalore"
-                className={pathname === "/usg-guided-procedure-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/usg-guided-procedure-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 USG guided procedure
               </Link>
@@ -198,7 +260,11 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/fnac-test-in-girinagar-bangalore"
-                    className={pathname === "/fnac-test-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname === "/fnac-test-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     FNAC
                   </Link>
@@ -207,7 +273,10 @@ const Menu = () => {
                   <Link
                     href="/body-fluid-aspiration-test-in-girinagar-bangalore"
                     className={
-                      pathname === "/body-fluid-aspiration-test-in-girinagar-bangalore" ? "active" : ""
+                      pathname ===
+                      "/body-fluid-aspiration-test-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     Body fluid aspiration
@@ -217,7 +286,8 @@ const Menu = () => {
                   <Link
                     href="/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore"
                     className={
-                      pathname === "/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore"
+                      pathname ===
+                      "/saline-infusion-sonohysterosalpingography-test-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -228,7 +298,12 @@ const Menu = () => {
                 <li>
                   <Link
                     href="/amniocentesis-ultrasound-test-in-girinagar-bangalore"
-                    className={pathname === "/amniocentesis-ultrasound-test-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/amniocentesis-ultrasound-test-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Amniocentesis
                   </Link>
@@ -238,7 +313,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/infertility-scan-test-in-girinagar-bangalore"
-                className={pathname === "/infertility-scan-test-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/infertility-scan-test-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 Infertility Scans
               </Link>
@@ -247,7 +326,11 @@ const Menu = () => {
                   {" "}
                   <Link
                     href="/3d-pelvis-scan-in-girinagar-bangalore"
-                    className={pathname === "/3d-pelvis-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname === "/3d-pelvis-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     3D pelvis
                   </Link>
@@ -257,7 +340,9 @@ const Menu = () => {
                   <Link
                     href="/3d-baseline-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/3d-baseline-scan-in-girinagar-bangalore" ? "active" : ""
+                      pathname === "/3d-baseline-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     3D Base line scan/ AFC scans
@@ -267,7 +352,8 @@ const Menu = () => {
                   <Link
                     href="/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"
                     className={
-                      pathname === "/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"
+                      pathname ===
+                      "/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -279,7 +365,9 @@ const Menu = () => {
                   <Link
                     href="/luteal-phase-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
+                      pathname === "/luteal-phase-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     Leuteal phase scan
@@ -290,7 +378,8 @@ const Menu = () => {
                   <Link
                     href="/uterine-biophysical-profile-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/uterine-biophysical-profile-scan-in-girinagar-bangalore"
+                      pathname ===
+                      "/uterine-biophysical-profile-scan-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -303,7 +392,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/doppler-scan-in-girinagar-bangalore"
-                className={pathname === "/doppler-scan-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/doppler-scan-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 Doppler
               </Link>
@@ -312,7 +405,12 @@ const Menu = () => {
                   {" "}
                   <Link
                     href="/carotid-doppler-scan-in-girinagar-bangalore"
-                    className={pathname === "/carotid-doppler-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname ===
+                      "/carotid-doppler-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Carotid Doppler
                   </Link>
@@ -321,7 +419,11 @@ const Menu = () => {
                   {" "}
                   <Link
                     href="/renal-doppler-scan-in-girinagar-bangalore"
-                    className={pathname === "/renal-doppler-scan-in-girinagar-bangalore" ? "active" : ""}
+                    className={
+                      pathname === "/renal-doppler-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
                   >
                     Renal Doppler
                   </Link>
@@ -330,7 +432,8 @@ const Menu = () => {
                   <Link
                     href="/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
+                      pathname ===
+                      "/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
                         ? "active"
                         : ""
                     }
@@ -343,7 +446,10 @@ const Menu = () => {
                   <Link
                     href="/whole-body-doppler-scan-in-girinagar-bangalore"
                     className={
-                      pathname === "/whole-body-doppler-scan-in-girinagar-bangalore" ? "active" : ""
+                      pathname ===
+                      "/whole-body-doppler-scan-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
                     }
                   >
                     Whole body Doppler
@@ -355,7 +461,9 @@ const Menu = () => {
               <Link
                 href="/musculoskeletal-scan-in-girinagar-bangalore"
                 className={
-                  pathname === "/musculoskeletal-scan-in-girinagar-bangalore" ? "active" : ""
+                  pathname === "/musculoskeletal-scan-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
                 }
               >
                 Musculoskeletal Scans
@@ -364,7 +472,11 @@ const Menu = () => {
             <li>
               <Link
                 href="/soft-tissue-scans-in-girinagar-bangalore"
-                className={pathname === "/soft-tissue-scans-in-girinagar-bangalore" ? "active" : ""}
+                className={
+                  pathname === "/soft-tissue-scans-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
               >
                 Soft Tissue Scans
               </Link>
@@ -390,10 +502,10 @@ const Menu = () => {
           <div className="menuDropDown">
             <li>
               <Link
-                href="/neurology"
-                className={pathname === "/neurology" ? "active" : ""}
+                href="/cardiology"
+                className={pathname === "/cardiology" ? "active" : ""}
               >
-                Neurology
+                Cardiology
               </Link>
             </li>
             <li>
@@ -404,14 +516,7 @@ const Menu = () => {
                 Nephrology
               </Link>
             </li>
-            <li>
-              <Link
-                href="/gynecology"
-                className={pathname === "/gynecology" ? "active" : ""}
-              >
-                Gynecology
-              </Link>
-            </li>
+
             <li>
               <Link
                 href="/urology"
@@ -494,7 +599,9 @@ const Menu = () => {
                         onClick={hideSideBar}
                         href={`/pregnancy-scans-in-girinagar-bangalore`}
                         className={
-                          pathname === "/pregnancy-scans-in-girinagar-bangalore" ? "active" : ""
+                          pathname === "/pregnancy-scans-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
                         }
                       >
                         Pregnancy Scan
@@ -513,7 +620,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/pregnancy-dating-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/pregnancy-dating-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/pregnancy-dating-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Dating Scan
@@ -526,7 +636,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/pregnancy-anomaly-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/pregnancy-anomaly-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Anomaly Scan
@@ -539,23 +652,29 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore`}
                             className={
-                              pathname === "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             3D and 4D Fetal Scan
                           </Link>
                         </li>
-                                        <li>
+                        <li>
                           {" "}
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
                             href={`/pregnancy-nt-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/pregnancy-nt-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
-                           NT Scan
+                            NT Scan
                           </Link>
                         </li>
                       </div>
@@ -567,7 +686,11 @@ const Menu = () => {
                         id="menuNavLink"
                         onClick={hideSideBar}
                         href={`/obstetrics-scan-in-girinagar-bangalore`}
-                        className={pathname === "/obstetrics-scan-in-girinagar-bangalore" ? "active" : ""}
+                        className={
+                          pathname === "/obstetrics-scan-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
+                        }
                       >
                         Obstetrics{" "}
                       </Link>
@@ -585,7 +708,12 @@ const Menu = () => {
                             id="menuNavLink"
                             onClick={hideSideBar}
                             href={`/pregnancy-nt-scan-in-girinagar-bangalore`}
-                            className={pathname === "/pregnancy-nt-scan-in-girinagar-bangalore" ? "active" : ""}
+                            className={
+                              pathname ===
+                              "/pregnancy-nt-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
                           >
                             NT scan{" "}
                           </Link>
@@ -597,7 +725,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/pregnancy-anomaly-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/pregnancy-anomaly-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/pregnancy-anomaly-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Anomaly scan
@@ -610,7 +741,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/growth-scan-with-doppler-in-girinagar-bangalore`}
                             className={
-                              pathname === "/growth-scan-with-doppler-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/growth-scan-with-doppler-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Growth scan with Doppler
@@ -623,7 +757,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/fetal-echo-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/fetal-echo-test-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/fetal-echo-test-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Fetal echo
@@ -636,7 +773,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/fetal-urosonogram-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/fetal-urosonogram-test-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/fetal-urosonogram-test-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Fetal Urosonogram
@@ -652,7 +792,10 @@ const Menu = () => {
                         onClick={hideSideBar}
                         href={`/usg-guided-procedure-in-girinagar-bangalore`}
                         className={
-                          pathname === "/usg-guided-procedure-in-girinagar-bangalore" ? "active" : ""
+                          pathname ===
+                          "/usg-guided-procedure-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
                         }
                       >
                         USG guided procedure
@@ -670,7 +813,11 @@ const Menu = () => {
                             id="menuNavLink"
                             onClick={hideSideBar}
                             href={`/fnac-test-in-girinagar-bangalore`}
-                            className={pathname === "/fnac-test-in-girinagar-bangalore" ? "active" : ""}
+                            className={
+                              pathname === "/fnac-test-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
                           >
                             FNAC
                           </Link>
@@ -682,7 +829,8 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/body-fluid-aspiration-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/body-fluid-aspiration-test-in-girinagar-bangalore"
+                              pathname ===
+                              "/body-fluid-aspiration-test-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -713,7 +861,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/amniocentesis-ultrasound-test-in-girinagar-bangalore`}
                             className={
-                              pathname === "/amniocentesis-ultrasound-test-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/amniocentesis-ultrasound-test-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Amniocentesis
@@ -729,7 +880,10 @@ const Menu = () => {
                         onClick={hideSideBar}
                         href={`/infertility-scan-test-in-girinagar-bangalore`}
                         className={
-                          pathname === "/infertility-scan-test-in-girinagar-bangalore" ? "active" : ""
+                          pathname ===
+                          "/infertility-scan-test-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
                         }
                       >
                         Infertility Scans
@@ -748,7 +902,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/3d-pelvis-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/3d-pelvis-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/3d-pelvis-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             3D pelvis
@@ -761,7 +918,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/3d-baseline-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/3d-baseline-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/3d-baseline-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             3D Base line scan/ AFC scans
@@ -790,7 +950,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/luteal-phase-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/luteal-phase-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/luteal-phase-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Leuteal phase scan
@@ -803,7 +966,8 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/uterine-biophysical-profile-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/uterine-biophysical-profile-scan-in-girinagar-bangalore"
+                              pathname ===
+                              "/uterine-biophysical-profile-scan-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -821,7 +985,11 @@ const Menu = () => {
                         id="menuNavLink"
                         onClick={hideSideBar}
                         href={`/doppler-scan-in-girinagar-bangalore`}
-                        className={pathname === "/doppler-scan-in-girinagar-bangalore" ? "active" : ""}
+                        className={
+                          pathname === "/doppler-scan-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
+                        }
                       >
                         Doppler
                       </Link>
@@ -839,7 +1007,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/carotid-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/carotid-doppler-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/carotid-doppler-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Carotid Doppler
@@ -852,7 +1023,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/renal-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/renal-doppler-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/renal-doppler-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Renal Doppler
@@ -865,7 +1039,8 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
+                              pathname ===
+                              "/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -873,7 +1048,7 @@ const Menu = () => {
                             Upper and Lower Limb Doppler
                           </Link>
                         </li>
-                        
+
                         <li>
                           {" "}
                           <Link
@@ -881,7 +1056,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/whole-body-doppler-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/whole-body-doppler-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/whole-body-doppler-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             whole body Doppler
@@ -897,7 +1075,12 @@ const Menu = () => {
                         id="menuNavLink"
                         onClick={hideSideBar}
                         href={`/advanced-usg-test-in-girinagar-bangalore`}
-                        className={pathname === "/advanced-usg-test-in-girinagar-bangalore" ? "active" : ""}
+                        className={
+                          pathname ===
+                          "/advanced-usg-test-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
+                        }
                       >
                         Advanced USG
                       </Link>
@@ -915,7 +1098,10 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/liver-elastography-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/liver-elastography-scan-in-girinagar-bangalore" ? "active" : ""
+                              pathname ===
+                              "/liver-elastography-scan-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
                             }
                           >
                             Liver elastography
@@ -928,7 +1114,8 @@ const Menu = () => {
                             onClick={hideSideBar}
                             href={`/fatty-liver-quantification-scan-in-girinagar-bangalore`}
                             className={
-                              pathname === "/fatty-liver-quantification-scan-in-girinagar-bangalore"
+                              pathname ===
+                              "/fatty-liver-quantification-scan-in-girinagar-bangalore"
                                 ? "active"
                                 : ""
                             }
@@ -948,7 +1135,10 @@ const Menu = () => {
                         onClick={hideSideBar}
                         href={`/musculoskeletal-scan-in-girinagar-bangalore`}
                         className={
-                          pathname === "/musculoskeletal-scan-in-girinagar-bangalore" ? "active" : ""
+                          pathname ===
+                          "/musculoskeletal-scan-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
                         }
                       >
                         Musculoskeletal Scans
@@ -963,7 +1153,10 @@ const Menu = () => {
                         onClick={hideSideBar}
                         href={`/soft-tissue-scans-in-girinagar-bangalore`}
                         className={
-                          pathname === "/soft-tissue-scans-in-girinagar-bangalore" ? "active" : ""
+                          pathname ===
+                          "/soft-tissue-scans-in-girinagar-bangalore"
+                            ? "active"
+                            : ""
                         }
                       >
                         Soft Tissue Scans
@@ -999,56 +1192,29 @@ const Menu = () => {
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`/payment-gateway-service-in-bangalore`}
-                      className={
-                        pathname === "/payment-gateway-service-in-bangalore"
-                          ? "active"
-                          : ""
-                      }
+                      href={`/cardiology`}
+                      className={pathname === "/cardiology" ? "active" : ""}
                     >
-                      Neurology{" "}
+                      Cardiology{" "}
                     </Link>
                   </li>
                   <li>
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`/email-marketing-service-in-bangalore`}
-                      className={
-                        pathname === "/email-marketing-service-in-bangalore"
-                          ? "active"
-                          : ""
-                      }
+                      href={`/nephrology`}
+                      className={pathname === "/nephrology" ? "active" : ""}
                     >
                       Nephrology{" "}
                     </Link>
                   </li>
+
                   <li>
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`/sms-and-whatsapp-marketing-services-in-bangalore`}
-                      className={
-                        pathname ===
-                        "/sms-and-whatsapp-marketing-services-in-bangalore"
-                          ? "active"
-                          : ""
-                      }
-                    >
-                      Gynecology{" "}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      id="menuNavLink"
-                      onClick={hideSideBar}
-                      href={`/sms-and-whatsapp-marketing-services-in-bangalore`}
-                      className={
-                        pathname ===
-                        "/sms-and-whatsapp-marketing-services-in-bangalore"
-                          ? "active"
-                          : ""
-                      }
+                      href={`/urology`}
+                      className={pathname === "/urology" ? "active" : ""}
                     >
                       Urology{" "}
                     </Link>
