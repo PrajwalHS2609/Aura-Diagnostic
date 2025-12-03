@@ -15,9 +15,9 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
-          href={`/pregnancy-scan`}
+          href={`/pregnancy-scans-in-girinagar-bangalore`}
           className={
-            pathname === "/pregnancy-scan"
+            pathname === "/pregnancy-scans-in-girinagar-bangalore"
               ? "active"
               : ""
           }
@@ -27,17 +27,17 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
-          href={`/obstetrics`}
-          className={pathname === "/obstetrics" ? "active" : ""}
+          href={`/obstetrics-scan-in-girinagar-bangalore`}
+          className={pathname === "/obstetrics-scan-in-girinagar-bangalore" ? "active" : ""}
         >
           Obstetrics
         </Link>
       </li>
       <li>
         <Link
-          href={`/advanced-usg`}
+          href={`/advanced-usg-test-in-girinagar-bangalore`}
           className={
-            pathname === "/advanced-usg" ? "active" : ""
+            pathname === "/advanced-usg-test-in-girinagar-bangalore" ? "active" : ""
           }
         >
           Advanced USG{" "}
@@ -45,9 +45,9 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
-          href={`/usg-guided-procedure`}
+          href={`/usg-guided-procedure-in-girinagar-bangalore`}
           className={
-            pathname === "/usg-guided-procedure"
+            pathname === "/usg-guided-procedure-in-girinagar-bangalore"
               ? "active"
               : ""
           }
@@ -57,9 +57,9 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
-          href={`/infertility-scans`}
+          href={`/infertility-scan-test-in-girinagar-bangalore`}
           className={
-            pathname === "/infertility-scans" ? "active" : ""
+            pathname === "/infertility-scan-test-in-girinagar-bangalore" ? "active" : ""
           }
         >
           Infertility Scans
@@ -67,9 +67,9 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
-          href={`/doppler-scan`}
+          href={`/doppler-scan-in-girinagar-bangalore`}
           className={
-            pathname === "/doppler-scan" ? "active" : ""
+            pathname === "/doppler-scan-in-girinagar-bangalore" ? "active" : ""
           }
         >
           Doppler{" "}
@@ -77,9 +77,9 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
-          href={`/musculoskeletal-scans`}
+          href={`/musculoskeletal-scan-in-girinagar-bangalore`}
           className={
-            pathname === "/musculoskeletal-scans" ? "active" : ""
+            pathname === "/musculoskeletal-scan-in-girinagar-bangalore" ? "active" : ""
           }
         >
           Musculoskeletal Scans
@@ -88,9 +88,9 @@ const ServiceSidebarLinks = () => {
       <li>
         {" "}
         <Link
-          href={`/soft-tissue-scans`}
+          href={`/soft-tissue-scans-in-girinagar-bangalore`}
           className={
-            pathname === "/soft-tissue-scans"
+            pathname === "/soft-tissue-scans-in-girinagar-bangalore"
               ? "active"
               : ""
           }
