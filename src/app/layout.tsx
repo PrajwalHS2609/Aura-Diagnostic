@@ -1,4 +1,4 @@
-  "use client";
+"use client";
 import "./globals.css";
 import Footer from "./../components/Footer/Footer";
 import "bootstrap/dist/css/bootstrap.min.css";
@@ -7,7 +7,7 @@ import "./../components/style.css";
 import BookPopUp from "../components/BookPopUp/BookPopUp";
 import WhatsApp from "./../components/WhatsApp/WhatsApp";
 import { useEffect, useState } from "react";
-import Loader from './../components/Loader/Loader';
+import Loader from "./../components/Loader/Loader";
 export default function RootLayout({
   children,
 }: Readonly<{
@@ -28,6 +28,22 @@ export default function RootLayout({
       <head>
         {" "}
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta
+          name="google-site-verification"
+          content="vRckV7aPf62nJjwHJ_VoC4FyBzbgGH-O3pdo3MIVaB4"
+        />
+        {/* <!-- Google tag (gtag.js) --> */}
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-LD20P3DX5Z"
+        ></script>
+        <script>
+          {`  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-LD20P3DX5Z');`}
+        </script>
       </head>
 
       <body>
