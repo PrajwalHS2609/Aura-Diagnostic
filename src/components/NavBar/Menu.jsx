@@ -485,16 +485,16 @@ const Menu = () => {
         </li>
         <li>
           <Link
-            href="/health-packages"
-            className={pathname === "/health-packages" ? "active" : ""}
+            href="#"
+            className={pathname === "#" ? "active" : ""}
           >
             Health Package
           </Link>
         </li>
         <li>
           <Link
-            href="/consultation"
-            className={pathname === "/consultation" ? "active" : ""}
+            href="#"
+            className={pathname === "#" ? "active" : ""}
           >
             Consultation
             <FaChevronDown className="menuDropIcon" />
@@ -502,16 +502,16 @@ const Menu = () => {
           <div className="menuDropDown">
             <li>
               <Link
-                href="/cardiology"
-                className={pathname === "/cardiology" ? "active" : ""}
+                href="#"
+                className={pathname === "#" ? "active" : ""}
               >
                 Cardiology
               </Link>
             </li>
             <li>
               <Link
-                href="/nephrology"
-                className={pathname === "/nephrology" ? "active" : ""}
+                href="#"
+                className={pathname === "#" ? "active" : ""}
               >
                 Nephrology
               </Link>
@@ -519,8 +519,8 @@ const Menu = () => {
 
             <li>
               <Link
-                href="/urology"
-                className={pathname === "/urology" ? "active" : ""}
+                href="#"
+                className={pathname === "#" ? "active" : ""}
               >
                 Urology
               </Link>
@@ -1171,8 +1171,8 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href={`/health-packages`}
-                className={pathname === "/health-packages" ? "active" : ""}
+                href="#"
+                className={pathname === "#" ? "active" : ""}
               >
                 Health Package
               </Link>
@@ -1192,8 +1192,8 @@ const Menu = () => {
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`/cardiology`}
-                      className={pathname === "/cardiology" ? "active" : ""}
+                      href={`#`}
+                      className={pathname === "#" ? "active" : ""}
                     >
                       Cardiology{" "}
                     </Link>
@@ -1202,8 +1202,8 @@ const Menu = () => {
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`/nephrology`}
-                      className={pathname === "/nephrology" ? "active" : ""}
+                      href={`#`}
+                      className={pathname === "#" ? "active" : ""}
                     >
                       Nephrology{" "}
                     </Link>
@@ -1213,8 +1213,8 @@ const Menu = () => {
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`/urology`}
-                      className={pathname === "/urology" ? "active" : ""}
+                      href={`#`}
+                      className={pathname === "#" ? "active" : ""}
                     >
                       Urology{" "}
                     </Link>

@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React from "react";
 import "../Footer.css";
 import Link from "next/link";
@@ -13,7 +13,10 @@ const Footer2Link = () => {
         <h4>Links</h4>
 
         <li>
-          <Link href={"/about-us"} className={pathname === "/about-us" ? "active" : ""}>
+          <Link
+            href={"/about-us"}
+            className={pathname === "/about-us" ? "active" : ""}
+          >
             About Us
           </Link>
         </li>
@@ -23,17 +26,20 @@ const Footer2Link = () => {
           </Link>
         </li> */}
         <li>
-          <Link href={"/health-package"} className={pathname === "/health-package" ? "active" : ""}>
+          <Link href={"#"} className={pathname === "#" ? "active" : ""}>
             Health Package
           </Link>
         </li>
         <li>
-          <Link href={"/consultation"} className={pathname === "/consultation" ? "active" : ""}>
+          <Link href={"#"} className={pathname === "#" ? "active" : ""}>
             Consultation
           </Link>
         </li>
         <li>
-          <Link href={"/contact-us"} className={pathname === "/contact-us" ? "active" : ""}>
+          <Link
+            href={"/contact-us"}
+            className={pathname === "/contact-us" ? "active" : ""}
+          >
             Contact Us
           </Link>
         </li>
