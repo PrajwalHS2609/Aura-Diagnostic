@@ -10,6 +10,18 @@ const Footer2Services = () => {
     <div className="footer2Link">
       <ul>
         <h4>Our Services</h4>
+          <li>
+          <Link
+            href={"/blood-tests-in-girinagar-bangalore-with-free-home-visit"}
+            className={
+              pathname === "/blood-tests-in-girinagar-bangalore-with-free-home-visit"
+                ? "active"
+                : ""
+            }
+          >
+            Blood Tests
+          </Link>
+        </li>
         <li>
           <Link
             href={"/pregnancy-scans-in-girinagar-bangalore"}

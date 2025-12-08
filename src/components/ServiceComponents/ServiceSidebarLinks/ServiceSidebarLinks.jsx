@@ -15,6 +15,18 @@ const ServiceSidebarLinks = () => {
       </li>
       <li>
         <Link
+          href={`/blood-tests-in-girinagar-bangalore-with-free-home-visit`}
+          className={
+            pathname === "/blood-tests-in-girinagar-bangalore-with-free-home-visit"
+              ? "active"
+              : ""
+          }
+        >
+         Blood Tests
+        </Link>
+      </li>
+      <li>
+        <Link
           href={`/pregnancy-scans-in-girinagar-bangalore`}
           className={
             pathname === "/pregnancy-scans-in-girinagar-bangalore"

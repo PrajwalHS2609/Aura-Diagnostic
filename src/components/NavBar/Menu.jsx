@@ -59,7 +59,83 @@ const Menu = () => {
             Services
             <FaChevronDown className="menuDropIcon" />
           </span>
+
           <div className="menuDropDown">
+            <li>
+              <Link
+                href="/blood-tests-in-girinagar-bangalore-with-free-home-visit"
+                className={
+                  pathname ===
+                  "/blood-tests-in-girinagar-bangalore-with-free-home-visit"
+                    ? "active"
+                    : ""
+                }
+              >
+                Blood Tests
+              </Link>
+              <div className="innerMenuDropDown">
+                <li>
+                  <Link
+                    href="/hematology-in-girinagar-bangalore"
+                    className={
+                      pathname === "/hematology-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Hematology
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/biochemistry-in-girinagar-bangalore"
+                    className={
+                      pathname === "/biochemistry-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Biochemistry
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/tumor-markers-test-in-girinagar-bangalore"
+                    className={
+                      pathname === "/tumor-markers-test-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Tumor Markers Test
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/microbiology-in-girinagar-bangalore"
+                    className={
+                      pathname === "/microbiology-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Microbiology
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href="/serology-in-girinagar-bangalore"
+                    className={
+                      pathname === "/serology-in-girinagar-bangalore"
+                        ? "active"
+                        : ""
+                    }
+                  >
+                    Serology
+                  </Link>
+                </li>
+              </div>
+            </li>
             <li>
               <Link
                 href="/pregnancy-scans-in-girinagar-bangalore"
@@ -484,44 +560,29 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link
-            href="#"
-            className={pathname === "#" ? "active" : ""}
-          >
+          <Link href="#" className={pathname === "#" ? "active" : ""}>
             Health Package
           </Link>
         </li>
         <li>
-          <Link
-            href="#"
-            className={pathname === "#" ? "active" : ""}
-          >
+          <Link href="#" className={pathname === "#" ? "active" : ""}>
             Consultation
             <FaChevronDown className="menuDropIcon" />
           </Link>
           <div className="menuDropDown">
             <li>
-              <Link
-                href="#"
-                className={pathname === "#" ? "active" : ""}
-              >
+              <Link href="#" className={pathname === "#" ? "active" : ""}>
                 Cardiology
               </Link>
             </li>
             <li>
-              <Link
-                href="#"
-                className={pathname === "#" ? "active" : ""}
-              >
+              <Link href="#" className={pathname === "#" ? "active" : ""}>
                 Nephrology
               </Link>
             </li>
 
             <li>
-              <Link
-                href="#"
-                className={pathname === "#" ? "active" : ""}
-              >
+              <Link href="#" className={pathname === "#" ? "active" : ""}>
                 Urology
               </Link>
             </li>
@@ -591,6 +652,110 @@ const Menu = () => {
               </span>
               {activeDropdown === "service" && (
                 <div className="respDropDown">
+                  <li>
+                    <span>
+                      {" "}
+                      <Link
+                        id="menuNavLink"
+                        onClick={hideSideBar}
+                        href={`/blood-tests-in-girinagar-bangalore-with-free-home-visit`}
+                        className={
+                          pathname ===
+                          "/blood-tests-in-girinagar-bangalore-with-free-home-visit"
+                            ? "active"
+                            : ""
+                        }
+                      >
+                        Blood Tests
+                      </Link>
+                      <FaChevronRight
+                        className="menuNavDropIcon"
+                        onClick={() => toggleSubDropdown("blood")}
+                      />
+                    </span>
+                    {activeSubDropdown === "blood" && (
+                      <div className="innerRespMenuDropDown">
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/hematology-in-girinagar-bangalore`}
+                            className={
+                              pathname === "/hematology-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Hematology
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/biochemistry-in-girinagar-bangalore`}
+                            className={
+                              pathname ===
+                              "/biochemistry-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Biochemistry
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/tumor-markers-test-in-girinagar-bangalore`}
+                            className={
+                              pathname ===
+                              "/tumor-markers-test-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Tumor Markers Test
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/microbiology-in-girinagar-bangalore`}
+                            className={
+                              pathname ===
+                              "/microbiology-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Microbiology
+                          </Link>
+                        </li>
+                        <li>
+                          {" "}
+                          <Link
+                            id="menuNavLink"
+                            onClick={hideSideBar}
+                            href={`/serology-in-girinagar-bangalore`}
+                            className={
+                              pathname === "/serology-in-girinagar-bangalore"
+                                ? "active"
+                                : ""
+                            }
+                          >
+                            Serology
+                          </Link>
+                        </li>
+                      </div>
+                    )}
+                  </li>
                   <li>
                     <span>
                       {" "}
