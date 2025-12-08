@@ -14,8 +14,10 @@ import NtScanPrepare from "../../components/ServicePages/NtScan/NtScanPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 export const metadata = {
   title: "Pregnancy NT Scan in Girinagar, Bangalore | Fetal Scans near Me",
-  description: "Pregnancy NT Scan in Girinagar, Bangalore. Is an essential early pregnancy ultrasound performed between 11 to 14 weeks to assess the baby’s risk of chromosomal abnormalities. ",
-  canonical: "https://auradiagnostics.co.in/pregnancy-nt-scan-in-girinagar-bangalore",
+  description:
+    "Pregnancy NT Scan in Girinagar, Bangalore. Is an essential early pregnancy ultrasound performed between 11 to 14 weeks to assess the baby’s risk of chromosomal abnormalities. ",
+  canonical:
+    "https://auradiagnostics.co.in/pregnancy-nt-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -26,13 +28,13 @@ export default function NtScan() {
       {" "}
       <ServiceHeader
         title="NT Scan"
-        para="Creating Life's masterpiece, one kick at a time"
+        para="NT scan measures fetal neck thickness, screens for chromosomal conditions early, and ensures expecting parents receive accurate guidance for a healthy pregnancy journey."
         img={ultrasound}
       />
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <ServiceNav/>
+          <ServiceNav />
           <NtScanHead />
           <div className="component-mainContent">
             <NtScanExpect />

@@ -14,9 +14,12 @@ import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetal
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 
 export const metadata = {
-  title: "Pregnancy 3D & 4D Fetal Scans in Girinagar, Bangalore | Fetal Scans near Me",
-  description: "Pregnancy 3D & 4D Fetal Scans in Girinagar, Bangalore. Is an advanced pregnancy ultrasound that provides lifelike images and real-time videos of your baby inside the womb. ",
-  canonical: "https://auradiagnostics.co.in/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore",
+  title:
+    "Pregnancy 3D & 4D Fetal Scans in Girinagar, Bangalore | Fetal Scans near Me",
+  description:
+    "Pregnancy 3D & 4D Fetal Scans in Girinagar, Bangalore. Is an advanced pregnancy ultrasound that provides lifelike images and real-time videos of your baby inside the womb. ",
+  canonical:
+    "https://auradiagnostics.co.in/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -27,7 +30,7 @@ export default function DFetalScan() {
       {" "}
       <ServiceHeader
         title="3D & 4D Fetal Scans"
-        para="Creating Life's masterpiece, one kick at a time"
+        para="Advanced 3D and 4D fetal scans capture detailed baby images, enhancing bonding while providing accurate developmental insights for a safe, joyful and reassuring pregnancy experience."
         img={ultrasound}
       />
       <HomeCerti />

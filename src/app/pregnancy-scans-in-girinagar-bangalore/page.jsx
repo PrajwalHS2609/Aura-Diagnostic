@@ -14,9 +14,12 @@ import PregnancyScanPrepare from "../../components/ServicePages/PregnancyScan/Pr
 import PregnancyScanService from "../../components/ServicePages/PregnancyScan/PregnancyScanService";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 export const metadata = {
-  title: "Pregnancy Scans in Girinagar, Bangalore for Dating, Anomaly, NT, 3D & 4D Scans",
-  description: "Pregnancy Scans in Girinagar, Bangalore for Dating Scan, Anomaly Scan, NT Scan, 3D & 4D Fetal Scans. Book your Appointment Today!",
-  canonical: "https://auradiagnostics.co.in/pregnancy-scans-in-girinagar-bangalore",
+  title:
+    "Pregnancy Scans in Girinagar, Bangalore for Dating, Anomaly, NT, 3D & 4D Scans",
+  description:
+    "Pregnancy Scans in Girinagar, Bangalore for Dating Scan, Anomaly Scan, NT Scan, 3D & 4D Fetal Scans. Book your Appointment Today!",
+  canonical:
+    "https://auradiagnostics.co.in/pregnancy-scans-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -26,15 +29,14 @@ export default function PregnancyScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Pregnancy Scan"
-        para="Creating Life's masterpiece, one kick at a time"
+        title="Pregnancy Scan in Girinagar"
+        para="Accurate pregnancy scans with expert care, ensuring healthy monitoring and for mother and baby every step."
         img={ultrasound}
       />
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
           <ServiceNav />
-
           <PregnancyScanHead />
           <div className="component-mainContent">
             <PregnancyScanExpect />

@@ -35,24 +35,16 @@
   /* border: solid; */
   width: 100%;
   transform: skewX(-25deg);
-  font-size: 55px;
+  font-size: 45px;
   text-align: center;
-  margin-left: 10px;
+  margin-left: 100px;
   padding: 10px;
   color: var(--customColor1);
 }
-#service-headerCover2 > h2 {
-  /* border: solid; */
-  width: 100%;
-  transform: skewX(-25deg);
-  font-size: 55px;
-  text-align: center;
-  margin-left: 10px;
-  padding: 10px;
-}
+
 .service-headerCover > p {
   transform: skewX(-25deg);
-  font-size: 20px;
+  font-size: 16px;
   background-color: var(--customColor2);
   color: white;
   padding: 10px;

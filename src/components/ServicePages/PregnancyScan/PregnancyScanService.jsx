@@ -1,43 +1,40 @@
 import React from "react";
-import DopplerScanning from "./../../../Images/ServiceImgs/Doppler Scanning.png";
+import scan3d4d from "./../../../Images/PregnancyServices/3d4d Scan.png"
+import dating from "./../../../Images/PregnancyServices/Dating Scan.png"
+import ntScan from "./../../../Images/PregnancyServices/nt Scan.png"
+import anomaly from "./../../../Images/PregnancyServices/anomaly scan.png"
+
 import Link from "next/link";
 import Image from "next/image";
 const PregnancyScanService = () => {
   const service = [
     {
       id: 1,
-      img: DopplerScanning,
+      img: dating,
       title: "Dating Scan",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/dating-scan",
+      link: "/pregnancy-dating-scan-in-girinagar-bangalore",
     },
     {
       id: 2,
-      img: DopplerScanning,
+      img: anomaly,
       title: " Anomaly Scan",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/anomaly-scan",
+      link: "/pregnancy-anomaly-scan-in-girinagar-bangalore",
     },
     {
       id: 3,
-      img: DopplerScanning,
-      title: "3d Scan",
+      img: scan3d4d,
+      title: "3D and 4D Scan",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/3d-scan",
+      link: "/pregnancy-3d-and-4d-fetal-scans-in-girinagar-bangalore",
     },
     {
       id: 4,
-      img: DopplerScanning,
-      title: "4d Scan",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/4d scan",
-    },
-    {
-      id: 5,
-      img: DopplerScanning,
+      img: ntScan,
       title: "NT Scan",
       para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/nt-scan",
+      link: "/pregnancy-nt-scan-in-girinagar-bangalore",
     },
   ];
   return (
