@@ -28,7 +28,7 @@ export default function NtScan() {
       {" "}
       <ServiceHeader
         title="NT Scan"
-        para="NT scan measures fetal neck thickness, screens for chromosomal conditions early, and ensures expecting parents receive accurate guidance for a healthy pregnancy journey."
+        para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />

@@ -27,7 +27,7 @@ export default function DatingScan(){
       {" "}
       <ServiceHeader
         title="Dating Scan"
-        para="Precise dating scans to confirm pregnancy age, monitor early fetal development, and provide expecting parents reassurance with expert guidance and high-quality imaging from the start."
+        para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />

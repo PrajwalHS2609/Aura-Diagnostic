@@ -162,6 +162,12 @@
 }
 .serviceComponentCardTxt {
   padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 10px;
+  /* border: solid red; */
 }
 .serviceComponentCardTxt > h4 {
   color: var(--customColor1);
@@ -666,7 +672,6 @@
     width: 100%;
   }
   .service-prepareHead > h2 {
-  font-size: 30px;
-
-}
+    font-size: 30px;
+  }
 }

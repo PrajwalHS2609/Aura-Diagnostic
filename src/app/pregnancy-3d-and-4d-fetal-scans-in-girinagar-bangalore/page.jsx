@@ -30,7 +30,7 @@ export default function DFetalScan() {
       {" "}
       <ServiceHeader
         title="3D & 4D Fetal Scans"
-        para="Advanced 3D and 4D fetal scans capture detailed baby images, enhancing bonding while providing accurate developmental insights for a safe, joyful and reassuring pregnancy experience."
+        para="Creating Life's masterpiece, one kick at a time"
         img={ultrasound}
       />
       <HomeCerti />

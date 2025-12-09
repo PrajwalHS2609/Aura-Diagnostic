@@ -28,6 +28,7 @@ export default function RootLayout({
       <head>
         {" "}
         <link rel="icon" type="image/png" href="/favicon.png" />
+        <meta name="robots" content="max-image-preview:large"/>
         <meta
           name="google-site-verification"
           content="vRckV7aPf62nJjwHJ_VoC4FyBzbgGH-O3pdo3MIVaB4"
