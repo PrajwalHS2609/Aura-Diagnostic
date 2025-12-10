@@ -8,6 +8,7 @@ import HomeCerti from "./HomeCerti/HomeCerti";
 import HomeTestimonial from "./HomeTestimonial/HomeTestimonial";
 import HomeAbout from "./HomeAbout/HomeAbout";
 import HomeAbout2 from "./HomeAbout/HomeAbout2";
+import HomeContent from './HomeContent';
 const Homepage = () => {
   return (
     <div className="homepage">
@@ -19,6 +20,7 @@ const Homepage = () => {
       <HomeAbout2 />
       <HomeDoctors />
       <HomeTestimonial />
+      <HomeContent/>
     </div>
   );
 };

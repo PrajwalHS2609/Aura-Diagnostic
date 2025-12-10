@@ -7,23 +7,26 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
-import DatingScanHead from '../../components/ServicePages/DatingScan/DatingScanHead';
-import DatingScanExpect from '../../components/ServicePages/DatingScan/DatingScanExpect';
-import DatingScanPrepare from '../../components/ServicePages/DatingScan/DatingScanPrepare';
+import DatingScanHead from "../../components/ServicePages/DatingScan/DatingScanHead";
+import DatingScanExpect from "../../components/ServicePages/DatingScan/DatingScanExpect";
+import DatingScanPrepare from "../../components/ServicePages/DatingScan/DatingScanPrepare";
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import DatingScanContent from "../../components/ServicePages/DatingScan/DatingScanContent";
 
 export const metadata = {
   title: "Pregnancy Dating Scan in Girinagar, Bangalore | Fetal Scan near Me",
-  description: "Pregnancy Dating Scan in Girinagar, Bangalore. Is an early pregnancy ultrasound performed to determine the gestational age of the baby and calculate the expected due date.",
-  canonical: "https://auradiagnostics.co.in/pregnancy-dating-scan-in-girinagar-bangalore",
+  description:
+    "Pregnancy Dating Scan in Girinagar, Bangalore. Is an early pregnancy ultrasound performed to determine the gestational age of the baby and calculate the expected due date.",
+  canonical:
+    "https://auradiagnostics.co.in/pregnancy-dating-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
 };
-export default function DatingScan(){
-    return(
-<div className="">
+export default function DatingScan() {
+  return (
+    <div className="">
       {" "}
       <ServiceHeader
         title="Dating Scan"
@@ -47,8 +50,10 @@ export default function DatingScan(){
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
-    </div>    )
+      <DatingScanContent />
+    </div>
+  );
 }

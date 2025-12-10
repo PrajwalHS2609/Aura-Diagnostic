@@ -675,3 +675,132 @@
     font-size: 30px;
   }
 }
+
+/* -----------------------------------ContentReadmore--------------------------- */
+
+.contentHead {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 3rem;
+  text-align: center;
+  background-color: white;
+}
+.contentHead-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  background-color: var(--customColor3);
+  border-radius: 20px;
+  padding: 20px;
+}
+.contentHead-content > h1 {
+  font-size: 50px; /* Responsive font size */
+}
+.contentHead-content > h1 > span {
+  color: var(--customColor2);
+}
+.contentHead-content > h2 {
+  font-size: 50px; /* Responsive font size */
+}
+.contentHead-content > h2 > span {
+  color: var(--customColor2);
+}
+.contentHead > p {
+  font-size: clamp(1rem, 1.2vw, 1.25rem);
+  text-align: justify;
+  color: black;
+}
+.contentHead > p > a {
+  text-decoration: none;
+  color: var(--customColor2);
+  font-weight: bold;
+}
+.contentHead-content {
+  width: 100%;
+  padding: 20px;
+  background-color: var(--customBg1);
+}
+.contentHead-content > h1 {
+  color: var(--customColor2);
+  font-size: 40px; /* Responsive font size */
+}
+.contentHead-content > h2 {
+  font-size: 30px; /* Responsive font size */
+  color: var(--customColor2);
+}
+.contentHead-content > p {
+  font-size: clamp(1rem, 1.2vw, 1.25rem);
+  text-align: justify;
+  color: black;
+}
+.contentHead-content > p > a {
+  text-decoration: none;
+  color: var(--customColor1);
+}
+.readMoreBtn {
+  background: var(--customColor1);
+  border: none;
+  padding: 8px 16px;
+  margin-top: 12px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 6px;
+  transition: 0.3s ease;
+}
+
+.readMoreBtn:hover {
+  opacity: 0.9;
+}
+.contentHead-listContent {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 20px;
+}
+.contentHead-listContent > h3 {
+  color: var(--customColor1);
+  font-size: 30px;
+  width: 100%;
+  text-align: start;
+}
+.contentHead-listContent > p {
+  color: black;
+  font-size: 18px;
+  text-align: justify;
+}
+.contentHead-listContent > ul > li {
+  text-align: justify;
+  font-weight:500
+}
+.contentHead-listContent > ul > li > b {
+  color: var(--customColor1);
+}
+.contentHead-listContent > p > a {
+  color: var(--customColor1);
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .contentHead {
+    width: 100%;
+    padding: 10px;
+    text-align: center;
+  }
+  .contentHead-content> h1 {
+    font-size: 30px; /* Responsive font size */
+  }
+  .contentHead-content > h2 {
+    font-size: 25px; /* Responsive font size */
+  }
+  .contentHead-listContent > h2 {
+    font-size: 20px; /* Responsive font size */
+  }
+
+}
