@@ -1,23 +1,25 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-import DopplerScanning from "./../../../Images/ServiceImgs/Doppler Scanning.png";
+import liver from "./../../../Images/AdvancedUSGServices/Liver-Elastography-Scan.png";
+import fatty from "./../../../Images/AdvancedUSGServices/Fatty-Liver-Quantification-Scan.png";
+
 
 const AdvancedUSGService = () => {
   const service = [
     {
       id: 1,
-      img: DopplerScanning,
-      title: "Liver elastography",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/liver-elastography",
+      img:liver,
+      title: "Liver Elastography",
+      para: "Measures liver stiffness to detect fibrosis and early liver disease, offering a non-invasive, accurate, and painless assessment for improved diagnosis and treatment planning.",
+      link: "/liver-elastography-scan-in-girinagar-bangalore",
     },
     {
       id: 2,
-      img: DopplerScanning,
-      title: "Fatty liver quantification",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/fatty-liver-quantification",
+      img:fatty,
+      title: "Fatty Liver Quantification",
+      para: "Accurately measures liver fat levels, helping diagnose steatosis early, monitor disease progression, and guide effective lifestyle or medical treatment decisions.",
+      link: "/fatty-liver-quantification-scan-in-girinagar-bangalore",
     },
   ];
   return (

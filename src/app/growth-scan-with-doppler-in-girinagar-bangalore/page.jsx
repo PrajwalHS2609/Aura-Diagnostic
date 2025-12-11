@@ -12,10 +12,14 @@ import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import GrowthScanContent from "../../components/ServicePages/GrowthScan/GrowthScanContent";
 export const metadata = {
-  title: "Growth Scan with Doppler in Girinagar, Bangalore | Fetal Growth Scans near Me",
-  description: "Growth Scan with Doppler in Girinagar, Bangalore. Is a specialized pregnancy ultrasound performed in the second or third trimester to monitor the baby’s growth, wellbeing, and blood circulation.",
-  canonical: "https://auradiagnostics.co.in/growth-scan-with-doppler-in-girinagar-bangalore",
+  title:
+    "Growth Scan with Doppler in Girinagar, Bangalore | Fetal Growth Scans near Me",
+  description:
+    "Growth Scan with Doppler in Girinagar, Bangalore. Is a specialized pregnancy ultrasound performed in the second or third trimester to monitor the baby’s growth, wellbeing, and blood circulation.",
+  canonical:
+    "https://auradiagnostics.co.in/growth-scan-with-doppler-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -46,9 +50,10 @@ export default function GrowthScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <GrowthScanContent />
     </div>
   );
 }

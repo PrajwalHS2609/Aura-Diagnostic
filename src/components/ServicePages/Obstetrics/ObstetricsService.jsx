@@ -34,7 +34,7 @@ const ObstetricsService = () => {
     {
       id: 4,
       img: fetalEcho,
-      title: "Fetal echo",
+      title: "Fetal Echo",
       para: "Is a detailed ultrasound assessing your baby’s heart structure and function, detecting congenital abnormalities early for expert guidance, reassurance, and better pregnancy care.",
       link: "/fetal-echo-test-in-girinagar-bangalore",
     },

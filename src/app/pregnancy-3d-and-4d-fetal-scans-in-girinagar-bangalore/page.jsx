@@ -12,6 +12,7 @@ import DFetalScansExpect from "../../components/ServicePages/DFetalScans/DFetalS
 import DFetalScansHead from "../../components/ServicePages/DFetalScans/DFetalScansHead";
 import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetalScansPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import DFetalScansContent from "../../components/ServicePages/DFetalScans/DFetalScansContent";
 
 export const metadata = {
   title:
@@ -51,9 +52,10 @@ export default function DFetalScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <DFetalScansContent />
     </div>
   );
 }

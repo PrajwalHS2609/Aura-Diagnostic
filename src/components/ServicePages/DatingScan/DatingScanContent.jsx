@@ -15,7 +15,7 @@ const DatingScanContent = () => {
           </h1>
           <p>
             Aura Diagnostics is a trusted diagnostic center offering accurate
-            and reliable Pregnancy Dating Scans in Girinagar, Bangalore. An
+            and reliable <a href="https://auradiagnostics.co.in/pregnancy-dating-scan-in-girinagar-bangalore">Pregnancy Dating Scans in Girinagar, Bangalore</a>. An
             early pregnancy dating scan plays a crucial role in confirming
             gestational age, estimating the expected delivery date, and ensuring
             proper prenatal care from the very beginning. Recognized as the Best
@@ -32,7 +32,7 @@ const DatingScanContent = () => {
         <div className="contentHead-content">
           <h2>Importance of Early Pregnancy Dating Scans</h2>
           <p>
-            An early fetal dating scan Girinagar is usually performed during the
+            An early <a href="https://auradiagnostics.co.in/pregnancy-scans-in-girinagar-bangalore">fetal dating scan Girinagar</a> is usually performed during the
             first trimester to confirm pregnancy-related milestones. This scan
             is essential for determining how far along the pregnancy is,
             particularly when menstrual cycles are irregular or previous
@@ -51,8 +51,8 @@ const DatingScanContent = () => {
             <div className="contentHead-content">
               <h2>First Trimester Dating Scan Services in Girinagar</h2>
               <p>
-                Aura Diagnostics specializes in first trimester dating scan
-                Girinagar, typically conducted between 7 to 13 weeks of
+                Aura Diagnostics specializes in <a href="https://auradiagnostics.co.in/pregnancy-dating-scan-in-girinagar-bangalore">first trimester dating scan
+                Girinagar</a>, typically conducted between 7 to 13 weeks of
                 pregnancy. This scan measures crown-rump length (CRL) to provide
                 precise gestational age calculation.
               </p>
@@ -67,7 +67,7 @@ const DatingScanContent = () => {
               <h2>Advanced Dating Ultrasound Scan in Girinagar</h2>
               <p>
                 Using high-resolution ultrasound machines, Aura Diagnostics
-                offers advanced dating ultrasound scan Girinagar services for
+                offers <a href="https://auradiagnostics.co.in/pregnancy-dating-scan-in-girinagar-bangalore">advanced dating ultrasound scan Girinagar</a> services for
                 accurate fetal measurements and medical insights. These scans
                 help gynecologists establish a reliable timeline for essential
                 prenatal tests, including NT scans and anomaly scans in later
@@ -84,7 +84,7 @@ const DatingScanContent = () => {
               <p>
                 Aura Diagnostics believes quality prenatal diagnostics should be
                 accessible to all families. We are known for providing
-                affordable dating scan in Girinagar without compromising
+                affordable <a href="https://auradiagnostics.co.in/pregnancy-scans-in-girinagar-bangalore">dating scan in Girinagar</a> without compromising
                 accuracy, safety, or reporting standards.
               </p>
               <p>
@@ -97,7 +97,7 @@ const DatingScanContent = () => {
             <div className="contentHead-content">
               <h2>Early Fetal Dating Scan with Patient-Centered Care</h2>
               <p>
-                Each early fetal dating scan Girinagar at Aura Diagnostics is
+                Each early <a href="https://auradiagnostics.co.in/">fetal dating scan Girinagar</a> at Aura Diagnostics is
                 conducted in a calm and hygienic setting. We understand that
                 early pregnancy can be an emotional time, which is why our team
                 prioritizes comfort, privacy, and clear communication during
@@ -114,8 +114,8 @@ const DatingScanContent = () => {
               </h2>
               <p>
                 Aura Diagnostics has built a strong reputation as a dependable
-                diagnostic provider for pregnancy week confirmation scan
-                Girinagar services. Our scans help ensure accurate pregnancy
+                diagnostic provider for <a href="https://auradiagnostics.co.in/pregnancy-dating-scan-in-girinagar-bangalore">pregnancy week confirmation scan
+                Girinagar services</a>. Our scans help ensure accurate pregnancy
                 tracking, minimize discrepancies in due dates, and support
                 timely prenatal planning.
               </p>
@@ -124,8 +124,8 @@ const DatingScanContent = () => {
                 Diagnostics for consistency, quality, and diagnostic integrity.
               </p>
               <p>
-                If you are looking for a reliable center for Pregnancy Dating
-                Scans in Girinagar, Bangalore, Aura Diagnostics offers accurate,
+                If you are looking for a reliable center for <a href="https://auradiagnostics.co.in/">Pregnancy Dating
+                Scans in Girinagar, Bangalore</a>, Aura Diagnostics offers accurate,
                 affordable, and professionally delivered ultrasound services
                 focused on fetal health and maternal wellbeing.
               </p>

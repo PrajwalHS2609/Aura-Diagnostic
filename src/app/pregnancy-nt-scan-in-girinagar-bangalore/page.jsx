@@ -12,6 +12,7 @@ import NtScanHead from "../../components/ServicePages/NtScan/NtScanHead";
 import NtScanExpect from "../../components/ServicePages/NtScan/NtScanExpect";
 import NtScanPrepare from "../../components/ServicePages/NtScan/NtScanPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import NtScanContent from "../../components/ServicePages/NtScan/NtScanContent";
 export const metadata = {
   title: "Pregnancy NT Scan in Girinagar, Bangalore | Fetal Scans near Me",
   description:
@@ -48,9 +49,10 @@ export default function NtScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <NtScanContent />
     </div>
   );
 }

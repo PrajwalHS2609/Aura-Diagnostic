@@ -8,14 +8,18 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import FetalUrosonogramHead from '../../components/ServicePages/FetalUrosonogram/FetalUrosonogramHead';
-import FetalUrosonogramExpect from '../../components/ServicePages/FetalUrosonogram/FetalUrosonogramExpect';
-import FetalUrosonogramPrepare from '../../components/ServicePages/FetalUrosonogram/FetalUrosonogramPrepare';
+import FetalUrosonogramHead from "../../components/ServicePages/FetalUrosonogram/FetalUrosonogramHead";
+import FetalUrosonogramExpect from "../../components/ServicePages/FetalUrosonogram/FetalUrosonogramExpect";
+import FetalUrosonogramPrepare from "../../components/ServicePages/FetalUrosonogram/FetalUrosonogramPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import FetalUrosonogramContent from "../../components/ServicePages/FetalUrosonogram/FetalUrosonogramContent";
 export const metadata = {
-  title: "Fetal Urosonogram Test in Girinagar, Bangalore | Fetal Urosonogram Test near Me",
-  description: "Fetal Urosonogram Test in Girinagar, Bangalore. Is a specialized ultrasound focused on examining the baby’s urinary system during pregnancy.",
-  canonical: "https://auradiagnostics.co.in/fetal-urosonogram-test-in-girinagar-bangalore",
+  title:
+    "Fetal Urosonogram Test in Girinagar, Bangalore | Fetal Urosonogram Test near Me",
+  description:
+    "Fetal Urosonogram Test in Girinagar, Bangalore. Is a specialized ultrasound focused on examining the baby’s urinary system during pregnancy.",
+  canonical:
+    "https://auradiagnostics.co.in/fetal-urosonogram-test-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -46,9 +50,10 @@ export default function FetalUrosonogram() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <FetalUrosonogramContent />
     </div>
   );
 }

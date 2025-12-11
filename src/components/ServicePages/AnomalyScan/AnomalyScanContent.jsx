@@ -15,7 +15,7 @@ const AnomalyScanContent = () => {
             Aura Diagnostics is a trusted name for Pregnancy Anomaly Scans in
             Girinagar, Bangalore, offering advanced ultrasound imaging to assess
             fetal development during the crucial mid-pregnancy stage. Known as a
-            reliable anomaly scan center Girinagar Bangalore, Aura Diagnostics
+            reliable <a href="">anomaly scan center Girinagar Bangalore</a>, Aura Diagnostics
             combines modern diagnostic technology with expert medical
             professionals to support healthy pregnancy outcomes.
           </p>
@@ -49,8 +49,8 @@ const AnomalyScanContent = () => {
               {" "}
               <h2>Detailed & Level 2 Anomaly Scans in Girinagar</h2>
               <p>
-                Aura Diagnostics specializes in providing detailed anomaly scan
-                Girinagar, also known as a Level 2 scan in Girinagar. This scan
+                Aura Diagnostics specializes in providing <a href="">detailed anomaly scan
+                Girinagar</a>, also known as a Level 2 scan in Girinagar. This scan
                 provides an in-depth evaluation of fetal anatomy, allowing
                 specialists to identify potential abnormalities with greater
                 accuracy.
@@ -63,7 +63,7 @@ const AnomalyScanContent = () => {
               </p>
               <h2>Mid-Pregnancy & Second Trimester Anomaly Scans</h2>
               <p>
-                The anomaly scan is an essential mid-pregnancy scan Girinagar,
+                The anomaly scan is an essential <a href="">mid-pregnancy scan Girinagar</a>,
                 giving crucial insights into fetal development during the second
                 trimester. Aura Diagnostics offers expert second trimester
                 anomaly scan Girinagar services designed to help expecting
@@ -85,7 +85,7 @@ const AnomalyScanContent = () => {
               </p>
               <p>
                 Our commitment to quality imaging makes Aura Diagnostics a
-                preferred anomaly scan center Girinagar Bangalore for patients
+                preferred <a href="">anomaly scan center Girinagar Bangalore</a> for patients
                 across the region.
               </p>
             </div>
@@ -99,7 +99,7 @@ const AnomalyScanContent = () => {
                 maintaining professional medical standards.
               </p>
               <p>
-                As the best anomaly scan clinic Girinagar, Aura Diagnostics
+                As the best <a href="">anomaly scan clinic Girinagar</a>, Aura Diagnostics
                 prioritizes patient comfort without compromising diagnostic
                 excellence.
               </p>
@@ -114,8 +114,8 @@ const AnomalyScanContent = () => {
                 support during this important stage of pregnancy.
               </p>
               <p>
-                If you are seeking a trusted anomaly scan center Girinagar
-                Bangalore, Aura Diagnostics offers expert imaging solutions that
+                If you are seeking a <a href="">trusted anomaly scan center Girinagar
+                Bangalore</a>, Aura Diagnostics offers expert imaging solutions that
                 help guide healthier pregnancy outcomes.
               </p>
               <p>

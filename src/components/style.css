@@ -195,6 +195,9 @@
   color: var(--customColor2);
   text-decoration: underline;
 }
+#widthToChange {
+  width: 380px;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .serviceComponentHead > h2 {
     font-size: 30px;
@@ -718,7 +721,7 @@
 }
 .contentHead > p > a {
   text-decoration: none;
-  color: var(--customColor2);
+  color: var(--customColor1);
   font-weight: bold;
 }
 .contentHead-content {
@@ -738,6 +741,19 @@
   font-size: clamp(1rem, 1.2vw, 1.25rem);
   text-align: justify;
   color: black;
+}
+.contentHead-content > h3 {
+  text-align: start;
+  font-size: 25px;
+  color: var(--customColor1);
+}
+
+.contentHead-content > ul > li {
+  text-align: justify;
+  font-weight: 500;
+}
+.contentHead-content > ul > li > a {
+  color: var(--customColor1);
 }
 .contentHead-content > p > a {
   text-decoration: none;
@@ -766,10 +782,10 @@
   padding: 20px;
 }
 .contentHead-listContent > h3 {
-  color: var(--customColor1);
+  color: var(--customColor2);
   font-size: 30px;
   width: 100%;
-  text-align: start;
+  text-align: center;
 }
 .contentHead-listContent > p {
   color: black;
@@ -778,7 +794,7 @@
 }
 .contentHead-listContent > ul > li {
   text-align: justify;
-  font-weight:500
+  font-weight: 500;
 }
 .contentHead-listContent > ul > li > b {
   color: var(--customColor1);
@@ -793,7 +809,7 @@
     padding: 10px;
     text-align: center;
   }
-  .contentHead-content> h1 {
+  .contentHead-content > h1 {
     font-size: 30px; /* Responsive font size */
   }
   .contentHead-content > h2 {
@@ -802,5 +818,4 @@
   .contentHead-listContent > h2 {
     font-size: 20px; /* Responsive font size */
   }
-
 }

@@ -12,8 +12,8 @@ const HomeContent = () => {
             Diagnostics Center in Girinagar, Bangalore – Aura Diagnostics{" "}
           </h1>
           <p>
-            Aura Diagnostics is a trusted Diagnostics Center in Girinagar,
-            Bangalore, committed to delivering accurate, timely, and affordable
+            Aura Diagnostics is a <a href="https://auradiagnostics.co.in">trusted Diagnostics Center in Girinagar,
+            Bangalore</a>, committed to delivering accurate, timely, and affordable
             diagnostic services for individuals and families. With advanced
             medical technology, experienced professionals, and patient-first
             care, Aura Diagnostics is widely recognized as the Best Diagnostic
@@ -25,7 +25,7 @@ const HomeContent = () => {
         <div className="contentHead-content">
           <h2> Top Rated Diagnostics in Girinagar for Accurate Results</h2>
           <p>
-            As one of the top rated diagnostics in Girinagar, Aura Diagnostics
+            As one of the <a href="https://auradiagnostics.co.in/blood-tests-in-girinagar-bangalore-with-free-home-visit">top rated diagnostics in Girinagar</a>, Aura Diagnostics
             follows strict quality standards and ethical practices. Our center
             is designed to support early diagnosis, preventive health care, and
             emergency medical testing under one roof. Patients searching for a
@@ -38,13 +38,13 @@ const HomeContent = () => {
             <div className="contentHead-listContent">
               <h3> Comprehensive Pathology and Blood Testing Services</h3>
               <p>
-                Aura Diagnostics operates a well-equipped pathology lab in
-                Girinagar offering a wide range of laboratory investigations.
+                Aura Diagnostics operates a <a href="https://auradiagnostics.co.in"> well-equipped pathology lab in
+                Girinagar</a> offering a wide range of laboratory investigations.
                 From routine tests to specialized panels, every report is
                 handled with accuracy and confidentiality.
               </p>
               <p>
-                If you are looking for a blood test in Girinagar, we provide
+                If you are looking for a <a href="https://auradiagnostics.co.in">blood test in Girinagar</a>, we provide
                 fast processing and reliable reports for all age groups. Our
                 popular laboratory services include:
               </p>
@@ -63,7 +63,7 @@ const HomeContent = () => {
             <div className="contentHead-content">
               <h2> NABL Certified Lab in Girinagar – Quality You Can Trust</h2>
               <p>
-                Aura Diagnostics is a NABL certified lab Girinagar, which means
+                Aura Diagnostics is a <a href="https://auradiagnostics.co.in/blood-tests-in-girinagar-bangalore-with-free-home-visit">NABL certified lab Girinagar</a>, which means
                 all testing procedures meet nationally approved quality and
                 safety benchmarks. Our certification reflects our commitment to
                 reliable results, standardized testing methods, and continuous
@@ -75,8 +75,8 @@ const HomeContent = () => {
               <h2>Full Body & Preventive Health Checkups in Girinagar</h2>
               <p>
                 Preventive healthcare plays a vital role in maintaining
-                long-term wellbeing. Aura Diagnostics offers customized health
-                checkup Girinagar Bangalore packages suitable for adults, senior
+                long-term wellbeing. Aura Diagnostics offers customized <a href="https://auradiagnostics.co.in">health
+                checkup Girinagar Bangalore</a> packages suitable for adults, senior
                 citizens, and working professionals. Our full body checkup in
                 Girinagar covers essential blood tests, imaging, and health
                 indicators designed to detect issues early.
