@@ -1,0 +1,88 @@
+import React from "react";
+import { BiHappyBeaming } from "react-icons/bi";
+import { CiGlass } from "react-icons/ci";
+import { GrYoga } from "react-icons/gr";
+import { HiOutlineClock } from "react-icons/hi2";
+import { IoShirtOutline } from "react-icons/io5";
+import { LiaFilePrescriptionSolid, LiaTabletsSolid } from "react-icons/lia";
+import { MdNoDrinks, MdOutlineFoodBank, MdOutlineNoFood } from "react-icons/md";
+
+const HematologyPrepare = () => {
+  const card = [
+    {
+      id: 1,
+      icon: <LiaTabletsSolid />,
+      description:
+        "Bring previous blood test reports for comparison, if applicable.",
+    },
+
+    {
+      id: 2,
+      icon: <HiOutlineClock />,
+      description:
+        "Arrive a few minutes early to settle comfortably before the test.",
+    },
+    {
+      id: 3,
+      icon: <LiaFilePrescriptionSolid />,
+      description: "Bring previous test reports or prescriptions.",
+    },
+    {
+      id: 4,
+      icon: <IoShirtOutline />,
+      description: "Wear loose sleeves for easy access to your arm.",
+    },
+
+    {
+      id: 5,
+      icon: <MdOutlineNoFood />,
+      description:
+        "Follow fasting instructions if your doctor recommends it (usually 8–12 hours).",
+    },
+    {
+      id: 6,
+      icon: <CiGlass />,
+      description: "Drink plenty of water to stay hydrated.",
+    },
+    {
+      id: 7,
+      icon: <GrYoga />,
+      description: "Avoid strenuous exercise before the test.",
+    },
+    {
+      id: 8,
+      icon: <MdNoDrinks />,
+      description: "Avoid caffeine and alcohol 24 hours prior.",
+    },
+    {
+      id: 9,
+      icon: <BiHappyBeaming />,
+      description: "Relax and stay calm to avoid anxiety-related dizziness.",
+    },
+    {
+      id: 10,
+      icon: <MdOutlineFoodBank />,
+      description: "Have a light meal after fasting is complete (if allowed).",
+    },
+  ];
+
+  return (
+    <div className="service-prepareContainer">
+      <div className="service-prepareHead">
+        <h2>How to prepare for Blood Test?</h2>
+      </div>
+      <div className="service-prepareContent">
+        {card.map((x) => (
+          <div className="service-prepareCard" key={x.id}>
+            <span className="service-prepareCardIcon">{x.icon}</span>{" "}
+            <div className="service-prepareCardContent">
+              <p>{x.description}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+    </div>
+  );
+};
+
+export default HematologyPrepare;

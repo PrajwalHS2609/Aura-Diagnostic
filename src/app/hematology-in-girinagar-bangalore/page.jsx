@@ -8,18 +8,17 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import BloodTestExpect from "../../components/ServicePages/BloodTest/BloodTestExpect";
-import BloodTestHead from "../../components/ServicePages/BloodTest/BloodTestHead";
-import BloodTestPrepare from "../../components/ServicePages/BloodTest/BloodTestPrepare";
-import BloodTestServices from "../../components/ServicePages/BloodTest/BloodTestServices";
+import HematologyHead from "../../components/ServicePages/Hematology/HematologyHead";
+import HematologyPrepare from "../../components/ServicePages/Hematology/HematologyPrepare";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import HematologyExpect from "./../../components/ServicePages/Hematology/HematologyExpect";
 
-export default function BloodTest(){
-    return(
-<div className="">
+export default function HematologyTest() {
+  return (
+    <div className="">
       {" "}
       <ServiceHeader
-        title="Blood Tests in Girinagar"
+        title="Hematology Tests in Girinagar"
         para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
         img={ultrasound}
       />
@@ -27,10 +26,10 @@ export default function BloodTest(){
       <div className="component-container">
         <div className="component-main">
           <ServiceNav />
-          <BloodTestHead />
+          <HematologyHead />
           <div className="component-mainContent">
-            <BloodTestExpect />
-            <BloodTestPrepare />
+            <HematologyExpect />
+            <HematologyPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>
@@ -41,9 +40,8 @@ export default function BloodTest(){
         </div>
       </div>
       <ServiceMap />
-      <BloodTestServices />
       <HomeWhy />
       <HomeTestimonial />
     </div>
-    )
+  );
 }
