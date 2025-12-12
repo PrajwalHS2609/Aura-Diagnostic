@@ -8,13 +8,15 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import FNACHead from '../../components/ServicePages/FNAC/FNACHead';
-import FNACPrepare from '../../components/ServicePages/FNAC/FNACPrepare';
-import FNACExpect from '../../components/ServicePages/FNAC/FNACExpect';
+import FNACHead from "../../components/ServicePages/FNAC/FNACHead";
+import FNACPrepare from "../../components/ServicePages/FNAC/FNACPrepare";
+import FNACExpect from "../../components/ServicePages/FNAC/FNACExpect";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import FNACContent from "../../components/ServicePages/FNAC/FNACContent";
 export const metadata = {
   title: "FNAC Test in Girinagar, Bangalore | FNAC Test near Me",
-  description: "FNAC in Girinagar, Bangalore. Is a minimally invasive diagnostic procedure used to examine lumps, swellings, or abnormal tissue growths in the body.",
+  description:
+    "FNAC in Girinagar, Bangalore. Is a minimally invasive diagnostic procedure used to examine lumps, swellings, or abnormal tissue growths in the body.",
   canonical: "https://auradiagnostics.co.in/fnac-test-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
@@ -46,9 +48,10 @@ export default function FNAC() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <FNACContent />
     </div>
   );
 }

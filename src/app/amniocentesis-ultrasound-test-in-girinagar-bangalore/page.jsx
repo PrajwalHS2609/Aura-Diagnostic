@@ -8,15 +8,19 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import AmniocentesisExpect from '../../components/ServicePages/Amniocentesis/AmniocentesisExpect';
-import AmniocentesisHead from '../../components/ServicePages/Amniocentesis/AmniocentesisHead';
+import AmniocentesisExpect from "../../components/ServicePages/Amniocentesis/AmniocentesisExpect";
+import AmniocentesisHead from "../../components/ServicePages/Amniocentesis/AmniocentesisHead";
 import AmniocentesisPrepare from "../../components/ServicePages/Amniocentesis/AmniocentesisPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import AmniocentesisContent from "../../components/ServicePages/Amniocentesis/AmniocentesisContent";
 
 export const metadata = {
-  title: "Amniocentesis Ultrasound Test in Girinagar, Bangalore – Aura Diagnostics",
-  description: "Amniocentesis Ultrasound Test in Girinagar, Bangalore. Is a specialized prenatal diagnostic procedure used to evaluate the health and development of an unborn baby.",
-  canonical: "https://auradiagnostics.co.in/amniocentesis-ultrasound-test-in-girinagar-bangalore",
+  title:
+    "Amniocentesis Ultrasound Test in Girinagar, Bangalore – Aura Diagnostics",
+  description:
+    "Amniocentesis Ultrasound Test in Girinagar, Bangalore. Is a specialized prenatal diagnostic procedure used to evaluate the health and development of an unborn baby.",
+  canonical:
+    "https://auradiagnostics.co.in/amniocentesis-ultrasound-test-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -47,9 +51,10 @@ export default function Amniocentesis() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <AmniocentesisContent />
     </div>
   );
 }

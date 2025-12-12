@@ -8,14 +8,18 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import LiverElastographyHead from '../../components/ServicePages/LiverElastography/LiverElastographyHead';
-import LiverElastographyExpect from '../../components/ServicePages/LiverElastography/LiverElastographyExpect';
-import LiverElastographyPrepare from '../../components/ServicePages/LiverElastography/LiverElastographyPrepare';
+import LiverElastographyHead from "../../components/ServicePages/LiverElastography/LiverElastographyHead";
+import LiverElastographyExpect from "../../components/ServicePages/LiverElastography/LiverElastographyExpect";
+import LiverElastographyPrepare from "../../components/ServicePages/LiverElastography/LiverElastographyPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import LiverElastographyContent from "../../components/ServicePages/LiverElastography/LiverElastographyContent";
 export const metadata = {
-  title: "Liver Elastography Scan in Girinagar, Bangalore | Ultrasound Test near Me",
-  description: "Liver Elastography Scan in Girinagar, Bangalore. Is an advanced, non-invasive ultrasound technique used to measure the stiffness and elasticity of liver tissue.",
-  canonical: "https://auradiagnostics.co.in/liver-elastography-scan-in-girinagar-bangalore",
+  title:
+    "Liver Elastography Scan in Girinagar, Bangalore | Ultrasound Test near Me",
+  description:
+    "Liver Elastography Scan in Girinagar, Bangalore. Is an advanced, non-invasive ultrasound technique used to measure the stiffness and elasticity of liver tissue.",
+  canonical:
+    "https://auradiagnostics.co.in/liver-elastography-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -32,7 +36,7 @@ export default function LiverElastography() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <ServiceNav/>
+          <ServiceNav />
           <LiverElastographyHead />
           <div className="component-mainContent">
             <LiverElastographyExpect />
@@ -46,9 +50,10 @@ export default function LiverElastography() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <LiverElastographyContent />
     </div>
   );
 }

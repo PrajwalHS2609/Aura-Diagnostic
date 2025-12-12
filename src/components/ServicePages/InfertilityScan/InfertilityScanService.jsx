@@ -1,43 +1,48 @@
 import React from "react";
-import DopplerScanning from "./../../../Images/ServiceImgs/Doppler Scanning.png";
+import pelvis3d from "./../../../Images/InfertilityScanServices/3D-Pelvis-Scan.png";
+import baseline3d from "./../../../Images/InfertilityScanServices/3D-Base-line-scan.png";
+import follicleMonitoring from "./../../../Images/InfertilityScanServices/3D-Follicle-Monitoring.png";
+import leuteal from "./../../../Images/InfertilityScanServices/Leuteal-Phase-Scan.png";
+import uterine from "./../../../Images/InfertilityScanServices/Uterine-Biophysical.png";
+
 import Link from 'next/link';
 import Image from 'next/image';
 const InfertilityScanService = () => {
   const service = [
     {
       id: 1,
-      img: DopplerScanning,
-      title: "3D Pelvis",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/3d-pelvis",
+      img: pelvis3d,
+      title: "3D Pelvis Scan",
+      para: "Provides detailed, high-resolution imaging of pelvic organs, helping diagnose abnormalities, assess structures accurately, and guide effective treatment with enhanced clarity.",
+      link: "/3d-pelvis-scan-in-girinagar-bangalore",
     },
     {
       id: 2,
-      img: DopplerScanning,
+      img: baseline3d,
       title: "3D Base line Scan/ AFC Scans",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/3d-base-line-scan",
+      para: "This Scan offers clear, detailed imaging of pelvic and reproductive organs, helping evaluate structural health, detect abnormalities early, and guide personalized fertility or treatment planning.",
+      link: "/3d-baseline-scan-in-girinagar-bangalore",
     },
     {
       id: 3,
-      img: DopplerScanning,
+      img: follicleMonitoring,
       title: "3D Follicle Monitoring with Doppler",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/3d-follicle-monitoring-with-doppler",
+      para: "Accurately tracks follicle growth and blood flow, helping optimize fertility treatment timing and enhancing chances of successful ovulation and conception.",
+      link: "/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore",
     },
     {
       id: 4,
-      img: DopplerScanning,
+      img: leuteal,
       title: "Leuteal Phase Scan",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/leuteal-phase-scan",
+      para: "Evaluates uterine lining thickness, corpus luteum function, and overall cycle health, helping assess implantation readiness and support fertility planning.",
+      link: "/luteal-phase-scan-in-girinagar-bangalore",
     },
     {
       id: 5,
-      img: DopplerScanning,
+      img: uterine,
       title: "Uterine biophysical profile",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
-      link: "/uterine-biophysical-profile",
+      para: "Assesses blood flow, uterine lining, and structural health, helping evaluate fertility potential, implantation readiness, and overall reproductive well-being with precision.",
+      link: "/uterine-biophysical-profile-scan-in-girinagar-bangalore",
     },
   ];
   return (

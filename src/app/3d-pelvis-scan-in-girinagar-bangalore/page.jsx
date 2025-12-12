@@ -8,14 +8,17 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
-import Pelvis3dHead from '../../components/ServicePages/Pelvis3d/Pelvis3dHead';
-import Pelvis3dExpect from '../../components/ServicePages/Pelvis3d/Pelvis3dExpect';
-import Pelvis3dPrepare from '../../components/ServicePages/Pelvis3d/Pelvis3dPrepare';
+import Pelvis3dHead from "../../components/ServicePages/Pelvis3d/Pelvis3dHead";
+import Pelvis3dExpect from "../../components/ServicePages/Pelvis3d/Pelvis3dExpect";
+import Pelvis3dPrepare from "../../components/ServicePages/Pelvis3d/Pelvis3dPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import Pelvis3dContent from "../../components/ServicePages/Pelvis3d/Pelvis3dContent";
 export const metadata = {
   title: "3D Pelvis Scan in Girinagar, Bangalore | Pelvis Scan near Me",
-  description: "3D Pelvis Scan in Girinagar, Bangalore. Is an advanced ultrasound imaging technique used to create three-dimensional views of the pelvic region for clearer and more detailed evaluation.",
-  canonical: "https://auradiagnostics.co.in/3d-pelvis-scan-in-girinagar-bangalore",
+  description:
+    "3D Pelvis Scan in Girinagar, Bangalore. Is an advanced ultrasound imaging technique used to create three-dimensional views of the pelvic region for clearer and more detailed evaluation.",
+  canonical:
+    "https://auradiagnostics.co.in/3d-pelvis-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -46,9 +49,10 @@ export default function Pelvis3D() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <Pelvis3dContent />
     </div>
   );
 }

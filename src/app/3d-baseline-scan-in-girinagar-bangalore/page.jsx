@@ -12,6 +12,7 @@ import BaselineScan3dHead from "../../components/ServicePages/BaselineScan3d/Bas
 import BaselineScan3dPrepare from "../../components/ServicePages/BaselineScan3d/BaselineScan3dPrepare";
 import BaselineScan3dExpect from "../../components/ServicePages/BaselineScan3d/BaselineScan3dExpect";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import BaselineScan3dContent from "../../components/ServicePages/BaselineScan3d/BaselineScan3dContent";
 export const metadata = {
   title: "3D Baseline Scan in Girinagar, Bangalore | AFC Scan near Me",
   description: "3D Baseline Scan in Girinagar, Bangalore. Is an advanced ultrasound assessment used to evaluate a woman’s ovarian reserve and overall reproductive health.",
@@ -46,9 +47,10 @@ export default function BaseLine3DScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
+            <ServiceMap />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <BaselineScan3dContent/>
     </div>
   );
 }

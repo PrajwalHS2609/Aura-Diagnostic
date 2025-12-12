@@ -12,6 +12,7 @@ import FattyLiverQuantificationHead from '../../components/ServicePages/FattyLiv
 import FattyLiverQuantificationExpect from '../../components/ServicePages/FattyLiverQuantification/FattyLiverQuantificationExpect';
 import FattyLiverQuantificationPrepare from '../../components/ServicePages/FattyLiverQuantification/FattyLiverQuantificationPrepare';
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import FattyLiverQuantificationContent from "../../components/ServicePages/FattyLiverQuantification/FattyLiverQuantificationContent";
 export const metadata = {
   title: "Fatty Liver Quantification Scan in Girinagar, Bangalore | Ultrasound Test near Me",
   description: "Fatty Liver Quantification Scan in Girinagar, Bangalore. Is an advanced, non-invasive ultrasound-based assessment used to measure the amount of fat deposited in the liver.",
@@ -49,6 +50,7 @@ export default function FattyLiverQuantification() {
       <HomeWhy />
       <HomeTestimonial />
       <ServiceMap />
+      <FattyLiverQuantificationContent/>
     </div>
   );
 }

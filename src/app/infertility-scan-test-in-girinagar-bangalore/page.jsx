@@ -13,6 +13,7 @@ import InfertilityScanService from "../../components/ServicePages/InfertilitySca
 import ServiceHeader from '../../components/ServiceComponents/ServiceHeader/ServiceHeader';
 import ServiceMap from '../../components/ServiceComponents/ServiceMap/ServiceMap';
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import InfertilityScanContent from "../../components/ServicePages/InfertilityScan/InfertilityScanContent";
 export const metadata = {
   title: "Infertility Scan Test in Girinagar, Bangalore | Infertility Scans near Me",
   description: "Infertility Scan Test in Girinagar, Bangalore. Is a specialized ultrasound used to assess reproductive health in women and men who are facing difficulty conceiving.",
@@ -52,6 +53,7 @@ export default function InfertilityScan() {
       <InfertilityScanService />
       <HomeWhy />
       <HomeTestimonial />
+      <InfertilityScanContent/>
     </div>
   );
 }

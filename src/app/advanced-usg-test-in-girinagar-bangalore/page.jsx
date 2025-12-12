@@ -13,6 +13,7 @@ import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTesti
 import AdvancedUSGExpect from "../../components/ServicePages/AdvancedUSG/AdvancedUSGExpect";
 import AdvancedUSGPrepare from "../../components/ServicePages/AdvancedUSG/AdvancedUSGPrepare";
 import AdvancedUSGHead from "../../components/ServicePages/AdvancedUSG/AdvancedUSGHead";
+import AdvancedUSGContent from "../../components/ServicePages/AdvancedUSG/AdvancedUSGContent";
 
 export const metadata = {
   title: "Advanced USG Test in Girinagar, Bangalore | Ultrasound Test near Me",
@@ -53,6 +54,7 @@ export default function AdvancedUSG() {
       <AdvancedUSGService />
       <HomeWhy />
       <HomeTestimonial />
+      <AdvancedUSGContent/>
     </div>
   );
 }
