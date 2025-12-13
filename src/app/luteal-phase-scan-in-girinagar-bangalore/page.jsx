@@ -13,6 +13,7 @@ import LeutealPhaseScanExpect from '../../components/ServicePages/LeutealPhaseSc
 import LeutealPhaseScanHead from '../../components/ServicePages/LeutealPhaseScan/LeutealPhaseScanHead';
 import LeutealPhaseScanPrepare from '../../components/ServicePages/LeutealPhaseScan/LeutealPhaseScanPrepare';
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import LeutealPhaseScanContent from "../../components/ServicePages/LeutealPhaseScan/LeutealPhaseScanContent";
 export const metadata = {
   title: "Luteal Phase Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
   description: "Luteal Phase Scan in Girinagar, Bangalore. Is an ultrasound performed during the second half of a woman’s menstrual cycle, typically after ovulation.",
@@ -51,6 +52,7 @@ export default function LeutealPhaseScan() {
       <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
+      <LeutealPhaseScanContent/>
     </div>
   );
 }

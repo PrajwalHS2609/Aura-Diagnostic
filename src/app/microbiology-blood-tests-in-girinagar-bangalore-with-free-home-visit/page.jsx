@@ -9,17 +9,26 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
-import BiochemistryHead from './../../components/ServicePages/Biochemistry/BiochemistryHead';
-import BiochemistryExpect from './../../components/ServicePages/Biochemistry/BiochemistryExpect';
-import BiochemistryPrepare from "../../components/ServicePages/Biochemistry/BiochemistryPrepare";
+import MicrobiologyHead from '../../components/ServicePages/Microbiology/MicrobiologyHead';
+import MicrobiologyExpect from '../../components/ServicePages/Microbiology/MicrobiologyExpect';
+import MicrobiologyPrepare from "../../components/ServicePages/Microbiology/MicrobiologyPrepare";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
-
-export default function BiochemistryTest(){
+export const metadata = {
+  title: "Microbiology Blood Test in Girinagar, Bangalore with Free Home Visit",
+  description:
+    "Get Microbiology Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection.",
+  canonical:
+    "https://auradiagnostics.co.in/microbiology-blood-tests-in-girinagar-bangalore-with-free-home-visit",
+  keywords: [
+    "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
+  ],
+};
+export default function MicrobiologyBloodTest(){
     return(
 <div className="">
       {" "}
       <ServiceHeader
-        title="Biochemistry Tests in Girinagar"
+        title="Microbiology Blood Test"
         para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
         img={ultrasound}
       />
@@ -27,10 +36,10 @@ export default function BiochemistryTest(){
       <div className="component-container">
         <div className="component-main">
           <ServiceNav />
-          <BiochemistryHead />
+          <MicrobiologyHead />
           <div className="component-mainContent">
-            <BiochemistryExpect />
-            <BiochemistryPrepare />
+            <MicrobiologyExpect />
+            <MicrobiologyPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>

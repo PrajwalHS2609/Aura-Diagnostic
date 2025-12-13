@@ -1,5 +1,6 @@
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
-import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
+import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
+import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import doppler from "../../Images/ServicesBanner/Doppler.png";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
@@ -13,11 +14,14 @@ import DopplerScanPrepare from "../../components/ServicePages/DopplerScan/Dopple
 import DopplerScanHeader from "../../components/ServicePages/DopplerScan/DopplerScanHead";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import DopplerScanContent from "../../components/ServicePages/DopplerScan/DopplerScanContent";
 
 export const metadata = {
   title: "Doppler Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
-  description: "Doppler Scan in Girinagar, Bangalore. Is a specialized ultrasound technique used to measure the flow of blood through vessels, including major arteries and veins.",
-  canonical: "https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore",
+  description:
+    "Doppler Scan in Girinagar, Bangalore. Is a specialized ultrasound technique used to measure the flow of blood through vessels, including major arteries and veins.",
+  canonical:
+    "https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -50,9 +54,10 @@ export default function DopplerPage() {
       </div>
       <ServiceMap />
       <DopplerScanService />
-      <BloodTestCities/>
+      <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
+      <DopplerScanContent />
     </div>
   );
 }

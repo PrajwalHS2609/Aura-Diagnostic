@@ -13,10 +13,19 @@ import SerologyExpect from "../../components/ServicePages/Serology/SerologyExpec
 import SerologyPrepare from "../../components/ServicePages/Serology/SerologyPrepare";
 import SerologyHead from "../../components/ServicePages/Serology/SerologyHead";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
-
-export default function SerologyBloodTest(){
-    return(
-<div className="">
+export const metadata = {
+  title: "Serology Blood Test in Girinagar, Bangalore with Free Home Visit",
+  description:
+    "Get Serology Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection.",
+  canonical:
+    "https://auradiagnostics.co.in/serology-blood-tests-in-girinagar-bangalore-with-free-home-visit",
+  keywords: [
+    "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
+  ],
+};
+export default function SerologyBloodTest() {
+  return (
+    <div className="">
       {" "}
       <ServiceHeader
         title="Serology Blood Test"
@@ -41,9 +50,9 @@ export default function SerologyBloodTest(){
         </div>
       </div>
       <ServiceMap />
-      <BloodTestCities/>
+      <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
     </div>
-    )
+  );
 }

@@ -8,18 +8,27 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
-import MicrobiologyHead from './../../components/ServicePages/Microbiology/MicrobiologyHead';
-import MicrobiologyExpect from './../../components/ServicePages/Microbiology/MicrobiologyExpect';
-import MicrobiologyPrepare from "../../components/ServicePages/Microbiology/MicrobiologyPrepare";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
-
-export default function MicrobiologyBloodTest(){
+import TumorMarkersTestExpect from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestExpect";
+import TumorMarkersTestHead from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestHead";
+import TumorMarkersTestPrepare from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestPrepare";
+import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+export const metadata = {
+  title: "Tumor Markers Blood Test in Girinagar, Bangalore with Free Home Visit",
+  description:
+    "Get Tumor Markers Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection.",
+  canonical:
+    "https://auradiagnostics.co.in/tumor-markers-blood-tests-in-girinagar-bangalore-with-free-home-visit",
+  keywords: [
+    "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
+  ],
+};
+export default function TumorMarkersBloodTest(){
     return(
 <div className="">
       {" "}
       <ServiceHeader
-        title="Microbiology Blood Test"
+        title="Hematology Tumor Markers Blood Test"
         para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
         img={ultrasound}
       />
@@ -27,10 +36,10 @@ export default function MicrobiologyBloodTest(){
       <div className="component-container">
         <div className="component-main">
           <ServiceNav />
-          <MicrobiologyHead />
+          <TumorMarkersTestHead />
           <div className="component-mainContent">
-            <MicrobiologyExpect />
-            <MicrobiologyPrepare />
+            <TumorMarkersTestExpect />
+            <TumorMarkersTestPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>

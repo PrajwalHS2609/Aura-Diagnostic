@@ -9,17 +9,26 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
-import TumorMarkersTestExpect from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestExpect";
-import TumorMarkersTestHead from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestHead";
-import TumorMarkersTestPrepare from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestPrepare";
+import HematologyHead from "../../components/ServicePages/Hematology/HematologyHead";
+import HematologyPrepare from "../../components/ServicePages/Hematology/HematologyPrepare";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
-
-export default function TumorMarkersBloodTest(){
-    return(
-<div className="">
+import HematologyExpect from "../../components/ServicePages/Hematology/HematologyExpect";
+export const metadata = {
+  title: "Hematology Blood Test in Girinagar, Bangalore with Free Home Visit",
+  description:
+    "Book Hematology Blood Test in Girinagar, Bangalore with free home visit. Accurate reports, expert lab analysis, timely results, and convenient sample collection at your doorstep.",
+  canonical:
+    "https://auradiagnostics.co.in/hematology-blood-tests-in-girinagar-bangalore-with-free-home-visit",
+  keywords: [
+    "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
+  ],
+};
+export default function HematologyTest() {
+  return (
+    <div className="">
       {" "}
       <ServiceHeader
-        title="Hematology Tumor Markers Blood Test"
+        title="Hematology Tests in Girinagar"
         para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
         img={ultrasound}
       />
@@ -27,10 +36,10 @@ export default function TumorMarkersBloodTest(){
       <div className="component-container">
         <div className="component-main">
           <ServiceNav />
-          <TumorMarkersTestHead />
+          <HematologyHead />
           <div className="component-mainContent">
-            <TumorMarkersTestExpect />
-            <TumorMarkersTestPrepare />
+            <HematologyExpect />
+            <HematologyPrepare />
             <ServiceBilling />
             <ServiceBook />
           </div>
@@ -41,9 +50,9 @@ export default function TumorMarkersBloodTest(){
         </div>
       </div>
       <ServiceMap />
-      <BloodTestCities/>
+       <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
     </div>
-    )
+  );
 }

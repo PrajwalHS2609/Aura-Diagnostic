@@ -14,7 +14,16 @@ import BloodTestHead from "../../components/ServicePages/BloodTest/BloodTestHead
 import BloodTestPrepare from "../../components/ServicePages/BloodTest/BloodTestPrepare";
 import BloodTestServices from "../../components/ServicePages/BloodTest/BloodTestServices";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
-
+export const metadata = {
+  title: "Blood Tests in Girinagar, Bangalore with Free Home Visit – Call Now!",
+  description:
+    "Book Blood Tests in Girinagar, Bangalore with free home visit. Call Now! Accurate reports, expert lab analysis, timely results, and convenient sample collection at your doorstep.",
+  canonical:
+    "https://auradiagnostics.co.in/blood-tests-in-girinagar-bangalore-with-free-home-visit",
+  keywords: [
+    "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
+  ],
+};
 export default function BloodTest(){
     return(
 <div className="">

@@ -76,9 +76,10 @@ const Menu = () => {
               <div className="innerMenuDropDown">
                 <li>
                   <Link
-                    href="/hematology-in-girinagar-bangalore"
+                    href="/hematology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                     className={
-                      pathname === "/hematology-in-girinagar-bangalore"
+                      pathname ===
+                      "/hematology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                         ? "active"
                         : ""
                     }
@@ -88,9 +89,10 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/biochemistry-in-girinagar-bangalore"
+                    href="/biochemistry-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                     className={
-                      pathname === "/biochemistry-in-girinagar-bangalore"
+                      pathname ===
+                      "/biochemistry-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                         ? "active"
                         : ""
                     }
@@ -100,9 +102,10 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/tumor-markers-test-in-girinagar-bangalore"
+                    href="/tumor-markers-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                     className={
-                      pathname === "/tumor-markers-test-in-girinagar-bangalore"
+                      pathname ===
+                      "/tumor-markers-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                         ? "active"
                         : ""
                     }
@@ -112,9 +115,10 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/microbiology-in-girinagar-bangalore"
+                    href="/microbiology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                     className={
-                      pathname === "/microbiology-in-girinagar-bangalore"
+                      pathname ===
+                      "/microbiology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                         ? "active"
                         : ""
                     }
@@ -124,9 +128,10 @@ const Menu = () => {
                 </li>
                 <li>
                   <Link
-                    href="/serology-in-girinagar-bangalore"
+                    href="/serology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                     className={
-                      pathname === "/serology-in-girinagar-bangalore"
+                      pathname ===
+                      "/serology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                         ? "active"
                         : ""
                     }
@@ -680,9 +685,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/hematology-in-girinagar-bangalore`}
+                            href={`/hematology-blood-tests-in-girinagar-bangalore-with-free-home-visit`}
                             className={
-                              pathname === "/hematology-in-girinagar-bangalore"
+                              pathname ===
+                              "/hematology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                                 ? "active"
                                 : ""
                             }
@@ -695,10 +701,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/biochemistry-in-girinagar-bangalore`}
+                            href={`/biochemistry-blood-tests-in-girinagar-bangalore-with-free-home-visit`}
                             className={
                               pathname ===
-                              "/biochemistry-in-girinagar-bangalore"
+                              "/biochemistry-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                                 ? "active"
                                 : ""
                             }
@@ -711,10 +717,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/tumor-markers-test-in-girinagar-bangalore`}
+                            href={`/tumor-markers-blood-tests-in-girinagar-bangalore-with-free-home-visit`}
                             className={
                               pathname ===
-                              "/tumor-markers-test-in-girinagar-bangalore"
+                              "/tumor-markers-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                                 ? "active"
                                 : ""
                             }
@@ -727,10 +733,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/microbiology-in-girinagar-bangalore`}
+                            href={`/microbiology-blood-tests-in-girinagar-bangalore-with-free-home-visit`}
                             className={
                               pathname ===
-                              "/microbiology-in-girinagar-bangalore"
+                              "/microbiology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                                 ? "active"
                                 : ""
                             }
@@ -743,9 +749,10 @@ const Menu = () => {
                           <Link
                             id="menuNavLink"
                             onClick={hideSideBar}
-                            href={`/serology-in-girinagar-bangalore`}
+                            href={`/serology-blood-tests-in-girinagar-bangalore-with-free-home-visit`}
                             className={
-                              pathname === "/serology-in-girinagar-bangalore"
+                              pathname ===
+                              "/serology-blood-tests-in-girinagar-bangalore-with-free-home-visit"
                                 ? "active"
                                 : ""
                             }

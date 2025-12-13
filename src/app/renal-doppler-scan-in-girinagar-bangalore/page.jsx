@@ -11,14 +11,17 @@ import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTesti
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
-import RenalDopplerExpect from '../../components/ServicePages/RenalDoppler/RenalDopplerExpect';
-import RenalDopplerHead from '../../components/ServicePages/RenalDoppler/RenalDopplerHead';
-import RenalDopplerPrepare from '../../components/ServicePages/RenalDoppler/RenalDopplerPrepare';
+import RenalDopplerExpect from "../../components/ServicePages/RenalDoppler/RenalDopplerExpect";
+import RenalDopplerHead from "../../components/ServicePages/RenalDoppler/RenalDopplerHead";
+import RenalDopplerPrepare from "../../components/ServicePages/RenalDoppler/RenalDopplerPrepare";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import RenalDopplerContent from "../../components/ServicePages/RenalDoppler/RenalDopplerContent";
 export const metadata = {
   title: "Renal Doppler Scan in Girinagar, Bangalore | Doppler Scan near Me",
-  description: "Renal Doppler Scan in Girinagar, Bangalore. Is a specialized ultrasound test used to evaluate the carotid arteries, the major blood vessels on both sides of the neck that supply oxygen-rich blood to the brain.",
-  canonical: "https://auradiagnostics.co.in/renal-doppler-scan-in-girinagar-bangalore",
+  description:
+    "Renal Doppler Scan in Girinagar, Bangalore. Is a specialized ultrasound test used to evaluate the carotid arteries, the major blood vessels on both sides of the neck that supply oxygen-rich blood to the brain.",
+  canonical:
+    "https://auradiagnostics.co.in/renal-doppler-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -35,7 +38,7 @@ export default function RenalDoppler() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <ServiceNav/>
+          <ServiceNav />
           <RenalDopplerHead />
           <div className="component-mainContent">
             <RenalDopplerExpect />
@@ -49,10 +52,11 @@ export default function RenalDoppler() {
           <ServiceSidebarLinks />
         </div>
       </div>
-      <BloodTestCities/>
+      <ServiceMap />
+      <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+      <RenalDopplerContent />
     </div>
   );
 }

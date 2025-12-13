@@ -13,6 +13,7 @@ import FollicleMonitoringExpect from "../../components/ServicePages/FollicleMoni
 import FollicleMonitoringPrepare from "../../components/ServicePages/FollicleMonitoring/FollicleMonitoringPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import FollicleMonitoringContent from "../../components/ServicePages/FollicleMonitoring/FollicleMonitoringContent";
 export const metadata = {
   title:
     "3D Follicle Monitoring with Doppler in Girinagar, Bangalore | Doppler Scan near Me",
@@ -50,10 +51,11 @@ export default function FollicleMonitoring3D() {
           <ServiceSidebarLinks />
         </div>
       </div>
-            <ServiceMap />
-            <BloodTestCities/>
+      <ServiceMap />
+      <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
+      <FollicleMonitoringContent />
     </div>
   );
 }
