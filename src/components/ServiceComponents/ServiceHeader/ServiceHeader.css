@@ -33,7 +33,7 @@
 }
 .service-headerCover > h2 {
   /* border: solid; */
-  width: 100%;
+  width: 90%;
   transform: skewX(-25deg);
   font-size: 45px;
   text-align: center;

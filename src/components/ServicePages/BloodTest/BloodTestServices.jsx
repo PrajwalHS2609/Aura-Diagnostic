@@ -1,43 +1,47 @@
 import React from "react";
-import DopplerScanning from "./../../../Images/ServiceImgs/Doppler Scanning.png";
 import Image from "next/image";
 import Link from "next/link";
+import biochemistry from "./../../../Images/bloodTest/Biochemistry.png";
+import microbiology from "./../../../Images/bloodTest/Microbiology.png";
+import tumorMarker from "./../../../Images/bloodTest/Tumor-Markers-Blood.png";
+import hematology from "./../../../Images/bloodTest/Hematology.png";
+import serology from "./../../../Images/bloodTest/Serology.png";
 
 const BloodTestServices = () => {
   const service = [
     {
       id: 1,
-      img: DopplerScanning,
+      img: hematology,
       title: "Hematology",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
+      para: "Eevaluates red and white blood cells, platelets, and overall blood health to diagnose anemia, infections, clotting disorders, and various medical conditions accurately.",
       link: "/hematology-in-girinagar-bangalore",
     },
     {
       id: 2,
-      img: DopplerScanning,
+      img: biochemistry,
       title: "Biochemistry",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
+      para: "Measures enzymes, hormones, electrolytes, and organ function markers, helping diagnose metabolic disorders, liver and kidney issues, diabetes, and overall health conditions accurately.",
       link: "/biochemistry-in-girinagar-bangalore",
     },
     {
       id: 3,
-      img: DopplerScanning,
+      img: tumorMarker,
       title: "Tumor Markers Test",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
+      para: "Measures specific proteins and substances in the blood to help detect cancers early, monitor treatment response, and track disease progression accurately.",
       link: "/tumor-markers-test-in-girinagar-bangalore",
     },
     {
       id: 4,
-      img: DopplerScanning,
+      img: microbiology,
       title: "Microbiology",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
+      para: "Identifies bacteria, viruses, fungi, and parasites to diagnose infections accurately, guide effective treatment, and monitor patient health through detailed laboratory analysis.",
       link: "/microbiology-in-girinagar-bangalore",
     },
     {
       id: 5,
-      img: DopplerScanning,
+      img: serology,
       title: "Serology",
-      para: "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint adipisci dignissimos reiciendis, numquam dolorum perferendis ipsum quod libero amet suscipit? Exercitationem voluptates quisquam eligendi deleniti! Nulla esse obcaecati nam voluptatum?",
+      para: "Detects antibodies and antigens in the blood, helping diagnose infections, immune responses, autoimmune conditions, and past exposure to specific diseases accurately.",
       link: "/serology-in-girinagar-bangalore",
     },
   ];
