@@ -12,10 +12,14 @@ import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTesti
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
-  title: "Musculoskeletal (MSK) Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
-  description: "Musculoskeletal (MSK) Scan in Girinagar, Bangalore. Is a specialized ultrasound used to examine the muscles, tendons, ligaments, joints, and soft tissues of the body.",
-  canonical: "https://auradiagnostics.co.in/musculoskeletal-scan-in-girinagar-bangalore",
+  title:
+    "Musculoskeletal (MSK) Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
+  description:
+    "Musculoskeletal (MSK) Scan in Girinagar, Bangalore. Is a specialized ultrasound used to examine the muscles, tendons, ligaments, joints, and soft tissues of the body.",
+  canonical:
+    "https://auradiagnostics.co.in/musculoskeletal-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -32,7 +36,7 @@ export default function MusculoskeletalScan() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <ServiceNav/>
+          <ServiceNav />
           <MusculoskeletalScanHead />
           <div className="component-mainContent">
             <MusculoskeletalScanExcept />
@@ -46,9 +50,10 @@ export default function MusculoskeletalScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <ServiceMap />
+      <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
     </div>
   );
 }

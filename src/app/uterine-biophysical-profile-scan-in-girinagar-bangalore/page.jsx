@@ -12,6 +12,7 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import UterineBiophysicalProfileHead from '../../components/ServicePages/UterineBiophysicalProfile/UterineBiophysicalProfileHead';
 import UterineBiophysicalProfileExpect from '../../components/ServicePages/UterineBiophysicalProfile/UterineBiophysicalProfileExpect';
 import UterineBiophysicalProfilePrepare from '../../components/ServicePages/UterineBiophysicalProfile/UterineBiophysicalProfilePrepare';
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "Uterine Biophysical Profile Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
   description: "Uterine Biophysical Profile Scan in Girinagar, Bangalore. Is an advanced ultrasound assessment used to evaluate the health, structure, and function of the uterus, especially in women undergoing fertility evaluation or treatment.",
@@ -46,9 +47,10 @@ export default function UterineBiophysical() {
           <ServiceSidebarLinks />
         </div>
       </div>
+            <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
     </div>
   );
 }

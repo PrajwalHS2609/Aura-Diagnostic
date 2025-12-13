@@ -12,6 +12,7 @@ import DopplerScanService from "../../components/ServicePages/DopplerScan/Dopple
 import DopplerScanPrepare from "../../components/ServicePages/DopplerScan/DopplerScanPrepare";
 import DopplerScanHeader from "../../components/ServicePages/DopplerScan/DopplerScanHead";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title: "Doppler Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
@@ -49,6 +50,7 @@ export default function DopplerPage() {
       </div>
       <ServiceMap />
       <DopplerScanService />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
     </div>

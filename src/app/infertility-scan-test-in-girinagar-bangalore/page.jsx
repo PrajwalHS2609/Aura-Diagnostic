@@ -14,6 +14,7 @@ import ServiceHeader from '../../components/ServiceComponents/ServiceHeader/Serv
 import ServiceMap from '../../components/ServiceComponents/ServiceMap/ServiceMap';
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import InfertilityScanContent from "../../components/ServicePages/InfertilityScan/InfertilityScanContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "Infertility Scan Test in Girinagar, Bangalore | Infertility Scans near Me",
   description: "Infertility Scan Test in Girinagar, Bangalore. Is a specialized ultrasound used to assess reproductive health in women and men who are facing difficulty conceiving.",
@@ -50,6 +51,7 @@ export default function InfertilityScan() {
         </div>
       </div>
       <ServiceMap />
+       <BloodTestCities/>
       <InfertilityScanService />
       <HomeWhy />
       <HomeTestimonial />

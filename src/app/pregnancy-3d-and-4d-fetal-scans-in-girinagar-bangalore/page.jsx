@@ -13,6 +13,7 @@ import DFetalScansHead from "../../components/ServicePages/DFetalScans/DFetalSca
 import DFetalScansPrepare from "../../components/ServicePages/DFetalScans/DFetalScansPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import DFetalScansContent from "../../components/ServicePages/DFetalScans/DFetalScansContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title:
@@ -53,6 +54,7 @@ export default function DFetalScan() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <DFetalScansContent />

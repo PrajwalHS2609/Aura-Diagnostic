@@ -12,6 +12,7 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import WholeBodyDopplerHead from '../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerHead';
 import WholeBodyDopplerExpect from "../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerExpect";
 import WholeBodyDopplerPrepare from "../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerPrepare";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "Whole Body Doppler in Girinagar, Bangalore | Doppler Scan near Me",
   description: "Whole Body Doppler in Girinagar, Bangalore. Is an ultrasound performed during the second half of a woman’s menstrual cycle, typically after ovulation.",
@@ -46,9 +47,10 @@ export default function WholeBodyDoppler() {
           <ServiceSidebarLinks />
         </div>
       </div>
+            <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
     </div>
   );
 }

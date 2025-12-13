@@ -13,6 +13,7 @@ import FetalEchoExpect from "../../components/ServicePages/FetalEcho/FetalEchoEx
 import FetalEchoPrepare from "../../components/ServicePages/FetalEcho/FetalEchoPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import FetalEchoContent from "../../components/ServicePages/FetalEcho/FetalEchoContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "Fetal Echo Test in Girinagar, Bangalore | Fetal Echo Test near Me",
   description:
@@ -50,6 +51,7 @@ export default function FetalEcho() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <FetalEchoContent />

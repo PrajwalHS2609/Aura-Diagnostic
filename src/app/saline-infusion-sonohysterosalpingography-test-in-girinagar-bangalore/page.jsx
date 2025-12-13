@@ -13,6 +13,7 @@ import SalineInfusionExpect from "../../components/ServicePages/SalineInfusion/S
 import SalineInfusionPrepare from "../../components/ServicePages/SalineInfusion/SalineInfusionPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import SalineInfusionContent from "../../components/ServicePages/SalineInfusion/SalineInfusionContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title:
     "Saline Infusion Sonohysterosalpingography Test in Girinagar, Bangalore ",
@@ -50,6 +51,7 @@ export default function SalineInfusion() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <SalineInfusionContent />

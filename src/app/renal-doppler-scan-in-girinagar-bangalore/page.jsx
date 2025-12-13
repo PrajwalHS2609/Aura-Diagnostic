@@ -14,6 +14,7 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import RenalDopplerExpect from '../../components/ServicePages/RenalDoppler/RenalDopplerExpect';
 import RenalDopplerHead from '../../components/ServicePages/RenalDoppler/RenalDopplerHead';
 import RenalDopplerPrepare from '../../components/ServicePages/RenalDoppler/RenalDopplerPrepare';
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "Renal Doppler Scan in Girinagar, Bangalore | Doppler Scan near Me",
   description: "Renal Doppler Scan in Girinagar, Bangalore. Is a specialized ultrasound test used to evaluate the carotid arteries, the major blood vessels on both sides of the neck that supply oxygen-rich blood to the brain.",
@@ -48,6 +49,7 @@ export default function RenalDoppler() {
           <ServiceSidebarLinks />
         </div>
       </div>
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <ServiceMap />

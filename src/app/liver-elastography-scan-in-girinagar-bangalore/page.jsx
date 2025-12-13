@@ -13,6 +13,7 @@ import LiverElastographyExpect from "../../components/ServicePages/LiverElastogr
 import LiverElastographyPrepare from "../../components/ServicePages/LiverElastography/LiverElastographyPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import LiverElastographyContent from "../../components/ServicePages/LiverElastography/LiverElastographyContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title:
     "Liver Elastography Scan in Girinagar, Bangalore | Ultrasound Test near Me",
@@ -51,6 +52,7 @@ export default function LiverElastography() {
         </div>
       </div>
       <ServiceMap />
+       <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <LiverElastographyContent />

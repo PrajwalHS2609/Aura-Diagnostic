@@ -13,6 +13,7 @@ import BodyFluidAspirationExpect from "../../components/ServicePages/BodyFluidAs
 import BodyFluidAspirationPrepare from "../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import BodyFluidAspirationContent from "../../components/ServicePages/BodyFluidAspiration/BodyFluidAspirationContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title:
@@ -51,6 +52,7 @@ export default function BodyFluidAspiration() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <BodyFluidAspirationContent />

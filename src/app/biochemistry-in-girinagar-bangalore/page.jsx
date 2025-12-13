@@ -12,6 +12,7 @@ import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import BiochemistryHead from './../../components/ServicePages/Biochemistry/BiochemistryHead';
 import BiochemistryExpect from './../../components/ServicePages/Biochemistry/BiochemistryExpect';
 import BiochemistryPrepare from "../../components/ServicePages/Biochemistry/BiochemistryPrepare";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export default function BiochemistryTest(){
     return(
@@ -40,6 +41,7 @@ export default function BiochemistryTest(){
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
     </div>

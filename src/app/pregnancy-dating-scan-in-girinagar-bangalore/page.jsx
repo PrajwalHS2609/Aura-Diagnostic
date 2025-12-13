@@ -13,6 +13,7 @@ import DatingScanPrepare from "../../components/ServicePages/DatingScan/DatingSc
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import DatingScanContent from "../../components/ServicePages/DatingScan/DatingScanContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title: "Pregnancy Dating Scan in Girinagar, Bangalore | Fetal Scan near Me",
@@ -51,6 +52,7 @@ export default function DatingScan() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <DatingScanContent />

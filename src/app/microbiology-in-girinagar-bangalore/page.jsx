@@ -12,6 +12,7 @@ import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import MicrobiologyHead from './../../components/ServicePages/Microbiology/MicrobiologyHead';
 import MicrobiologyExpect from './../../components/ServicePages/Microbiology/MicrobiologyExpect';
 import MicrobiologyPrepare from "../../components/ServicePages/Microbiology/MicrobiologyPrepare";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export default function MicrobiologyBloodTest(){
     return(
@@ -40,6 +41,7 @@ export default function MicrobiologyBloodTest(){
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
     </div>

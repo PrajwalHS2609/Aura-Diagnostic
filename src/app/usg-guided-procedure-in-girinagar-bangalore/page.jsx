@@ -14,6 +14,7 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import USGGuidedProcedureContent from "../../components/ServicePages/USGGuidedProcedure/USGGuidedProcedureContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "USG Guided Procedure in Girinagar, Bangalore | Ultrasound Test near Me",
   description: "USG Guided Procedure in Girinagar, Bangalore. Is a minimally invasive technique in which ultrasound imaging is used in real time to accurately guide needles or instruments to a specific area inside the body.",
@@ -51,6 +52,7 @@ export default function USGGuidedProcedure() {
       </div>
       <ServiceMap />
       <USGGuidedProcedureService />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <USGGuidedProcedureContent/>

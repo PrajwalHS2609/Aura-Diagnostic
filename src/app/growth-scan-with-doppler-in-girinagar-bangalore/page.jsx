@@ -13,6 +13,7 @@ import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTesti
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import GrowthScanContent from "../../components/ServicePages/GrowthScan/GrowthScanContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title:
     "Growth Scan with Doppler in Girinagar, Bangalore | Fetal Growth Scans near Me",
@@ -51,6 +52,7 @@ export default function GrowthScan() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <GrowthScanContent />

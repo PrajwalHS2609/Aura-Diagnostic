@@ -12,6 +12,7 @@ import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import SerologyExpect from "../../components/ServicePages/Serology/SerologyExpect";
 import SerologyPrepare from "../../components/ServicePages/Serology/SerologyPrepare";
 import SerologyHead from "../../components/ServicePages/Serology/SerologyHead";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export default function SerologyBloodTest(){
     return(
@@ -40,6 +41,7 @@ export default function SerologyBloodTest(){
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
     </div>

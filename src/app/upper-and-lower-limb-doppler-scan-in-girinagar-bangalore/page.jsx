@@ -12,6 +12,7 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import UpperLowerLimbDopplerHead from '../../components/ServicePages/UpperLowerLimbDoppler/UpperLowerLimbDopplerHead';
 import UpperLowerLimbDopplerExpect from '../../components/ServicePages/UpperLowerLimbDoppler/UpperLowerLimbDopplerExpect';
 import UpperLowerLimbDopplerPrepare from '../../components/ServicePages/UpperLowerLimbDoppler/UpperLowerLimbDopplerPrepare';
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "Upper & Lower Limb Doppler in Girinagar, Bangalore | Doppler Scan near Me",
   description: "Upper & Lower Limb Doppler in Girinagar, Bangalore. Is a non-invasive ultrasound test used to evaluate the blood flow in the arteries and veins of the arms and legs.",
@@ -46,9 +47,11 @@ export default function MusculoskeletalScan() {
           <ServiceSidebarLinks />
         </div>
       </div>
+       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
+     
     </div>
   );
 }

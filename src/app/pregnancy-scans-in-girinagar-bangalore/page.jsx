@@ -8,6 +8,7 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 import PregnancyScanContent from "../../components/ServicePages/PregnancyScan/PregnancyScanContent";
 import PregnancyScanExpect from "../../components/ServicePages/PregnancyScan/PregnancyScanExpect";
 import PregnancyScanHead from "../../components/ServicePages/PregnancyScan/PregnancyScanHead";
@@ -53,6 +54,7 @@ export default function PregnancyScan() {
       </div>
       <ServiceMap />
       <PregnancyScanService />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <PregnancyScanContent />

@@ -13,6 +13,7 @@ import AnomalyScanExpect from "../../components/ServicePages/AnomalyScan/Anomaly
 import AnomalyScanPrepare from "../../components/ServicePages/AnomalyScan/AnomalyScanPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import AnomalyScanContent from "../../components/ServicePages/AnomalyScan/AnomalyScanContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title: "Pregnancy Anomaly Scan in Girinagar, Bangalore | Fetal Scans near Me",
@@ -51,6 +52,7 @@ export default function AnomalyScan() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <AnomalyScanContent />

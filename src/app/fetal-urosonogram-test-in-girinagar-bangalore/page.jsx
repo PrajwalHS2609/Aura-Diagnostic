@@ -13,6 +13,7 @@ import FetalUrosonogramExpect from "../../components/ServicePages/FetalUrosonogr
 import FetalUrosonogramPrepare from "../../components/ServicePages/FetalUrosonogram/FetalUrosonogramPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import FetalUrosonogramContent from "../../components/ServicePages/FetalUrosonogram/FetalUrosonogramContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title:
     "Fetal Urosonogram Test in Girinagar, Bangalore | Fetal Urosonogram Test near Me",
@@ -51,6 +52,7 @@ export default function FetalUrosonogram() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <FetalUrosonogramContent />

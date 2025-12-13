@@ -14,6 +14,7 @@ import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import ServiceHeader from '../../components/ServiceComponents/ServiceHeader/ServiceHeader';
 import ServiceMap from '../../components/ServiceComponents/ServiceMap/ServiceMap';
 import ObstetricsContent from "../../components/ServicePages/Obstetrics/ObstetricsContent";
+import BloodTestCities from './../../components/ServicePages/BloodTest/BloodTestCities';
 export const metadata = {
   title: "Obstetrics Scan in Girinagar, Bangalore | Obstetrics Scans near Me",
   description: "Obstetrics Scan in Girinagar, Bangalore. Is a specialized branch of medicine that focuses on pregnancy, childbirth, and the postpartum period.",
@@ -51,6 +52,7 @@ export default function Obstetrics() {
       </div>
       <ServiceMap />
       <ObstetricsService />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <ObstetricsContent/>

@@ -1,0 +1,52 @@
+
+
+.bloodtest-container {
+padding: 40px 20px;
+max-width: 1100px;
+margin: auto;
+}
+
+
+.bloodtest-title {
+text-align: center;
+font-size: 40px;
+margin-bottom: 30px;
+color: var(--customColor1);
+}
+
+
+.bloodtest-grid {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+gap: 16px;
+}
+
+
+.city-card {
+background: #ffffff;
+border: 1px solid #e5e7eb;
+border-radius: 12px;
+padding: 14px 12px;
+text-align: center;
+font-size: 0.95rem;
+font-weight: 500;
+color: var(--customColor2);
+box-shadow: 0 4px 10px rgba(0, 0, 0, 0.05);
+transition: all 0.25s ease;
+cursor: pointer;
+}
+
+
+.city-card:hover {
+transform: translateY(-4px);
+box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+background: var(--customColor3);
+border-color:var(--customColor1);
+}
+
+
+@media (max-width: 480px) {
+.bloodtest-title {
+font-size: 1.4rem;
+}
+}

@@ -13,6 +13,7 @@ import FNACPrepare from "../../components/ServicePages/FNAC/FNACPrepare";
 import FNACExpect from "../../components/ServicePages/FNAC/FNACExpect";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import FNACContent from "../../components/ServicePages/FNAC/FNACContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
   title: "FNAC Test in Girinagar, Bangalore | FNAC Test near Me",
   description:
@@ -49,6 +50,7 @@ export default function FNAC() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <FNACContent />

@@ -12,6 +12,7 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import CarotidDopplerHead from "../../components/ServicePages/CarotidDoppler/CarotidDopplerHead";
 import CarotidDopplerExpect from "../../components/ServicePages/CarotidDoppler/CarotidDopplerExpect";
 import CarotidDopplerPrepare from "../../components/ServicePages/CarotidDoppler/CarotidDopplerPrepare";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title: "Carotid Doppler Scan in Girinagar, Bangalore | Doppler Scan near Me",
@@ -47,9 +48,10 @@ export default function CarotidDoppler() {
           <ServiceSidebarLinks />
         </div>
       </div>
+            <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
-      <ServiceMap />
     </div>
   );
 }

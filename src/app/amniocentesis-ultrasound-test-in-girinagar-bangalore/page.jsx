@@ -13,6 +13,7 @@ import AmniocentesisHead from "../../components/ServicePages/Amniocentesis/Amnio
 import AmniocentesisPrepare from "../../components/ServicePages/Amniocentesis/AmniocentesisPrepare";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import AmniocentesisContent from "../../components/ServicePages/Amniocentesis/AmniocentesisContent";
+import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 
 export const metadata = {
   title:
@@ -52,6 +53,7 @@ export default function Amniocentesis() {
         </div>
       </div>
       <ServiceMap />
+      <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
       <AmniocentesisContent />
