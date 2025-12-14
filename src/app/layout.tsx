@@ -46,7 +46,6 @@ export default function RootLayout({
   gtag('config', 'G-LD20P3DX5Z');`}
         </script>
         {/* --------------------------Rich Text---------------------------------------------------- */}
-        \
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
@@ -185,6 +184,41 @@ export default function RootLayout({
               "https://www.instagram.com/yourclinicpage",
               "https://www.google.com/maps?cid=YOUR_GMB_CID",
             ],
+          })}
+        </script>
+        {/* ----------------------------------------------------------------------------------------- */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org/",
+            "@type": "Product",
+            name: "Aura Diagnostics",
+            image:
+              "https://auradiagnostics.co.in/_next/image?url=%2F_next%2Fstatic%2Fmedia%2Flogo.18e2c931.png&w=3840&q=75",
+            description:
+              "Led by Dr. Kiran Ramaiah (10+ years of experience), we deliver reliable healthcare and advanced diagnostics in Girinagar. From pregnancy and obstetric scans to USG-guided procedures, infertility scans, Doppler, ECG, and full blood test services with free home sample collection, we ensure safe, accurate, and patient-friendly care since 2025.",
+            brand: {
+              "@type": "Brand",
+              name: "Aura Diagnostics",
+            },
+            review: {
+              "@type": "Review",
+              reviewRating: {
+                "@type": "Rating",
+                ratingValue: "5",
+                bestRating: "5",
+              },
+              author: {
+                "@type": "Person",
+                name: "Rishi",
+              },
+            },
+            aggregateRating: {
+              "@type": "AggregateRating",
+              ratingValue: "4.9",
+              bestRating: "5",
+              worstRating: "1",
+              ratingCount: "692",
+            },
           })}
         </script>
       </head>

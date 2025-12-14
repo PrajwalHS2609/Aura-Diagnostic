@@ -44,6 +44,19 @@ background: var(--customColor3);
 border-color:var(--customColor1);
 }
 
+.book-visit-btn {
+  cursor: pointer;
+  background-color: var(--customColor1);
+  color: white;
+  border: none;
+  font-weight: 600;
+  transition: 0.3s;
+}
+
+.book-visit-btn:hover {
+  background-color: var(--customColor1);
+  transform: scale(1.03);
+}
 
 @media (max-width: 480px) {
 .bloodtest-title {

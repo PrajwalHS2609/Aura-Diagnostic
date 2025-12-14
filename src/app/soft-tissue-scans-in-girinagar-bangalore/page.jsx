@@ -13,6 +13,7 @@ import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/Serv
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import SoftTissueScansContent from "../../components/ServicePages/SoftTissueScans/SoftTissueScansContent";
 export const metadata = {
   title: "Soft Tissue Scans in Girinagar, Bangalore | Ultrasound Scan near Me",
   description: "Soft Tissue Scans in Girinagar, Bangalore. Is a specialized ultrasound used to examine the body’s soft tissues, including muscles, tendons, ligaments, fat layers, and subcutaneous structures.",
@@ -34,7 +35,6 @@ export default function SoftTissueScans() {
       <div className="component-container">
         <div className="component-main">
           <ServiceNav />
-
           <SoftTissueScansHead />
           <div className="component-mainContent">
             <SoftTissueScansExcept />
@@ -52,6 +52,7 @@ export default function SoftTissueScans() {
       <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
+      <SoftTissueScansContent/>
     </div>
   );
 }

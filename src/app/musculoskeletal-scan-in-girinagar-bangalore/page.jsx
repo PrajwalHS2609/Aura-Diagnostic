@@ -13,6 +13,7 @@ import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/Se
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import MusculoskeletalScanContent from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanContent";
 export const metadata = {
   title:
     "Musculoskeletal (MSK) Scan in Girinagar, Bangalore | Ultrasound Scan near Me",
@@ -54,6 +55,7 @@ export default function MusculoskeletalScan() {
       <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
+      <MusculoskeletalScanContent/>  
     </div>
   );
 }

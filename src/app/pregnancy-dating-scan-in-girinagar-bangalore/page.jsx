@@ -6,7 +6,7 @@ import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/Serv
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import datingScan from "./../../Images/PregnancyScanServiceBanner/Pregnancy-Dating-Scan.png";
 import DatingScanHead from "../../components/ServicePages/DatingScan/DatingScanHead";
 import DatingScanExpect from "../../components/ServicePages/DatingScan/DatingScanExpect";
 import DatingScanPrepare from "../../components/ServicePages/DatingScan/DatingScanPrepare";
@@ -30,9 +30,9 @@ export default function DatingScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Dating Scan"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Dating Scan in Girinagar"
+        para="Accurate dating scans determine pregnancy age, confirm fetal growth, and ensure early guidance for expectant parents."
+        img={datingScan}
       />
       <HomeCerti />
       <div className="component-container">

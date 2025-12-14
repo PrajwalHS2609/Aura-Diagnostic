@@ -9,14 +9,17 @@ import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTesti
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
-import WholeBodyDopplerHead from '../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerHead';
+import WholeBodyDopplerHead from "../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerHead";
 import WholeBodyDopplerExpect from "../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerExpect";
 import WholeBodyDopplerPrepare from "../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerPrepare";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import WholeBodyDopplerContent from "../../components/ServicePages/WholeBodyDoppler/WholeBodyDopplerContent";
 export const metadata = {
   title: "Whole Body Doppler in Girinagar, Bangalore | Doppler Scan near Me",
-  description: "Whole Body Doppler in Girinagar, Bangalore. Is an ultrasound performed during the second half of a woman’s menstrual cycle, typically after ovulation.",
-  canonical: "https://auradiagnostics.co.in/whole-body-doppler-scan-in-girinagar-bangalore",
+  description:
+    "Whole Body Doppler in Girinagar, Bangalore. Is an ultrasound performed during the second half of a woman’s menstrual cycle, typically after ovulation.",
+  canonical:
+    "https://auradiagnostics.co.in/whole-body-doppler-scan-in-girinagar-bangalore",
   keywords: [
     "Diagnostic testing,Clinical diagnostics,Differential diagnosis,Diagnostic accuracy,Ultrasound,Doppler scan",
   ],
@@ -33,7 +36,7 @@ export default function WholeBodyDoppler() {
       <HomeCerti />
       <div className="component-container">
         <div className="component-main">
-          <ServiceNav/>
+          <ServiceNav />
           <WholeBodyDopplerHead />
           <div className="component-mainContent">
             <WholeBodyDopplerExpect />
@@ -47,10 +50,11 @@ export default function WholeBodyDoppler() {
           <ServiceSidebarLinks />
         </div>
       </div>
-            <ServiceMap />
-      <BloodTestCities/>
+      <ServiceMap />
+      <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
+      <WholeBodyDopplerContent />
     </div>
   );
 }

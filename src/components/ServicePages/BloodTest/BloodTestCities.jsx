@@ -1,6 +1,10 @@
+"use client";
 import React from "react";
 import "./BloodTest.css";
 const BloodTestCities = () => {
+  let handleAppointment = () => {
+    document.querySelector(".bookPopUp").classList.add("showPopup");
+  };
   const cities = [
     "Nayanad Halli",
     "Hosakerehalli",
@@ -31,6 +35,7 @@ const BloodTestCities = () => {
     "Mariyappan Palya",
     "Thyagaraja Nagar",
     "Chamrajpet",
+    "Book a Free Visit",
   ];
   return (
     <section className="bloodtest-container">
@@ -39,11 +44,21 @@ const BloodTestCities = () => {
       </h2>
 
       <div className="bloodtest-grid">
-        {cities.map((city, index) => (
-          <div key={index} className="city-card">
-            {city}
-          </div>
-        ))}
+        {cities.map((city, index) =>
+          city === "Book a Free Visit" ? (
+            <button
+              key={index}
+              className="city-card book-visit-btn"
+              onClick={handleAppointment}
+            >
+              {city}
+            </button>
+          ) : (
+            <div key={index} className="city-card">
+              {city}
+            </div>
+          )
+        )}
       </div>
     </section>
   );

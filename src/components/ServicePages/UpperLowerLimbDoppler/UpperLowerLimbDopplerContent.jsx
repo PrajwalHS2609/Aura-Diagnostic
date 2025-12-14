@@ -14,8 +14,8 @@ const UpperLowerLimbDopplerContent = () => {
             Upper and lower limb Doppler scans play a crucial role in assessing
             blood circulation, detecting vascular diseases, and diagnosing
             conditions that affect arteries and veins in the arms and legs. In
-            Girinagar, Bangalore, many individuals search for reliable Limb
-            Doppler ultrasound in Girinagar to evaluate symptoms like leg pain,
+            Girinagar, Bangalore, many individuals search for reliable <a href="https://auradiagnostics.co.in/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore">Limb
+            Doppler ultrasound in Girinagar</a> to evaluate symptoms like leg pain,
             swelling, numbness, varicose veins, or reduced blood flow. This
             specialized ultrasound test uses high-frequency sound waves to
             examine circulation and identify potential blockages or narrowing in
@@ -26,14 +26,14 @@ const UpperLowerLimbDopplerContent = () => {
           <h2>Why Limb Doppler Ultrasound Is Important</h2>
           <p>
             Whether you're experiencing chronic leg discomfort, recovering from
-            surgery, or monitoring an existing vascular disorder, a Peripheral
-            Doppler scan in Girinagar becomes essential. This test helps
+            surgery, or monitoring an existing vascular disorder, a <a href="https://auradiagnostics.co.in/upper-and-lower-limb-doppler-scan-in-girinagar-bangalore">Peripheral
+            Doppler scan in Girinagar</a> becomes essential. This test helps
             visualize both arterial and venous blood flow, enabling physicians
             to diagnose issues like peripheral artery disease (PAD), deep vein
             thrombosis (DVT), varicosities, or compromised limb circulation. As
             vascular problems are becoming increasingly common due to sedentary
             lifestyles, diabetes, and high blood pressure, timely evaluation
-            with a Vascular Doppler test in Girinagar ensures better long-term
+            with a <a href="https://auradiagnostics.co.in">Vascular Doppler test in Girinagar</a> ensures better long-term
             vascular health.
           </p>
         </div>
@@ -56,8 +56,8 @@ const UpperLowerLimbDopplerContent = () => {
               </ul>
               <p>
                 When patients experience symptoms like leg cramps while walking,
-                cold extremities, or non-healing foot ulcers, an arterial
-                Doppler scan becomes an immediate requirement. Detecting reduced
+                cold extremities, or non-healing foot ulcers, an <a href="https://auradiagnostics.co.in">arterial
+                Doppler scan</a> becomes an immediate requirement. Detecting reduced
                 blood supply early helps prevent major vascular complications.
               </p>
             </div>
@@ -67,7 +67,7 @@ const UpperLowerLimbDopplerContent = () => {
                 Veins
               </h2>
               <p>
-                A Venous Doppler scan in Girinagar focuses on evaluating veins
+                A <a href="https://auradiagnostics.co.in">Venous Doppler scan in Girinagar</a> focuses on evaluating veins
                 in the upper and lower limbs. It is commonly recommended for:
               </p>
               <ul>
@@ -86,7 +86,7 @@ const UpperLowerLimbDopplerContent = () => {
             <div className="contentHead-content">
               <h2>Best Limb Doppler Center in Girinagar – What to Expect</h2>
               <p>
-                Anyone searching for the Best limb Doppler center in Girinagar
+                Anyone searching for the <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">Best limb Doppler center in Girinagar</a>
                 expects accuracy, expertise, and advanced diagnostic technology.
                 A reliable center provides:
               </p>
@@ -109,8 +109,8 @@ const UpperLowerLimbDopplerContent = () => {
                 Leg Health
               </h2>
               <p>
-                Patients suffering from varicose veins often undergo a Varicose
-                vein Doppler test in Girinagar to check for faulty valves and
+                Patients suffering from varicose veins often undergo a <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">Varicose
+                vein Doppler test in Girinagar</a> to check for faulty valves and
                 blood pooling. This scan helps map vein structure and flow
                 patterns, guiding specialists toward the best treatment options
                 such as laser therapy, sclerotherapy, or surgery.
@@ -122,7 +122,7 @@ const UpperLowerLimbDopplerContent = () => {
                 Evaluation
               </h2>
               <p>
-                A Blood circulation Doppler scan in Girinagar examines how
+                A <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">Blood circulation Doppler scan in Girinagar</a> examines how
                 effectively blood is transported through arteries and veins in
                 the limbs. This test is often recommended for individuals with:
               </p>
@@ -165,7 +165,7 @@ const UpperLowerLimbDopplerContent = () => {
                 Peripheral Doppler Scan in Girinagar — Ideal for Early Diagnosis
               </h2>
               <p>
-                A Peripheral Doppler scan in Girinagar is often suggested by
+                A <a href="https://auradiagnostics.co.in/carotid-doppler-scan-in-girinagar-bangalore">Peripheral Doppler scan in Girinagar</a> is often suggested by
                 doctors to diagnose vascular issues before they progress into
                 severe conditions. Regular monitoring is strongly recommended
                 for elderly individuals, smokers, and those with heart disease.
