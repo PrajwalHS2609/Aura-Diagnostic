@@ -28,7 +28,7 @@ export default function CarotidDoppler() {
       {" "}
       <ServiceHeader
         title="Cardiology Consultation in Girinagar"
-        para="Expert cardiology consultation in Girinagar, Bangalore with accurate diagnosis, advanced heart care, and personalized treatment for all cardiac conditions."
+        para="Expert cardiology consultation for heart health evaluation, diagnosis, and personalized treatment with experienced cardiac specialists."
         img={carotidScan}
       />
       <HomeCerti />

@@ -28,7 +28,7 @@ export default function UrologyConsultation() {
       {" "}
       <ServiceHeader
         title="Urology Consultation in Girinagar"
-        para="Expert urology consultation in Girinagar, Bangalore providing advanced diagnosis and personalized treatment for urinary, kidney, and prostate health conditions."
+        para="Specialized urology consultation for urinary and reproductive health evaluation, diagnosis, and personalized treatment by experts."
         img={urology}
       />
       <HomeCerti />

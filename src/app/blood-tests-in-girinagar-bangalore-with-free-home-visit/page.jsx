@@ -30,7 +30,7 @@ export default function BloodTest(){
       {" "}
       <ServiceHeader
         title="Blood Tests in Girinagar"
-        para="Book Blood Tests in Girinagar, Bangalore with free home visit. Call Now! Accurate reports, expert lab analysis, timely results, and convenient sample collection at your doorstep."
+        para="Accurate reports, expert lab analysis, timely results, and convenient sample collection at your doorstep."
         img={bloodTest}
       />
       <HomeCerti />

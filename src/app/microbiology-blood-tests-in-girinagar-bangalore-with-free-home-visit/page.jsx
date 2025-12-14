@@ -29,7 +29,7 @@ export default function MicrobiologyBloodTest(){
       {" "}
       <ServiceHeader
         title="Microbiology Blood Test in Girinaga"
-        para="Get Microbiology Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection."
+        para="Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection."
         img={microbiology}
       />
       <HomeCerti />

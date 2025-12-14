@@ -28,7 +28,7 @@ export default function Nephrology() {
       {" "}
       <ServiceHeader
         title="Nephrology Consultation in Girinagar"
-        para="Advanced nephrology consultation in Girinagar, Bangalore offering expert kidney care, accurate diagnosis, and personalized treatment for all renal conditions."
+        para="Comprehensive nephrology consultation for kidney health evaluation, diagnosis, and personalized treatment by experienced specialists."
         img={nephrology}
       />
       <HomeCerti />
