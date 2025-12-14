@@ -13,7 +13,7 @@ import BloodTestExpect from "../../components/ServicePages/BloodTest/BloodTestEx
 import BloodTestHead from "../../components/ServicePages/BloodTest/BloodTestHead";
 import BloodTestPrepare from "../../components/ServicePages/BloodTest/BloodTestPrepare";
 import BloodTestServices from "../../components/ServicePages/BloodTest/BloodTestServices";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import bloodTest from "./../../Images/BloodTestServiceBanner/Blood-Tests.png";
 export const metadata = {
   title: "Blood Tests in Girinagar, Bangalore with Free Home Visit – Call Now!",
   description:
@@ -30,8 +30,8 @@ export default function BloodTest(){
       {" "}
       <ServiceHeader
         title="Blood Tests in Girinagar"
-        para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
-        img={ultrasound}
+        para="Book Blood Tests in Girinagar, Bangalore with free home visit. Call Now! Accurate reports, expert lab analysis, timely results, and convenient sample collection at your doorstep."
+        img={bloodTest}
       />
       <HomeCerti />
       <div className="component-container">

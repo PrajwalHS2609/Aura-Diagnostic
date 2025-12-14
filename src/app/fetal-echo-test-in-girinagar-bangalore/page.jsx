@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import fetalEchoScan from "./../../Images/ObstetricScanServiceBanner/Fetal-Echo.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -29,9 +29,9 @@ export default function FetalEcho() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Fetal Echo"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Fetal Echo Test in Girinagar"
+        para="We ensures healthy heart development, early detection, expert care, and complete pregnancy reassurance."
+        img={fetalEchoScan}
       />
       <HomeCerti />
       <div className="component-container">

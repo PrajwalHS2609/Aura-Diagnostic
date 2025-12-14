@@ -8,7 +8,7 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import serology from "./../../Images/BloodTestServiceBanner/Serology-Blood-Test.png";
 import SerologyExpect from "../../components/ServicePages/Serology/SerologyExpect";
 import SerologyPrepare from "../../components/ServicePages/Serology/SerologyPrepare";
 import SerologyHead from "../../components/ServicePages/Serology/SerologyHead";
@@ -28,9 +28,9 @@ export default function SerologyBloodTest() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Serology Blood Test"
-        para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
-        img={ultrasound}
+        title="Serology Blood Test in Girinagar"
+        para="Get Serology Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection."
+        img={serology}
       />
       <HomeCerti />
       <div className="component-container">

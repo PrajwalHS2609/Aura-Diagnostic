@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import BodyFluid from "./../../Images/USGGuidedProcedureServicesBanner/Body-Fluid-Aspiration.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -30,9 +30,9 @@ export default function BodyFluidAspiration() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Body Fluid Aspiration"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Body Fluid Aspiration Test in Girinagar"
+        para="Provides accurate diagnosis of infections and conditions through safe, precise, minimally invasive sampling"
+        img={BodyFluid}
       />
       <HomeCerti />
       <div className="component-container">

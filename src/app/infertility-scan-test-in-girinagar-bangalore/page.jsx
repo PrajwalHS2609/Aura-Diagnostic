@@ -12,7 +12,7 @@ import InfertilityScanPrepare from "../../components/ServicePages/InfertilitySca
 import InfertilityScanService from "../../components/ServicePages/InfertilityScan/InfertilityScanService";
 import ServiceHeader from '../../components/ServiceComponents/ServiceHeader/ServiceHeader';
 import ServiceMap from '../../components/ServiceComponents/ServiceMap/ServiceMap';
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import infertilityScan from "./../../Images/InfertilityScanServicesBanner/Infertility-Scan.png";
 import InfertilityScanContent from "../../components/ServicePages/InfertilityScan/InfertilityScanContent";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 export const metadata = {
@@ -28,9 +28,9 @@ export default function InfertilityScan() {
  <div className="">
       {" "}
       <ServiceHeader
-        title="Infertility Scan"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Infertility Scans in Girinagar"
+        para="Provide precise reproductive insights, guiding effective treatment, improving conception chances, and supporting your fertility journey."
+        img={infertilityScan}
       />
       <HomeCerti />
       <div className="component-container">

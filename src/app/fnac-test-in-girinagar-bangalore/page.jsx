@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import fnac from "./../../Images/USGGuidedProcedureServicesBanner/Fine-Needle-Aspiration-Cytology.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -28,9 +28,9 @@ export default function FNAC() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="FNAC (Fine Needle Aspiration Cytology)"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="FNAC Test in Girinagar "
+        para="Offers quick, accurate cell diagnosis, enabling early detection and guiding effective, timely treatment decisions."
+        img={fnac}
       />
       <HomeCerti />
       <div className="component-container">

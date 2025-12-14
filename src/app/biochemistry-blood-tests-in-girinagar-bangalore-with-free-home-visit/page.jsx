@@ -8,7 +8,7 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import biochemistry from "./../../Images/BloodTestServiceBanner/Biochemistry-Blood-Test.png";
 import BiochemistryHead from '../../components/ServicePages/Biochemistry/BiochemistryHead';
 import BiochemistryExpect from '../../components/ServicePages/Biochemistry/BiochemistryExpect';
 import BiochemistryPrepare from "../../components/ServicePages/Biochemistry/BiochemistryPrepare";
@@ -29,8 +29,8 @@ export default function BiochemistryTest(){
       {" "}
       <ServiceHeader
         title="Biochemistry Tests in Girinagar"
-        para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
-        img={ultrasound}
+        para="Get Biochemistry Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection."
+        img={biochemistry}
       />
       <HomeCerti />
       <div className="component-container">

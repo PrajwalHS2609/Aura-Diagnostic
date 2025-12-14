@@ -3,7 +3,7 @@ import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import USGGuidedProcedureService from "../../components/ServicePages/USGGuidedProcedure/USGGuidedProcedureService";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import USGGuided from "./../../Images/USGGuidedProcedureServicesBanner/USG-Guided-Procedure.png";
 import USGGuidedProcedureHead from "../../components/ServicePages/USGGuidedProcedure/USGGuidedProcedureHead";
 import USGGuidedProcedureExpect from "../../components/ServicePages/USGGuidedProcedure/USGGuidedProcedureExpect";
 import USGGuidedProcedurePrepare from "../../components/ServicePages/USGGuidedProcedure/USGGuidedProcedurePrepare";
@@ -28,9 +28,9 @@ export default function USGGuidedProcedure() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="USG Guided Procedure"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="USG Guided Procedure in Girinagar"
+        para="Offers quick, accurate cell diagnosis, enabling early detection and guiding effective, timely treatment decisions."
+        img={USGGuided}
       />
       <HomeCerti />
       <div className="component-container">

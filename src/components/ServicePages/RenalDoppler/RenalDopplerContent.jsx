@@ -19,8 +19,8 @@ const RenalDopplerContent = () => {
             like renal artery narrowing, poor kidney perfusion,
             hypertension-related kidney issues, and vascular disorders. As the
             demand for advanced kidney evaluations grows, many patients look for
-            accurate and reliable imaging solutions such as the kidney Doppler
-            test in Girinagar to understand the health of their renal arteries
+            accurate and reliable imaging solutions such as the <a href="https://auradiagnostics.co.in">kidney Doppler
+            test in Girinagar</a> to understand the health of their renal arteries
             and veins.
           </p>
         </div>
@@ -33,8 +33,8 @@ const RenalDopplerContent = () => {
             moving blood cells, helping detect abnormalities such as stenosis,
             blocked arteries, or decreased renal blood circulation. For
             individuals experiencing high blood pressure, chronic kidney
-            conditions, or unexplained renal issues, the renal artery Doppler in
-            Girinagar plays a vital role in early diagnosis and treatment
+            conditions, or unexplained renal issues, the <a href="https://auradiagnostics.co.in/renal-doppler-scan-in-girinagar-bangalore">renal artery Doppler in
+            Girinagar</a> plays a vital role in early diagnosis and treatment
             planning.
           </p>
         </div>
@@ -56,7 +56,7 @@ const RenalDopplerContent = () => {
               </ul>
               <p>
                 Since blood flow irregularities can significantly impact kidney
-                function, the kidney blood flow scan in Girinagar provides
+                function, the <a href="https://auradiagnostics.co.in/renal-doppler-scan-in-girinagar-bangalore">kidney blood flow scan in Girinagar</a> provides
                 detailed diagnostic insights to medical professionals.
               </p>
             </div>
@@ -111,7 +111,7 @@ const RenalDopplerContent = () => {
               <h2>Hypertension & Kidney Diseases – A Critical Link</h2>
               <p>
                 High blood pressure is both a cause and a symptom of kidney
-                disease. The hypertension renal Doppler in Girinagar helps
+                disease. The <a href="https://auradiagnostics.co.in/renal-doppler-scan-in-girinagar-bangalore">hypertension renal Doppler in Girinagar</a> helps
                 assess whether high BP is due to renal artery narrowing. Early
                 detection helps prevent further kidney damage and supports
                 timely medical or surgical interventions.
@@ -145,8 +145,8 @@ const RenalDopplerContent = () => {
             <div className="contentHead-content">
               <h2>Chronic Kidney Disease Evaluation with Renal Doppler</h2>
               <p>
-                For patients undergoing long-term kidney care, the chronic
-                kidney disease Doppler in Girinagar provides essential
+                For patients undergoing long-term kidney care, the <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">chronic
+                kidney disease Doppler in Girinagar</a> provides essential
                 diagnostic follow-ups. It helps determine:
               </p>
               <ul>
@@ -165,7 +165,7 @@ const RenalDopplerContent = () => {
               <h2>Renal Vein Doppler Scan – Detecting Venous Issues</h2>
               <p>
                 Apart from arteries, kidney veins also require evaluation. The
-                renal vein Doppler scan in Girinagar is useful for detecting:
+                <a href="https://auradiagnostics.co.in">renal vein Doppler scan in Girinagar</a> is useful for detecting:
               </p>
               <ul>
                 <li> Renal vein thrombosis</li>

@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import doppler from "../../Images/ServicesBanner/Doppler.png";
+import dopplerScan from "../../Images/DopplerScanBanner/Doppler-Scan.png";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
@@ -30,9 +30,9 @@ export default function DopplerPage() {
   return (
     <div>
       <ServiceHeader
-        title="Doppler Scan"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={doppler}
+        title="Doppler Scan in Girinagar"
+        para="Provides accurate blood flow assessment, ensuring early detection, better monitoring, and improved pregnancy and vascular health."
+        img={dopplerScan}
       />
       <HomeCerti />
       <div className="component-container">

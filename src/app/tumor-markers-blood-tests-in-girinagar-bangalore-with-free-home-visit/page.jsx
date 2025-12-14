@@ -12,7 +12,7 @@ import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCi
 import TumorMarkersTestExpect from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestExpect";
 import TumorMarkersTestHead from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestHead";
 import TumorMarkersTestPrepare from "../../components/ServicePages/TumorMarkersTest/TumorMarkersTestPrepare";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import tumor from "./../../Images/BloodTestServiceBanner/Tumor-Markers-Blood-Test.png";
 export const metadata = {
   title: "Tumor Markers Blood Test in Girinagar, Bangalore with Free Home Visit",
   description:
@@ -28,9 +28,9 @@ export default function TumorMarkersBloodTest(){
 <div className="">
       {" "}
       <ServiceHeader
-        title="Hematology Tumor Markers Blood Test"
-        para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
-        img={ultrasound}
+        title="Tumor Markers Blood Test in Girinagar"
+        para="Get Tumor Markers Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection."
+        img={tumor}
       />
       <HomeCerti />
       <div className="component-container">

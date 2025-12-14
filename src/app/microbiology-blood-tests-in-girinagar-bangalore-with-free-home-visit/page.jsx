@@ -8,7 +8,7 @@ import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import microbiology from "./../../Images/BloodTestServiceBanner/Microbiology-Blood-Test.png";
 import MicrobiologyHead from '../../components/ServicePages/Microbiology/MicrobiologyHead';
 import MicrobiologyExpect from '../../components/ServicePages/Microbiology/MicrobiologyExpect';
 import MicrobiologyPrepare from "../../components/ServicePages/Microbiology/MicrobiologyPrepare";
@@ -28,9 +28,9 @@ export default function MicrobiologyBloodTest(){
 <div className="">
       {" "}
       <ServiceHeader
-        title="Microbiology Blood Test"
-        para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
-        img={ultrasound}
+        title="Microbiology Blood Test in Girinaga"
+        para="Get Microbiology Blood Test in Girinagar, Bangalore with free home visit. Accurate lab testing, timely reports, expert analysis, and convenient doorstep sample collection."
+        img={microbiology}
       />
       <HomeCerti />
       <div className="component-container">

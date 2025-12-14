@@ -12,8 +12,8 @@ const DopplerScanContent = () => {
           <h1> Doppler Scan in Girinagar, Bangalore – Aura Diagnostics</h1>
           <p>
             A Doppler scan is one of the most essential diagnostic imaging
-            methods used to evaluate blood flow in arteries, veins, and fetal
-            vessels. In Girinagar, Bangalore, many individuals—ranging from
+            methods used to evaluate blood flow in arteries, veins, and <a href="https://auradiagnostics.co.in">fetal
+            vessels. In Girinagar, Bangalore</a>, many individuals—ranging from
             expectant mothers to those needing vascular assessments—search for
             reliable facilities offering high-quality Doppler examinations. A
             Doppler study provides real-time insights into how blood circulates
@@ -22,8 +22,8 @@ const DopplerScanContent = () => {
           </p>
           <p>
             Whether you are advised to undergo a Vascular Doppler scan in
-            Girinagar, a Pregnancy Doppler scan in Girinagar, or a Carotid
-            Doppler test in Girinagar, choosing a center equipped with advanced
+            Girinagar, a Pregnancy Doppler scan in Girinagar, or a <a href="https://auradiagnostics.co.in/carotid-doppler-scan-in-girinagar-bangalore">Carotid
+            Doppler test in Girinagar</a>, choosing a center equipped with advanced
             technology and trained radiologists is crucial for dependable
             results.
           </p>
@@ -39,8 +39,8 @@ const DopplerScanContent = () => {
                 A vascular Doppler scan helps evaluate blood flow in the major
                 arteries and veins. It is commonly recommended for individuals
                 experiencing leg pain, swelling, suspected varicose veins,
-                peripheral artery disease, or circulation disorders. A Vascular
-                Doppler scan in Girinagar checks for blockages, narrowing of
+                peripheral artery disease, or circulation disorders. A <a href="https://auradiagnostics.co.in/carotid-doppler-scan-in-girinagar-bangalore">Vascular
+                Doppler scan in Girinagar</a> checks for blockages, narrowing of
                 vessels, blood clots, and venous insufficiency. This test is
                 especially vital for diabetic patients and individuals with
                 long-term cardiovascular conditions.
@@ -60,7 +60,7 @@ const DopplerScanContent = () => {
 
               <h3>3. Fetal Doppler Scan in Girinagar</h3>
               <p>
-                A Fetal Doppler scan in Girinagar enables detailed monitoring of
+                A <a href="https://auradiagnostics.co.in/obstetrics-scan-in-girinagar-bangalore">Fetal Doppler scan in Girinagar</a> enables detailed monitoring of
                 blood flow in specific fetal organs and vessels. It is
                 frequently used in high-risk pregnancies to evaluate fetal
                 health, detect abnormalities, and monitor fetal responses to
@@ -80,7 +80,7 @@ const DopplerScanContent = () => {
               </p>
               <h3>5. Arterial Doppler Scan in Girinagar</h3>
               <p>
-                An Arterial Doppler scan in Girinagar evaluates circulation in
+                An <a href="https://auradiagnostics.co.in/obstetrics-scan-in-girinagar-bangalore">Arterial Doppler scan in Girinagar</a> evaluates circulation in
                 the arms and legs. It is crucial for diagnosing peripheral
                 arterial disease (PAD), arterial blockages, or reduced blood
                 circulation. Early diagnosis helps in preventing complications
@@ -97,8 +97,8 @@ const DopplerScanContent = () => {
               </p>
               <h3>7. Obstetric Doppler Scan in Girinagar</h3>
               <p>
-                Pregnant women often require an Obstetric Doppler scan in
-                Girinagar to monitor fetal circulation and placental health.
+                Pregnant women often require an <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">Obstetric Doppler scan in
+                Girinagar</a> to monitor fetal circulation and placental health.
                 This scan helps evaluate fetal growth patterns, organ
                 development, and blood supply to ensure timely identification of
                 any complications.
@@ -113,7 +113,7 @@ const DopplerScanContent = () => {
               </p>
               <h3>9. Whole Body Doppler in Girinagar</h3>
               <p>
-                A Whole body Doppler in Girinagar is recommended in cases where
+                A <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">Whole body Doppler in Girinagar</a> is recommended in cases where
                 systemic blood circulation issues are suspected. This scan helps
                 assess multiple arteries and veins, ensuring a holistic
                 understanding of a patient’s vascular health. It is useful for
@@ -164,7 +164,7 @@ const DopplerScanContent = () => {
                 A Doppler scan is a vital diagnostic tool for evaluating blood
                 flow in various parts of the body and ensuring fetal well-being
                 in pregnancy. Whether you need a Vascular Doppler scan in
-                Girinagar, a Fetal Doppler scan in Girinagar, a Carotid Doppler
+                Girinagar, a <a href="https://auradiagnostics.co.in">Fetal Doppler scan in Girinagar</a>, a Carotid Doppler
                 test in Girinagar, or comprehensive Ultrasound Doppler imaging
                 in Girinagar, choosing an advanced and reliable diagnostic
                 center ensures accurate results and better clinical outcomes.

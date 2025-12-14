@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import liver from "./../../Images/AdvancedUSGServices/Liver-Elastography-Scan.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -30,9 +30,9 @@ export default function LiverElastography() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Liver Elastography"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Liver Elastography in Girinagar"
+        para="Accurate scan detects stiffness early, ensuring timely diagnosis, better monitoring, and confident liver health management."
+        img={liver}
       />
       <HomeCerti />
       <div className="component-container">

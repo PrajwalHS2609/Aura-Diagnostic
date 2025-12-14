@@ -11,12 +11,12 @@ const UterineBiophysicalProfileContent = () => {
         <div className="contentHead-content">
           <h1>Uterine Biophysical Profile Scan in Girinagar, Bangalore</h1>
           <p>
-            A Uterine Biophysical Profile Scan in Girinagar, Bangalore is an
+            A <a href="https://auradiagnostics.co.in/uterine-biophysical-profile-scan-in-girinagar-bangalore">Uterine Biophysical Profile Scan in Girinagar, Bangalore</a> is an
             advanced ultrasound-based fertility assessment that helps evaluate
             uterine health, endometrial blood flow, and overall readiness of the
             uterus to support implantation and pregnancy. Women undergoing
             fertility treatment, IVF cycles, or infertility evaluations often
-            benefit from a detailed UBP scan in Girinagar, as it offers crucial
+            benefit from a <a href="https://auradiagnostics.co.in/uterine-biophysical-profile-scan-in-girinagar-bangalore">detailed UBP scan in Girinagar</a>, as it offers crucial
             insights into uterine function during the reproductive cycle.
           </p>
           <p>
@@ -35,14 +35,14 @@ const UterineBiophysicalProfileContent = () => {
             understanding how well the uterus can support embryo implantation.
             Uterine receptivity depends on various factors, including
             endometrial thickness, blood flow, glandular secretions, and uterine
-            movements. A Fertility uterine scan in Girinagar helps track these
+            movements. A <a href="https://auradiagnostics.co.in/uterine-biophysical-profile-scan-in-girinagar-bangalore">Fertility uterine scan in Girinagar</a> helps track these
             factors at specific stages of the menstrual cycle to identify any
             concerns affecting conception.
           </p>
           <p>
             Patients undergoing fertility treatments like IUI or IVF often
-            require periodic assessments through Uterine Doppler scan in
-            Girinagar to check vascularity and uterine artery resistance. These
+            require periodic assessments through <a href="https://auradiagnostics.co.in/uterine-biophysical-profile-scan-in-girinagar-bangalore">Uterine Doppler scan in
+            Girinagar</a> to check vascularity and uterine artery resistance. These
             findings help specialists optimize treatment timelines and
             medication responses.
           </p>
@@ -104,8 +104,8 @@ const UterineBiophysicalProfileContent = () => {
               </ul>
               <p>
                 For women struggling with recurrent implantation failure,
-                irregular cycles, or unexplained infertility, a UBP scan in
-                Girinagar becomes an essential diagnostic component.
+                irregular cycles, or unexplained infertility, a <a href="https://auradiagnostics.co.in">UBP scan in
+                Girinagar</a> becomes an essential diagnostic component.
               </p>
             </div>
             <div className="contentHead-content">
@@ -186,13 +186,13 @@ const UterineBiophysicalProfileContent = () => {
               <h2>A Key Step in Fertility Evaluation</h2>
               <p>
                 For women undergoing infertility assessment, a comprehensive
-                Infertility evaluation scan in Girinagar often includes UBP as a
+               <a href="https://auradiagnostics.co.in"> Infertility evaluation scan in Girinagar</a> often includes UBP as a
                 core component. It helps determine whether treatment should
                 focus on improving uterine receptivity, adjusting medication, or
                 planning further interventions.
               </p>
               <p>
-                The findings from a Uterine vascularity scan in Girinagar can
+                The findings from a <a href="https://auradiagnostics.co.in">Uterine vascularity scan in Girinagar</a> can
                 also indicate hormonal imbalances and predict treatment
                 responsiveness, making it an essential tool for fertility
                 specialists.

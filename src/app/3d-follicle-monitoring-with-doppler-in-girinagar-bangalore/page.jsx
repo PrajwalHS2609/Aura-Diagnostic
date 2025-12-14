@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import follicleMonitoring from "./../../Images/InfertilityScanServicesBanner/3D-Follicle-Monitoring-With-Doppler.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -30,9 +30,9 @@ export default function FollicleMonitoring3D() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="3D Follicle Monitoring With Doppler"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="3D Follicle Monitoring With Doppler in Girinagar"
+        para="Ensures precise ovulation tracking, improved fertility planning, and enhanced conception success."
+        img={follicleMonitoring}
       />
       <HomeCerti />
       <div className="component-container">

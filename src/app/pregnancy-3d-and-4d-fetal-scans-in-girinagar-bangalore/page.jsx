@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import fetalScan from "./../../Images/PregnancyScanServiceBanner/3D-and-4D-Fetal-Scan.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -31,9 +31,9 @@ export default function DFetalScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="3D & 4D Fetal Scans"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="3D & 4D Fetal Scans in Girinagar"
+        para="See your baby’s tiny features and movements clearly with advanced 3D & 4D fetal scans for unforgettable bonding."
+        img={fetalScan}
       />
       <HomeCerti />
       <div className="component-container">

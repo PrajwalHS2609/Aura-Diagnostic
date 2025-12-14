@@ -19,17 +19,21 @@ const CarotidDopplerContent = () => {
             ultrasound-based test evaluates the major arteries in the neck that
             supply oxygen-rich blood to the brain. With increasing
             cardiovascular risks due to lifestyle, age, diabetes, thyroid
-            disorders, hypertension, and smoking, the demand for accurate
-            carotid ultrasound in Girinagar has grown significantly among adults
-            and senior citizens.
+            disorders, hypertension, and smoking, the demand for{" "}
+            <a href="https://auradiagnostics.co.in">
+              accurate carotid ultrasound in Girinagar
+            </a>{" "}
+            has grown significantly among adults and senior citizens.
           </p>
           <p>
             A carotid Doppler study helps doctors analyze blood flow patterns,
             identify plaque deposits, and assess the severity of narrowing,
-            known as stenosis. Early diagnosis through a carotid artery Doppler
-            test in Girinagar allows timely medical intervention and
-            significantly reduces the risk of future stroke or transient
-            ischemic attacks (TIA).
+            known as stenosis. Early diagnosis through a{" "}
+            <a href="https://auradiagnostics.co.in/carotid-doppler-scan-in-girinagar-bangalore">
+              carotid artery Doppler test in Girinagar
+            </a>{" "}
+            allows timely medical intervention and significantly reduces the
+            risk of future stroke or transient ischemic attacks (TIA).
           </p>
         </div>
         <div className="contentHead-content">
@@ -46,8 +50,11 @@ const CarotidDopplerContent = () => {
             This test is safe, painless, radiation-free, and highly reliable for
             identifying early arterial changes. Patients with symptoms like
             dizziness, frequent headaches, blurred vision, numbness, or a past
-            history of cardiac illness often undergo a carotid artery Doppler
-            test in Girinagar for preventive assessment.
+            history of cardiac illness often undergo a{" "}
+            <a href="https://auradiagnostics.co.in/carotid-doppler-scan-in-girinagar-bangalore">
+              carotid artery Doppler test in Girinagar
+            </a>{" "}
+            for preventive assessment.
           </p>
         </div>
         {expanded && (
@@ -62,20 +69,21 @@ const CarotidDopplerContent = () => {
               </p>
               <h3>A carotid Doppler scan helps in identifying:</h3>
               <ul>
-                <li>  Carotid artery stenosis (narrowing)</li>
+                <li> Carotid artery stenosis (narrowing)</li>
                 <li> Plaque buildup due to cholesterol or calcium</li>
                 <li> Reduced blood flow to the brain</li>
                 <li> Clots or arterial thickening</li>
-                <li>
-                   Vascular abnormalities due to diabetes or hypertension
-                </li>
+                <li>Vascular abnormalities due to diabetes or hypertension</li>
                 <li> Risk of future stroke or mini-stroke (TIA)</li>
               </ul>
               <p>
                 Patients who have suffered previous heart attacks, those
                 preparing for surgeries, or those with a family history of
-                vascular disease often undergo vascular Doppler scan in
-                Girinagar as a part of their routine screening.
+                vascular disease often undergo{" "}
+                <a href="https://auradiagnostics.co.in/carotid-doppler-scan-in-girinagar-bangalore">
+                  vascular Doppler scan in Girinagar
+                </a>{" "}
+                as a part of their routine screening.
               </p>
             </div>
             <div className="contentHead-content">
@@ -89,7 +97,7 @@ const CarotidDopplerContent = () => {
                 have:
               </h3>
               <ul>
-                <li>  High blood pressure</li>
+                <li> High blood pressure</li>
                 <li> Diabetes or thyroid-related metabolic disorders</li>
                 <li> High cholesterol levels</li>
                 <li> Persistent dizziness or fainting</li>
@@ -116,9 +124,12 @@ const CarotidDopplerContent = () => {
               </p>
               <p>
                 The procedure takes around 15–20 minutes and is completely
-                painless. Many individuals search for carotid Doppler test cost
-                in Girinagar because of its affordability and usefulness as an
-                early screening tool.
+                painless. Many individuals search for{" "}
+                <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">
+                  carotid Doppler test cost in Girinagar
+                </a>{" "}
+                because of its affordability and usefulness as an early
+                screening tool.
               </p>
             </div>
 
@@ -129,7 +140,7 @@ const CarotidDopplerContent = () => {
                 radiologists to evaluate:
               </p>
               <ul>
-                <li>  Thickness of arterial walls</li>
+                <li> Thickness of arterial walls</li>
                 <li> Degree of stenosis</li>
                 <li> Speed and direction of blood flow</li>
                 <li> Presence of plaque and its stability</li>
@@ -165,19 +176,22 @@ const CarotidDopplerContent = () => {
             <div className="contentHead-content">
               <h2>Carotid Doppler Test Cost in Girinagar</h2>
               <p>
-                The carotid Doppler test cost in Girinagar varies depending on
-                the facility, type of equipment used, and radiologist expertise.
-                Typically, pricing remains affordable for most patients seeking
-                preventive cardiovascular screening. Comparing cost with
-                diagnostic accuracy is essential while choosing a center for
-                testing.
+                The{" "}
+                <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">
+                  carotid Doppler test cost in Girinagar
+                </a>{" "}
+                varies depending on the facility, type of equipment used, and
+                radiologist expertise. Typically, pricing remains affordable for
+                most patients seeking preventive cardiovascular screening.
+                Comparing cost with diagnostic accuracy is essential while
+                choosing a center for testing.
               </p>
             </div>
             <div className="contentHead-content">
               <h2>When to Consult a Doctor After the Test</h2>
               <p>Seek immediate medical advice if the test reveals:</p>
               <ul>
-                <li>  High-grade carotid stenosis</li>
+                <li> High-grade carotid stenosis</li>
                 <li> Severe plaque buildup</li>
                 <li> Abnormal blood flow velocity</li>
                 <li> Signs of restricted arterial function</li>
@@ -191,8 +205,11 @@ const CarotidDopplerContent = () => {
                 for early diagnosis and prevention of stroke, especially for
                 individuals with cardiovascular risk factors. With increasing
                 awareness about lifestyle-related diseases, more people are
-                opting for comprehensive vascular Doppler scan in Girinagar to
-                protect their long-term health. Early detection through an
+                opting for comprehensive{" "}
+                <a href="https://auradiagnostics.co.in/doppler-scan-in-girinagar-bangalore">
+                  vascular Doppler scan in Girinagar
+                </a>{" "}
+                to protect their long-term health. Early detection through an
                 accurate and affordable carotid ultrasound can significantly
                 reduce the chances of severe vascular events and support better
                 medical outcomes.

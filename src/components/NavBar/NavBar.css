@@ -133,6 +133,10 @@
   color: grey;
   width: fit-content;
 }
+
+#consultationDropdown{
+  width:250px
+}
 .menuDropIcon {
   font-size: 15px;
   color: var(--customColor1);

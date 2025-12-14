@@ -11,7 +11,7 @@ import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSideb
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 import HematologyHead from "../../components/ServicePages/Hematology/HematologyHead";
 import HematologyPrepare from "../../components/ServicePages/Hematology/HematologyPrepare";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import hematology from "./../../Images/BloodTestServiceBanner/Hematology-Blood-Test.png";
 import HematologyExpect from "../../components/ServicePages/Hematology/HematologyExpect";
 export const metadata = {
   title: "Hematology Blood Test in Girinagar, Bangalore with Free Home Visit",
@@ -29,8 +29,8 @@ export default function HematologyTest() {
       {" "}
       <ServiceHeader
         title="Hematology Tests in Girinagar"
-        para="Accurate Blood Test with expert care, ensuring healthy monitoring in every step."
-        img={ultrasound}
+        para="Book Hematology Blood Test in Girinagar, Bangalore with free home visit. Accurate reports, expert lab analysis, timely results, and convenient sample collection at your doorstep."
+        img={hematology}
       />
       <HomeCerti />
       <div className="component-container">

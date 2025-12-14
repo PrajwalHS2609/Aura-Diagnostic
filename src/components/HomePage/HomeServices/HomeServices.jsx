@@ -16,7 +16,8 @@ import usgGuidedProcedureImg from "./../../../Images/HomeServiceImgs/USG guided 
 import musculoskeletalScansImg from "./../../../Images/HomeServiceImgs/Musculoskeletal scans.png";
 import softTissueImg from "./../../../Images/HomeServiceImgs/Small Parts scans.png";
 import pregnancyScans from "./../../../Images/HomeServiceImgs/Pregnancy Scan.png";
-import dopplerScanImg from "./../../../Images/ServiceImgs/Doppler Scanning.png";
+import dopplerScanImg from "./../../../Images/HomeServiceImgs/Doppler scan.png";
+import bloodTest from "./../../../Images/HomeServiceImgs/Blood-Tests.png";
 
 import Image from "next/image";
 const HomeServices = () => {
@@ -26,14 +27,14 @@ const HomeServices = () => {
       img: obstetricsImg,
       title: "Obstetrics",
       para: "Obstetrics is the medical specialty dedicated to pregnancy management, fetal monitoring, labor, and postpartum care to ensure safe maternal and newborn health.",
-      link: "/obstetrics",
+      link: "/obstetrics-scan-in-girinagar-bangalore",
     },
     {
       id: 2,
       img: infertilityImg,
-      title: "Infertility scans",
+      title: "Infertility Scans",
       para: "Infertility scans assess reproductive organs, monitor ovulation, and detect conditions affecting conception, providing accurate insights for effective diagnosis and treatment planning.",
-      link: "/infertility-scan",
+      link: "/infertility-scan-test-in-girinagar-bangalore",
     },
     {
       id: 3,
@@ -47,35 +48,42 @@ const HomeServices = () => {
       img: dopplerScanImg,
       title: "Doppler Scanning",
       para: "A Doppler scan measures blood flow in vessels using advanced ultrasound technology, helping detect blockages, clot risks, and circulation issues with precise, real-time imaging.",
-      link: "/doppler-scan",
+      link: "/doppler-scan-in-girinagar-bangalore",
     },
     {
       id: 5,
       img: usgGuidedProcedureImg,
       title: "USG guided procedure",
       para: "A USG-guided procedure uses real-time ultrasound imaging to accurately guide needles or instruments for biopsies, fluid drainage, and targeted treatments, ensuring precision and safety.",
-      link: "/usg-guided-procedur",
+      link: "/advanced-usg-test-in-girinagar-bangalore",
     },
     {
       id: 6,
       img: musculoskeletalScansImg,
-      title: "Musculoskeletal scans",
+      title: "Musculoskeletal Scans",
       para: "Musculoskeletal scans use high-resolution ultrasound to evaluate muscles, tendons, ligaments, and joints, helping diagnose injuries, inflammation, and structural abnormalities with precise imaging.",
-      link: "/musculoskeletal-scans",
+      link: "/musculoskeletal-scan-in-girinagar-bangalore",
     },
     {
       id: 7,
       img: softTissueImg,
       title: "Soft Tissue/ Small Parts Scans",
       para: "Soft Tissue/Small Parts scans provide detailed ultrasound imaging of glands, lymph nodes, thyroid, breast, and other soft tissues, helping detect abnormalities, cysts, and early pathological changes with accuracy.",
-      link: "/soft-tissue-scans",
+      link: "/soft-tissue-scans-in-girinagar-bangalore",
     },
     {
       id: 8,
       img: pregnancyScans,
-      title: "Pregnancy scans",
+      title: "Pregnancy Scans",
       para: "Pregnancy scans use ultrasound imaging to monitor fetal growth, check development, and assess maternal health, ensuring a safe and accurate evaluation throughout pregnancy.",
-      link: "/pregnancy-scan",
+      link: "/pregnancy-scans-in-girinagar-bangalore",
+    },
+        {
+      id: 9,
+      img: bloodTest,
+      title: "Blood Test",
+      para: "Convenient blood tests with free home visit, professional sample collection, accurate results, hygienic process, and timely reports from trusted diagnostic experts.",
+      link: "/blood-tests-in-girinagar-bangalore-with-free-home-visit",
     },
   ];
   return (

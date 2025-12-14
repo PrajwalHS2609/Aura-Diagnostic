@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import uterine from "./../../Images/InfertilityScanServicesBanner/Uterine-Biophysical-Profile.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -27,9 +27,9 @@ export default function UterineBiophysical() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Uterine Biophysical Profile"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Uterine Biophysical Profile Scan in Girinagar"
+        para="Evaluates uterine health, blood flow, and receptivity for improved fertility and implantation success."
+        img={uterine}
       />
       <HomeCerti />
       <div className="component-container">

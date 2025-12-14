@@ -3,9 +3,9 @@ import React from "react";
 const TumorMarkersTestHead = () => {
   return (
     <div className="serviceHead">
-      <h2>What is a Hematology Tumor Markers Blood Test?</h2>
+      <h2>What is a Tumor Markers Blood Test?</h2>
       <p id="expect">
-        A Hematology Tumor Markers Blood Test is a specialized diagnostic test
+        A Tumor Markers Blood Test is a specialized diagnostic test
         used to detect specific proteins, antigens, or substances released by
         cancer cells into the bloodstream. These tumor markers help doctors
         evaluate the presence, progression, or treatment response of different

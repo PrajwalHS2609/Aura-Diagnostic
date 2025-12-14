@@ -21,8 +21,8 @@ const FollicleMonitoringContent = () => {
             ultrasound technique provides a detailed evaluation of ovarian
             follicles, blood flow patterns, and reproductive health, helping
             women and couples understand their fertility window with greater
-            accuracy. Many individuals searching for a reliable follicular study
-            Doppler scan in Girinagar prefer 3D technology because it offers
+            accuracy. Many individuals searching for a reliable <a href="https://auradiagnostics.co.in">follicular study
+            Doppler scan in Girinagar</a> prefer 3D technology because it offers
             sharper images, enhanced depth perception, and real-time Doppler
             evaluation.
           </p>
@@ -30,7 +30,7 @@ const FollicleMonitoringContent = () => {
             With increasing demand for fertility care, women often choose 3D
             follicle scans to identify follicle growth, dominant follicles,
             ovulation timing, and endometrial readiness. A comprehensive
-            ovulation monitoring scan in Girinagar plays a crucial role in
+           <a href="https://auradiagnostics.co.in/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore"> ovulation monitoring scan in Girinagar</a> plays a crucial role in
             treatment plans such as natural conception, IVF, IUI, ovulation
             induction, and hormonal assessments.
           </p>
@@ -46,7 +46,7 @@ const FollicleMonitoringContent = () => {
             follicle is likely to release an egg.
           </p>
           <p>
-            Many patients prefer a Doppler follicle scan in Girinagar because
+            Many patients prefer a <a href="https://auradiagnostics.co.in/3d-follicle-monitoring-with-doppler-in-girinagar-bangalore">Doppler follicle scan in Girinagar</a> because
             Doppler technology evaluates vascularity, which is a key marker of
             follicular maturity and ovulation potential. This helps improve
             treatment precision and enhances the chances of conception.
@@ -69,7 +69,7 @@ const FollicleMonitoringContent = () => {
                 <li> Pre-IVF or pre-IUI evaluation</li>
               </ul>
               <p>
-                Women searching for a 3D fertility scan in Girinagar will
+                Women searching for a <a href="https://auradiagnostics.co.in/infertility-scan-test-in-girinagar-bangalore">3D fertility scan in Girinagar</a> will
                 benefit from this imaging technique because it provides stronger
                 diagnostic clarity compared to standard 2D scans.
               </p>
@@ -173,7 +173,7 @@ const FollicleMonitoringContent = () => {
               </ul>
               <p>
                 This makes Doppler-based monitoring a preferred choice for women
-                searching for a fertility Doppler test in Girinagar or Doppler
+                searching for a <a href="https://auradiagnostics.co.in/infertility-scan-test-in-girinagar-bangalore">fertility Doppler test in Girinagar</a> or Doppler
                 ovulation scan in Girinagar.
               </p>
               <p>
@@ -183,8 +183,8 @@ const FollicleMonitoringContent = () => {
                 you are planning natural conception, undergoing infertility
                 evaluation, or preparing for treatments like IUI or IVF, this
                 scan provides the accuracy and clinical insight needed for
-                successful fertility planning. Women looking for the best
-                fertility scan center in Girinagar or a detailed ovarian
+                successful fertility planning. Women looking for the <a href="https://auradiagnostics.co.in/infertility-scan-test-in-girinagar-bangalore">best
+                fertility scan center in Girinagar</a> or a detailed ovarian
                 follicle scan in Girinagar will find this diagnostic method
                 highly beneficial.
               </p>

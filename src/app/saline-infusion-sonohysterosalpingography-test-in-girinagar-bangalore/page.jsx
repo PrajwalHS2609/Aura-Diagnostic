@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import Saline from "./../../Images/USGGuidedProcedureServicesBanner/Saline-Infusion-Sonohystersalphingography.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -29,9 +29,9 @@ export default function SalineInfusion() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Saline Infusion Sonohystersalphingography"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Saline Infusion Sonohysterosalpingography Test in Girinagar"
+        para="Detailed test visualizes uterus and tubes clearly, aiding infertility diagnosis with safe, precise, minimally invasive imaging."
+        img={Saline}
       />
       <HomeCerti />
       <div className="component-container">

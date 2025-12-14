@@ -3,7 +3,7 @@ import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
 import MusculoskeletalScanHead from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanHead";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import musculoskeletalScan from "./../../Images/MusculoskeletalScanServicesBanner.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import MusculoskeletalScanExcept from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanExcept";
@@ -30,9 +30,9 @@ export default function MusculoskeletalScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Musculoskeletal Scan"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Musculoskeletal Scan in Girinagar"
+        para="Delivers precise imaging of bones, joints, and soft tissues for accurate diagnosis and effective treatment planning."
+        img={musculoskeletalScan}
       />
       <HomeCerti />
       <div className="component-container">

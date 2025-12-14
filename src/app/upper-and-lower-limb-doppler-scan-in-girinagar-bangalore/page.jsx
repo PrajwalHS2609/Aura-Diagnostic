@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import upperLowerScan from "./../../Images/DopplerScanBanner/Upper-and-Lower-Limb-Doppler.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -27,9 +27,9 @@ export default function MusculoskeletalScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Upper and Lower Limb Doppler"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Upper and Lower Limb Doppler Scan in Girinagar"
+        para="Detects circulation issues early, ensuring accurate diagnosis and improved vascular health."
+        img={upperLowerScan}
       />
       <HomeCerti />
       <div className="component-container">

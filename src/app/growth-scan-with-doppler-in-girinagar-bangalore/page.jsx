@@ -1,7 +1,7 @@
 import GrowthScanHead from "../../components/ServicePages/GrowthScan/GrowthScanHead";
 import GrowthScanExpect from "../../components/ServicePages/GrowthScan/GrowthScanExpect";
 import GrowthScanPrepare from "../../components/ServicePages/GrowthScan/GrowthScanPrepare";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import growthDoppler from "./../../Images/ObstetricScanServiceBanner/growthDoppler.png";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
@@ -30,9 +30,9 @@ export default function GrowthScan() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Growth Scans with Doppler"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Growth Scan with Doppler in Girinagar"
+        para="Advanced Doppler growth scan ensures baby’s health, blood flow, nourishment, timely monitoring, and complete pregnancy reassurance."
+        img={growthDoppler}
       />
       <HomeCerti />
       <div className="component-container">

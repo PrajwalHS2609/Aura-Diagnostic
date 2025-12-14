@@ -574,21 +574,42 @@ const Menu = () => {
             Consultation
             <FaChevronDown className="menuDropIcon" />
           </Link>
-          <div className="menuDropDown">
+          <div className="menuDropDown" id="consultationDropdown">
             <li>
-              <Link href="#" className={pathname === "#" ? "active" : ""}>
-                Cardiology
+              <Link
+                href="/cardiology-consultation-in-girinagar-bangalore"
+                className={
+                  pathname === "/cardiology-consultation-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
+              >
+                Cardiology Consultation
               </Link>
             </li>
             <li>
-              <Link href="#" className={pathname === "#" ? "active" : ""}>
-                Nephrology
+              <Link
+                href="/nephrology-consultation-in-girinagar-bangalore"
+                className={
+                  pathname === "/nephrology-consultation-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
+              >
+                Nephrology Consultation
               </Link>
             </li>
 
             <li>
-              <Link href="#" className={pathname === "#" ? "active" : ""}>
-                Urology
+              <Link
+                href="/urology-consultation-in-girinagar-bangalore"
+                className={
+                  pathname === "/urology-consultation-in-girinagar-bangalore"
+                    ? "active"
+                    : ""
+                }
+              >
+                Urology Consultation
               </Link>
             </li>
           </div>
@@ -1364,20 +1385,30 @@ const Menu = () => {
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`#`}
-                      className={pathname === "#" ? "active" : ""}
+                      href={`/cardiology-consultation-in-girinagar-bangalore`}
+                      className={
+                        pathname ===
+                        "cardiology-consultation-in-girinagar-bangalore"
+                          ? "active"
+                          : ""
+                      }
                     >
-                      Cardiology{" "}
+                      Cardiology Consultation
                     </Link>
                   </li>
                   <li>
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`#`}
-                      className={pathname === "#" ? "active" : ""}
+                      href={`nephrology-consultation-in-girinagar-bangalore`}
+                      className={
+                        pathname ===
+                        "nephrology-consultation-in-girinagar-bangalore"
+                          ? "active"
+                          : ""
+                      }
                     >
-                      Nephrology{" "}
+                      Nephrology Consultation
                     </Link>
                   </li>
 
@@ -1385,10 +1416,15 @@ const Menu = () => {
                     <Link
                       id="menuNavLink"
                       onClick={hideSideBar}
-                      href={`#`}
-                      className={pathname === "#" ? "active" : ""}
+                      href={`urology-consultation-in-girinagar-bangalore`}
+                      className={
+                        pathname ===
+                        "urology-consultation-in-girinagar-bangalore"
+                          ? "active"
+                          : ""
+                      }
                     >
-                      Urology{" "}
+                      Urology Consultation
                     </Link>
                   </li>
                 </div>

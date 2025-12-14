@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import amniocentesisTest from "./../../Images/USGGuidedProcedureServicesBanner/Amniocentesis-Test.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -31,9 +31,9 @@ export default function Amniocentesis() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Amniocentesis"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Amniocentesis ultrasound Test in Girinagar"
+        para="Ultrasound provides accurate genetic insights early, ensuring informed decisions and expert care throughout pregnancy."
+        img={amniocentesisTest}
       />
       <HomeCerti />
       <div className="component-container">

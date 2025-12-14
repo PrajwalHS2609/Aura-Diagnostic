@@ -11,7 +11,7 @@ import SoftTissueScansHead from "../../components/ServicePages/SoftTissueScans/S
 import SoftTissueScansPrepare from "../../components/ServicePages/SoftTissueScans/SoftTissueScansPrepare";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import softTissueScan from "./../../Images/SoftTissueScanServicesBanner.png";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
 import SoftTissueScansContent from "../../components/ServicePages/SoftTissueScans/SoftTissueScansContent";
 export const metadata = {
@@ -27,9 +27,9 @@ export default function SoftTissueScans() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Soft Tissue Scan"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Soft Tissue Scan in Girinagar"
+        para="Provides clear, detailed imaging to detect injuries, swelling, and abnormalities for accurate diagnosis and treatment."
+        img={softTissueScan}
       />
       <HomeCerti />
       <div className="component-container">

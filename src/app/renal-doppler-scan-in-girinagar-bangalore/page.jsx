@@ -2,11 +2,9 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import MusculoskeletalScanHead from "../../components/ServicePages/MusculoskeletalScan/MusculoskeletalScanHead";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import renalDopplerScan from "./../../Images/DopplerScanBanner/Renal-Doppler-Scan.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
-
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
@@ -31,9 +29,9 @@ export default function RenalDoppler() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Renal Doppler"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Renal Doppler Scan in Girinagar"
+        para="Evaluates kidney blood flow accurately, aiding early diagnosis and effective management of renal conditions."
+        img={renalDopplerScan}
       />
       <HomeCerti />
       <div className="component-container">

@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import pelvisScan from "./../../Images/InfertilityScanServicesBanner/3D-Pelvis-Scan.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -29,9 +29,9 @@ export default function Pelvis3D() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="3D Pelvis Scan"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="3D Pelvis Scans in Girinagar"
+        para="Scans deliver detailed, high-clarity imaging for accurate diagnosis, fertility assessment, and confident treatment planning. "
+        img={pelvisScan}
       />
       <HomeCerti />
       <div className="component-container">

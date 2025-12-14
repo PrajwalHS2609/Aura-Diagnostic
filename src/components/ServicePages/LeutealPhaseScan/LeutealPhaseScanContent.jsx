@@ -10,7 +10,7 @@ const LeutealPhaseScanContent = () => {
         <div className="contentHead-content">
           <h1> Luteal Phase Scan in Girinagar, Bangalore – Aura Diagnostics</h1>
           <p>
-            A Luteal Phase Scan in Girinagar, Bangalore plays a crucial role in
+            A <a href="https://auradiagnostics.co.in">Luteal Phase Scan in Girinagar, Bangalore</a> plays a crucial role in
             understanding female reproductive health, especially for women
             undergoing fertility evaluations or trying to conceive. This scan
             assesses changes that occur after ovulation, helping track hormonal
@@ -24,7 +24,7 @@ const LeutealPhaseScanContent = () => {
           <p>
             The luteal phase occurs after ovulation and continues until
             menstruation begins. During this phase, the uterus prepares for
-            possible embryo implantation. A fertility luteal scan in Girinagar
+            possible embryo implantation. A <a href="https://auradiagnostics.co.in">fertility luteal scan in Girinagar</a>
             helps evaluate whether this phase is progressing normally. The scan
             is typically performed 7–10 days after ovulation and offers crucial
             details about the endometrial lining, corpus luteum function, and
@@ -46,7 +46,7 @@ const LeutealPhaseScanContent = () => {
               </p>
               <h3>1. Endometrial Lining and Receptivity</h3>
               <p>A healthy uterine lining is necessary for implantation.</p>
-              <p>A endometrial lining scan in Girinagar checks for:</p>
+              <p>A <a href="https://auradiagnostics.co.in/luteal-phase-scan-in-girinagar-bangalore">endometrial lining scan in Girinagar</a> checks for:</p>
               <ul>
                 <li> Endometrial thickness</li>
                 <li> Lining pattern</li>
@@ -89,13 +89,13 @@ const LeutealPhaseScanContent = () => {
               </h2>
               <p>
                 Many fertility challenges arise due to problems in the second
-                half of the menstrual cycle. A fertility ultrasound in Girinagar
+                half of the menstrual cycle. A <a href="https://auradiagnostics.co.in/luteal-phase-scan-in-girinagar-bangalore">fertility ultrasound in Girinagar</a>
                 during the luteal phase helps identify:
               </p>
 
               <p>
                 Because these factors directly influence conception, timely
-                diagnosis through a fertility luteal scan in Girinagar can
+                diagnosis through a <a href="https://auradiagnostics.co.in/luteal-phase-scan-in-girinagar-bangalore">fertility luteal scan in Girinagar</a> can
                 significantly improve pregnancy outcomes.
               </p>
             </div>
@@ -142,7 +142,7 @@ const LeutealPhaseScanContent = () => {
             <div className="contentHead-content">
               <h2>The Best Luteal Phase Scan Center in Girinagar</h2>
               <p>
-                Finding the best luteal phase scan center in Girinagar ensures
+                Finding the best <a href="https://auradiagnostics.co.in/infertility-scan-test-in-girinagar-bangalore">luteal phase scan center in Girinagar</a> ensures
                 patients receive accurate results through high-resolution
                 ultrasound technologies. Skilled radiologists and gynecology
                 imaging specialists interpret these scans to provide
@@ -188,7 +188,7 @@ const LeutealPhaseScanContent = () => {
                 strategies and treatment accuracy.
               </p>
               <p>
-                A Luteal Phase Scan in Girinagar, Bangalore is a vital component
+                A <a href="https://auradiagnostics.co.in/infertility-scan-test-in-girinagar-bangalore">Luteal Phase Scan in Girinagar, Bangalore</a> is a vital component
                 of fertility testing and reproductive planning. With detailed
                 assessments such as the endometrial lining scan, corpus luteum
                 scan, hormonal cycle scan, and fertility ultrasound, it provides

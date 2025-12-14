@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import fattyLiver from "./../../Images/AdvancedUSGServices/Fatty-Liver-Quantification-Scan.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -27,9 +27,9 @@ export default function FattyLiverQuantification() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Fatty Liver Quantification"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Fatty Liver Quantification Scan in Girinagar"
+        para="Precise quantification helps detect fat levels early, ensuring accurate diagnosis, monitoring, and improved liver health."
+        img={fattyLiver}
       />
       <HomeCerti />
       <div className="component-container">

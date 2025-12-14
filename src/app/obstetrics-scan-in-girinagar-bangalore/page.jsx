@@ -10,7 +10,7 @@ import ObstetricsExpect from "../../components/ServicePages/Obstetrics/Obstetric
 import ObstetricsHead from "../../components/ServicePages/Obstetrics/ObstetricsHead";
 import ObstetricsPrepare from "../../components/ServicePages/Obstetrics/ObstetricsPrepare";
 import ObstetricsService from "../../components/ServicePages/Obstetrics/ObstetricsService";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import obstetricScans from "./../../Images/ObstetricScanServiceBanner/Obstetric-Scans.png";
 import ServiceHeader from '../../components/ServiceComponents/ServiceHeader/ServiceHeader';
 import ServiceMap from '../../components/ServiceComponents/ServiceMap/ServiceMap';
 import ObstetricsContent from "../../components/ServicePages/Obstetrics/ObstetricsContent";
@@ -28,9 +28,9 @@ export default function Obstetrics() {
      <div className="">
       {" "}
       <ServiceHeader
-        title="Obstetrics"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Obstetric Scans in Girinagar"
+        para="Accurate scans for healthy pregnancy monitoring, ensuring, early detection, and confident care throughout."
+        img={obstetricScans}
       />
       <HomeCerti />
       <div className="component-container">

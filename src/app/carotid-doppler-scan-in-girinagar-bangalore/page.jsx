@@ -2,7 +2,7 @@ import HomeCerti from "../../components/HomePage/HomeCerti/HomeCerti";
 import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from "../../components/ServiceComponents/ServiceHeader/ServiceHeader";
 import ServiceMap from "../../components/ServiceComponents/ServiceMap/ServiceMap";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import carotidScan from "./../../Images/DopplerScanBanner/Carotid-Doppler-Scan.png";
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import HomeTestimonial from "../../components/HomePage/HomeTestimonial/HomeTestimonial";
@@ -28,9 +28,9 @@ export default function CarotidDoppler() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Carotid Doppler"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Carotid Doppler Scan in Girinagar"
+        para="Detects artery blockages early, ensuring better stroke prevention and improved vascular health monitoring."
+        img={carotidScan}
       />
       <HomeCerti />
       <div className="component-container">

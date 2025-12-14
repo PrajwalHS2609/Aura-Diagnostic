@@ -3,7 +3,7 @@ import HomeWhy from "../../components/HomePage/HomeWhy/HomeWhy";
 import ServiceHeader from '../../components/ServiceComponents/ServiceHeader/ServiceHeader';
 import ServiceMap from '../../components/ServiceComponents/ServiceMap/ServiceMap';
 import AdvancedUSGService from "../../components/ServicePages/AdvancedUSG/AdvancedUSGService";
-import ultrasound from "./../../Images/ServicesBanner/Ultrasound.png";
+import advanceUsg from "./../../Images/AdvancedUSGServices/advance-usg-scan.jpg";
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import ServiceBilling from "../../components/ServiceComponents/ServiceBilling/ServiceBilling";
 import ServiceBook from "../../components/ServiceComponents/ServiceBook/ServiceBook";
@@ -29,9 +29,9 @@ export default function AdvancedUSG() {
     <div className="">
       {" "}
       <ServiceHeader
-        title="Advanced USG"
-        para="Creating Life's masterpiece, one kick at a time"
-        img={ultrasound}
+        title="Advanced USG Test in Girinagar"
+        para="Delivers precise imaging, early diagnosis, expert guidance, and complete confidence in your health."
+        img={advanceUsg}
       />
       <HomeCerti />
       <div className="component-container">
