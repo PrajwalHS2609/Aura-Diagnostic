@@ -43,6 +43,14 @@ const Footer2Link = () => {
             Contact Us
           </Link>
         </li>
+         <li>
+          <Link
+            href={"/blog"}
+            className={pathname === "/blog" ? "active" : ""}
+          >
+            Blog
+          </Link>
+        </li>
       </ul>
     </div>
   );
