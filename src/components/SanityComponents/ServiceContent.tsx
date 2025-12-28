@@ -246,26 +246,29 @@ export default function ServiceContent({
                   />
 
                   <select name="course" id="" required>
-                    <option value="">Select Course</option>
-                    <option value="MBA (General Management)">
-                      MBA (General Management)
+                    <option value="">Select Test</option>
+                    <option value="Blood Test">
+                      Blood Test
                     </option>
-                    <option value="MBA (Finance)">MBA (Finance)</option>
-                    <option value="MBA (Marketing)">MBA (Marketing)</option>
-                    <option value="MBA (HR Management)">
-                      MBA (HR Management)
+                    <option value="Pregnancy Scan">Pregnancy Scan</option>
+                    <option value="Obstetrics">Obstetrics</option>
+                    <option value="Advanced USG">
+                      Advanced USG
                     </option>
-                    <option value="MBA (Information Technology)">
-                      MBA (Information Technology)
+                    <option value="USG  Guided Procedure">
+                      USG  Guided Procedure
                     </option>
-                    <option value="MBA (Supply Chain Management)">
-                      MBA (Supply Chain Management)
+                    <option value="Infertility Scan">
+                      Infertility Scan
                     </option>
-                    <option value="MBA (Data Analytics)">
-                      MBA (Data Analytics)
+                    <option value="Doppler Scan">
+                      Doppler Scan
                     </option>
-                    <option value="MBA (Business Analytics)">
-                      MBA (Business Analytics)
+                    <option value="Musculoskeletal Scan">
+                      Musculoskeletal Scan
+                    </option>
+                    <option value="Soft Tissue Scan">
+                      Soft Tissue Scan
                     </option>
                   </select>
 
