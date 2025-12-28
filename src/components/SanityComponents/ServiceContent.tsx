@@ -7,6 +7,13 @@ import Swal from "sweetalert2";
 import { portableTextComponents } from "../PortableTextComponents";
 import SanityHeader from './SanityHeader';
 import { PortableText } from '@portabletext/react';
+import ServiceBilling from './../ServiceComponents/ServiceBilling/ServiceBilling';
+import ServiceBook from './../ServiceComponents/ServiceBook/ServiceBook';
+import ServiceMap from './../ServiceComponents/ServiceMap/ServiceMap';
+import BloodTestCities from './../ServicePages/BloodTest/BloodTestCities';
+import BloodTestServices from './../ServicePages/BloodTest/BloodTestServices';
+import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
+import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
 export type CustomTable = {
@@ -113,6 +120,11 @@ export default function ServiceContent({
                   value={content.body1}
                   components={portableTextComponents}
                 />
+
+                <ServiceBilling />
+                <ServiceBook />
+                <br />
+
                 {/* ✅ Carousel Section */}
                 {content.carouselBlock?.images?.length ? (
                   <Carousel
@@ -284,6 +296,10 @@ export default function ServiceContent({
           </div>
         </div>
       </div>
+      <ServiceMap/>
+      <BloodTestCities />
+      <HomeWhy />
+      <HomeTestimonial />
     </div>
   );
 }
