@@ -7,8 +7,28 @@ import { FaXTwitter } from "react-icons/fa6";
 import "./Blog.css";
 import { client } from "../../sanity/client";
 
-export default function BlogAuthor({ slug }) {
-  const [author, setAuthor] = useState(null);
+/* ---------------- TYPES ---------------- */
+
+type Author = {
+  _id: string;
+  name: string;
+  designation?: string;
+  bio?: any;
+  mainImage?: {
+    asset?: {
+      url?: string;
+    };
+  };
+};
+
+type BlogAuthorProps = {
+  slug: string;
+};
+
+/* ---------------- COMPONENT ---------------- */
+
+export default function BlogAuthor({ slug }: BlogAuthorProps) {
+  const [author, setAuthor] = useState<Author | null>(null);
 
   useEffect(() => {
     client
@@ -36,13 +56,13 @@ export default function BlogAuthor({ slug }) {
     <div className="blogAuthorContainer">
       <div className="blogAuthorContent">
         <div className="blogAuthorImg">
-          {" "}
           {author.mainImage?.asset?.url && (
             <img src={author.mainImage.asset.url} alt={author.name} />
           )}
         </div>
+
         <div className="blogAuthorName">
-          <h4>{author.designation}</h4>
+          {author.designation && <h4>{author.designation}</h4>}
           <h3>{author.name}</h3>
         </div>
       </div>
@@ -50,9 +70,9 @@ export default function BlogAuthor({ slug }) {
       {author.bio && <PortableText value={author.bio} />}
 
       <div className="blogAuthorSocial">
-        <FaInstagram className="authorSocialIcon"/>
-        <FaLinkedin className="authorSocialIcon"/>
-        <FaXTwitter className="authorSocialIcon"/>
+        <FaInstagram className="authorSocialIcon" />
+        <FaLinkedin className="authorSocialIcon" />
+        <FaXTwitter className="authorSocialIcon" />
       </div>
     </div>
   );
