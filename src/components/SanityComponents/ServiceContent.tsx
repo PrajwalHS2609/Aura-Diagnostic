@@ -1,12 +1,12 @@
 "use client";
 import React, { useState } from "react";
-import { PortableText } from "next-sanity";
 import type { PortableTextBlock } from "@portabletext/types";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Swal from "sweetalert2";
 import { portableTextComponents } from "../PortableTextComponents";
 import SanityHeader from './SanityHeader';
+import { PortableText } from '@portabletext/react';
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
 export type CustomTable = {

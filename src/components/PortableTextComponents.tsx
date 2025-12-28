@@ -205,7 +205,6 @@ export const portableTextComponents: PortableTextComponents = {
               <img
                 src={imageUrl}
                 alt={img.alt || `Slide ${i + 1}`}
-                className="d-block w-100 rounded"
               />
             );
 

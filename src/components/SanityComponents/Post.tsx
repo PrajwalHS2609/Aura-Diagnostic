@@ -1,11 +1,11 @@
 "use client";
-import { PortableText } from "next-sanity";
 import type { PortableTextBlock } from "@portabletext/types";
 import { portableTextComponents } from "../PortableTextComponents";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
 import BlogSidebar from './../BlogPage/BlogSidebar/BlogSidebar';
+import { PortableText } from '@portabletext/react';
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
 export type PostContentType = {
