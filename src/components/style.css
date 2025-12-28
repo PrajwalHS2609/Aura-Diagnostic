@@ -2827,7 +2827,7 @@ details[open] .faq-answer {
   padding-left: 1rem;
   margin: 1.5rem 0;
   font-style: italic;
-  background-color: var(--customBg1);
+  background-color: var(--customColor3);
   padding: 15px 10px;
   border-radius: 10px;
 }

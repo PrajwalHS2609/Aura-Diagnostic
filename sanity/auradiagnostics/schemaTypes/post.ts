@@ -54,6 +54,12 @@ export default defineType({
       type: 'text',
     }),
     defineField({
+      name: 'author',
+      title: 'Author',
+      type: 'reference',
+      to: [{type: 'author'}],
+    }),
+    defineField({
       name: 'youtubeVideoUrl',
       title: 'YouTube Video URL',
       type: 'url',

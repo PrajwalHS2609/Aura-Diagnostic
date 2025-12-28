@@ -4,8 +4,8 @@ import { portableTextComponents } from "../PortableTextComponents";
 import Carousel from "react-bootstrap/Carousel";
 import "bootstrap/dist/css/bootstrap.min.css";
 import { useState } from "react";
-import BlogSidebar from './../BlogPage/BlogSidebar/BlogSidebar';
 import { PortableText } from '@portabletext/react';
+import BlogAuthor from './../BlogPage/BlogAuthor';
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
 export type PostContentType = {
@@ -34,7 +34,6 @@ export default function PostContent({
   content: PostContentType;
 }) {
   const imageUrl = content?.mainImage?.asset?.url;
-  const youtubeUrl = content?.youtubeVideoUrl;
   const [index, setIndex] = useState(0);
 
   return (
@@ -111,21 +110,8 @@ export default function PostContent({
             components={portableTextComponents}
           />
         </div>
+      <BlogAuthor slug={content.slug.current} />
 
-        {/* YouTube */}
-        {/* {youtubeUrl && (
-          <div className="youtube-container">
-            <iframe
-              width="100%"
-              height="500"
-              src={getYoutubeEmbedUrl(youtubeUrl)}
-              title={content.title}
-              frameBorder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowFullScreen
-            />
-          </div>
-        )} */}
       </div>
 
   );
