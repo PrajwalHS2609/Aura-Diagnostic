@@ -553,7 +553,7 @@
   color: rgb(102, 102, 102);
   text-align: justify;
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 /* ------------------------------------------------------------------------------------ */
@@ -566,7 +566,7 @@
   color: rgb(102, 102, 102);
   text-align: justify;
   width: 100%;
-  font-size: 20px;
+  font-size: 18px;
 }
 @media screen and (max-width: 768px) {
   .serviceExcept-container > h2 {
@@ -740,7 +740,7 @@
   color: var(--customColor2);
 }
 .contentHead-content > p {
-  font-size: clamp(1rem, 1.2vw, 1.25rem);
+  font-size: 18px;
   text-align: justify;
   color: black;
 }
@@ -753,6 +753,7 @@
 .contentHead-content > ul > li {
   text-align: justify;
   font-weight: 500;
+  font-size: 18px;
 }
 .contentHead-content > ul > li > a {
   color: var(--customColor1);
@@ -776,35 +777,7 @@
 .readMoreBtn:hover {
   opacity: 0.9;
 }
-.contentHead-listContent {
-  display: flex;
-  justify-content: center;
-  align-items: flex-start;
-  flex-direction: column;
-  padding: 20px;
-}
-.contentHead-listContent > h3 {
-  color: var(--customColor2);
-  font-size: 30px;
-  width: 100%;
-  text-align: center;
-}
-.contentHead-listContent > p {
-  color: black;
-  font-size: 18px;
-  text-align: justify;
-}
-.contentHead-listContent > ul > li {
-  text-align: justify;
-  font-weight: 500;
-}
-.contentHead-listContent > ul > li > b {
-  color: var(--customColor1);
-}
-.contentHead-listContent > p > a {
-  color: var(--customColor1);
-  text-decoration: none;
-}
+
 @media screen and (max-width: 768px) {
   .contentHead {
     width: 100%;
@@ -2869,4 +2842,100 @@ details[open] .faq-answer {
 }
 .highlight-content > p {
   font-size: 16px;
+}
+
+
+/* ----------------------------------------------Service Faq---------------------------------------- */
+
+.serviceFaq-container {
+  /* border: solid red; */
+  padding: 50px;
+  background-color: white;
+  margin-top: 30px;
+}
+.serviceFaq-container > h2 {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+  font-weight: bold;
+}
+.serviceFaq-container > h2>span{
+  color: var(--customColor);
+}
+.serviceFaq-wrapper {
+  /* border: solid blue; */
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.serviceFaq-content {
+  /* border: solid green; */
+  width: 50%;
+  height: 100%;
+  padding: 20px;
+}
+.serviceFaq-content > h2 {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: center;
+  font-size: 40px;
+}
+
+.serviceFaq-content > img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+.serviceFaq-content:nth-child(2) {
+  background-color: var(--customColor1);
+  height: 100%;
+  padding: 50px;
+}
+.accordion-button:not(.collapsed) {
+  background-color: var(--customBg) !important;
+  color: black;
+}
+.accordion-button:focus {
+  box-shadow: none !important;
+}
+
+.serviceFaq-accItem {
+  border-bottom: 1px solid rgb(203, 203, 203);
+  margin: 10px;
+}
+.serviceFaq-accHeader {
+  font-weight: 500;
+}
+.serviceFaq-item{
+  width: 100%;
+  /* border: solid red; */
+}
+@media screen and (max-width: 768px) {
+  .serviceFaq-container > h2 {
+    font-size: 30px;
+  }
+  .serviceFaq-container {
+    /* border: solid red; */
+    padding: 10px;
+  }
+  .serviceFaq-wrapper {
+    /* border: solid blue; */
+    flex-direction: column-reverse;
+    padding: 10px;
+  }
+  .serviceFaq-content {
+    /* border: solid green; */
+    width: 100%;
+    padding: 10px;
+  }
+  .serviceFaq-content > img {
+    display: none;
+  }
+  .serviceFaq-content:nth-child(2) {
+    background-color: #86a5a8;
+    height: 700px;
+    display: none;
+  }
 }

@@ -9,7 +9,9 @@ import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav
 import ServiceSidebarBrochure from "../../components/ServiceComponents/ServiceSidebarBrochure/ServiceSidebarBrochure";
 import ServiceSidebarLinks from "../../components/ServiceComponents/ServiceSidebarLinks/ServiceSidebarLinks";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import BloodTestContent from "../../components/ServicePages/BloodTest/BloodTestContent";
 import BloodTestExpect from "../../components/ServicePages/BloodTest/BloodTestExpect";
+import BloodTestFaq from "../../components/ServicePages/BloodTest/BloodTestFaq";
 import BloodTestHead from "../../components/ServicePages/BloodTest/BloodTestHead";
 import BloodTestPrepare from "../../components/ServicePages/BloodTest/BloodTestPrepare";
 import BloodTestServices from "../../components/ServicePages/BloodTest/BloodTestServices";
@@ -55,6 +57,8 @@ export default function BloodTest(){
       <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
+      <BloodTestFaq/>
+      <BloodTestContent/>
     </div>
     )
 }

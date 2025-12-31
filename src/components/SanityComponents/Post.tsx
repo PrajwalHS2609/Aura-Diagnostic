@@ -13,7 +13,8 @@ export type PostContentType = {
   title: string;
   slug: {
     current: string;
-  }; body: PortableTextBlock[];
+  };
+  body: PortableTextBlock[];
   mainImage?: { asset?: { url?: string } };
   youtubeVideoUrl?: string;
   publishedAt?: string;
