@@ -3,7 +3,7 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 import faqImg from "./../../../Images/faq.png";
 import Image from "next/image";
-const DatingScanFaq = () => {
+const AdvancedUSGFaq = () => {
   return (
     <div className="serviceFaq-container">
       {/* <HeadingProps title="" para="" /> */}
@@ -15,124 +15,125 @@ const DatingScanFaq = () => {
           <Accordion defaultActiveKey="0">
             <Accordion.Item className="serviceFaq-accItem" eventKey="0">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>1. What is a dating scan and why is it needed?</h5>
+                <h5>1. What is an Advanced USG test?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    A dating scan is an early pregnancy ultrasound that helps
-                    confirm pregnancy and accurately determine how many weeks
-                    pregnant you are.
+                    An Advanced USG (Ultrasound Scan) is a detailed imaging test
+                    that provides high-resolution views of internal organs,
+                    tissues, blood flow, or fetal development for accurate
+                    diagnosis.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="1">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>2. When should I take a dating scan?</h5>
+                <h5>2. Why is an Advanced USG test recommended?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    A dating scan is usually done between 6 to 9 weeks of
-                    pregnancy for the most accurate results.
+                    Doctors recommend Advanced USG for precise evaluation of
+                    medical conditions, pregnancy monitoring, organ health
+                    assessment, or when more clarity is needed than a basic
+                    ultrasound.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="2">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>3. Is a dating scan safe for me and my baby?</h5>
+                <h5>3. Is the Advanced USG test safe?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes. Dating scans use ultrasound waves and are completely
-                    safe for both the mother and the baby.
+                    Yes, Advanced USG is completely safe. It uses sound waves
+                    and does not involve radiation, making it suitable for all
+                    age groups, including pregnant women.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="3">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>4. Do I need any preparation before the dating scan?</h5>
+                <h5>4. Does the Advanced USG test cause any pain?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    You may be asked to drink water and have a partially full
-                    bladder, especially for an abdominal scan. Our team will
-                    guide you before the appointment.
+                    No, the test is non-invasive and painless. You may only feel
+                    mild pressure from the probe during the scan.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="4">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>
-                  5. Is the dating scan done through the abdomen or
-                  vaginally?{" "}
-                </h5>
+                <h5>5. How long does an Advanced USG test take? </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    It depends on how early the pregnancy is. Very early
-                    pregnancies may require a transvaginal scan, which is safe
-                    and painless.
+                    The test usually takes 20 to 45 minutes, depending on the
+                    type of scan and the area being examined.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="5">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>6. Will the dating scan detect the baby’s heartbeat?</h5>
+                <h5>6. Do I need any preparation before the test?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes, in most cases, the dating scan can detect and confirm
-                    the fetal heartbeat, offering reassurance about pregnancy
-                    viability.
+                    Preparation depends on the scan type. Some tests may require
+                    a full bladder or fasting. Aura Diagnostics will guide you
+                    clearly before your appointment.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="6">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>7. How accurate is a dating scan? </h5>
+                <h5>7. Who should undergo an Advanced USG test? </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Dating scans are highly accurate in early pregnancy and help
-                    estimate the expected due date (EDD) reliably.
+                    It is advised for patients with specific symptoms, pregnant
+                    women needing detailed fetal scans, or individuals requiring
+                    accurate organ or vascular assessment.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="7">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>8. How long does the dating scan procedure take?</h5>
+                <h5>8. When will I receive my Advanced USG test report?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    The scan usually takes 10–15 minutes, and the process is
-                    quick and comfortable.
+                    In most cases, reports are provided the same day or within
+                    24 hours, as advised by the radiologist.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="9">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>9. Will I get the report on the same day?</h5>
+                <h5>9. Is Advanced USG available near Girinagar?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes. At Aura Diagnostics, dating scan reports are usually
-                    provided on the same day or shortly after the scan.
+                    Yes, Aura Diagnostics offers Advanced USG tests in Girinagar
+                    with modern equipment and experienced radiologists for
+                    reliable results.
                   </p>
                 </div>
               </Accordion.Body>
@@ -140,16 +141,15 @@ const DatingScanFaq = () => {
             <Accordion.Item className="serviceFaq-accItem" eventKey="10">
               <Accordion.Header className="serviceFaq-accHeader">
                 <h5>
-                  10. Why should I choose Aura Diagnostics for a dating scan in
-                  Girinagar?
+                  10. Why choose Aura Diagnostics for Advanced USG in Girinagar?
                 </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Aura Diagnostics offers experienced radiologists, advanced
-                    ultrasound technology, a caring environment, and accurate
-                    reports, ensuring comfort and trust for expectant mothers.
+                    Aura Diagnostics is trusted for advanced technology, skilled
+                    specialists, accurate reporting, hygienic facilities, and
+                    patient-centered care.
                   </p>
                 </div>
               </Accordion.Body>
@@ -164,4 +164,4 @@ const DatingScanFaq = () => {
   );
 };
 
-export default DatingScanFaq;
+export default AdvancedUSGFaq;

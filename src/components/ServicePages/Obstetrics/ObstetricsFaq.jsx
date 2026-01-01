@@ -3,7 +3,7 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 import faqImg from "./../../../Images/faq.png";
 import Image from "next/image";
-const DatingScanFaq = () => {
+const ObstetricsFaq = () => {
   return (
     <div className="serviceFaq-container">
       {/* <HeadingProps title="" para="" /> */}
@@ -15,124 +15,127 @@ const DatingScanFaq = () => {
           <Accordion defaultActiveKey="0">
             <Accordion.Item className="serviceFaq-accItem" eventKey="0">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>1. What is a dating scan and why is it needed?</h5>
+                <h5>1. What are obstetric scans?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    A dating scan is an early pregnancy ultrasound that helps
-                    confirm pregnancy and accurately determine how many weeks
-                    pregnant you are.
+                    Obstetric scans are ultrasound examinations performed during
+                    pregnancy to monitor the baby’s growth, development, and
+                    overall well-being at different stages.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="1">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>2. When should I take a dating scan?</h5>
+                <h5>2. What types of obstetric scans are available?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    A dating scan is usually done between 6 to 9 weeks of
-                    pregnancy for the most accurate results.
+                    Obstetric scans include dating scans, NT scans, anomaly
+                    scans, growth scans, and 3D/4D fetal scans, based on the
+                    stage of pregnancy.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="2">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>3. Is a dating scan safe for me and my baby?</h5>
+                <h5>3. Why are obstetric scans important during pregnancy?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes. Dating scans use ultrasound waves and are completely
-                    safe for both the mother and the baby.
+                    These scans help doctors track fetal development, detect any
+                    concerns early, confirm due dates, and ensure the health of
+                    both mother and baby.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="3">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>4. Do I need any preparation before the dating scan?</h5>
+                <h5>4. Are obstetric scans safe for the baby and mother?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    You may be asked to drink water and have a partially full
-                    bladder, especially for an abdominal scan. Our team will
-                    guide you before the appointment.
+                    Yes. Obstetric scans use ultrasound technology and are
+                    completely safe and non-invasive, with no radiation
+                    exposure.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="4">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>
-                  5. Is the dating scan done through the abdomen or
-                  vaginally?{" "}
-                </h5>
+                <h5>5. How long does an obstetric scan take? </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    It depends on how early the pregnancy is. Very early
-                    pregnancies may require a transvaginal scan, which is safe
-                    and painless.
+                    Most obstetric scans take 15 to 30 minutes, depending on the
+                    type of scan and the baby’s position.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="5">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>6. Will the dating scan detect the baby’s heartbeat?</h5>
+                <h5>6. Do I need any preparation before an obstetric scan?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes, in most cases, the dating scan can detect and confirm
-                    the fetal heartbeat, offering reassurance about pregnancy
-                    viability.
+                    Preparation depends on the scan type. Some scans may require
+                    a partially full bladder, and Aura Diagnostics will guide
+                    you clearly before your appointment.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="6">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>7. How accurate is a dating scan? </h5>
+                <h5>
+                  7. Will I receive the obstetric scan report on the same
+                  day?{" "}
+                </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Dating scans are highly accurate in early pregnancy and help
-                    estimate the expected due date (EDD) reliably.
+                    Yes. At Aura Diagnostics, obstetric scan reports are usually
+                    provided on the same day or shortly after the scan.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="7">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>8. How long does the dating scan procedure take?</h5>
+                <h5>8. Can obstetric scans detect pregnancy complications?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    The scan usually takes 10–15 minutes, and the process is
-                    quick and comfortable.
+                    Obstetric scans can help identify growth issues, placental
+                    position, amniotic fluid levels, and certain abnormalities,
+                    allowing timely medical care.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="9">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>9. Will I get the report on the same day?</h5>
+                <h5>9. Can family members attend the obstetric scan?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes. At Aura Diagnostics, dating scan reports are usually
-                    provided on the same day or shortly after the scan.
+                    Yes. In most cases, one or two family members are allowed,
+                    making the experience comfortable and reassuring for
+                    expectant parents.
                   </p>
                 </div>
               </Accordion.Body>
@@ -140,7 +143,7 @@ const DatingScanFaq = () => {
             <Accordion.Item className="serviceFaq-accItem" eventKey="10">
               <Accordion.Header className="serviceFaq-accHeader">
                 <h5>
-                  10. Why should I choose Aura Diagnostics for a dating scan in
+                  10. Why choose Aura Diagnostics for obstetric scans in
                   Girinagar?
                 </h5>
               </Accordion.Header>
@@ -148,8 +151,8 @@ const DatingScanFaq = () => {
                 <div className="serviceFaq-item">
                   <p>
                     Aura Diagnostics offers experienced radiologists, advanced
-                    ultrasound technology, a caring environment, and accurate
-                    reports, ensuring comfort and trust for expectant mothers.
+                    ultrasound equipment, accurate reporting, and a supportive,
+                    patient-friendly environment for pregnancy care.
                   </p>
                 </div>
               </Accordion.Body>
@@ -164,4 +167,4 @@ const DatingScanFaq = () => {
   );
 };
 
-export default DatingScanFaq;
+export default ObstetricsFaq;

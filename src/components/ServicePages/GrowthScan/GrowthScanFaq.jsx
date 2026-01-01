@@ -3,7 +3,7 @@ import React from "react";
 import { Accordion } from "react-bootstrap";
 import faqImg from "./../../../Images/faq.png";
 import Image from "next/image";
-const DatingScanFaq = () => {
+const GrowthScanFaq = () => {
   return (
     <div className="serviceFaq-container">
       {/* <HeadingProps title="" para="" /> */}
@@ -15,124 +15,124 @@ const DatingScanFaq = () => {
           <Accordion defaultActiveKey="0">
             <Accordion.Item className="serviceFaq-accItem" eventKey="0">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>1. What is a dating scan and why is it needed?</h5>
+                <h5>1. What is a Growth Scan with Doppler?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    A dating scan is an early pregnancy ultrasound that helps
-                    confirm pregnancy and accurately determine how many weeks
-                    pregnant you are.
+                    A Growth Scan with Doppler is an advanced ultrasound that
+                    checks your baby’s growth, blood flow, and overall
+                    well-being during pregnancy.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="1">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>2. When should I take a dating scan?</h5>
+                <h5>2. Why is a Growth Scan with Doppler important?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    A dating scan is usually done between 6 to 9 weeks of
-                    pregnancy for the most accurate results.
+                    It helps doctors ensure your baby is growing properly and
+                    that blood flow from the placenta to the baby is healthy,
+                    especially in later pregnancy.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="2">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>3. Is a dating scan safe for me and my baby?</h5>
+                <h5>3. When is a Growth Scan with Doppler usually done?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes. Dating scans use ultrasound waves and are completely
-                    safe for both the mother and the baby.
+                    This scan is commonly done in the third trimester, usually
+                    after 28 weeks, or earlier if your doctor recommends close
+                    monitoring.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="3">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>4. Do I need any preparation before the dating scan?</h5>
+                <h5>4. Is the Growth Scan with Doppler safe for my baby?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    You may be asked to drink water and have a partially full
-                    bladder, especially for an abdominal scan. Our team will
-                    guide you before the appointment.
+                    Yes, it is completely safe. The scan uses ultrasound waves
+                    and does not involve radiation or harm to the mother or
+                    baby.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="4">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>
-                  5. Is the dating scan done through the abdomen or
-                  vaginally?{" "}
-                </h5>
+                <h5>5. What does the Doppler part of the scan check? </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    It depends on how early the pregnancy is. Very early
-                    pregnancies may require a transvaginal scan, which is safe
-                    and painless.
+                    Doppler evaluates blood flow in the umbilical cord, baby’s
+                    brain, and placenta to ensure the baby is receiving enough
+                    oxygen and nutrients.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="5">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>6. Will the dating scan detect the baby’s heartbeat?</h5>
+                <h5>6. How long does the Growth Scan with Doppler take?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes, in most cases, the dating scan can detect and confirm
-                    the fetal heartbeat, offering reassurance about pregnancy
-                    viability.
+                    The scan typically takes about 20–30 minutes, depending on
+                    the baby’s position and the details needed.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="6">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>7. How accurate is a dating scan? </h5>
+                <h5>7. Do I need any preparation before the scan? </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Dating scans are highly accurate in early pregnancy and help
-                    estimate the expected due date (EDD) reliably.
+                    Usually, no special preparation is required. Aura
+                    Diagnostics will inform you if a full bladder or any
+                    specific instruction is needed.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="7">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>8. How long does the dating scan procedure take?</h5>
+                <h5>8. Will I get the scan report on the same day?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    The scan usually takes 10–15 minutes, and the process is
-                    quick and comfortable.
+                    Yes, Aura Diagnostics generally provides accurate reports on
+                    the same day or shortly after the scan.
                   </p>
                 </div>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item className="serviceFaq-accItem" eventKey="9">
               <Accordion.Header className="serviceFaq-accHeader">
-                <h5>9. Will I get the report on the same day?</h5>
+                <h5>9. Who should consider a Growth Scan with Doppler?</h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Yes. At Aura Diagnostics, dating scan reports are usually
-                    provided on the same day or shortly after the scan.
+                    It is especially recommended for mothers with high-risk
+                    pregnancies, twins, diabetes, high blood pressure, or
+                    concerns about baby’s growth.
                   </p>
                 </div>
               </Accordion.Body>
@@ -140,16 +140,16 @@ const DatingScanFaq = () => {
             <Accordion.Item className="serviceFaq-accItem" eventKey="10">
               <Accordion.Header className="serviceFaq-accHeader">
                 <h5>
-                  10. Why should I choose Aura Diagnostics for a dating scan in
-                  Girinagar?
+                  10. Why choose Aura Diagnostics for Growth Scan with Doppler
+                  in Girinagar?
                 </h5>
               </Accordion.Header>
               <Accordion.Body className="serviceFaq-body">
                 <div className="serviceFaq-item">
                   <p>
-                    Aura Diagnostics offers experienced radiologists, advanced
-                    ultrasound technology, a caring environment, and accurate
-                    reports, ensuring comfort and trust for expectant mothers.
+                    Aura Diagnostics offers advanced Doppler ultrasound
+                    technology, experienced specialists, accurate reporting, and
+                    a caring, patient-friendly environment.
                   </p>
                 </div>
               </Accordion.Body>
@@ -164,4 +164,4 @@ const DatingScanFaq = () => {
   );
 };
 
-export default DatingScanFaq;
+export default GrowthScanFaq;

@@ -33,7 +33,7 @@ export default function PregnancyScan() {
     <>
       {" "}
       <Script
-        id="pregnancy-scans-in-girinagar-bangalore"
+        id="pregnancy-scan-in-girinagar-bangalore"
         type="application/ld+json"
         strategy="afterInteractive"
         dangerouslySetInnerHTML={{
