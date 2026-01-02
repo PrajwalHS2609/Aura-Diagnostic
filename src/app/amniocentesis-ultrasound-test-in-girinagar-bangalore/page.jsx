@@ -14,6 +14,8 @@ import AmniocentesisPrepare from "../../components/ServicePages/Amniocentesis/Am
 import ServiceNav from "../../components/ServiceComponents/ServiceNav/ServiceNav";
 import AmniocentesisContent from "../../components/ServicePages/Amniocentesis/AmniocentesisContent";
 import BloodTestCities from "../../components/ServicePages/BloodTest/BloodTestCities";
+import AmniocentesisFaq from "../../components/ServicePages/Amniocentesis/AmniocentesisFaq";
+import Script from "next/script";
 
 export const metadata = {
   title:
@@ -28,6 +30,101 @@ export const metadata = {
 };
 export default function Amniocentesis() {
   return (
+    <>
+     <Script
+        id="amniocentesis-ultrasound-test-in-girinagar-bangalore"
+        type="application/ld+json"
+        strategy="afterInteractive"
+        dangerouslySetInnerHTML={{
+          __html: JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "FAQPage",
+            mainEntity: [
+                  {
+      "@type": "Question",
+      "name": "What is an Amniocentesis ultrasound test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Amniocentesis is a prenatal diagnostic procedure in which a small amount of amniotic fluid is collected under ultrasound guidance to assess the baby’s genetic and chromosomal health."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why has my doctor recommended an amniocentesis test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Doctors recommend amniocentesis to detect genetic disorders, chromosomal abnormalities, or certain birth defects when screening tests indicate a higher risk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is the amniocentesis test safe?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, when performed by experienced specialists using ultrasound guidance, amniocentesis is considered a safe procedure with minimal risk."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Does the amniocentesis procedure cause pain?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "You may feel mild discomfort or brief cramping during the procedure, similar to an injection, which usually subsides quickly."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "How long does the amniocentesis test take?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "The procedure typically takes about 20 to 30 minutes, including ultrasound scanning and fluid collection."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Is any preparation required before the amniocentesis test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Usually, no special preparation is required. Your doctor may provide specific instructions based on your medical history."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Can I go home after the amniocentesis test?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Yes, amniocentesis is generally an outpatient procedure, and patients can go home the same day after a short rest period."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Are there any side effects after amniocentesis?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Some women may experience mild cramping or discomfort after the test, which usually resolves quickly. Serious complications are rare."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "When will I receive the amniocentesis test results?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Preliminary results may be available within a few days, while detailed genetic reports can take 1 to 3 weeks."
+      }
+    },
+    {
+      "@type": "Question",
+      "name": "Why choose Aura Diagnostics for Amniocentesis Test in Girinagar?",
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": "Aura Diagnostics in Girinagar offers amniocentesis tests with expert radiologists, advanced ultrasound technology, strict safety protocols, and compassionate maternal care."
+      }
+    }
+
+            ],
+          }),
+        }}
+      />
     <div className="">
       {" "}
       <ServiceHeader
@@ -56,7 +153,9 @@ export default function Amniocentesis() {
       <BloodTestCities/>
       <HomeWhy />
       <HomeTestimonial />
+      <AmniocentesisFaq/>
       <AmniocentesisContent />
     </div>
+    </>
   );
 }
