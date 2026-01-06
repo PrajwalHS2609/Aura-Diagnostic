@@ -35,7 +35,7 @@ const HomeContent = () => {
         </div>
         {expanded && (
           <>
-            <div className="contentHead-listContent">
+            <div className="contentHead-content">
               <h3> Comprehensive Pathology and Blood Testing Services</h3>
               <p>
                 Aura Diagnostics operates a <a href="https://auradiagnostics.co.in"> well-equipped pathology lab in
