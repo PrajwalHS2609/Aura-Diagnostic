@@ -9,6 +9,7 @@ import carouselBlock from './carouselBlock'
 import quoteContent from './quoteContent'
 import highlightBlock from './highlightBlock'
 import author from './author'
+import seoKeywords from './seoKeywords'
 export const schemaTypes = [
   post,
   blockContent,
@@ -21,4 +22,5 @@ export const schemaTypes = [
   quoteContent,
   highlightBlock,
   author,
+  seoKeywords,
 ]

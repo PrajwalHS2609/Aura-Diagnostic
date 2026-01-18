@@ -32,7 +32,10 @@ const POST_QUERY = `{
 
 const SERVICE_QUERY = `{
   "service": *[_type == "ServiceCategory" && slug.current == $slug][0]{
-    _id, title, slug, body1, body2,
+    _id, title, slug, body1, body2,  
+    seoKeywords{
+  keywords
+},
     metaTitle,metaDescription,
     mainImage{ asset->{url} },
     youtubeVideoUrl,

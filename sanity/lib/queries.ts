@@ -7,4 +7,4 @@ export const SITEMAP_QUERY = `*[_type in ["page", "post","ServiceCategory"] && d
   ),
   _updatedAt
 }`;
- 
+//  add name of the schema

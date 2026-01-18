@@ -104,6 +104,11 @@ export default defineType({
       },
     }),
     defineField({
+      name: 'seoKeywords',
+      title: 'SEO Keywords',
+      type: 'seoKeywords',
+    }),
+    defineField({
       name: 'tableOfContent',
       title: 'Table Of Content',
       type: 'array',
@@ -121,6 +126,5 @@ export default defineType({
         },
       ],
     }),
-    
   ],
 })

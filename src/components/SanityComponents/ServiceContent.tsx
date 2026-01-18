@@ -14,6 +14,7 @@ import BloodTestCities from './../ServicePages/BloodTest/BloodTestCities';
 import BloodTestServices from './../ServicePages/BloodTest/BloodTestServices';
 import HomeWhy from "../HomePage/HomeWhy/HomeWhy";
 import HomeTestimonial from "../HomePage/HomeTestimonial/HomeTestimonial";
+import SanitySeoKeywords from "./SanitySeoKeywords";
 export type FaqItem = { question: string; answer: PortableTextBlock[] };
 
 export type CustomTable = {
@@ -45,6 +46,9 @@ export type ServiceContentType = {
     images?: CarouselImage[];
   };
   tableOfContent?: TableContentItem[];
+  seoKeywords?: {
+    keywords?: string[];
+  };
 };
 
 const onSubmit = async (event: React.FormEvent<HTMLFormElement>) => {
@@ -296,10 +300,13 @@ export default function ServiceContent({
           </div>
         </div>
       </div>
-      <ServiceMap/>
+      <ServiceMap />
       <BloodTestCities />
       <HomeWhy />
       <HomeTestimonial />
+      {content.seoKeywords?.keywords && (
+        <SanitySeoKeywords keywords={content.seoKeywords.keywords} />
+      )}
     </div>
   );
 }
