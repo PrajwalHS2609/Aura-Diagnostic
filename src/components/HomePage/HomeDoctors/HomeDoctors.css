@@ -132,16 +132,38 @@
 /* --------------------------------------------------------------------------------------- */
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .homeDoctorsCard {
-    /* border: solid blue; */
-    min-width: 300px;
-    padding: 0px;
-  }
-  .homeDoctorsHead > h2 {
-    font-size: 30px;
-  }
-  .homeDoctorsCard-content2 {
-    /* border: solid green; */
-    transform: translateX(35px);
-  }
+.card__avatar {
+  position: static;
+  width: 114px;
+  height: 114px;
+  background: var(--bg-color);
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+.card {
+  --main-color: #000;
+  --submain-color: #78858f;
+  --bg-color: #fff;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  position: relative;
+  width: 350px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 20px;
+  background: var(--bg-color);
+  overflow: hidden;
+  box-shadow: 0 0 10px grey;
+  margin-top: 30px;
+}
+.homeDoctorsHead > h2 {
+  font-size: 30px;
+  text-align: center;
+  color: var(--customColor1);
+}
 }

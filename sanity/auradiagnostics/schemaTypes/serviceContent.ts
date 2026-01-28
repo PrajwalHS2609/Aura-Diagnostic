@@ -103,11 +103,13 @@ export default defineType({
         layout: 'tags', // Optional, will show selected FAQs as tags
       },
     }),
+    
     defineField({
       name: 'seoKeywords',
       title: 'SEO Keywords',
       type: 'seoKeywords',
     }),
+
     defineField({
       name: 'tableOfContent',
       title: 'Table Of Content',

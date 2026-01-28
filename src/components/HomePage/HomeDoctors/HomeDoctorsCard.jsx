@@ -7,7 +7,7 @@ const HomeDoctorsCard = (props) => {
     <div className="card">
       <div className="card__img">
         <img
-          src="https://img.freepik.com/free-photo/hand-with-protective-gloves-holding-blood-samples-covid-test_23-2148958362.jpg?t=st=1763710552~exp=1763714152~hmac=069956863af05be54c1e1e3d5f9d900948e43e8634b9ec76823cb66240bc9fee&w=2000"
+          src="https://images.pexels.com/photos/7089339/pexels-photo-7089339.jpeg"
           alt=""
         />
       </div>

@@ -55,6 +55,11 @@ interface CarouselBlockValue {
   title?: string;
   images: CarouselImage[];
 }
+interface SeoKeywordsBlockValue {
+  _type: "seoKeywordsBlock";
+  _key?: string;
+  keywords: string[];
+}
 export const portableTextComponents: PortableTextComponents = {
   types: {
     // 🖼️ Image Renderer
@@ -227,6 +232,20 @@ export const portableTextComponents: PortableTextComponents = {
             );
           })}
         </Carousel>
+      );
+    },
+    // ----------------------------------SeoKeyword-----------------------------------------
+    seoKeywordsBlock: ({ value }: { value: SeoKeywordsBlockValue }) => {
+      if (!value?.keywords?.length) return null;
+
+      return (
+        <div className="keywords-container">
+          <ul className="keywords-list">
+            {value.keywords.map((keyword: string, index: number) => (
+              <li className="keywords-item" key={index}>{keyword}</li>
+            ))}
+          </ul>
+        </div>
       );
     },
   },
