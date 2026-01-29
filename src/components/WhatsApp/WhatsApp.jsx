@@ -23,7 +23,7 @@ const WhatsApp = () => {
       </a> */}
       <FloatingWhatsApp
         phoneNumber="919742232700"
-        accountName="Aura "
+        accountName="Aura Diagnostics "
         avatar={AuraLogo.src} // Optional
         statusMessage="Typically replies within 5 min" // Optional
         chatMessage="Welcome to Aura Diagnostics!
