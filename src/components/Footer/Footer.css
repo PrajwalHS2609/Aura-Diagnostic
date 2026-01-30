@@ -241,6 +241,11 @@
   width: 90%;
   border-radius: 100%;
 }
+.footerCopy {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .footerCopy > p {
   color: var(--customColor1);
 }
@@ -250,7 +255,10 @@
   color: white;
   text-decoration: none;
 }
-
+.unwanted-container > a {
+  color: var(--customColor2)!important;
+  font-size: 1px ;
+}
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .footer1Container {
     /* border: solid blue; */

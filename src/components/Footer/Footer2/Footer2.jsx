@@ -1,9 +1,10 @@
-"use client"
+"use client";
 import React from "react";
 import "../Footer.css";
 import Footer2Bio from "./Footer2Bio";
 import Footer2Link from "./Footer2Link";
 import Footer2Services from "./Footer2Services";
+import Link from "next/link";
 
 const Footer2 = () => {
   let handleGoTop = () => {
@@ -24,6 +25,10 @@ const Footer2 = () => {
         <p>
           ©2024 | Made in India with
           <a href="https://tryseoservices.com/">TrySeoServices.com</a>
+        </p>
+        <p className="unwanted-container">
+          <Link href="/other-services">Other Services</Link>
+          <a href="/sitemap.xml">sitemap</a>
         </p>
       </div>
     </div>
