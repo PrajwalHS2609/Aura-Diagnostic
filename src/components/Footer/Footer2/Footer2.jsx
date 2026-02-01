@@ -24,12 +24,10 @@ const Footer2 = () => {
       <div className="footerCopy">
         <p>
           ©2024 | Made in India with
-          <a href="https://tryseoservices.com/">TrySeoServices.com</a>
-        </p>
-        <p className="unwanted-container">
-          <Link href="/other-services">Other Services</Link>
-          <a href="/sitemap.xml">sitemap</a>
-        </p>
+          <a href="https://tryseoservices.com/">TrySeoServices.com</a>|
+        <a href="/sitemap.xml">Sitemap</a>
+
+        </p>        
       </div>
     </div>
   );
