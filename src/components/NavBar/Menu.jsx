@@ -565,7 +565,7 @@ const Menu = () => {
           </div>
         </li>
         <li>
-          <Link href="#" className={pathname === "health-packages" ? "active" : ""}>
+          <Link href="/health-packages" className={pathname === "/health-packages" ? "active" : ""}>
             Health Package
           </Link>
         </li>
@@ -1364,8 +1364,8 @@ const Menu = () => {
               <Link
                 id="menuNavLink"
                 onClick={hideSideBar}
-                href="health-packages"
-                className={pathname === "health-packages" ? "active" : ""}
+                href="/health-packages"
+                className={pathname === "/health-packages" ? "active" : ""}
               >
                 Health Package
               </Link>
