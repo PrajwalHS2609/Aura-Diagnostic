@@ -25,9 +25,8 @@ const Footer2 = () => {
         <p>
           ©2024 | Made in India with
           <a href="https://tryseoservices.com/">TrySeoServices.com</a>|
-        <a href="/sitemap.xml">Sitemap</a>
-
-        </p>        
+          <a href="/sitemap.xml">Sitemap</a>
+        </p>
       </div>
     </div>
   );

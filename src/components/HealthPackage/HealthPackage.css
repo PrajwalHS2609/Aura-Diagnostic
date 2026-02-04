@@ -52,7 +52,17 @@
 }
 .healthWellnessMain-Content1 {
   /* border: solid blue; */
-  width: fit-content;
+  width: 500px;
+  height: 500px;
+  border-radius: 20px;
+  box-shadow: 0 0 10px ;
+}
+.healthWellnessMain-Content1 > img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+    border-radius: 20px;
+
 }
 .healthWellnessMain-Content2 {
   /* border: solid; */
@@ -83,61 +93,7 @@
     color: var(--customColor1);
   }
 }
-.healthPackageTable {
-  /* border: solid red; */
-  max-width: 100%;
-  padding: 10px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  overflow-x: auto;
-}
-.healthPackageTable > table {
-  border: 1px solid black;
-  width: 80%;
-}
-.healthPackageTable > table > tr {
-  border: 1px solid black;
-  padding: 10px;
-}
-.healthPackageTable > table > tr > th {
-  border: 1px solid black;
-  text-align: center;
-  background-color: var(--customColor2);
-  color: white;
-  padding: 10px;
-  width: 200px;
-}
-.healthPackageTable > table > tr > th:nth-child(2) {
-  width: 350px;
-}
-.healthPackageTable > table > tr:nth-child(26) > td {
-  background-color: rgb(249, 71, 71);
-  color: white;
-}
-.healthPackageTable > table > tr:nth-child(27) > td {
-  background-color: rgb(249, 71, 71);
-  color: white;
-}
-.healthPackageTable > table > tr:nth-child(28) > td {
-  background-color: rgb(249, 71, 71);
-  color: white;
-}
-.healthPackageTable > table > tr:nth-child(30) > td {
-  background-color: rgb(249, 71, 71);
-  color: white;
-}
-.healthPackageTable > table > tr:nth-child(38) > td {
-  color: rgb(249, 71, 71);
-}
-.healthPackageTable > table > tr > td {
-  border: 1px solid black;
-  text-align: center;
-  background-color: #d3ffd0;
-  color: blue;
-  font-weight: 500;
-  padding: 10px;
-}
+
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .healthPackageHeader > img {
     width: 100%;
@@ -153,7 +109,6 @@
   .healthWellnessHead > h2 {
     width: 100%;
     font-size: 30px;
-
   }
   .healthWellnessMain-Content1 {
     /* border: solid blue; */
@@ -170,8 +125,5 @@
   .healthWellnessMainList > ul > li {
     width: 100%;
   }
-  .healthPackageTable {
-    /* border: solid red; */
-    justify-content: flex-start;
-  }
+
 }

@@ -1,6 +1,7 @@
 import React from "react";
 import "./HomeWidget.css";
 import HomeWidgetContent2 from "./HomeWidgetContent2";
+import Image from "next/image";
 const HomeWidget = () => {
   return (
     <div className="homeWidgetContainer">

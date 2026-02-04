@@ -5,8 +5,8 @@ const HealthWellnessMain = () => {
   return (
     <div className="healthWellnessMain">
       <div className="healthWellnessMain-Content1">
-        <Image
-          src="https://nisargadiagnostics.com/wp-content/uploads/2024/01/15-Years-of-Anniversary-Health-Package-Discount.png"
+        <img
+          src="https://images.pexels.com/photos/5149758/pexels-photo-5149758.jpeg"
           alt=""
         />
       </div>

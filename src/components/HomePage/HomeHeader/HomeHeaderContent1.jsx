@@ -3,7 +3,7 @@ import React from "react";
 import icon from "./../../../Images/icon.png";
 import Image from "next/image";
 const HomeHeaderContent1 = () => {
-  let handleAppointment = () => {
+  const handleAppointment = () => {
     document.querySelector(".bookPopUp").classList.add("showPopup");
   };
   return (

@@ -1,0 +1,177 @@
+:root {
+  --customColor1: #f5811e;
+  --customColor2: #037e7d;
+  --customColor3: #fff8f1;
+}
+
+.healthPackageTable {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 25px;
+  width: 100%;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.healthPackageTable table {
+  width: 400px;
+  height: 100%;
+  border-collapse: collapse;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.12);
+  font-family: "Segoe UI", system-ui, sans-serif;
+}
+
+/* HEADER */
+.healthPackageTable th {
+  background: var(--customColor2);
+  color: white;
+  padding: 14px;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* NORMAL CELLS */
+.healthPackageTable td {
+  padding: 12px;
+  text-align: center;
+  color: var(--customColor2);
+  font-weight: 500;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.06);
+}
+.healthPackageTable td > span {
+  text-decoration: line-through;
+  font-size: 16px;
+}
+/* TEST NAME ALIGN */
+.healthPackageTable td:nth-child(2) {
+  text-align: left;
+  font-weight: 600;
+}
+
+/* STRIPED ROWS */
+.healthPackageTable tr:nth-child(even):not(:last-child) td {
+  background: rgba(3, 126, 125, 0.06);
+}
+
+/* 🔥 PRICE ROW (LAST ROW) */
+.healthPackageTable tr:last-child td {
+  background: var(--customColor1);
+  color: white;
+  font-weight: 800;
+  font-size: 1.05rem;
+  letter-spacing: 0.5px;
+  border-bottom: none;
+}
+
+/* PRICE VALUE EMPHASIS */
+.healthPackageTable tr:last-child td:last-child {
+  font-size: 1.2rem;
+}
+
+/* HOVER (exclude price row) */
+.healthPackageTable tr:not(:last-child):hover td {
+  background: rgba(245, 129, 30, 0.15);
+  color: var(--customColor1);
+  transition: all 0.25s ease;
+}
+.price-row>td:nth-child(2){
+  display: flex;
+  justify-content:center;
+  align-items:center;
+  gap: 15px;
+}
+.price-row>td>button {
+  position: relative;
+  margin: 0;
+  padding: 5px 10px;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  border: none;
+  text-transform: uppercase;
+  background-color: white;
+  border-radius: 5px;
+  color: var(--customColor1);
+  font-weight: 500;
+  font-size: 15px;
+  font-family: inherit;
+  z-index: 0;
+  overflow: hidden;
+  transition: all 0.3s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+/* .button:hover {
+  animation: sh0 0.5s ease-in-out both;
+} */
+
+@keyframes sh0 {
+  0% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+
+  25% {
+    transform: rotate(7deg) translate3d(0, 0, 0);
+  }
+
+  50% {
+    transform: rotate(-7deg) translate3d(0, 0, 0);
+  }
+
+  75% {
+    transform: rotate(1deg) translate3d(0, 0, 0);
+  }
+
+  100% {
+    transform: rotate(0deg) translate3d(0, 0, 0);
+  }
+}
+
+.price-row>td>button:hover span {
+  animation: storm 0.7s ease-in-out both;
+  animation-delay: 0.06s;
+}
+
+.price-row>td>button::before,
+.price-row>td>button::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background: var(--customColor1);
+  opacity: 0;
+  transition: transform 0.15s cubic-bezier(0.02, 0.01, 0.47, 1),
+    opacity 0.15s cubic-bezier(0.02, 0.01, 0.47, 1);
+  z-index: -1;
+  transform: translate(100%, -25%) translate3d(0, 0, 0);
+}
+
+.price-row>td>button:hover::before,
+.price-row>td>button:hover::after {
+  opacity: 0.15;
+  transition: transform 0.2s cubic-bezier(0.02, 0.01, 0.47, 1),
+    opacity 0.2s cubic-bezier(0.02, 0.01, 0.47, 1);
+}
+
+.price-row>td>button:hover::before {
+  transform: translate3d(50%, 0, 0) scale(0.9);
+}
+
+.price-row>td>button:hover::after {
+  transform: translate(50%, 0) scale(1.1);
+}
+
+/* MOBILE */
+@media (max-width: 768px) {
+  .healthPackageTable table {
+    width: 100%;
+  }
+}
