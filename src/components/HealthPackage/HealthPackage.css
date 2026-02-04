@@ -17,8 +17,7 @@
   padding: 10px;
 }
 .healthPackageHeader > img {
-  width: 1000px;
-  height: 400px;
+
   object-fit: cover;
 }
 .healthWellness {
@@ -52,8 +51,8 @@
 }
 .healthWellnessMain-Content1 {
   /* border: solid blue; */
-  width: 500px;
-  height: 500px;
+  width: 480px;
+  height: 480px;
   border-radius: 20px;
   box-shadow: 0 0 10px ;
 }
@@ -68,6 +67,9 @@
   /* border: solid; */
   width: 50%;
   padding: 20px;
+}
+.healthWellnessMainList > ul{
+  margin: 0;padding: 0;
 }
 .healthWellnessMainList > ul > li {
   list-style: none;

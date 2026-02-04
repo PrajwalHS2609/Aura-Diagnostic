@@ -1,14 +1,13 @@
 import React from "react";
 import "./../HealthPackage.css";
 import HealthWellnessMainList from "./HealthWellnessMainList";
+import HealthWellness from "../../../Images/HealthWellness.png";
+import Image from "next/image";
 const HealthWellnessMain = () => {
   return (
     <div className="healthWellnessMain">
       <div className="healthWellnessMain-Content1">
-        <img
-          src="https://images.pexels.com/photos/5149758/pexels-photo-5149758.jpeg"
-          alt=""
-        />
+        <Image src={HealthWellness} alt="HealthWellness" />
       </div>
       <div className="healthWellnessMain-Content2">
         <HealthWellnessMainList />
