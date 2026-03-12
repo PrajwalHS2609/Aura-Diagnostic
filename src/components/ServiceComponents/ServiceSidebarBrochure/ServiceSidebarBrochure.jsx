@@ -10,7 +10,7 @@ const ServiceSidebarBrochure = () => {
         <Image src={logo} alt="logo" />
       </div>
       <div className="serviceBrochure-content">
-        <a href="/" download>
+        <a href="/AuraDiagnosticsBrochure.pdf" download>
           <div className="serviceBrochure-item">
             <p>Download Brochure</p>{" "}
             <IoDownloadOutline className="serviceBrochure-icon" />

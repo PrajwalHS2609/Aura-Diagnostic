@@ -1,7 +1,10 @@
+"use client";
 import React from "react";
 import "./../HealthPackage.css";
-import Link from "next/link";
 const HealthWellnessMainList = () => {
+  const handleAppointment = () => {
+    document.querySelector(".bookPopUp").classList.add("showPopup");
+  };
   return (
     <div className="healthWellnessMainList">
       <ul>
@@ -20,7 +23,10 @@ const HealthWellnessMainList = () => {
         vitality and well-being! Don’t miss out on the opportunity to invest in
         your health.
       </p>
-     <div className="healthWellnessMainList-btn"><Link href={"/"}> <button>Make An Appointment</button></Link></div>
+      <div className="healthWellnessMainList-btn">
+        {" "}
+        <button onClick={handleAppointment}>Make An Appointment</button>
+      </div>
     </div>
   );
 };

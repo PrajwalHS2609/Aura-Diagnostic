@@ -8,6 +8,7 @@ import BookPopUp from "../components/BookPopUp/BookPopUp";
 import WhatsApp from "./../components/WhatsApp/WhatsApp";
 import { useEffect, useState } from "react";
 import Loader from "./../components/Loader/Loader";
+
 export default function RootLayout({
   children,
 }: Readonly<{

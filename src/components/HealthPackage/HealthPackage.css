@@ -82,7 +82,7 @@
   align-items: center;
   padding: 30px;
 }
-.healthWellnessMainList-btn > a > button {
+.healthWellnessMainList-btn button {
   border: none;
   padding: 10px;
   border-radius: 10px;
